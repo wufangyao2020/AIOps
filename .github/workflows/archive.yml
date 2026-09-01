@@ -30,10 +30,13 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Compile archive scripts
+        run: python -m py_compile scripts/*.py
+
       - name: Fetch and normalize the A-share universe
         run: python scripts/fetch_archive.py
 
-      - name: Profile raw source dimensions
+      - name: Profile source dimensions
         run: python scripts/diagnose_universe.py
 
       - name: Validate generated archive
