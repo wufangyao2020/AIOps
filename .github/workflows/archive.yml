@@ -8,6 +8,8 @@ on:
       - "config/**"
       - "schema/**"
       - ".github/workflows/archive.yml"
+  issues:
+    types: [opened]
   workflow_dispatch:
   schedule:
     - cron: "17 1 * * 1"
@@ -17,6 +19,7 @@ permissions:
 
 jobs:
   archive:
+    if: github.event_name != 'issues' || github.event.issue.title == '[archive] run 2026H1'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
