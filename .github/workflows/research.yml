@@ -1,0 +1,101 @@
+name: Run A-share 2026 H1 full research
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: a-share-2026-h1-full-research
+  cancel-in-progress: false
+
+jobs:
+  research:
+    if: github.event_name != 'issues' || github.event.issue.title == '[research] run 2026H1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      PYTHONUNBUFFERED: '1'
+      ANNOUNCEMENT_WORKERS: '32'
+      REVIEW_WORKERS: '8'
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install research dependencies
+        run: python -m pip install --disable-pip-version-check pandas numpy requests pypdf
+
+      - name: Compile research pipeline
+        run: python -m py_compile scripts/run_research_pipeline.py
+
+      - name: Run four-model full-market research
+        run: python scripts/run_research_pipeline.py
+
+      - name: Validate outputs
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          import pandas as pd
+          root = Path('.')
+          out = root / 'results' / '2026H1'
+          universe = pd.read_csv(out / 'universe_four_model_scores.csv', low_memory=False)
+          top100 = pd.read_csv(out / 'top100_announcement_reviews.csv', low_memory=False)
+          final20 = pd.read_csv(out / 'final20_high_convexity.csv', low_memory=False)
+          manifest = json.loads((out / 'audit_manifest.json').read_text('utf-8'))
+          assert len(universe) == 5550, len(universe)
+          assert len(top100) == 100, len(top100)
+          assert len(final20) == 20, len(final20)
+          assert final20['security_code'].astype(str).str.zfill(6).nunique() == 20
+          assert manifest['universe_count'] == 5550
+          print({'universe': len(universe), 'top100': len(top100), 'final20': len(final20), 'fulltext': manifest['top100_fulltext_success_count']})
+          PY
+
+      - name: Commit research results
+        run: |
+          git config user.name 'a-share-research-bot'
+          git config user.email 'a-share-research-bot@users.noreply.github.com'
+          git add results/2026H1 data/research/2026H1 status/research_status_2026_h1.csv meta
+          if git diff --cached --quiet; then
+            echo 'No research changes to commit.'
+          else
+            git commit -m 'research: score 5550 companies and publish top100/final20'
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Close trigger issue on success
+        if: success() && github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed',
+              state_reason: 'completed'
+            });
+
+      - name: Comment failure details
+        if: failure() && github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `研究工作流失败：${context.runId}。请查看 Actions 日志；pipeline_failure.json 若生成会保留错误摘要。`
+            });
