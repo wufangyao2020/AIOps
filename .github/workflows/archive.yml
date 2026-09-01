@@ -1,13 +1,6 @@
 name: Build A-share 2026 H1 archive
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "scripts/**"
-      - "config/**"
-      - "schema/**"
-      - ".github/workflows/archive.yml"
   issues:
     types: [opened]
   workflow_dispatch:
@@ -17,6 +10,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: a-share-archive
+  cancel-in-progress: false
+
 jobs:
   archive:
     if: github.event_name != 'issues' || github.event.issue.title == '[archive] run 2026H1'
@@ -25,6 +22,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -33,6 +32,9 @@ jobs:
 
       - name: Fetch and normalize the A-share universe
         run: python scripts/fetch_archive.py
+
+      - name: Profile raw source dimensions
+        run: python scripts/diagnose_universe.py
 
       - name: Validate generated archive
         run: python scripts/validate_archive.py
@@ -46,5 +48,6 @@ jobs:
             echo "No archive changes to commit."
           else
             git commit -m "data: refresh 2026 H1 A-share universe"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
