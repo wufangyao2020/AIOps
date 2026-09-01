@@ -1,0 +1,74 @@
+name: Run A-share 2026H1 research stage 1
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: a-share-research-stage1
+  cancel-in-progress: false
+
+jobs:
+  stage1:
+    if: github.event_name != 'issues' || github.event.issue.title == '[research] run stage1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check pandas numpy requests tabulate
+
+      - name: Compile research script
+        run: python -m py_compile scripts/research_stage1.py
+
+      - name: Run full-universe four-model scoring
+        run: python scripts/research_stage1.py
+
+      - name: Commit stage-one results
+        run: |
+          git config user.name "a-share-research-bot"
+          git config user.email "a-share-research-bot@users.noreply.github.com"
+          git add data/2026H1/research meta/research_stage1_summary.json
+          if git diff --cached --quiet; then
+            echo "No research changes to commit."
+          else
+            git commit -m "research: complete 2026H1 stage-one four-model scoring"
+            for attempt in 1 2 3 4; do
+              git pull --rebase origin main && git push && break
+              sleep $((attempt * 3))
+            done
+          fi
+
+      - name: Close trigger issue
+        if: github.event_name == 'issues' && always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const conclusion = '${{ job.status }}';
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `Stage 1 workflow finished with status: **${conclusion}**.`
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed',
+              state_reason: 'completed'
+            });
