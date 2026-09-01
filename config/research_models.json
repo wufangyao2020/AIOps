@@ -1,29 +1,51 @@
 {
-  "version": "0.1.0",
-  "as_of": "2026-09-01",
+  "version": "1.0.0",
+  "as_of": "2026-09-02",
   "candidate_generation_policy": "blind_universe_first",
   "context_frequency_boost": false,
+  "universe_count": 5550,
   "models": {
     "fundamental_acceleration": {
-      "status": "not_run",
-      "purpose": "Find accelerating core operations with improving margins and cash conversion."
+      "status": "running",
+      "purpose": "Find accelerating core operations with improving margins and cash conversion.",
+      "key_evidence": ["Q2 standalone acceleration", "deducted profit", "margin improvement", "cash conversion", "receivable and inventory discipline"]
     },
     "new_profit_pool": {
-      "status": "not_run",
-      "purpose": "Find new businesses that are beginning to change consolidated revenue and profit structure."
+      "status": "running",
+      "purpose": "Find new businesses that are beginning to change consolidated revenue and profit structure.",
+      "evidence_levels": {
+        "0": "none",
+        "1": "strategy or R&D",
+        "2": "sampling, trial installation or customer certification",
+        "3": "formal order, mass delivery or volume production",
+        "4": "revenue visible in filings",
+        "5": "profit or margin contribution visible"
+      }
     },
     "cyclical_turn": {
-      "status": "not_run",
-      "purpose": "Find supply-demand and spread inflections while controlling for peak-profit low-PE traps."
+      "status": "running",
+      "purpose": "Find supply-demand and spread inflections while controlling for peak-profit low-PE traps.",
+      "key_evidence": ["industry and company margin inflection", "unit-cost advantage", "inventory", "cash conversion", "capital discipline"]
     },
     "capital_event": {
-      "status": "not_run",
-      "purpose": "Find control changes, M&A, divestitures, buyback cancellation and other structure-changing events."
+      "status": "running",
+      "purpose": "Find control changes, M&A, divestitures, buyback cancellation and other structure-changing events.",
+      "key_evidence": ["control change", "M&A or injection", "divestiture", "buyback cancellation", "equity incentive", "large contract", "production milestone"]
     }
+  },
+  "review": {
+    "stage1_target_count": 100,
+    "stage1_status": "running",
+    "announcement_fulltext_review_required": true,
+    "peer_comparison_universe": 5550,
+    "source_hash_required": true
   },
   "final_selection": {
     "target_count": 20,
     "status": "not_started",
-    "required_manual_review_pool": 100
-  }
+    "industry_concentration_limit": 4,
+    "late_emotion_excluded": true,
+    "required_h1_report": true
+  },
+  "methodology": "docs/research_model_methodology.md"
 }
