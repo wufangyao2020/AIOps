@@ -1,13 +1,20 @@
 {
   "announcement_date_max": "2026-09-01",
   "announcement_date_min": "2026-07-16",
+  "archived_reference_universe_count": 5550,
   "archived_unique_a_share_or_cdr_count": 5566,
+  "cdr_audit_file": "meta/excluded_cdr_from_pure_a_share_universe.csv",
+  "cdr_excluded_codes": [
+    "689009"
+  ],
+  "cdr_excluded_from_pure_a_share_count": 1,
   "data_quality_counts": {
     "missing_core_1": 1,
     "ok": 5565
   },
   "dataset": "A-share 2026 H1 company universe",
   "excluded_non_a_share_row_count": 5880,
+  "excluded_not_listed_by_cutoff_count": 14,
   "included_board_counts": {
     "Beijing Stock Exchange": 344,
     "ChiNext": 1364,
@@ -24,17 +31,29 @@
     "A股": 5565,
     "中国存托凭证": 1
   },
+  "ipo_map_audit_file": "meta/recent_ipo_listing_date_map.json",
   "notes": [
-    "Third Board securities are explicitly excluded by source security and market codes.",
-    "The source-derived count is retained even if it differs from the media-reported 5550 reference; rows are never arbitrarily deleted to force a match.",
+    "The source-derived 5,566 A-share/CDR rows partition into 5,550 disclosed A-share companies, 14 not-yet-listed IPO records, one CDR, and one post-cutoff record.",
+    "The currently listed company 002731 (*ST Cuihua) did not disclose a completed 2026 H1 report and therefore is absent from the report-source universe.",
+    "The 5,550-company archive is produced by announcement-date, IPO-listing-date, and security-type rules; no arbitrary truncation is used.",
+    "Every excluded record remains in an audit file.",
     "Official exchange filings remain the legal source of record.",
     "Prior conversation frequency never affects candidate generation or scoring."
   ],
+  "post_cutoff_audit_file": "meta/post_cutoff_records_2026-09-01.csv",
+  "post_cutoff_record_count": 1,
+  "prelisting_audit_file": "meta/excluded_not_listed_by_2026-08-31.csv",
   "public_reference_disclosed_count": 5550,
+  "recent_ipo_map_count": 494,
   "reference_count_gap": 16,
   "reference_count_matches": false,
+  "reference_cutoff_date": "2026-08-31",
+  "reference_universe_file": "data/2026H1/a_share_2026_h1_5550_master.csv",
+  "reference_universe_jsonl": "data/2026H1/a_share_2026_h1_5550_master.jsonl",
+  "reference_universe_matches_5550": true,
   "report_date": "2026-06-30",
   "report_period": "2026H1",
+  "report_rows_through_cutoff_count": 5565,
   "research_state": {
     "announcement_review_completed": false,
     "final_20_selected": false,
@@ -42,7 +61,8 @@
     "peer_comparison_completed": false,
     "raw_universe_archived": true
   },
-  "snapshot_created_at_utc": "2026-09-01T15:42:51+00:00",
+  "snapshot_created_at_utc": "2026-09-01T16:11:48+00:00",
+  "source_current_a_share_or_cdr_count": 5566,
   "source_endpoint": "https://datacenter-web.eastmoney.com/api/data/v1/get",
   "source_page": "https://data.eastmoney.com/bbsj/202606/yjbb.html",
   "source_report_name": "RPT_LICO_FN_CPD",

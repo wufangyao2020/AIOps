@@ -1,0 +1,3460 @@
+{
+  "001220": {
+    "apply_date": "2026-01-23",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-02-03",
+    "security_code": "001220",
+    "security_name": "世盟股份"
+  },
+  "001221": {
+    "apply_date": "2025-07-21",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-07-30",
+    "security_code": "001221",
+    "security_name": "悍高集团"
+  },
+  "001232": {
+    "apply_date": "2026-07-24",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-08-04",
+    "security_code": "001232",
+    "security_name": "嘉立创"
+  },
+  "001233": {
+    "apply_date": "2025-11-14",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-11-25",
+    "security_code": "001233",
+    "security_name": "海安集团"
+  },
+  "001237": {
+    "apply_date": "2026-05-13",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-05-22",
+    "security_code": "001237",
+    "security_name": "惠康科技"
+  },
+  "001248": {
+    "apply_date": "2026-06-22",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-07-02",
+    "security_code": "001248",
+    "security_name": "华润新能源"
+  },
+  "001257": {
+    "apply_date": "2026-03-20",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-03-31",
+    "security_code": "001257",
+    "security_name": "盛龙股份"
+  },
+  "001280": {
+    "apply_date": "2025-11-21",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-12-03",
+    "security_code": "001280",
+    "security_name": "中国铀业"
+  },
+  "001285": {
+    "apply_date": "2025-09-19",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-09-30",
+    "security_code": "001285",
+    "security_name": "瑞立科密"
+  },
+  "001312": {
+    "apply_date": "2026-04-10",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-04-21",
+    "security_code": "001312",
+    "security_name": "福恩股份"
+  },
+  "001325": {
+    "apply_date": "2025-12-09",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-12-18",
+    "security_code": "001325",
+    "security_name": "元创股份"
+  },
+  "001335": {
+    "apply_date": "2025-03-31",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-04-15",
+    "security_code": "001335",
+    "security_name": "信凯科技"
+  },
+  "001356": {
+    "apply_date": "2025-01-14",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-01-23",
+    "security_code": "001356",
+    "security_name": "富岭股份"
+  },
+  "001365": {
+    "apply_date": "2026-05-07",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-05-18",
+    "security_code": "001365",
+    "security_name": "天海电子"
+  },
+  "001369": {
+    "apply_date": "2025-12-19",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-12-30",
+    "security_code": "001369",
+    "security_name": "双欣材料"
+  },
+  "001382": {
+    "apply_date": "2025-03-11",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-03-21",
+    "security_code": "001382",
+    "security_name": "新亚电缆"
+  },
+  "001386": {
+    "apply_date": "2025-10-13",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-10-22",
+    "security_code": "001386",
+    "security_name": "马可波罗"
+  },
+  "001388": {
+    "apply_date": "2025-06-20",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-07-01",
+    "security_code": "001388",
+    "security_name": "信通电子"
+  },
+  "001390": {
+    "apply_date": "2025-05-19",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-05-29",
+    "security_code": "001390",
+    "security_name": "古麒绒材"
+  },
+  "001393": {
+    "apply_date": "2026-05-06",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-05-15",
+    "security_code": "001393",
+    "security_name": "维通利"
+  },
+  "001395": {
+    "apply_date": "2025-01-16",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-01-27",
+    "security_code": "001395",
+    "security_name": "亚联机械"
+  },
+  "001396": {
+    "apply_date": "2025-12-19",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-12-30",
+    "security_code": "001396",
+    "security_name": "誉帆科技"
+  },
+  "001399": {
+    "apply_date": "2026-06-12",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-06-26",
+    "security_code": "001399",
+    "security_name": "惠科股份"
+  },
+  "001400": {
+    "apply_date": "2025-04-15",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-04-24",
+    "security_code": "001400",
+    "security_name": "江顺科技"
+  },
+  "301173": {
+    "apply_date": "2025-02-20",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-03-03",
+    "security_code": "301173",
+    "security_name": "毓恬冠佳"
+  },
+  "301275": {
+    "apply_date": "2025-02-28",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-03-11",
+    "security_code": "301275",
+    "security_name": "汉朔科技"
+  },
+  "301449": {
+    "apply_date": "2025-12-12",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-12-23",
+    "security_code": "301449",
+    "security_name": "天溯计量"
+  },
+  "301479": {
+    "apply_date": "2025-03-04",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-03-18",
+    "security_code": "301479",
+    "security_name": "弘景光电"
+  },
+  "301491": {
+    "apply_date": "2025-07-25",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-08-06",
+    "security_code": "301491",
+    "security_name": "汉桑科技"
+  },
+  "301501": {
+    "apply_date": "2025-03-07",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-03-19",
+    "security_code": "301501",
+    "security_name": "恒鑫生活"
+  },
+  "301513": {
+    "apply_date": "2026-04-08",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-04-17",
+    "security_code": "301513",
+    "security_name": "尚水智能"
+  },
+  "301531": {
+    "apply_date": "2026-04-24",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-05-11",
+    "security_code": "301531",
+    "security_name": "春光集团"
+  },
+  "301535": {
+    "apply_date": "2025-03-14",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-03-27",
+    "security_code": "301535",
+    "security_name": "浙江华远"
+  },
+  "301557": {
+    "apply_date": "2025-02-18",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-03-04",
+    "security_code": "301557",
+    "security_name": "常友科技"
+  },
+  "301560": {
+    "apply_date": "2025-04-15",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-04-25",
+    "security_code": "301560",
+    "security_name": "众捷汽车"
+  },
+  "301563": {
+    "apply_date": "2025-09-19",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-09-30",
+    "security_code": "301563",
+    "security_name": "云汉芯城"
+  },
+  "301575": {
+    "apply_date": "2025-09-01",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-09-10",
+    "security_code": "301575",
+    "security_name": "艾芬达"
+  },
+  "301583": {
+    "apply_date": "2026-06-29",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-07-10",
+    "security_code": "301583",
+    "security_name": "托伦斯"
+  },
+  "301584": {
+    "apply_date": "2025-09-16",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-09-25",
+    "security_code": "301584",
+    "security_name": "建发致新"
+  },
+  "301590": {
+    "apply_date": "2025-05-26",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-06-05",
+    "security_code": "301590",
+    "security_name": "优优绿能"
+  },
+  "301595": {
+    "apply_date": "2025-05-08",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-05-19",
+    "security_code": "301595",
+    "security_name": "太力科技"
+  },
+  "301599": {
+    "apply_date": "2026-04-20",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-04-30",
+    "security_code": "301599",
+    "security_name": "理奇智能"
+  },
+  "301601": {
+    "apply_date": "2025-01-06",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-01-15",
+    "security_code": "301601",
+    "security_name": "惠通科技"
+  },
+  "301602": {
+    "apply_date": "2025-01-13",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-01-22",
+    "security_code": "301602",
+    "security_name": "超研股份"
+  },
+  "301609": {
+    "apply_date": "2025-07-14",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-07-23",
+    "security_code": "301609",
+    "security_name": "山大电力"
+  },
+  "301616": {
+    "apply_date": "2025-03-17",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-03-27",
+    "security_code": "301616",
+    "security_name": "浙江华业"
+  },
+  "301629": {
+    "apply_date": "2025-03-11",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-03-24",
+    "security_code": "301629",
+    "security_name": "矽电股份"
+  },
+  "301630": {
+    "apply_date": "2025-07-01",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-07-10",
+    "security_code": "301630",
+    "security_name": "同宇新材"
+  },
+  "301632": {
+    "apply_date": "2025-08-01",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-08-12",
+    "security_code": "301632",
+    "security_name": "广东建科"
+  },
+  "301636": {
+    "apply_date": "2025-04-28",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-05-16",
+    "security_code": "301636",
+    "security_name": "泽润新能"
+  },
+  "301638": {
+    "apply_date": "2025-11-07",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-11-18",
+    "security_code": "301638",
+    "security_name": "南网数字"
+  },
+  "301655": {
+    "apply_date": "2026-08-10",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-08-20",
+    "security_code": "301655",
+    "security_name": "绿控传动"
+  },
+  "301656": {
+    "apply_date": "2025-09-15",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-09-25",
+    "security_code": "301656",
+    "security_name": "联合动力"
+  },
+  "301658": {
+    "apply_date": "2025-03-24",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-04-02",
+    "security_code": "301658",
+    "security_name": "首航新能"
+  },
+  "301662": {
+    "apply_date": "2025-04-08",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-04-17",
+    "security_code": "301662",
+    "security_name": "宏工科技"
+  },
+  "301665": {
+    "apply_date": "2025-03-31",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-04-11",
+    "security_code": "301665",
+    "security_name": "泰禾股份"
+  },
+  "301666": {
+    "apply_date": "2026-04-03",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-04-16",
+    "security_code": "301666",
+    "security_name": "大普微"
+  },
+  "301667": {
+    "apply_date": "2025-12-08",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-12-23",
+    "security_code": "301667",
+    "security_name": "纳百川"
+  },
+  "301668": {
+    "apply_date": "2025-09-11",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-09-26",
+    "security_code": "301668",
+    "security_name": "昊创瑞通"
+  },
+  "301669": {
+    "apply_date": "2026-05-29",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-06-09",
+    "security_code": "301669",
+    "security_name": "高特电子"
+  },
+  "301677": {
+    "apply_date": "2026-07-20",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-07-30",
+    "security_code": "301677",
+    "security_name": "欣兴工具"
+  },
+  "301678": {
+    "apply_date": "2025-06-11",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-06-20",
+    "security_code": "301678",
+    "security_name": "新恒汇"
+  },
+  "301680": {
+    "apply_date": "2026-02-25",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-03-06",
+    "security_code": "301680",
+    "security_name": "固德电材"
+  },
+  "301682": {
+    "apply_date": "2026-03-16",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-03-25",
+    "security_code": "301682",
+    "security_name": "宏明电子"
+  },
+  "301683": {
+    "apply_date": "2026-03-20",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-04-01",
+    "security_code": "301683",
+    "security_name": "慧谷新材"
+  },
+  "301686": {
+    "apply_date": "2026-09-10",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "",
+    "security_code": "301686",
+    "security_name": "中塑股份"
+  },
+  "301687": {
+    "apply_date": "2025-12-22",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-12-31",
+    "security_code": "301687",
+    "security_name": "新广益"
+  },
+  "301688": {
+    "apply_date": "2026-08-20",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-09-02",
+    "security_code": "301688",
+    "security_name": "格林生物"
+  },
+  "301689": {
+    "apply_date": "2026-08-28",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "",
+    "security_code": "301689",
+    "security_name": "电科思仪"
+  },
+  "301696": {
+    "apply_date": "2026-03-27",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-04-10",
+    "security_code": "301696",
+    "security_name": "三瑞智能"
+  },
+  "301697": {
+    "apply_date": "2026-08-19",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-09-01",
+    "security_code": "301697",
+    "security_name": "贝特利"
+  },
+  "301699": {
+    "apply_date": "2026-08-26",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "",
+    "security_code": "301699",
+    "security_name": "洛轴股份"
+  },
+  "301707": {
+    "apply_date": "2026-07-27",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-08-07",
+    "security_code": "301707",
+    "security_name": "展芯股份"
+  },
+  "301717": {
+    "apply_date": "2026-07-31",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-08-11",
+    "security_code": "301717",
+    "security_name": "超纯应材"
+  },
+  "600930": {
+    "apply_date": "2025-07-07",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-07-16",
+    "security_code": "600930",
+    "security_name": "华电新能"
+  },
+  "601026": {
+    "apply_date": "2025-09-29",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-10-17",
+    "security_code": "601026",
+    "security_name": "道生天合"
+  },
+  "601091": {
+    "apply_date": "2026-09-08",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "",
+    "security_code": "601091",
+    "security_name": "沈鼓集团"
+  },
+  "601112": {
+    "apply_date": "2026-01-19",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-01-29",
+    "security_code": "601112",
+    "security_name": "振石股份"
+  },
+  "601123": {
+    "apply_date": "2026-08-21",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-09-01",
+    "security_code": "601123",
+    "security_name": "马矿股份"
+  },
+  "603014": {
+    "apply_date": "2025-05-08",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-05-19",
+    "security_code": "603014",
+    "security_name": "威高血净"
+  },
+  "603049": {
+    "apply_date": "2025-05-23",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-06-05",
+    "security_code": "603049",
+    "security_name": "中策橡胶"
+  },
+  "603092": {
+    "apply_date": "2025-10-28",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-11-07",
+    "security_code": "603092",
+    "security_name": "德力佳"
+  },
+  "603120": {
+    "apply_date": "2025-04-07",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-04-16",
+    "security_code": "603120",
+    "security_name": "肯特催化"
+  },
+  "603124": {
+    "apply_date": "2025-03-10",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-03-20",
+    "security_code": "603124",
+    "security_name": "江南新材"
+  },
+  "603175": {
+    "apply_date": "2025-10-15",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-10-24",
+    "security_code": "603175",
+    "security_name": "超颖电子"
+  },
+  "603202": {
+    "apply_date": "2025-04-14",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-04-24",
+    "security_code": "603202",
+    "security_name": "天有为"
+  },
+  "603210": {
+    "apply_date": "2025-03-28",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-04-09",
+    "security_code": "603210",
+    "security_name": "泰鸿万立"
+  },
+  "603248": {
+    "apply_date": "2025-12-12",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-12-23",
+    "security_code": "603248",
+    "security_name": "锡华科技"
+  },
+  "603257": {
+    "apply_date": "2025-03-26",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-04-08",
+    "security_code": "603257",
+    "security_name": "中国瑞林"
+  },
+  "603262": {
+    "apply_date": "2025-07-14",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-07-23",
+    "security_code": "603262",
+    "security_name": "技源集团"
+  },
+  "603271": {
+    "apply_date": "2025-02-28",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-03-11",
+    "security_code": "603271",
+    "security_name": "永杰新材"
+  },
+  "603284": {
+    "apply_date": "2026-01-30",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-02-10",
+    "security_code": "603284",
+    "security_name": "林平发展"
+  },
+  "603293": {
+    "apply_date": "2026-04-07",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-04-16",
+    "security_code": "603293",
+    "security_name": "埃泰克"
+  },
+  "603334": {
+    "apply_date": "2025-10-27",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-11-05",
+    "security_code": "603334",
+    "security_name": "丰倍生物"
+  },
+  "603352": {
+    "apply_date": "2026-01-06",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-01-15",
+    "security_code": "603352",
+    "security_name": "至信股份"
+  },
+  "603370": {
+    "apply_date": "2025-08-25",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-09-05",
+    "security_code": "603370",
+    "security_name": "华新精科"
+  },
+  "603376": {
+    "apply_date": "2025-10-24",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-11-06",
+    "security_code": "603376",
+    "security_name": "大明电子"
+  },
+  "603382": {
+    "apply_date": "2025-06-03",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-06-12",
+    "security_code": "603382",
+    "security_name": "海阳科技"
+  },
+  "603400": {
+    "apply_date": "2025-06-10",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-06-20",
+    "security_code": "603400",
+    "security_name": "华之杰"
+  },
+  "603402": {
+    "apply_date": "2025-12-22",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-01-06",
+    "security_code": "603402",
+    "security_name": "陕西旅游"
+  },
+  "603406": {
+    "apply_date": "2025-07-28",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-08-08",
+    "security_code": "603406",
+    "security_name": "天富龙"
+  },
+  "603407": {
+    "apply_date": "2026-04-27",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-05-11",
+    "security_code": "603407",
+    "security_name": "长裕集团"
+  },
+  "603409": {
+    "apply_date": "2025-02-21",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-03-04",
+    "security_code": "603409",
+    "security_name": "汇通控股"
+  },
+  "603418": {
+    "apply_date": "2025-09-12",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-09-23",
+    "security_code": "603418",
+    "security_name": "友升股份"
+  },
+  "603435": {
+    "apply_date": "2026-05-13",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-05-22",
+    "security_code": "603435",
+    "security_name": "嘉德利"
+  },
+  "603448": {
+    "apply_date": "2026-08-26",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "",
+    "security_code": "603448",
+    "security_name": "天博智能"
+  },
+  "603459": {
+    "apply_date": "2026-03-27",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-04-08",
+    "security_code": "603459",
+    "security_name": "红板科技"
+  },
+  "603468": {
+    "apply_date": "2026-07-24",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-08-06",
+    "security_code": "603468",
+    "security_name": "津富士达"
+  },
+  "688411": {
+    "apply_date": "2025-01-16",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-01-27",
+    "security_code": "688411",
+    "security_name": "海博思创"
+  },
+  "688545": {
+    "apply_date": "2025-01-13",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-01-22",
+    "security_code": "688545",
+    "security_name": "兴福电子"
+  },
+  "688583": {
+    "apply_date": "2025-01-06",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-01-15",
+    "security_code": "688583",
+    "security_name": "思看科技"
+  },
+  "688635": {
+    "apply_date": "2026-05-18",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-05-27",
+    "security_code": "688635",
+    "security_name": "长进光子"
+  },
+  "688712": {
+    "apply_date": "2026-01-26",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-02-05",
+    "security_code": "688712",
+    "security_name": "北芯生命"
+  },
+  "688727": {
+    "apply_date": "2025-11-07",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-11-18",
+    "security_code": "688727",
+    "security_name": "恒坤新材"
+  },
+  "688729": {
+    "apply_date": "2025-06-27",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-07-08",
+    "security_code": "688729",
+    "security_name": "屹唐股份"
+  },
+  "688755": {
+    "apply_date": "2025-05-07",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-05-16",
+    "security_code": "688755",
+    "security_name": "汉邦科技"
+  },
+  "688757": {
+    "apply_date": "2025-03-14",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-03-25",
+    "security_code": "688757",
+    "security_name": "胜科纳米"
+  },
+  "688759": {
+    "apply_date": "2025-10-17",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-10-28",
+    "security_code": "688759",
+    "security_name": "必贝特"
+  },
+  "688765": {
+    "apply_date": "2025-10-14",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-10-28",
+    "security_code": "688765",
+    "security_name": "禾元生物"
+  },
+  "688775": {
+    "apply_date": "2025-05-30",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-06-11",
+    "security_code": "688775",
+    "security_name": "影石创新"
+  },
+  "688781": {
+    "apply_date": "2026-03-16",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-03-25",
+    "security_code": "688781",
+    "security_name": "视涯科技"
+  },
+  "688783": {
+    "apply_date": "2025-10-16",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-10-28",
+    "security_code": "688783",
+    "security_name": "西安奕材"
+  },
+  "688785": {
+    "apply_date": "2026-01-16",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-01-28",
+    "security_code": "688785",
+    "security_name": "恒运昌"
+  },
+  "688790": {
+    "apply_date": "2025-12-05",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-12-16",
+    "security_code": "688790",
+    "security_name": "昂瑞微"
+  },
+  "688795": {
+    "apply_date": "2025-11-24",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-12-05",
+    "security_code": "688795",
+    "security_name": "摩尔线程"
+  },
+  "688796": {
+    "apply_date": "2025-11-28",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-12-10",
+    "security_code": "688796",
+    "security_name": "百奥赛图"
+  },
+  "688797": {
+    "apply_date": "2026-06-12",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-06-24",
+    "security_code": "688797",
+    "security_name": "臻宝科技"
+  },
+  "688801": {
+    "apply_date": "2026-09-02",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "",
+    "security_code": "688801",
+    "security_name": "燧原科技"
+  },
+  "688802": {
+    "apply_date": "2025-12-05",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-12-17",
+    "security_code": "688802",
+    "security_name": "沐曦股份"
+  },
+  "688805": {
+    "apply_date": "2025-12-15",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-12-24",
+    "security_code": "688805",
+    "security_name": "健信超导"
+  },
+  "688806": {
+    "apply_date": "2026-07-10",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-07-21",
+    "security_code": "688806",
+    "security_name": "泰诺麦博"
+  },
+  "688807": {
+    "apply_date": "2025-12-08",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-12-19",
+    "security_code": "688807",
+    "security_name": "优迅股份"
+  },
+  "688808": {
+    "apply_date": "2026-04-14",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-04-24",
+    "security_code": "688808",
+    "security_name": "联讯仪器"
+  },
+  "688809": {
+    "apply_date": "2025-12-19",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2025-12-30",
+    "security_code": "688809",
+    "security_name": "强一股份"
+  },
+  "688811": {
+    "apply_date": "2026-03-30",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-04-10",
+    "security_code": "688811",
+    "security_name": "有研复材"
+  },
+  "688813": {
+    "apply_date": "2026-03-20",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-03-31",
+    "security_code": "688813",
+    "security_name": "泰金新能"
+  },
+  "688816": {
+    "apply_date": "2026-02-02",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-02-11",
+    "security_code": "688816",
+    "security_name": "易思维"
+  },
+  "688818": {
+    "apply_date": "2026-01-30",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-02-10",
+    "security_code": "688818",
+    "security_name": "电科蓝天"
+  },
+  "688820": {
+    "apply_date": "2026-04-09",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-04-21",
+    "security_code": "688820",
+    "security_name": "盛合晶微"
+  },
+  "688825": {
+    "apply_date": "2026-07-16",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-07-27",
+    "security_code": "688825",
+    "security_name": "长鑫科技"
+  },
+  "688826": {
+    "apply_date": "2026-08-07",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-08-18",
+    "security_code": "688826",
+    "security_name": "频准激光"
+  },
+  "688828": {
+    "apply_date": "2026-07-31",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-08-11",
+    "security_code": "688828",
+    "security_name": "国仪公司"
+  },
+  "688835": {
+    "apply_date": "2026-08-14",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-08-25",
+    "security_code": "688835",
+    "security_name": "高凯技术"
+  },
+  "688836": {
+    "apply_date": "2026-08-10",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "2026-08-19",
+    "security_code": "688836",
+    "security_name": "宇树科技"
+  },
+  "688837": {
+    "apply_date": "2026-09-03",
+    "ipo_source_report": "RPTA_APP_IPOAPPLY",
+    "listing_date": "",
+    "security_code": "688837",
+    "security_name": "信诺维"
+  },
+  "832317": {
+    "apply_date": "2020-07-10",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "832317",
+    "security_name": "观典防务"
+  },
+  "833874": {
+    "apply_date": "2020-07-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "833874",
+    "security_name": "泰祥股份"
+  },
+  "833994": {
+    "apply_date": "2020-07-14",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "833994",
+    "security_name": "翰博高新"
+  },
+  "920000": {
+    "apply_date": "2020-12-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-12-23",
+    "security_code": "920000",
+    "security_name": "安徽凤凰"
+  },
+  "920001": {
+    "apply_date": "2022-12-15",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-27",
+    "security_code": "920001",
+    "security_name": "纬达光电"
+  },
+  "920002": {
+    "apply_date": "2024-05-21",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-05-30",
+    "security_code": "920002",
+    "security_name": "万达轴承"
+  },
+  "920003": {
+    "apply_date": "2025-10-28",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-11-07",
+    "security_code": "920003",
+    "security_name": "中诚咨询"
+  },
+  "920005": {
+    "apply_date": "2025-07-22",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-07-31",
+    "security_code": "920005",
+    "security_name": "鼎佳精密"
+  },
+  "920006": {
+    "apply_date": "2023-05-05",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-05-18",
+    "security_code": "920006",
+    "security_name": "晟楠科技"
+  },
+  "920007": {
+    "apply_date": "2025-07-29",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-08-08",
+    "security_code": "920007",
+    "security_name": "酉立智能"
+  },
+  "920008": {
+    "apply_date": "2024-08-20",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-08-29",
+    "security_code": "920008",
+    "security_name": "成电光信"
+  },
+  "920009": {
+    "apply_date": "2025-10-22",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-11-03",
+    "security_code": "920009",
+    "security_name": "丹娜生物"
+  },
+  "920010": {
+    "apply_date": "2020-07-10",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920010",
+    "security_name": "凯添燃气"
+  },
+  "920011": {
+    "apply_date": "2026-03-25",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-04-08",
+    "security_code": "920011",
+    "security_name": "晨光电机"
+  },
+  "920012": {
+    "apply_date": "2026-04-01",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-04-13",
+    "security_code": "920012",
+    "security_name": "创达新材"
+  },
+  "920014": {
+    "apply_date": "2022-12-01",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-13",
+    "security_code": "920014",
+    "security_name": "特瑞斯"
+  },
+  "920015": {
+    "apply_date": "2025-09-16",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-09-25",
+    "security_code": "920015",
+    "security_name": "锦华新材"
+  },
+  "920016": {
+    "apply_date": "2024-09-03",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-09-13",
+    "security_code": "920016",
+    "security_name": "中草香料"
+  },
+  "920017": {
+    "apply_date": "2023-05-16",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-05-31",
+    "security_code": "920017",
+    "security_name": "星昊医药"
+  },
+  "920018": {
+    "apply_date": "2025-08-11",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-08-20",
+    "security_code": "920018",
+    "security_name": "宏远股份"
+  },
+  "920019": {
+    "apply_date": "2024-09-18",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-10-11",
+    "security_code": "920019",
+    "security_name": "铜冠矿建"
+  },
+  "920020": {
+    "apply_date": "2025-10-15",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-10-28",
+    "security_code": "920020",
+    "security_name": "泰凯英"
+  },
+  "920021": {
+    "apply_date": "2020-07-10",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920021",
+    "security_name": "流金科技"
+  },
+  "920022": {
+    "apply_date": "2025-09-09",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-09-19",
+    "security_code": "920022",
+    "security_name": "世昌股份"
+  },
+  "920023": {
+    "apply_date": "2023-01-11",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-02-02",
+    "security_code": "920023",
+    "security_name": "*ST田野"
+  },
+  "920026": {
+    "apply_date": "2023-10-09",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-10-19",
+    "security_code": "920026",
+    "security_name": "卓兆点胶"
+  },
+  "920027": {
+    "apply_date": "2025-05-27",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-06-10",
+    "security_code": "920027",
+    "security_name": "交大铁发"
+  },
+  "920028": {
+    "apply_date": "2026-03-11",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-03-20",
+    "security_code": "920028",
+    "security_name": "新恒泰"
+  },
+  "920029": {
+    "apply_date": "2025-03-18",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-03-28",
+    "security_code": "920029",
+    "security_name": "开发科技"
+  },
+  "920030": {
+    "apply_date": "2020-11-09",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-11-27",
+    "security_code": "920030",
+    "security_name": "德众汽车"
+  },
+  "920033": {
+    "apply_date": "2022-12-06",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-21",
+    "security_code": "920033",
+    "security_name": "康普化学"
+  },
+  "920035": {
+    "apply_date": "2025-11-18",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-12-02",
+    "security_code": "920035",
+    "security_name": "精创电气"
+  },
+  "920036": {
+    "apply_date": "2026-02-26",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-03-09",
+    "security_code": "920036",
+    "security_name": "觅睿科技"
+  },
+  "920037": {
+    "apply_date": "2025-06-17",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-06-26",
+    "security_code": "920037",
+    "security_name": "广信科技"
+  },
+  "920038": {
+    "apply_date": "2026-07-27",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-08-05",
+    "security_code": "920038",
+    "security_name": "森合高科"
+  },
+  "920039": {
+    "apply_date": "2021-08-04",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-08-18",
+    "security_code": "920039",
+    "security_name": "国义招标"
+  },
+  "920045": {
+    "apply_date": "2025-12-23",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-12-31",
+    "security_code": "920045",
+    "security_name": "蘅东光"
+  },
+  "920046": {
+    "apply_date": "2022-09-26",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-10-13",
+    "security_code": "920046",
+    "security_name": "亿能电力"
+  },
+  "920047": {
+    "apply_date": "2020-11-10",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-11-24",
+    "security_code": "920047",
+    "security_name": "诺思兰德"
+  },
+  "920050": {
+    "apply_date": "2026-01-12",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-01-21",
+    "security_code": "920050",
+    "security_name": "爱伦医疗"
+  },
+  "920055": {
+    "apply_date": "2026-03-23",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-03-31",
+    "security_code": "920055",
+    "security_name": "隆源股份"
+  },
+  "920056": {
+    "apply_date": "2025-08-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-08-22",
+    "security_code": "920056",
+    "security_name": "能之光"
+  },
+  "920057": {
+    "apply_date": "2023-03-02",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-03-14",
+    "security_code": "920057",
+    "security_name": "百甲科技"
+  },
+  "920058": {
+    "apply_date": "2023-07-31",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-08-10",
+    "security_code": "920058",
+    "security_name": "华洋赛车"
+  },
+  "920059": {
+    "apply_date": "2026-08-10",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-08-19",
+    "security_code": "920059",
+    "security_name": "双英集团"
+  },
+  "920060": {
+    "apply_date": "2024-11-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-11-19",
+    "security_code": "920060",
+    "security_name": "万源通"
+  },
+  "920061": {
+    "apply_date": "2023-12-12",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-12-21",
+    "security_code": "920061",
+    "security_name": "西磁科技"
+  },
+  "920062": {
+    "apply_date": "2022-06-28",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-07-13",
+    "security_code": "920062",
+    "security_name": "科润智控"
+  },
+  "920065": {
+    "apply_date": "2026-07-20",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-07-29",
+    "security_code": "920065",
+    "security_name": "千岸科技"
+  },
+  "920066": {
+    "apply_date": "2024-10-22",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-10-31",
+    "security_code": "920066",
+    "security_name": "科拜尔"
+  },
+  "920068": {
+    "apply_date": "2025-04-28",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-05-13",
+    "security_code": "920068",
+    "security_name": "天工股份"
+  },
+  "920069": {
+    "apply_date": "2026-03-18",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-03-27",
+    "security_code": "920069",
+    "security_name": "普昂医疗"
+  },
+  "920071": {
+    "apply_date": "2026-08-19",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-09-03",
+    "security_code": "920071",
+    "security_name": "金钛股份"
+  },
+  "920072": {
+    "apply_date": "2026-06-15",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-06-29",
+    "security_code": "920072",
+    "security_name": "科莱瑞迪"
+  },
+  "920075": {
+    "apply_date": "2022-12-01",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-14",
+    "security_code": "920075",
+    "security_name": "柏星龙"
+  },
+  "920076": {
+    "apply_date": "2026-01-14",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-01-22",
+    "security_code": "920076",
+    "security_name": "国亮新材"
+  },
+  "920077": {
+    "apply_date": "2021-08-19",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-08-31",
+    "security_code": "920077",
+    "security_name": "吉林碳谷"
+  },
+  "920078": {
+    "apply_date": "2026-03-09",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-03-18",
+    "security_code": "920078",
+    "security_name": "族兴新材"
+  },
+  "920079": {
+    "apply_date": "2026-07-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-07-22",
+    "security_code": "920079",
+    "security_name": "乔路铭"
+  },
+  "920080": {
+    "apply_date": "2025-09-22",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-10-10",
+    "security_code": "920080",
+    "security_name": "奥美森"
+  },
+  "920081": {
+    "apply_date": "2026-07-01",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-07-10",
+    "security_code": "920081",
+    "security_name": "欧伦电气"
+  },
+  "920082": {
+    "apply_date": "2024-12-17",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-12-26",
+    "security_code": "920082",
+    "security_name": "方正阀门"
+  },
+  "920083": {
+    "apply_date": "2026-06-01",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-06-11",
+    "security_code": "920083",
+    "security_name": "金戈新材"
+  },
+  "920086": {
+    "apply_date": "2026-01-06",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-01-16",
+    "security_code": "920086",
+    "security_name": "科马材料"
+  },
+  "920087": {
+    "apply_date": "2022-11-25",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-07",
+    "security_code": "920087",
+    "security_name": "秋乐种业"
+  },
+  "920088": {
+    "apply_date": "2024-10-18",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-10-29",
+    "security_code": "920088",
+    "security_name": "科力股份"
+  },
+  "920089": {
+    "apply_date": "2021-10-11",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-11-09",
+    "security_code": "920089",
+    "security_name": "禾昌聚合"
+  },
+  "920090": {
+    "apply_date": "2021-07-19",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-08-09",
+    "security_code": "920090",
+    "security_name": "*ST同辉"
+  },
+  "920091": {
+    "apply_date": "2025-11-05",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-11-21",
+    "security_code": "920091",
+    "security_name": "大鹏工业"
+  },
+  "920092": {
+    "apply_date": "2021-10-11",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-11-15",
+    "security_code": "920092",
+    "security_name": "汉鑫科技"
+  },
+  "920093": {
+    "apply_date": "2026-08-12",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-08-21",
+    "security_code": "920093",
+    "security_name": "信胜科技"
+  },
+  "920096": {
+    "apply_date": "2026-05-06",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-05-18",
+    "security_code": "920096",
+    "security_name": "嘉晨智能"
+  },
+  "920098": {
+    "apply_date": "2024-11-26",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-12-05",
+    "security_code": "920098",
+    "security_name": "科隆新材"
+  },
+  "920099": {
+    "apply_date": "2024-09-10",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-09-25",
+    "security_code": "920099",
+    "security_name": "瑞华技术"
+  },
+  "920100": {
+    "apply_date": "2025-08-26",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-09-08",
+    "security_code": "920100",
+    "security_name": "三协电机"
+  },
+  "920101": {
+    "apply_date": "2025-08-05",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-08-14",
+    "security_code": "920101",
+    "security_name": "志高机械"
+  },
+  "920106": {
+    "apply_date": "2024-12-10",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-12-18",
+    "security_code": "920106",
+    "security_name": "林泰新材"
+  },
+  "920107": {
+    "apply_date": "2026-08-05",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-08-17",
+    "security_code": "920107",
+    "security_name": "恒兴股份"
+  },
+  "920108": {
+    "apply_date": "2025-01-17",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-02-06",
+    "security_code": "920108",
+    "security_name": "宏海科技"
+  },
+  "920110": {
+    "apply_date": "2022-11-24",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-06",
+    "security_code": "920110",
+    "security_name": "雷特科技"
+  },
+  "920111": {
+    "apply_date": "2024-10-29",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-11-11",
+    "security_code": "920111",
+    "security_name": "聚星科技"
+  },
+  "920112": {
+    "apply_date": "2025-08-19",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-08-28",
+    "security_code": "920112",
+    "security_name": "巴兰仕"
+  },
+  "920116": {
+    "apply_date": "2024-12-24",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-01-02",
+    "security_code": "920116",
+    "security_name": "星图测控"
+  },
+  "920117": {
+    "apply_date": "2026-07-06",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-07-16",
+    "security_code": "920117",
+    "security_name": "龙鑫智能"
+  },
+  "920118": {
+    "apply_date": "2024-08-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-08-22",
+    "security_code": "920118",
+    "security_name": "太湖远大"
+  },
+  "920119": {
+    "apply_date": "2026-01-21",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-01-30",
+    "security_code": "920119",
+    "security_name": "美德乐"
+  },
+  "920121": {
+    "apply_date": "2025-12-16",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-12-25",
+    "security_code": "920121",
+    "security_name": "江天科技"
+  },
+  "920122": {
+    "apply_date": "2022-09-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-09-27",
+    "security_code": "920122",
+    "security_name": "中纺标"
+  },
+  "920123": {
+    "apply_date": "2024-03-20",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-03-29",
+    "security_code": "920123",
+    "security_name": "芭薇股份"
+  },
+  "920124": {
+    "apply_date": "2025-11-11",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-11-27",
+    "security_code": "920124",
+    "security_name": "南特科技"
+  },
+  "920125": {
+    "apply_date": "2026-04-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-04-24",
+    "security_code": "920125",
+    "security_name": "鸿仕达"
+  },
+  "920126": {
+    "apply_date": "2026-06-03",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-06-15",
+    "security_code": "920126",
+    "security_name": "永大股份"
+  },
+  "920128": {
+    "apply_date": "2024-11-18",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-11-29",
+    "security_code": "920128",
+    "security_name": "胜业电气"
+  },
+  "920130": {
+    "apply_date": "2023-10-25",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-11-02",
+    "security_code": "920130",
+    "security_name": "立方控股"
+  },
+  "920132": {
+    "apply_date": "2023-11-06",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-11-16",
+    "security_code": "920132",
+    "security_name": "泰鹏智能"
+  },
+  "920136": {
+    "apply_date": "2026-06-24",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-07-09",
+    "security_code": "920136",
+    "security_name": "永励精密"
+  },
+  "920138": {
+    "apply_date": "2026-08-03",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-08-12",
+    "security_code": "920138",
+    "security_name": "杰理科技"
+  },
+  "920139": {
+    "apply_date": "2022-09-23",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-10-28",
+    "security_code": "920139",
+    "security_name": "华岭股份"
+  },
+  "920145": {
+    "apply_date": "2021-10-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-11-15",
+    "security_code": "920145",
+    "security_name": "恒合股份"
+  },
+  "920146": {
+    "apply_date": "2021-07-06",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-07-20",
+    "security_code": "920146",
+    "security_name": "华阳变速"
+  },
+  "920149": {
+    "apply_date": "2020-07-14",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920149",
+    "security_name": "旭杰科技"
+  },
+  "920152": {
+    "apply_date": "2022-08-22",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-09-01",
+    "security_code": "920152",
+    "security_name": "昆工科技"
+  },
+  "920156": {
+    "apply_date": "2026-04-15",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-04-27",
+    "security_code": "920156",
+    "security_name": "海昌智能"
+  },
+  "920158": {
+    "apply_date": "2025-09-24",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-10-16",
+    "security_code": "920158",
+    "security_name": "长江能科"
+  },
+  "920159": {
+    "apply_date": "2026-01-19",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-01-28",
+    "security_code": "920159",
+    "security_name": "农大科技"
+  },
+  "920160": {
+    "apply_date": "2025-11-03",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2025-11-18",
+    "security_code": "920160",
+    "security_name": "北矿检测"
+  },
+  "920161": {
+    "apply_date": "2026-05-18",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-05-27",
+    "security_code": "920161",
+    "security_name": "龙辰科技"
+  },
+  "920163": {
+    "apply_date": "2020-07-03",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920163",
+    "security_name": "方大新材"
+  },
+  "920165": {
+    "apply_date": "2026-07-29",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-08-11",
+    "security_code": "920165",
+    "security_name": "珈凯生物"
+  },
+  "920166": {
+    "apply_date": "2026-02-04",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-02-12",
+    "security_code": "920166",
+    "security_name": "海圣医疗"
+  },
+  "920167": {
+    "apply_date": "2020-07-02",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920167",
+    "security_name": "同享科技"
+  },
+  "920168": {
+    "apply_date": "2026-02-09",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-02-26",
+    "security_code": "920168",
+    "security_name": "通宝光电"
+  },
+  "920169": {
+    "apply_date": "2022-03-29",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-04-15",
+    "security_code": "920169",
+    "security_name": "七丰精工"
+  },
+  "920171": {
+    "apply_date": "2021-10-15",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-11-15",
+    "security_code": "920171",
+    "security_name": "志晟信息"
+  },
+  "920174": {
+    "apply_date": "2021-08-05",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-08-20",
+    "security_code": "920174",
+    "security_name": "五新智能"
+  },
+  "920175": {
+    "apply_date": "2023-06-15",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-06-30",
+    "security_code": "920175",
+    "security_name": "东方碳素"
+  },
+  "920176": {
+    "apply_date": "2026-07-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-07-27",
+    "security_code": "920176",
+    "security_name": "维琪科技"
+  },
+  "920177": {
+    "apply_date": "2026-04-07",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-04-16",
+    "security_code": "920177",
+    "security_name": "恒道科技"
+  },
+  "920178": {
+    "apply_date": "2026-04-27",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-05-15",
+    "security_code": "920178",
+    "security_name": "锐翔智能"
+  },
+  "920179": {
+    "apply_date": "2022-02-21",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-03-04",
+    "security_code": "920179",
+    "security_name": "凯德石英"
+  },
+  "920180": {
+    "apply_date": "2026-02-02",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-02-10",
+    "security_code": "920180",
+    "security_name": "爱得科技"
+  },
+  "920181": {
+    "apply_date": "2026-03-30",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-04-10",
+    "security_code": "920181",
+    "security_name": "赛英电子"
+  },
+  "920183": {
+    "apply_date": "2026-02-24",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-03-04",
+    "security_code": "920183",
+    "security_name": "海菲曼"
+  },
+  "920184": {
+    "apply_date": "2020-07-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920184",
+    "security_name": "国源科技"
+  },
+  "920185": {
+    "apply_date": "2020-07-06",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920185",
+    "security_name": "贝特瑞"
+  },
+  "920186": {
+    "apply_date": "2026-04-20",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-04-29",
+    "security_code": "920186",
+    "security_name": "中科仪"
+  },
+  "920187": {
+    "apply_date": "2026-02-11",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-03-05",
+    "security_code": "920187",
+    "security_name": "通领科技"
+  },
+  "920188": {
+    "apply_date": "2026-03-16",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-03-30",
+    "security_code": "920188",
+    "security_name": "悦龙科技"
+  },
+  "920189": {
+    "apply_date": "2026-06-29",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-07-08",
+    "security_code": "920189",
+    "security_name": "康美特"
+  },
+  "920190": {
+    "apply_date": "2022-12-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-23",
+    "security_code": "920190",
+    "security_name": "雷神科技"
+  },
+  "920191": {
+    "apply_date": "2026-04-09",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-04-20",
+    "security_code": "920191",
+    "security_name": "瑞尔竞达"
+  },
+  "920193": {
+    "apply_date": "2026-06-17",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-07-02",
+    "security_code": "920193",
+    "security_name": "吉和昌"
+  },
+  "920195": {
+    "apply_date": "2022-12-20",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-30",
+    "security_code": "920195",
+    "security_name": "三祥科技"
+  },
+  "920198": {
+    "apply_date": "2020-07-14",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920198",
+    "security_name": "微创光电"
+  },
+  "920199": {
+    "apply_date": "2022-11-21",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-01",
+    "security_code": "920199",
+    "security_name": "倍益康"
+  },
+  "920200": {
+    "apply_date": "2026-04-22",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-05-07",
+    "security_code": "920200",
+    "security_name": "振宏股份"
+  },
+  "920204": {
+    "apply_date": "2022-01-04",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-01-18",
+    "security_code": "920204",
+    "security_name": "沪江材料"
+  },
+  "920206": {
+    "apply_date": "2026-05-27",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-06-08",
+    "security_code": "920206",
+    "security_name": "彩客科技"
+  },
+  "920207": {
+    "apply_date": "2022-09-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-09-23",
+    "security_code": "920207",
+    "security_name": "众诚科技"
+  },
+  "920208": {
+    "apply_date": "2023-03-30",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-06-29",
+    "security_code": "920208",
+    "security_name": "青矩技术"
+  },
+  "920211": {
+    "apply_date": "2026-05-25",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-06-05",
+    "security_code": "920211",
+    "security_name": "新睿电子"
+  },
+  "920212": {
+    "apply_date": "2021-05-24",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-06-08",
+    "security_code": "920212",
+    "security_name": "智新电子"
+  },
+  "920218": {
+    "apply_date": "2026-05-20",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-05-29",
+    "security_code": "920218",
+    "security_name": "新天力"
+  },
+  "920220": {
+    "apply_date": "2026-05-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-05-22",
+    "security_code": "920220",
+    "security_name": "朗信电气"
+  },
+  "920221": {
+    "apply_date": "2023-05-25",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-06-08",
+    "security_code": "920221",
+    "security_name": "易实精密"
+  },
+  "920222": {
+    "apply_date": "2026-06-22",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-06-30",
+    "security_code": "920222",
+    "security_name": "益坤电气"
+  },
+  "920223": {
+    "apply_date": "2022-05-23",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-06-09",
+    "security_code": "920223",
+    "security_name": "荣亿精密"
+  },
+  "920225": {
+    "apply_date": "2021-02-02",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-02-25",
+    "security_code": "920225",
+    "security_name": "利通科技"
+  },
+  "920227": {
+    "apply_date": "2022-12-16",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-28",
+    "security_code": "920227",
+    "security_name": "美登科技"
+  },
+  "920230": {
+    "apply_date": "2022-11-24",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-09",
+    "security_code": "920230",
+    "security_name": "欧康医药"
+  },
+  "920237": {
+    "apply_date": "2022-11-15",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-11-25",
+    "security_code": "920237",
+    "security_name": "力佳科技"
+  },
+  "920238": {
+    "apply_date": "2026-07-15",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-07-24",
+    "security_code": "920238",
+    "security_name": "长鹰硬科"
+  },
+  "920239": {
+    "apply_date": "2021-01-26",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-02-09",
+    "security_code": "920239",
+    "security_name": "长虹能源"
+  },
+  "920242": {
+    "apply_date": "2020-07-14",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920242",
+    "security_name": "建邦科技"
+  },
+  "920245": {
+    "apply_date": "2021-12-22",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-01-06",
+    "security_code": "920245",
+    "security_name": "威博液压"
+  },
+  "920247": {
+    "apply_date": "2022-12-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-23",
+    "security_code": "920247",
+    "security_name": "华密新材"
+  },
+  "920249": {
+    "apply_date": "2023-02-06",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-02-17",
+    "security_code": "920249",
+    "security_name": "利尔达"
+  },
+  "920252": {
+    "apply_date": "2023-01-06",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-01-19",
+    "security_code": "920252",
+    "security_name": "天宏锂电"
+  },
+  "920258": {
+    "apply_date": "2026-07-22",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-08-03",
+    "security_code": "920258",
+    "security_name": "聚仁新材"
+  },
+  "920260": {
+    "apply_date": "2021-11-01",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-11-15",
+    "security_code": "920260",
+    "security_name": "中寰股份"
+  },
+  "920261": {
+    "apply_date": "2023-03-20",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-04-03",
+    "security_code": "920261",
+    "security_name": "一诺威"
+  },
+  "920262": {
+    "apply_date": "2022-12-20",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-30",
+    "security_code": "920262",
+    "security_name": "太湖雪"
+  },
+  "920263": {
+    "apply_date": "2020-07-14",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920263",
+    "security_name": "中航泰达"
+  },
+  "920266": {
+    "apply_date": "2020-07-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920266",
+    "security_name": "生物谷"
+  },
+  "920267": {
+    "apply_date": "2022-05-11",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-05-27",
+    "security_code": "920267",
+    "security_name": "鑫汇科"
+  },
+  "920268": {
+    "apply_date": "2026-08-31",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "",
+    "security_code": "920268",
+    "security_name": "百迈科"
+  },
+  "920269": {
+    "apply_date": "2026-08-26",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "",
+    "security_code": "920269",
+    "security_name": "杰锋动力"
+  },
+  "920270": {
+    "apply_date": "2022-08-24",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-09-02",
+    "security_code": "920270",
+    "security_name": "天铭科技"
+  },
+  "920271": {
+    "apply_date": "2022-05-19",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-06-02",
+    "security_code": "920271",
+    "security_name": "邦德股份"
+  },
+  "920273": {
+    "apply_date": "2023-02-07",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-02-21",
+    "security_code": "920273",
+    "security_name": "一致魔芋"
+  },
+  "920274": {
+    "apply_date": "2023-08-01",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-08-18",
+    "security_code": "920274",
+    "security_name": "宏裕包材"
+  },
+  "920275": {
+    "apply_date": "2021-01-11",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-01-25",
+    "security_code": "920275",
+    "security_name": "驱动力"
+  },
+  "920278": {
+    "apply_date": "2020-07-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920278",
+    "security_name": "鹿得医疗"
+  },
+  "920284": {
+    "apply_date": "2023-12-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-12-19",
+    "security_code": "920284",
+    "security_name": "灵鸽科技"
+  },
+  "920288": {
+    "apply_date": "2026-08-17",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2026-08-28",
+    "security_code": "920288",
+    "security_name": "华大海天"
+  },
+  "920289": {
+    "apply_date": "2026-08-24",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "",
+    "security_code": "920289",
+    "security_name": "华汇智能"
+  },
+  "920298": {
+    "apply_date": "2026-09-02",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "",
+    "security_code": "920298",
+    "security_name": "腾信精密"
+  },
+  "920299": {
+    "apply_date": "2022-05-24",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-06-10",
+    "security_code": "920299",
+    "security_name": "灿能电力"
+  },
+  "920300": {
+    "apply_date": "2022-11-25",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-07",
+    "security_code": "920300",
+    "security_name": "辰光医疗"
+  },
+  "920304": {
+    "apply_date": "2023-04-06",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-04-18",
+    "security_code": "920304",
+    "security_name": "迪尔化工"
+  },
+  "920305": {
+    "apply_date": "2021-08-09",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-08-26",
+    "security_code": "920305",
+    "security_name": "云创退"
+  },
+  "920339": {
+    "apply_date": "2022-11-07",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-11-17",
+    "security_code": "920339",
+    "security_name": "恒太照明"
+  },
+  "920344": {
+    "apply_date": "2020-12-25",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-01-08",
+    "security_code": "920344",
+    "security_name": "三元基因"
+  },
+  "920346": {
+    "apply_date": "2022-02-10",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-02-23",
+    "security_code": "920346",
+    "security_name": "威贸电子"
+  },
+  "920351": {
+    "apply_date": "2022-12-19",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-29",
+    "security_code": "920351",
+    "security_name": "华光源海"
+  },
+  "920357": {
+    "apply_date": "2022-11-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-11-18",
+    "security_code": "920357",
+    "security_name": "雅葆轩"
+  },
+  "920363": {
+    "apply_date": "2023-12-18",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-12-28",
+    "security_code": "920363",
+    "security_name": "莱赛激光"
+  },
+  "920367": {
+    "apply_date": "2023-01-31",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-02-09",
+    "security_code": "920367",
+    "security_name": "新赣江"
+  },
+  "920368": {
+    "apply_date": "2020-07-14",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920368",
+    "security_name": "连城数控"
+  },
+  "920370": {
+    "apply_date": "2020-07-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920370",
+    "security_name": "新安洁"
+  },
+  "920371": {
+    "apply_date": "2023-01-05",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-01-18",
+    "security_code": "920371",
+    "security_name": "欧福蛋业"
+  },
+  "920374": {
+    "apply_date": "2022-11-17",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-11-29",
+    "security_code": "920374",
+    "security_name": "云里物里"
+  },
+  "920375": {
+    "apply_date": "2023-12-06",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-12-14",
+    "security_code": "920375",
+    "security_name": "派诺科技"
+  },
+  "920378": {
+    "apply_date": "2022-06-06",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-06-20",
+    "security_code": "920378",
+    "security_name": "泰德股份"
+  },
+  "920392": {
+    "apply_date": "2022-12-21",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-30",
+    "security_code": "920392",
+    "security_name": "佳合科技"
+  },
+  "920394": {
+    "apply_date": "2023-04-12",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-04-25",
+    "security_code": "920394",
+    "security_name": "民士达"
+  },
+  "920395": {
+    "apply_date": "2022-08-22",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-09-01",
+    "security_code": "920395",
+    "security_name": "朗鸿科技"
+  },
+  "920396": {
+    "apply_date": "2020-11-03",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-11-18",
+    "security_code": "920396",
+    "security_name": "常辅股份"
+  },
+  "920402": {
+    "apply_date": "2022-09-19",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-09-28",
+    "security_code": "920402",
+    "security_name": "硅烷科技"
+  },
+  "920403": {
+    "apply_date": "2024-01-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-01-18",
+    "security_code": "920403",
+    "security_name": "康农种业"
+  },
+  "920405": {
+    "apply_date": "2021-10-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-11-05",
+    "security_code": "920405",
+    "security_name": "海希通讯"
+  },
+  "920407": {
+    "apply_date": "2023-02-02",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-02-16",
+    "security_code": "920407",
+    "security_name": "驰诚股份"
+  },
+  "920414": {
+    "apply_date": "2022-11-29",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-12",
+    "security_code": "920414",
+    "security_name": "欧普泰"
+  },
+  "920415": {
+    "apply_date": "2020-07-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920415",
+    "security_name": "恒拓开源"
+  },
+  "920418": {
+    "apply_date": "2020-07-03",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920418",
+    "security_name": "苏轴股份"
+  },
+  "920419": {
+    "apply_date": "2022-02-28",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-03-11",
+    "security_code": "920419",
+    "security_name": "路斯股份"
+  },
+  "920422": {
+    "apply_date": "2023-02-17",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-03-01",
+    "security_code": "920422",
+    "security_name": "润普食品"
+  },
+  "920425": {
+    "apply_date": "2023-01-12",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-01-30",
+    "security_code": "920425",
+    "security_name": "乐创技术"
+  },
+  "920427": {
+    "apply_date": "2021-01-20",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-02-05",
+    "security_code": "920427",
+    "security_name": "华维设计"
+  },
+  "920429": {
+    "apply_date": "2022-12-02",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-15",
+    "security_code": "920429",
+    "security_name": "康比特"
+  },
+  "920433": {
+    "apply_date": "2020-07-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920433",
+    "security_name": "大唐药业"
+  },
+  "920436": {
+    "apply_date": "2021-10-18",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-11-15",
+    "security_code": "920436",
+    "security_name": "大地电气"
+  },
+  "920438": {
+    "apply_date": "2024-03-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-03-25",
+    "security_code": "920438",
+    "security_name": "戈碧迦"
+  },
+  "920445": {
+    "apply_date": "2020-07-03",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920445",
+    "security_name": "龙竹科技"
+  },
+  "920454": {
+    "apply_date": "2021-10-18",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-11-15",
+    "security_code": "920454",
+    "security_name": "同心传动"
+  },
+  "920455": {
+    "apply_date": "2023-06-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-06-21",
+    "security_code": "920455",
+    "security_name": "汇隆活塞"
+  },
+  "920469": {
+    "apply_date": "2023-09-06",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-09-18",
+    "security_code": "920469",
+    "security_name": "富恒新材"
+  },
+  "920471": {
+    "apply_date": "2023-05-12",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-05-25",
+    "security_code": "920471",
+    "security_name": "美邦科技"
+  },
+  "920475": {
+    "apply_date": "2020-07-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920475",
+    "security_name": "三友科技"
+  },
+  "920476": {
+    "apply_date": "2022-09-26",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-10-14",
+    "security_code": "920476",
+    "security_name": "海能技术"
+  },
+  "920478": {
+    "apply_date": "2023-02-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-02-23",
+    "security_code": "920478",
+    "security_name": "峆一药业"
+  },
+  "920489": {
+    "apply_date": "2020-07-02",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920489",
+    "security_name": "佳先股份"
+  },
+  "920491": {
+    "apply_date": "2022-05-30",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-06-14",
+    "security_code": "920491",
+    "security_name": "奥迪威"
+  },
+  "920493": {
+    "apply_date": "2023-10-20",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-11-01",
+    "security_code": "920493",
+    "security_name": "并行科技"
+  },
+  "920496": {
+    "apply_date": "2024-01-17",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-01-26",
+    "security_code": "920496",
+    "security_name": "许昌智能"
+  },
+  "920504": {
+    "apply_date": "2023-08-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-08-17",
+    "security_code": "920504",
+    "security_name": "博迅生物"
+  },
+  "920505": {
+    "apply_date": "2022-12-09",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-21",
+    "security_code": "920505",
+    "security_name": "九菱科技"
+  },
+  "920508": {
+    "apply_date": "2020-07-10",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920508",
+    "security_name": "殷图网联"
+  },
+  "920509": {
+    "apply_date": "2020-12-24",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-01-11",
+    "security_code": "920509",
+    "security_name": "同惠电子"
+  },
+  "920510": {
+    "apply_date": "2020-12-14",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-12-28",
+    "security_code": "920510",
+    "security_name": "丰光精密"
+  },
+  "920519": {
+    "apply_date": "2023-09-05",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-09-15",
+    "security_code": "920519",
+    "security_name": "万德股份"
+  },
+  "920522": {
+    "apply_date": "2023-11-01",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-11-16",
+    "security_code": "920522",
+    "security_name": "纳科诺尔"
+  },
+  "920523": {
+    "apply_date": "2021-05-21",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-06-03",
+    "security_code": "920523",
+    "security_name": "德瑞锂电"
+  },
+  "920526": {
+    "apply_date": "2022-12-12",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-22",
+    "security_code": "920526",
+    "security_name": "凯华材料"
+  },
+  "920527": {
+    "apply_date": "2022-10-10",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-10-27",
+    "security_code": "920527",
+    "security_name": "夜光明"
+  },
+  "920533": {
+    "apply_date": "2022-05-10",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-05-24",
+    "security_code": "920533",
+    "security_name": "骏创科技"
+  },
+  "920541": {
+    "apply_date": "2023-02-24",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-03-10",
+    "security_code": "920541",
+    "security_name": "铁大科技"
+  },
+  "920547": {
+    "apply_date": "2023-11-30",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-12-12",
+    "security_code": "920547",
+    "security_name": "无锡晶海"
+  },
+  "920553": {
+    "apply_date": "2021-07-21",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-08-06",
+    "security_code": "920553",
+    "security_name": "凯腾精工"
+  },
+  "920556": {
+    "apply_date": "2023-03-06",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-03-17",
+    "security_code": "920556",
+    "security_name": "雅达股份"
+  },
+  "920564": {
+    "apply_date": "2022-05-30",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-06-17",
+    "security_code": "920564",
+    "security_name": "天润科技"
+  },
+  "920566": {
+    "apply_date": "2021-07-30",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-08-13",
+    "security_code": "920566",
+    "security_name": "梓橦宫"
+  },
+  "920570": {
+    "apply_date": "2023-11-15",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-11-23",
+    "security_code": "920570",
+    "security_name": "坤博精工"
+  },
+  "920571": {
+    "apply_date": "2022-12-05",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-15",
+    "security_code": "920571",
+    "security_name": "国航远洋"
+  },
+  "920575": {
+    "apply_date": "2023-03-03",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-03-15",
+    "security_code": "920575",
+    "security_name": "*ST康乐"
+  },
+  "920576": {
+    "apply_date": "2023-06-27",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-07-12",
+    "security_code": "920576",
+    "security_name": "天力复合"
+  },
+  "920578": {
+    "apply_date": "2023-04-25",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-05-12",
+    "security_code": "920578",
+    "security_name": "巨能股份"
+  },
+  "920579": {
+    "apply_date": "2023-11-22",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-11-30",
+    "security_code": "920579",
+    "security_name": "机科股份"
+  },
+  "920580": {
+    "apply_date": "2022-04-25",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-05-13",
+    "security_code": "920580",
+    "security_name": "科创新材"
+  },
+  "920592": {
+    "apply_date": "2023-06-26",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-07-10",
+    "security_code": "920592",
+    "security_name": "华信永道"
+  },
+  "920593": {
+    "apply_date": "2023-03-29",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-04-13",
+    "security_code": "920593",
+    "security_name": "鼎智科技"
+  },
+  "920599": {
+    "apply_date": "2021-01-27",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-02-22",
+    "security_code": "920599",
+    "security_name": "同力股份"
+  },
+  "920608": {
+    "apply_date": "2022-12-06",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-16",
+    "security_code": "920608",
+    "security_name": "丰安股份"
+  },
+  "920627": {
+    "apply_date": "2023-08-30",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-09-07",
+    "security_code": "920627",
+    "security_name": "力王股份"
+  },
+  "920634": {
+    "apply_date": "2022-11-14",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-11-24",
+    "security_code": "920634",
+    "security_name": "新威凌"
+  },
+  "920639": {
+    "apply_date": "2022-06-28",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-07-12",
+    "security_code": "920639",
+    "security_name": "晨光电缆"
+  },
+  "920640": {
+    "apply_date": "2020-07-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920640",
+    "security_name": "富士达"
+  },
+  "920641": {
+    "apply_date": "2022-11-21",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-02",
+    "security_code": "920641",
+    "security_name": "格利尔"
+  },
+  "920642": {
+    "apply_date": "2021-08-02",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-08-16",
+    "security_code": "920642",
+    "security_name": "通易航天"
+  },
+  "920651": {
+    "apply_date": "2023-06-09",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-06-27",
+    "security_code": "920651",
+    "security_name": "天罡股份"
+  },
+  "920656": {
+    "apply_date": "2024-01-24",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-02-02",
+    "security_code": "920656",
+    "security_name": "海昇药业"
+  },
+  "920662": {
+    "apply_date": "2022-11-14",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-11-28",
+    "security_code": "920662",
+    "security_name": "方盛股份"
+  },
+  "920663": {
+    "apply_date": "2023-03-01",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-03-15",
+    "security_code": "920663",
+    "security_name": "明阳科技"
+  },
+  "920665": {
+    "apply_date": "2023-09-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-09-26",
+    "security_code": "920665",
+    "security_name": "科强股份"
+  },
+  "920670": {
+    "apply_date": "2020-11-23",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-12-08",
+    "security_code": "920670",
+    "security_name": "数字人"
+  },
+  "920675": {
+    "apply_date": "2020-12-16",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-12-28",
+    "security_code": "920675",
+    "security_name": "秉扬科技"
+  },
+  "920679": {
+    "apply_date": "2023-10-27",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-11-10",
+    "security_code": "920679",
+    "security_name": "前进科技"
+  },
+  "920680": {
+    "apply_date": "2021-10-11",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-11-15",
+    "security_code": "920680",
+    "security_name": "广道退"
+  },
+  "920682": {
+    "apply_date": "2020-07-02",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920682",
+    "security_name": "球冠电缆"
+  },
+  "920685": {
+    "apply_date": "2022-09-20",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-10-10",
+    "security_code": "920685",
+    "security_name": "新芝生物"
+  },
+  "920689": {
+    "apply_date": "2022-03-07",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-03-21",
+    "security_code": "920689",
+    "security_name": "克莱特"
+  },
+  "920690": {
+    "apply_date": "2023-12-26",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-01-05",
+    "security_code": "920690",
+    "security_name": "捷众科技"
+  },
+  "920693": {
+    "apply_date": "2023-10-11",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-10-27",
+    "security_code": "920693",
+    "security_name": "阿为特"
+  },
+  "920694": {
+    "apply_date": "2023-04-11",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-04-24",
+    "security_code": "920694",
+    "security_name": "中裕科技"
+  },
+  "920699": {
+    "apply_date": "2023-04-21",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-05-09",
+    "security_code": "920699",
+    "security_name": "海达尔"
+  },
+  "920701": {
+    "apply_date": "2023-07-03",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-07-19",
+    "security_code": "920701",
+    "security_name": "豪声电子"
+  },
+  "920703": {
+    "apply_date": "2023-11-24",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-12-05",
+    "security_code": "920703",
+    "security_name": "广厦环能"
+  },
+  "920706": {
+    "apply_date": "2024-02-28",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-03-08",
+    "security_code": "920706",
+    "security_name": "铁拓机械"
+  },
+  "920717": {
+    "apply_date": "2023-06-16",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-07-03",
+    "security_code": "920717",
+    "security_name": "瑞星股份"
+  },
+  "920718": {
+    "apply_date": "2022-12-12",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-22",
+    "security_code": "920718",
+    "security_name": "合肥高科"
+  },
+  "920719": {
+    "apply_date": "2023-05-11",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-05-26",
+    "security_code": "920719",
+    "security_name": "宁新新材"
+  },
+  "920720": {
+    "apply_date": "2021-11-03",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-11-24",
+    "security_code": "920720",
+    "security_name": "吉冈精密"
+  },
+  "920725": {
+    "apply_date": "2022-06-29",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-07-18",
+    "security_code": "920725",
+    "security_name": "惠丰钻石"
+  },
+  "920726": {
+    "apply_date": "2021-05-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-05-27",
+    "security_code": "920726",
+    "security_name": "朱老六"
+  },
+  "920729": {
+    "apply_date": "2020-07-10",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920729",
+    "security_name": "永顺生物"
+  },
+  "920735": {
+    "apply_date": "2021-01-29",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-02-19",
+    "security_code": "920735",
+    "security_name": "德源药业"
+  },
+  "920748": {
+    "apply_date": "2023-08-02",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-08-16",
+    "security_code": "920748",
+    "security_name": "路桥信息"
+  },
+  "920751": {
+    "apply_date": "2023-07-04",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-07-17",
+    "security_code": "920751",
+    "security_name": "惠同新材"
+  },
+  "920753": {
+    "apply_date": "2022-10-11",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-10-31",
+    "security_code": "920753",
+    "security_name": "天纺标"
+  },
+  "920765": {
+    "apply_date": "2021-06-17",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-07-05",
+    "security_code": "920765",
+    "security_name": "美之高"
+  },
+  "920768": {
+    "apply_date": "2021-06-15",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-06-28",
+    "security_code": "920768",
+    "security_name": "拾比佰"
+  },
+  "920770": {
+    "apply_date": "2023-02-15",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-02-28",
+    "security_code": "920770",
+    "security_name": "艾能聚"
+  },
+  "920779": {
+    "apply_date": "2023-05-19",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-06-01",
+    "security_code": "920779",
+    "security_name": "武汉蓝电"
+  },
+  "920781": {
+    "apply_date": "2022-12-14",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-26",
+    "security_code": "920781",
+    "security_name": "瑞奇智造"
+  },
+  "920786": {
+    "apply_date": "2023-09-26",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-10-13",
+    "security_code": "920786",
+    "security_name": "骑士乳业"
+  },
+  "920790": {
+    "apply_date": "2022-08-23",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-09-02",
+    "security_code": "920790",
+    "security_name": "联迪信息"
+  },
+  "920792": {
+    "apply_date": "2023-03-15",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-03-30",
+    "security_code": "920792",
+    "security_name": "东和新材"
+  },
+  "920799": {
+    "apply_date": "2020-07-01",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920799",
+    "security_name": "艾融软件"
+  },
+  "920802": {
+    "apply_date": "2023-01-16",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-02-06",
+    "security_code": "920802",
+    "security_name": "保丽洁"
+  },
+  "920806": {
+    "apply_date": "2024-01-03",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-01-11",
+    "security_code": "920806",
+    "security_name": "云星宇"
+  },
+  "920807": {
+    "apply_date": "2022-12-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-20",
+    "security_code": "920807",
+    "security_name": "奔朗新材"
+  },
+  "920808": {
+    "apply_date": "2022-11-03",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-11-18",
+    "security_code": "920808",
+    "security_name": "曙光数创"
+  },
+  "920809": {
+    "apply_date": "2023-03-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-03-23",
+    "security_code": "920809",
+    "security_name": "安达科技"
+  },
+  "920810": {
+    "apply_date": "2022-12-07",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-16",
+    "security_code": "920810",
+    "security_name": "春光智能"
+  },
+  "920819": {
+    "apply_date": "2020-07-01",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920819",
+    "security_name": "颖泰生物"
+  },
+  "920821": {
+    "apply_date": "2022-06-23",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-07-06",
+    "security_code": "920821",
+    "security_name": "则成电子"
+  },
+  "920826": {
+    "apply_date": "2020-12-28",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-01-12",
+    "security_code": "920826",
+    "security_name": "盖世食品"
+  },
+  "920832": {
+    "apply_date": "2021-02-01",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-02-23",
+    "security_code": "920832",
+    "security_name": "齐鲁华信"
+  },
+  "920833": {
+    "apply_date": "2023-10-30",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-11-08",
+    "security_code": "920833",
+    "security_name": "美心翼申"
+  },
+  "920834": {
+    "apply_date": "2022-08-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-08-22",
+    "security_code": "920834",
+    "security_name": "三维装备"
+  },
+  "920837": {
+    "apply_date": "2023-04-17",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-05-15",
+    "security_code": "920837",
+    "security_name": "华原股份"
+  },
+  "920839": {
+    "apply_date": "2020-10-27",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-11-09",
+    "security_code": "920839",
+    "security_name": "万通液压"
+  },
+  "920855": {
+    "apply_date": "2022-12-19",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-29",
+    "security_code": "920855",
+    "security_name": "浙江大农"
+  },
+  "920856": {
+    "apply_date": "2020-12-15",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-12-25",
+    "security_code": "920856",
+    "security_name": "浩淼科技"
+  },
+  "920857": {
+    "apply_date": "2022-02-15",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-02-28",
+    "security_code": "920857",
+    "security_name": "泓禧科技"
+  },
+  "920866": {
+    "apply_date": "2022-11-29",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-09",
+    "security_code": "920866",
+    "security_name": "绿亨科技"
+  },
+  "920870": {
+    "apply_date": "2022-06-22",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-07-05",
+    "security_code": "920870",
+    "security_name": "恒进感应"
+  },
+  "920871": {
+    "apply_date": "2022-07-04",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-07-22",
+    "security_code": "920871",
+    "security_name": "派特尔"
+  },
+  "920873": {
+    "apply_date": "2021-10-15",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-11-15",
+    "security_code": "920873",
+    "security_name": "中设咨询"
+  },
+  "920876": {
+    "apply_date": "2022-10-27",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-11-09",
+    "security_code": "920876",
+    "security_name": "慧为智能"
+  },
+  "920879": {
+    "apply_date": "2022-12-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-20",
+    "security_code": "920879",
+    "security_name": "基康技术"
+  },
+  "920885": {
+    "apply_date": "2021-06-21",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-07-08",
+    "security_code": "920885",
+    "security_name": "星辰科技"
+  },
+  "920892": {
+    "apply_date": "2021-10-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-10-28",
+    "security_code": "920892",
+    "security_name": "广咨国际"
+  },
+  "920895": {
+    "apply_date": "2023-03-21",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-04-06",
+    "security_code": "920895",
+    "security_name": "花溪科技"
+  },
+  "920896": {
+    "apply_date": "2023-04-04",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-04-19",
+    "security_code": "920896",
+    "security_name": "旺成科技"
+  },
+  "920906": {
+    "apply_date": "2023-02-10",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-02-22",
+    "security_code": "920906",
+    "security_name": "舜宇精工"
+  },
+  "920914": {
+    "apply_date": "2022-10-31",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-11-11",
+    "security_code": "920914",
+    "security_name": "远航精密"
+  },
+  "920924": {
+    "apply_date": "2021-10-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-11-03",
+    "security_code": "920924",
+    "security_name": "广脉科技"
+  },
+  "920925": {
+    "apply_date": "2021-10-08",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-10-25",
+    "security_code": "920925",
+    "security_name": "锦好医疗"
+  },
+  "920926": {
+    "apply_date": "2023-07-21",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-08-08",
+    "security_code": "920926",
+    "security_name": "鸿智科技"
+  },
+  "920931": {
+    "apply_date": "2024-03-27",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2024-04-08",
+    "security_code": "920931",
+    "security_name": "无锡鼎邦"
+  },
+  "920932": {
+    "apply_date": "2021-10-26",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-11-15",
+    "security_code": "920932",
+    "security_name": "科达自控"
+  },
+  "920942": {
+    "apply_date": "2022-11-28",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-08",
+    "security_code": "920942",
+    "security_name": "恒立钻具"
+  },
+  "920943": {
+    "apply_date": "2022-06-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-06-24",
+    "security_code": "920943",
+    "security_name": "优机股份"
+  },
+  "920946": {
+    "apply_date": "2020-07-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920946",
+    "security_name": "森萱医药"
+  },
+  "920950": {
+    "apply_date": "2022-12-27",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-01-11",
+    "security_code": "920950",
+    "security_name": "迅安科技"
+  },
+  "920953": {
+    "apply_date": "2023-08-07",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-08-23",
+    "security_code": "920953",
+    "security_name": "国子软件"
+  },
+  "920957": {
+    "apply_date": "2022-12-02",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-12-14",
+    "security_code": "920957",
+    "security_name": "汉维科技"
+  },
+  "920961": {
+    "apply_date": "2020-07-14",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920961",
+    "security_name": "创远信科"
+  },
+  "920964": {
+    "apply_date": "2020-07-13",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2020-07-27",
+    "security_code": "920964",
+    "security_name": "润农节水"
+  },
+  "920970": {
+    "apply_date": "2022-05-05",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-05-18",
+    "security_code": "920970",
+    "security_name": "大禹生物"
+  },
+  "920971": {
+    "apply_date": "2022-09-16",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-09-27",
+    "security_code": "920971",
+    "security_name": "天马新材"
+  },
+  "920974": {
+    "apply_date": "2023-02-23",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-03-08",
+    "security_code": "920974",
+    "security_name": "凯大催化"
+  },
+  "920976": {
+    "apply_date": "2023-08-14",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-09-01",
+    "security_code": "920976",
+    "security_name": "视声智能"
+  },
+  "920978": {
+    "apply_date": "2023-09-20",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-09-28",
+    "security_code": "920978",
+    "security_name": "开特股份"
+  },
+  "920981": {
+    "apply_date": "2021-10-26",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2021-11-15",
+    "security_code": "920981",
+    "security_name": "晶赛科技"
+  },
+  "920982": {
+    "apply_date": "2023-07-10",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2023-07-20",
+    "security_code": "920982",
+    "security_name": "锦波生物"
+  },
+  "920985": {
+    "apply_date": "2022-07-26",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-08-08",
+    "security_code": "920985",
+    "security_name": "海泰新能"
+  },
+  "920992": {
+    "apply_date": "2022-09-27",
+    "ipo_source_report": "RPT_NEEQ_ISSUEINFO_LIST",
+    "listing_date": "2022-10-18",
+    "security_code": "920992",
+    "security_name": "中科美菱"
+  }
+}
