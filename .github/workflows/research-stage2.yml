@@ -4,9 +4,6 @@ on:
   issues:
     types: [opened]
   workflow_dispatch:
-  workflow_run:
-    workflows: ["Run A-share 2026H1 research stage 1"]
-    types: [completed]
 
 permissions:
   contents: write
@@ -18,10 +15,7 @@ concurrency:
 
 jobs:
   stage2:
-    if: >-
-      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') ||
-      (github.event_name == 'workflow_dispatch') ||
-      (github.event_name == 'issues' && github.event.issue.title == '[research] run stage2')
+    if: github.event_name != 'issues' || github.event.issue.title == '[research] run stage2'
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
