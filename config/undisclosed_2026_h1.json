@@ -1,0 +1,14 @@
+{
+  "as_of": "2026-08-31",
+  "companies": [
+    {
+      "security_code": "002731",
+      "security_name": "*ST萃华",
+      "reason": "Unable to disclose the 2026 semiannual report within the statutory deadline; the performance-source row is not a completed report and is excluded from the 5,550-company disclosed universe.",
+      "sources": [
+        "https://www.stcn.com/article/detail/4166337.html",
+        "https://www.nbd.com.cn/articles/2026-08-30/4566601.html"
+      ]
+    }
+  ]
+}
