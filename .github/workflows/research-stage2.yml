@@ -32,17 +32,20 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --disable-pip-version-check pandas numpy requests tabulate
 
-      - name: Compile research script
-        run: python -m py_compile scripts/research_stage2.py
+      - name: Compile research scripts
+        run: python -m py_compile scripts/research_stage2.py scripts/validate_research_outputs.py
 
       - name: Read top100 announcements, compare peers and select final20
         run: python scripts/research_stage2.py
+
+      - name: Validate stage-two outputs
+        run: python scripts/validate_research_outputs.py --stage 2
 
       - name: Commit stage-two results
         run: |
           git config user.name "a-share-research-bot"
           git config user.email "a-share-research-bot@users.noreply.github.com"
-          git add data/2026H1/research meta/research_stage2_summary.json
+          git add data/2026H1/research meta/research_stage2_summary.json meta/research_validation_stage_2.json
           if git diff --cached --quiet; then
             echo "No research changes to commit."
           else
