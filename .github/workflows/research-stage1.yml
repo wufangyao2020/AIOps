@@ -17,7 +17,7 @@ jobs:
   stage1:
     if: github.event_name != 'issues' || github.event.issue.title == '[research] run stage1'
     runs-on: ubuntu-latest
-    timeout-minutes: 75
+    timeout-minutes: 90
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -33,10 +33,32 @@ jobs:
         run: python -m pip install --disable-pip-version-check pandas numpy requests tabulate
 
       - name: Compile research scripts
-        run: python -m py_compile scripts/research_stage1.py scripts/research_stage1_v2.py scripts/validate_research_outputs.py
+        run: python -m py_compile scripts/research_stage1.py scripts/research_stage1_v2.py scripts/research_stage1_v3.py scripts/validate_research_outputs.py
 
-      - name: Run hardened full-universe four-model scoring
-        run: python scripts/research_stage1_v2.py
+      - name: Run resilient full-universe four-model scoring
+        id: scoring
+        continue-on-error: true
+        run: python scripts/research_stage1_v3.py
+
+      - name: Persist slow public-input caches even after a downstream failure
+        if: always()
+        run: |
+          git config user.name "a-share-research-bot"
+          git config user.email "a-share-research-bot@users.noreply.github.com"
+          git add data/2026H1/research/raw || true
+          if git diff --cached --quiet; then
+            echo "No new input cache files."
+          else
+            git commit -m "data: cache stage-one public research inputs"
+            for attempt in 1 2 3 4; do
+              git pull --rebase origin main && git push && break
+              sleep $((attempt * 3))
+            done
+          fi
+
+      - name: Fail after preserving caches when scoring failed
+        if: steps.scoring.outcome != 'success'
+        run: exit 1
 
       - name: Validate stage-one outputs
         run: python scripts/validate_research_outputs.py --stage 1
