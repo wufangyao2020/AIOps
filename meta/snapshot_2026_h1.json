@@ -36,7 +36,7 @@
     "peer_comparison_completed": false,
     "raw_universe_archived": true
   },
-  "snapshot_created_at_utc": "2026-09-01T15:34:02+00:00",
+  "snapshot_created_at_utc": "2026-09-01T15:37:15+00:00",
   "source_endpoint": "https://datacenter-web.eastmoney.com/api/data/v1/get",
   "source_filter": "(REPORTDATE='2026-06-30')",
   "source_page": "https://data.eastmoney.com/bbsj/202606/yjbb.html",
