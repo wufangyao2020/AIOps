@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the generated A-share archive before committing it."""
+"""Validate both the source-current universe and exact Aug 31 reference archive."""
 from __future__ import annotations
 
 import csv
@@ -9,10 +9,11 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MASTER = ROOT / "data" / "2026H1" / "a_share_2026_h1_master.csv"
+REFERENCE = ROOT / "data" / "2026H1" / "a_share_2026_h1_disclosed_through_2026-08-31.csv"
+SOURCE_CURRENT = ROOT / "data" / "2026H1" / "a_share_2026_h1_source_current.csv"
+POST_CUTOFF = ROOT / "meta" / "post_cutoff_records_2026-09-01.csv"
 SUMMARY = ROOT / "meta" / "snapshot_2026_h1.json"
-MIN_ACCEPTABLE_ROWS = 5500
-MAX_ACCEPTABLE_ROWS = 5600
+EXPECTED_REFERENCE_COUNT = 5550
 ALLOWED_SECURITY_TYPES = {"058001001", "058001008"}
 ALLOWED_MARKETS = {
     "069001001001", "069001001003", "069001001006",
@@ -21,54 +22,69 @@ ALLOWED_MARKETS = {
 }
 
 
+def read_rows(path: Path) -> list[dict[str, str]]:
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        return list(csv.DictReader(handle))
+
+
 def main() -> int:
-    if not MASTER.exists() or not SUMMARY.exists():
-        print("Missing archive outputs", file=sys.stderr)
+    required = (REFERENCE, SOURCE_CURRENT, POST_CUTOFF, SUMMARY)
+    missing = [str(path.relative_to(ROOT)) for path in required if not path.exists()]
+    if missing:
+        print(json.dumps({"missing_files": missing}, ensure_ascii=False, indent=2), file=sys.stderr)
         return 1
 
-    with MASTER.open("r", encoding="utf-8-sig", newline="") as handle:
-        rows = list(csv.DictReader(handle))
+    reference_rows = read_rows(REFERENCE)
+    source_rows = read_rows(SOURCE_CURRENT)
+    post_cutoff_rows = read_rows(POST_CUTOFF)
     summary = json.loads(SUMMARY.read_text(encoding="utf-8"))
 
-    codes = [row["security_code"] for row in rows]
-    duplicates = [code for code, count in Counter(codes).items() if count > 1]
-    invalid_security_types = [
-        row for row in rows if row.get("security_type_code") not in ALLOWED_SECURITY_TYPES
-    ]
-    invalid_markets = [
-        row for row in rows if row.get("trade_market_code") not in ALLOWED_MARKETS
-    ]
+    codes = [row["security_code"] for row in reference_rows]
+    duplicate_codes = [code for code, count in Counter(codes).items() if count > 1]
+    invalid_security_types = [row for row in reference_rows if row.get("security_type_code") not in ALLOWED_SECURITY_TYPES]
+    invalid_markets = [row for row in reference_rows if row.get("trade_market_code") not in ALLOWED_MARKETS]
     third_board_rows = [
-        row for row in rows
+        row for row in reference_rows
         if "三板" in (row.get("security_type") or "")
         or "三板" in (row.get("trade_market") or "")
     ]
+    after_cutoff_rows = [
+        row for row in reference_rows if not row.get("announcement_date") or row["announcement_date"] > "2026-08-31"
+    ]
+    invalid_post_cutoff = [
+        row for row in post_cutoff_rows if row.get("announcement_date") and row["announcement_date"] <= "2026-08-31"
+    ]
 
     checks = {
-        "row_count": len(rows),
-        "summary_row_count": summary.get("archived_unique_a_share_or_cdr_count"),
-        "row_count_in_expected_band": MIN_ACCEPTABLE_ROWS <= len(rows) <= MAX_ACCEPTABLE_ROWS,
-        "row_count_matches_summary": len(rows) == summary.get("archived_unique_a_share_or_cdr_count"),
-        "public_reference_count": summary.get("public_reference_disclosed_count"),
-        "public_reference_gap": summary.get("reference_count_gap"),
-        "duplicate_code_count": len(duplicates),
+        "reference_row_count": len(reference_rows),
+        "reference_count_exact_5550": len(reference_rows) == EXPECTED_REFERENCE_COUNT,
+        "source_current_row_count": len(source_rows),
+        "post_cutoff_row_count": len(post_cutoff_rows),
+        "source_partition_identity": len(reference_rows) + len(post_cutoff_rows) == len(source_rows),
+        "summary_reference_count": summary.get("archived_reference_universe_count"),
+        "summary_count_matches_file": len(reference_rows) == summary.get("archived_reference_universe_count"),
+        "duplicate_code_count": len(duplicate_codes),
         "invalid_security_type_count": len(invalid_security_types),
         "invalid_market_count": len(invalid_markets),
         "third_board_row_count": len(third_board_rows),
-        "unknown_exchange_count": sum(row.get("exchange") == "UNKNOWN" for row in rows),
-        "missing_name_count": sum(not row.get("security_name") for row in rows),
-        "missing_announcement_date_count": sum(not row.get("announcement_date") for row in rows),
+        "after_cutoff_in_reference_count": len(after_cutoff_rows),
+        "pre_cutoff_in_post_cutoff_count": len(invalid_post_cutoff),
+        "unknown_exchange_count": sum(row.get("exchange") == "UNKNOWN" for row in reference_rows),
+        "missing_name_count": sum(not row.get("security_name") for row in reference_rows),
         "invalid_code_count": sum(len(code) != 6 or not code.isdigit() for code in codes),
     }
     print(json.dumps(checks, ensure_ascii=False, indent=2))
 
     hard_fail = (
-        not checks["row_count_in_expected_band"]
-        or not checks["row_count_matches_summary"]
+        not checks["reference_count_exact_5550"]
+        or not checks["source_partition_identity"]
+        or not checks["summary_count_matches_file"]
         or checks["duplicate_code_count"] > 0
         or checks["invalid_security_type_count"] > 0
         or checks["invalid_market_count"] > 0
         or checks["third_board_row_count"] > 0
+        or checks["after_cutoff_in_reference_count"] > 0
+        or checks["pre_cutoff_in_post_cutoff_count"] > 0
         or checks["unknown_exchange_count"] > 0
         or checks["missing_name_count"] > 0
         or checks["invalid_code_count"] > 0
