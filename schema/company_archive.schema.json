@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "A-share 2026 H1 Company Archive Record",
+  "type": "object",
+  "required": [
+    "security_code",
+    "security_name",
+    "exchange",
+    "board",
+    "report_period",
+    "announcement_date",
+    "research_stage"
+  ],
+  "properties": {
+    "security_code": {"type": "string", "pattern": "^[0-9]{6}$"},
+    "security_name": {"type": "string", "minLength": 1},
+    "exchange": {"enum": ["SSE", "SZSE", "BSE", "UNKNOWN"]},
+    "board": {"type": "string"},
+    "industry": {"type": "string"},
+    "report_period": {"const": "2026H1"},
+    "announcement_date": {"type": "string"},
+    "research_stage": {"type": "string"},
+    "data_quality_flag": {"type": "string"}
+  },
+  "additionalProperties": true
+}
