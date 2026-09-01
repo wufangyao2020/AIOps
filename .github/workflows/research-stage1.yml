@@ -11,7 +11,7 @@ permissions:
 
 concurrency:
   group: a-share-research-stage1
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   stage1:
