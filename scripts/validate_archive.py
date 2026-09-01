@@ -13,14 +13,15 @@ REFERENCE = ROOT / "data" / "2026H1" / "a_share_2026_h1_5550_master.csv"
 SOURCE_CURRENT = ROOT / "data" / "2026H1" / "a_share_2026_h1_source_current.csv"
 POST_CUTOFF = ROOT / "meta" / "post_cutoff_records_2026-09-01.csv"
 PRELISTING = ROOT / "meta" / "excluded_not_listed_by_2026-08-31.csv"
-UNDISCLOSED = ROOT / "meta" / "excluded_listed_but_undisclosed_2026_h1.csv"
+CDR_AUDIT = ROOT / "meta" / "excluded_cdr_from_pure_a_share_universe.csv"
 SUMMARY = ROOT / "meta" / "snapshot_2026_h1.json"
 EXPECTED_REFERENCE_COUNT = 5550
 EXPECTED_SOURCE_COUNT = 5566
 EXPECTED_POST_CUTOFF_COUNT = 1
 EXPECTED_PRELISTING_COUNT = 14
-EXPECTED_UNDISCLOSED_COUNT = 1
-ALLOWED_SECURITY_TYPES = {"058001001", "058001008"}
+EXPECTED_CDR_COUNT = 1
+A_SHARE_TYPE_CODE = "058001001"
+CDR_TYPE_CODE = "058001008"
 ALLOWED_MARKETS = {
     "069001001001", "069001001003", "069001001006",
     "069001002001", "069001002002", "069001002005",
@@ -34,7 +35,7 @@ def read_rows(path: Path) -> list[dict[str, str]]:
 
 
 def main() -> int:
-    required = (REFERENCE, SOURCE_CURRENT, POST_CUTOFF, PRELISTING, UNDISCLOSED, SUMMARY)
+    required = (REFERENCE, SOURCE_CURRENT, POST_CUTOFF, PRELISTING, CDR_AUDIT, SUMMARY)
     missing = [str(path.relative_to(ROOT)) for path in required if not path.exists()]
     if missing:
         print(json.dumps({"missing_files": missing}, ensure_ascii=False, indent=2), file=sys.stderr)
@@ -44,7 +45,7 @@ def main() -> int:
     source_rows = read_rows(SOURCE_CURRENT)
     post_cutoff_rows = read_rows(POST_CUTOFF)
     prelisting_rows = read_rows(PRELISTING)
-    undisclosed_rows = read_rows(UNDISCLOSED)
+    cdr_rows = read_rows(CDR_AUDIT)
     summary = json.loads(SUMMARY.read_text(encoding="utf-8"))
 
     reference_codes = [row["security_code"] for row in reference_rows]
@@ -52,12 +53,12 @@ def main() -> int:
     reference_set = set(reference_codes)
     post_set = {row["security_code"] for row in post_cutoff_rows}
     prelisting_set = {row["security_code"] for row in prelisting_rows}
-    undisclosed_set = {row["security_code"] for row in undisclosed_rows}
+    cdr_set = {row["security_code"] for row in cdr_rows}
 
     duplicate_codes = [code for code, count in Counter(reference_codes).items() if count > 1]
     invalid_security_types = [
         row for row in reference_rows
-        if row.get("security_type_code") not in ALLOWED_SECURITY_TYPES
+        if row.get("security_type_code") != A_SHARE_TYPE_CODE
     ]
     invalid_markets = [
         row for row in reference_rows
@@ -80,8 +81,12 @@ def main() -> int:
         row for row in prelisting_rows
         if row.get("ipo_listing_date") and row["ipo_listing_date"] <= "2026-08-31"
     ]
+    invalid_cdr_rows = [
+        row for row in cdr_rows
+        if row.get("security_type_code") != CDR_TYPE_CODE
+    ]
 
-    all_sets = [reference_set, post_set, prelisting_set, undisclosed_set]
+    all_sets = [reference_set, post_set, prelisting_set, cdr_set]
     overlap_count = 0
     for left_index, left in enumerate(all_sets):
         for right in all_sets[left_index + 1:]:
@@ -97,9 +102,9 @@ def main() -> int:
         "post_cutoff_count_exact_1": len(post_cutoff_rows) == EXPECTED_POST_CUTOFF_COUNT,
         "prelisting_row_count": len(prelisting_rows),
         "prelisting_count_exact_14": len(prelisting_rows) == EXPECTED_PRELISTING_COUNT,
-        "undisclosed_row_count": len(undisclosed_rows),
-        "undisclosed_count_exact_1": len(undisclosed_rows) == EXPECTED_UNDISCLOSED_COUNT,
-        "undisclosed_code_is_002731": undisclosed_set == {"002731"},
+        "cdr_row_count": len(cdr_rows),
+        "cdr_count_exact_1": len(cdr_rows) == EXPECTED_CDR_COUNT,
+        "cdr_security_type_valid": len(invalid_cdr_rows) == 0,
         "partition_union_matches_source": partition_union == set(source_codes),
         "partition_overlap_count": overlap_count,
         "summary_reference_count": summary.get("archived_reference_universe_count"),
@@ -122,8 +127,8 @@ def main() -> int:
         or not checks["source_count_exact_5566"]
         or not checks["post_cutoff_count_exact_1"]
         or not checks["prelisting_count_exact_14"]
-        or not checks["undisclosed_count_exact_1"]
-        or not checks["undisclosed_code_is_002731"]
+        or not checks["cdr_count_exact_1"]
+        or not checks["cdr_security_type_valid"]
         or not checks["partition_union_matches_source"]
         or checks["partition_overlap_count"] > 0
         or not checks["summary_count_matches_file"]
