@@ -36,6 +36,9 @@ jobs:
       - name: Fetch and normalize the A-share universe
         run: python scripts/fetch_archive.py
 
+      - name: Derive the Aug 31 reference universe
+        run: python scripts/finalize_reference.py
+
       - name: Profile source dimensions
         run: python scripts/diagnose_universe.py
 
