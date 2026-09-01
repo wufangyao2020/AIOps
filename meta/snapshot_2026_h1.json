@@ -1,32 +1,38 @@
 {
-  "archived_unique_company_count": 11367,
-  "board_counts": {
-    "Beijing Stock Exchange": 6145,
-    "ChiNext": 1407,
-    "Main Board": 3196,
-    "STAR Market": 618,
-    "Unknown": 1
-  },
-  "count_matches_public_report": false,
+  "announcement_date_max": "2026-09-01",
+  "announcement_date_min": "2026-07-16",
+  "archived_unique_a_share_or_cdr_count": 5566,
   "data_quality_counts": {
-    "missing_core_1": 56,
-    "ok": 11311
+    "missing_core_1": 1,
+    "ok": 5565
   },
   "dataset": "A-share 2026 H1 company universe",
-  "exchange_counts": {
-    "BSE": 6145,
-    "SSE": 2320,
-    "SZSE": 2901,
-    "UNKNOWN": 1
+  "excluded_non_a_share_row_count": 5880,
+  "included_board_counts": {
+    "Beijing Stock Exchange": 344,
+    "ChiNext": 1364,
+    "Main Board": 3054,
+    "Risk Warning Board": 186,
+    "STAR Market": 618
   },
-  "industry_count": 1,
+  "included_exchange_counts": {
+    "BSE": 344,
+    "SSE": 2320,
+    "SZSE": 2902
+  },
+  "included_security_type_counts": {
+    "A股": 5565,
+    "中国存托凭证": 1
+  },
   "notes": [
-    "This snapshot archives the full public 2026 H1 A-share performance table before model scoring.",
-    "Eastmoney is a public aggregator; official exchange filings remain the legal source of record.",
-    "No company receives a score boost from prior conversation frequency or familiarity."
+    "Third Board securities are explicitly excluded by source security and market codes.",
+    "The source-derived count is retained even if it differs from the media-reported 5550 reference; rows are never arbitrarily deleted to force a match.",
+    "Official exchange filings remain the legal source of record.",
+    "Prior conversation frequency never affects candidate generation or scoring."
   ],
-  "publicly_reported_universe_count": 5550,
-  "raw_api_row_count": 11446,
+  "public_reference_disclosed_count": 5550,
+  "reference_count_gap": 16,
+  "reference_count_matches": false,
   "report_date": "2026-06-30",
   "report_period": "2026H1",
   "research_state": {
@@ -36,14 +42,26 @@
     "peer_comparison_completed": false,
     "raw_universe_archived": true
   },
-  "snapshot_created_at_utc": "2026-09-01T15:37:15+00:00",
+  "snapshot_created_at_utc": "2026-09-01T15:42:51+00:00",
   "source_endpoint": "https://datacenter-web.eastmoney.com/api/data/v1/get",
-  "source_filter": "(REPORTDATE='2026-06-30')",
   "source_page": "https://data.eastmoney.com/bbsj/202606/yjbb.html",
-  "top_industries_by_company_count": [
-    [
-      "UNKNOWN",
-      11367
-    ]
-  ]
+  "source_report_name": "RPT_LICO_FN_CPD",
+  "source_security_type_counts": {
+    "A股": 5565,
+    "B股": 79,
+    "三板股": 5801,
+    "中国存托凭证": 1
+  },
+  "source_total_row_count": 11446,
+  "source_trade_market_counts": {
+    "上交所主板": 1673,
+    "上交所科创板": 618,
+    "上交所风险警示板": 70,
+    "北京证券交易所": 344,
+    "新三板": 5640,
+    "深交所主板": 1456,
+    "深交所创业板": 1364,
+    "深交所风险警示板": 120,
+    "老三板": 161
+  }
 }
