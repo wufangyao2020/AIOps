@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "as_of": "2026-09-01",
+  "candidate_generation_policy": "blind_universe_first",
+  "context_frequency_boost": false,
+  "models": {
+    "fundamental_acceleration": {
+      "status": "not_run",
+      "purpose": "Find accelerating core operations with improving margins and cash conversion."
+    },
+    "new_profit_pool": {
+      "status": "not_run",
+      "purpose": "Find new businesses that are beginning to change consolidated revenue and profit structure."
+    },
+    "cyclical_turn": {
+      "status": "not_run",
+      "purpose": "Find supply-demand and spread inflections while controlling for peak-profit low-PE traps."
+    },
+    "capital_event": {
+      "status": "not_run",
+      "purpose": "Find control changes, M&A, divestitures, buyback cancellation and other structure-changing events."
+    }
+  },
+  "final_selection": {
+    "target_count": 20,
+    "status": "not_started",
+    "required_manual_review_pool": 100
+  }
+}
