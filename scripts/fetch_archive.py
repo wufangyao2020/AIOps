@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Build the 2026 H1 A-share company archive from Eastmoney's public data API.
 
-The script performs a blind universe pull before any research scoring. It writes
-one normalized master CSV, a raw JSONL snapshot, exchange splits, metadata, and
-an all-company research-status table.
+The source report also contains New Third Board and Old Third Board securities.
+This script therefore pulls the source table first and then applies an explicit,
+auditable A-share/CDR filter based on SECURITY_TYPE_CODE and TRADE_MARKET_CODE.
+No company is selected or scored at this stage.
 """
 from __future__ import annotations
 
@@ -23,7 +24,7 @@ from urllib.request import Request, urlopen
 
 REPORT_DATE = "2026-06-30"
 REPORT_PERIOD = "2026H1"
-EXPECTED_PUBLIC_COUNT = 5550
+REFERENCE_DISCLOSED_COUNT = 5550
 PAGE_SIZE = 500
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data" / REPORT_PERIOD
@@ -35,27 +36,38 @@ ENDPOINTS = [
     "https://datacenter-web.eastmoney.com/api/data/v1/get",
     "https://datacenter.eastmoney.com/securities/api/data/v1/get",
 ]
-A_SHARE_TYPES = {"058001001", "058001008"}
+
+# Eastmoney source codes observed in the 2026 H1 table.
+A_SHARE_TYPES = {"058001001", "058001008"}  # A股 + 中国存托凭证
+ALLOWED_MARKETS = {
+    "069001001001": ("SSE", "Main Board"),
+    "069001001003": ("SSE", "Risk Warning Board"),
+    "069001001006": ("SSE", "STAR Market"),
+    "069001002001": ("SZSE", "Main Board"),
+    "069001002002": ("SZSE", "ChiNext"),
+    "069001002005": ("SZSE", "Risk Warning Board"),
+    "069001017": ("BSE", "Beijing Stock Exchange"),
+}
 
 NORMALIZED_COLUMNS = [
-    "security_code", "security_name", "exchange", "board", "industry",
-    "report_period", "report_date", "announcement_date", "update_date",
-    "basic_eps", "book_value_per_share", "revenue_cny", "revenue_yoy_pct",
-    "revenue_qoq_pct", "parent_net_profit_cny",
-    "parent_net_profit_yoy_pct", "parent_net_profit_qoq_pct",
-    "weighted_roe_pct", "operating_cash_flow_per_share", "gross_margin_pct",
+    "security_code", "security_name", "secucode", "org_code",
+    "security_type_code", "security_type", "trade_market_code", "trade_market",
+    "exchange", "board", "industry", "report_period", "report_date",
+    "announcement_date", "update_date", "basic_eps", "book_value_per_share",
+    "revenue_cny", "revenue_yoy_pct", "revenue_qoq_pct",
+    "parent_net_profit_cny", "parent_net_profit_yoy_pct",
+    "parent_net_profit_qoq_pct", "weighted_roe_pct",
+    "operating_cash_flow_per_share", "gross_margin_pct",
     "profit_distribution_description", "disclosure_status", "source_name",
     "source_page_url", "source_api_report", "research_stage",
     "fundamental_acceleration_status", "new_profit_pool_status",
     "cyclical_turn_status", "capital_event_status",
-    "announcement_review_status", "peer_comparison_status",
-    "data_quality_flag",
+    "announcement_review_status", "peer_comparison_status", "data_quality_flag",
 ]
 
 
 def _request_json(url: str, params: dict[str, str], attempts: int = 5) -> dict[str, Any]:
-    query = urlencode(params, safe="(),'=\"")
-    full_url = f"{url}?{query}"
+    full_url = f"{url}?{urlencode(params, safe=\"(),'=\\\"\")}" 
     headers = {
         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36",
         "Accept": "application/json,text/plain,*/*",
@@ -64,9 +76,9 @@ def _request_json(url: str, params: dict[str, str], attempts: int = 5) -> dict[s
     last_error: Exception | None = None
     for attempt in range(1, attempts + 1):
         try:
-            req = Request(full_url, headers=headers)
-            with urlopen(req, timeout=45) as resp:
-                payload = resp.read().decode("utf-8")
+            request = Request(full_url, headers=headers)
+            with urlopen(request, timeout=45) as response:
+                payload = response.read().decode("utf-8")
             data = json.loads(payload)
             if not data.get("success", False) and data.get("result") is None:
                 raise RuntimeError(f"API returned failure: {data.get('message') or data.get('msg')}")
@@ -79,37 +91,32 @@ def _request_json(url: str, params: dict[str, str], attempts: int = 5) -> dict[s
     raise RuntimeError(f"Failed fetching {full_url}: {last_error}")
 
 
-def fetch_rows() -> tuple[list[dict[str, Any]], str, str]:
-    filters = [
-        f"(REPORTDATE='{REPORT_DATE}')(SECURITY_TYPE_CODE in (\"058001001\",\"058001008\"))",
-        f"(REPORTDATE='{REPORT_DATE}')",
-    ]
+def fetch_rows() -> tuple[list[dict[str, Any]], str]:
     errors: list[str] = []
     for endpoint in ENDPOINTS:
-        for filter_expr in filters:
-            try:
-                base_params = {
-                    "sortColumns": "UPDATE_DATE,SECURITY_CODE",
-                    "sortTypes": "-1,-1",
-                    "pageSize": str(PAGE_SIZE),
-                    "reportName": "RPT_LICO_FN_CPD",
-                    "columns": "ALL",
-                    "source": "WEB",
-                    "client": "WEB",
-                    "filter": filter_expr,
-                }
-                first = _request_json(endpoint, {**base_params, "pageNumber": "1"})
-                result = first.get("result") or {}
-                pages = int(result.get("pages") or 1)
-                rows: list[dict[str, Any]] = list(result.get("data") or [])
-                for page in range(2, pages + 1):
-                    payload = _request_json(endpoint, {**base_params, "pageNumber": str(page)})
-                    rows.extend((payload.get("result") or {}).get("data") or [])
-                if rows:
-                    return rows, endpoint, filter_expr
-            except Exception as exc:  # noqa: BLE001
-                errors.append(f"{endpoint} | {filter_expr} | {exc}")
-    raise RuntimeError("All endpoint/filter combinations failed:\n" + "\n".join(errors))
+        try:
+            base_params = {
+                "sortColumns": "UPDATE_DATE,SECURITY_CODE",
+                "sortTypes": "-1,-1",
+                "pageSize": str(PAGE_SIZE),
+                "reportName": "RPT_LICO_FN_CPD",
+                "columns": "ALL",
+                "source": "WEB",
+                "client": "WEB",
+                "filter": f"(REPORTDATE='{REPORT_DATE}')",
+            }
+            first = _request_json(endpoint, {**base_params, "pageNumber": "1"})
+            result = first.get("result") or {}
+            pages = int(result.get("pages") or 1)
+            rows: list[dict[str, Any]] = list(result.get("data") or [])
+            for page in range(2, pages + 1):
+                payload = _request_json(endpoint, {**base_params, "pageNumber": str(page)})
+                rows.extend((payload.get("result") or {}).get("data") or [])
+            if rows:
+                return rows, endpoint
+        except Exception as exc:  # noqa: BLE001
+            errors.append(f"{endpoint} | {exc}")
+    raise RuntimeError("All Eastmoney endpoints failed:\n" + "\n".join(errors))
 
 
 def _text(value: Any) -> str:
@@ -131,47 +138,22 @@ def _date(value: Any) -> str:
     return text[:10] if len(text) >= 10 else text
 
 
-def classify_market(code: str, row: dict[str, Any]) -> tuple[str, str]:
-    market = _text(row.get("TRADE_MARKET")) or _text(row.get("TRADE_MARKET_CODE"))
-    if code.startswith(("688", "689")):
-        return "SSE", "STAR Market"
-    if code.startswith(("600", "601", "603", "605")):
-        return "SSE", "Main Board"
-    if code.startswith(("300", "301")):
-        return "SZSE", "ChiNext"
-    if code.startswith(("000", "001", "002", "003")):
-        return "SZSE", "Main Board"
-    if code.startswith(("4", "8", "9")) and not code.startswith("900"):
-        return "BSE", "Beijing Stock Exchange"
-    if "上海" in market:
-        return "SSE", "Unknown"
-    if "深圳" in market:
-        return "SZSE", "Unknown"
-    if "北京" in market or "北交" in market:
-        return "BSE", "Beijing Stock Exchange"
-    return "UNKNOWN", "Unknown"
-
-
-def looks_like_a_share(row: dict[str, Any]) -> bool:
+def is_a_share_record(row: dict[str, Any]) -> bool:
+    security_type_code = _text(row.get("SECURITY_TYPE_CODE"))
+    trade_market_code = _text(row.get("TRADE_MARKET_CODE"))
     code = _text(row.get("SECURITY_CODE"))
-    name = _text(row.get("SECURITY_NAME_ABBR"))
-    sec_type = _text(row.get("SECURITY_TYPE_CODE"))
-    if len(code) != 6 or not code.isdigit():
-        return False
-    if code.startswith(("200", "201", "900")) or name.endswith("B"):
-        return False
-    if sec_type and sec_type in A_SHARE_TYPES:
-        return True
-    return code.startswith((
-        "000", "001", "002", "003", "300", "301", "600", "601",
-        "603", "605", "688", "689", "4", "8", "92",
-    ))
+    return (
+        security_type_code in A_SHARE_TYPES
+        and trade_market_code in ALLOWED_MARKETS
+        and len(code) == 6
+        and code.isdigit()
+    )
 
 
 def deduplicate(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     by_code: dict[str, dict[str, Any]] = {}
     for row in rows:
-        if not looks_like_a_share(row):
+        if not is_a_share_record(row):
             continue
         code = _text(row.get("SECURITY_CODE"))
         existing = by_code.get(code)
@@ -186,14 +168,20 @@ def deduplicate(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def normalize(row: dict[str, Any]) -> dict[str, Any]:
-    code = _text(row.get("SECURITY_CODE"))
-    exchange, board = classify_market(code, row)
+    market_code = _text(row.get("TRADE_MARKET_CODE"))
+    exchange, board = ALLOWED_MARKETS[market_code]
     core_values = [row.get("TOTAL_OPERATE_INCOME"), row.get("PARENT_NETPROFIT"), row.get("NOTICE_DATE")]
     missing_core = sum(value in (None, "") for value in core_values)
     quality = "ok" if missing_core == 0 else f"missing_core_{missing_core}"
     return {
-        "security_code": code,
+        "security_code": _text(row.get("SECURITY_CODE")),
         "security_name": _text(row.get("SECURITY_NAME_ABBR")),
+        "secucode": _text(row.get("SECUCODE")),
+        "org_code": _text(row.get("ORG_CODE")),
+        "security_type_code": _text(row.get("SECURITY_TYPE_CODE")),
+        "security_type": _text(row.get("SECURITY_TYPE")),
+        "trade_market_code": market_code,
+        "trade_market": _text(row.get("TRADE_MARKET")),
         "exchange": exchange,
         "board": board,
         "industry": _text(row.get("INDUSTRY_NAME")),
@@ -255,18 +243,20 @@ def main() -> int:
     for directory in (DATA_DIR, CURRENT_DIR, META_DIR, STATUS_DIR):
         directory.mkdir(parents=True, exist_ok=True)
 
-    raw_rows, endpoint, filter_expr = fetch_rows()
-    rows = deduplicate(raw_rows)
-    records = [normalize(row) for row in rows]
+    all_source_rows, endpoint = fetch_rows()
+    selected_rows = deduplicate(all_source_rows)
+    records = [normalize(row) for row in selected_rows]
 
     master_csv = DATA_DIR / "a_share_2026_h1_master.csv"
     normalized_jsonl = DATA_DIR / "a_share_2026_h1_master.jsonl"
     raw_jsonl = DATA_DIR / "a_share_2026_h1_raw.jsonl"
+    excluded_jsonl = DATA_DIR / "excluded_non_a_share_rows.jsonl"
     status_csv = STATUS_DIR / "research_status_2026_h1.csv"
 
     write_csv(master_csv, records)
     write_jsonl(normalized_jsonl, records)
-    write_jsonl(raw_jsonl, rows)
+    write_jsonl(raw_jsonl, selected_rows)
+    write_jsonl(excluded_jsonl, [row for row in all_source_rows if not is_a_share_record(row)])
 
     status_columns = [
         "security_code", "security_name", "exchange", "board", "industry",
@@ -285,12 +275,13 @@ def main() -> int:
     shutil.copy2(master_csv, CURRENT_DIR / "a_share_master.csv")
     shutil.copy2(status_csv, CURRENT_DIR / "research_status.csv")
 
-    board_counts = Counter(str(item["board"]) for item in records)
-    exchange_counts = Counter(str(item["exchange"]) for item in records)
-    industry_counts = Counter(str(item["industry"] or "UNKNOWN") for item in records)
+    security_type_counts = Counter(_text(row.get("SECURITY_TYPE")) or "UNKNOWN" for row in all_source_rows)
+    trade_market_counts = Counter(_text(row.get("TRADE_MARKET")) or "UNKNOWN" for row in all_source_rows)
+    announcement_counts = Counter(str(item["announcement_date"]) for item in records)
     quality_counts = Counter(str(item["data_quality_flag"]) for item in records)
+    exchange_counts = Counter(str(item["exchange"]) for item in records)
+    board_counts = Counter(str(item["board"]) for item in records)
     snapshot_time = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
-    count_matches = len(records) == EXPECTED_PUBLIC_COUNT
 
     summary = {
         "dataset": "A-share 2026 H1 company universe",
@@ -298,36 +289,43 @@ def main() -> int:
         "report_date": REPORT_DATE,
         "snapshot_created_at_utc": snapshot_time,
         "source_endpoint": endpoint,
-        "source_filter": filter_expr,
         "source_page": "https://data.eastmoney.com/bbsj/202606/yjbb.html",
-        "publicly_reported_universe_count": EXPECTED_PUBLIC_COUNT,
-        "archived_unique_company_count": len(records),
-        "count_matches_public_report": count_matches,
-        "raw_api_row_count": len(raw_rows),
-        "exchange_counts": dict(sorted(exchange_counts.items())),
-        "board_counts": dict(sorted(board_counts.items())),
-        "industry_count": len(industry_counts),
-        "top_industries_by_company_count": industry_counts.most_common(30),
+        "source_report_name": "RPT_LICO_FN_CPD",
+        "source_total_row_count": len(all_source_rows),
+        "excluded_non_a_share_row_count": len(all_source_rows) - len(selected_rows),
+        "archived_unique_a_share_or_cdr_count": len(records),
+        "public_reference_disclosed_count": REFERENCE_DISCLOSED_COUNT,
+        "reference_count_gap": len(records) - REFERENCE_DISCLOSED_COUNT,
+        "reference_count_matches": len(records) == REFERENCE_DISCLOSED_COUNT,
+        "included_security_type_counts": dict(Counter(str(item["security_type"]) for item in records)),
+        "included_exchange_counts": dict(sorted(exchange_counts.items())),
+        "included_board_counts": dict(sorted(board_counts.items())),
+        "source_security_type_counts": dict(security_type_counts),
+        "source_trade_market_counts": dict(trade_market_counts),
+        "announcement_date_min": min(announcement_counts) if announcement_counts else "",
+        "announcement_date_max": max(announcement_counts) if announcement_counts else "",
+        "announcement_date_counts": dict(sorted(announcement_counts.items())),
         "data_quality_counts": dict(sorted(quality_counts.items())),
         "research_state": {
             "raw_universe_archived": True,
             "four_model_scoring_completed": False,
             "announcement_review_completed": False,
             "peer_comparison_completed": False,
-            "final_20_selected": False
+            "final_20_selected": False,
         },
         "notes": [
-            "This snapshot archives the full public 2026 H1 A-share performance table before model scoring.",
-            "Eastmoney is a public aggregator; official exchange filings remain the legal source of record.",
+            "The source table includes Third Board securities; they are explicitly excluded by security and market codes.",
+            "The archive retains the source-derived A-share/CDR count even when it differs from a media-reported 5550 reference; no arbitrary truncation is applied.",
+            "Official exchange filings remain the legal source of record.",
             "No company receives a score boost from prior conversation frequency or familiarity."
-        ]
+        ],
     }
     (META_DIR / "snapshot_2026_h1.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
 
-    files_for_checksum = [master_csv, normalized_jsonl, raw_jsonl, status_csv]
+    files_for_checksum = [master_csv, normalized_jsonl, raw_jsonl, excluded_jsonl, status_csv]
     checksum_lines = [
         f"{sha256_file(path)}  {path.relative_to(ROOT).as_posix()}"
         for path in files_for_checksum
@@ -337,10 +335,10 @@ def main() -> int:
     )
 
     print(json.dumps(summary, ensure_ascii=False, indent=2))
-    if not count_matches:
+    if len(records) != REFERENCE_DISCLOSED_COUNT:
         print(
-            f"WARNING: archived {len(records)} companies; public report count is {EXPECTED_PUBLIC_COUNT}. "
-            "The archive is retained with a mismatch flag for review.",
+            f"NOTICE: source-derived A-share/CDR count is {len(records)}, versus the public reference {REFERENCE_DISCLOSED_COUNT}. "
+            "The gap is preserved for reconciliation instead of deleting rows.",
             file=sys.stderr,
         )
     return 0
