@@ -1,0 +1,49 @@
+{
+  "archived_unique_company_count": 11367,
+  "board_counts": {
+    "Beijing Stock Exchange": 6145,
+    "ChiNext": 1407,
+    "Main Board": 3196,
+    "STAR Market": 618,
+    "Unknown": 1
+  },
+  "count_matches_public_report": false,
+  "data_quality_counts": {
+    "missing_core_1": 56,
+    "ok": 11311
+  },
+  "dataset": "A-share 2026 H1 company universe",
+  "exchange_counts": {
+    "BSE": 6145,
+    "SSE": 2320,
+    "SZSE": 2901,
+    "UNKNOWN": 1
+  },
+  "industry_count": 1,
+  "notes": [
+    "This snapshot archives the full public 2026 H1 A-share performance table before model scoring.",
+    "Eastmoney is a public aggregator; official exchange filings remain the legal source of record.",
+    "No company receives a score boost from prior conversation frequency or familiarity."
+  ],
+  "publicly_reported_universe_count": 5550,
+  "raw_api_row_count": 11446,
+  "report_date": "2026-06-30",
+  "report_period": "2026H1",
+  "research_state": {
+    "announcement_review_completed": false,
+    "final_20_selected": false,
+    "four_model_scoring_completed": false,
+    "peer_comparison_completed": false,
+    "raw_universe_archived": true
+  },
+  "snapshot_created_at_utc": "2026-09-01T15:34:02+00:00",
+  "source_endpoint": "https://datacenter-web.eastmoney.com/api/data/v1/get",
+  "source_filter": "(REPORTDATE='2026-06-30')",
+  "source_page": "https://data.eastmoney.com/bbsj/202606/yjbb.html",
+  "top_industries_by_company_count": [
+    [
+      "UNKNOWN",
+      11367
+    ]
+  ]
+}
