@@ -1,0 +1,40 @@
+{
+  "as_of": "2026-08-31",
+  "purpose": "Reconcile companies that published 2026 H1 report data but were no longer A-share listed companies at the archive cutoff.",
+  "method": "Exclude by exact security code only after intersecting this list with the H1 report source. Unmatched codes remain documented and do not affect the archive.",
+  "sources": [
+    {
+      "title": "年内21家公司挥别A股，转板第一股、烟花第一股纷纷陨落",
+      "url": "https://finance.sina.com.cn/wm/2026-06-03/doc-iniactam0793707.shtml",
+      "note": "Lists the first eight completed delistings and eight companies with termination decisions, including exact codes."
+    },
+    {
+      "title": "A股退市常态化提速：年内22家退市、221只ST股",
+      "url": "https://finance.sina.com.cn/roll/2026-07-07/doc-inifyvau8344807.shtml",
+      "note": "Reports that all 16 A-share companies had completed delisting by 2026-07-07."
+    },
+    {
+      "title": "上交所股票摘牌公告索引",
+      "url": "https://www.sse.com.cn/disclosure/announcement/listing/stock/",
+      "note": "Official exchange source used for spot checks of Shanghai-listed codes."
+    }
+  ],
+  "securities": [
+    {"security_code": "920680", "last_name": "广道退", "exchange": "BSE"},
+    {"security_code": "300379", "last_name": "东通退", "exchange": "SZSE"},
+    {"security_code": "002231", "last_name": "*ST奥维", "exchange": "SZSE"},
+    {"security_code": "603056", "last_name": "德邦股份", "exchange": "SSE"},
+    {"security_code": "300391", "last_name": "长药退", "exchange": "SZSE"},
+    {"security_code": "300344", "last_name": "立方退", "exchange": "SZSE"},
+    {"security_code": "600355", "last_name": "*ST精伦", "exchange": "SSE"},
+    {"security_code": "000638", "last_name": "*ST万方", "exchange": "SZSE"},
+    {"security_code": "600193", "last_name": "退市创兴", "exchange": "SSE"},
+    {"security_code": "688287", "last_name": "退市观典", "exchange": "SSE"},
+    {"security_code": "600421", "last_name": "退市华嵘", "exchange": "SSE"},
+    {"security_code": "600696", "last_name": "退市岩石", "exchange": "SSE"},
+    {"security_code": "600599", "last_name": "退市熊猫", "exchange": "SSE"},
+    {"security_code": "600636", "last_name": "退市国化", "exchange": "SSE"},
+    {"security_code": "600608", "last_name": "退市沪科", "exchange": "SSE"},
+    {"security_code": "605081", "last_name": "退市太和", "exchange": "SSE"}
+  ]
+}
