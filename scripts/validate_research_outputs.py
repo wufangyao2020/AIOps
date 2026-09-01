@@ -70,6 +70,8 @@ def validate_stage2(errors: list[str]) -> dict:
     check(len(final) == 20, f"final candidate count {len(final)} != 20", errors)
     check(final["security_code"].nunique() == len(final), "final20 duplicate codes", errors)
     check((final["h1_report_found"] == 1).all(), "final20 includes company without H1 report", errors)
+    h1_chars = pd.to_numeric(final.get("h1_report_character_count"), errors="coerce").fillna(0)
+    check((h1_chars >= 1000).all(), "final20 includes company without substantive H1 full text", errors)
     check((final["review_status"] == "completed").all(), "final20 includes failed review", errors)
     check((pd.to_numeric(final["final_convexity_score"], errors="coerce").between(0, 100)).all(), "invalid final score", errors)
     check((pd.to_numeric(final["announcement_risk_score"], errors="coerce") < 72).all(), "final20 includes excessive-risk dossier", errors)
@@ -77,10 +79,13 @@ def validate_stage2(errors: list[str]) -> dict:
     check(max_industry <= 4, f"industry concentration exceeds 4: {max_industry}", errors)
     source_manifest_coverage = reviewed.get("source_manifest_json", pd.Series(dtype=str)).fillna("").str.len().gt(10).mean()
     check(source_manifest_coverage > 0.90, f"source manifest coverage too low: {source_manifest_coverage:.2%}", errors)
+    substantive_h1_coverage = pd.to_numeric(reviewed.get("h1_report_character_count"), errors="coerce").fillna(0).ge(1000).mean()
+    check(substantive_h1_coverage > 0.80, f"top100 substantive H1 coverage too low: {substantive_h1_coverage:.2%}", errors)
     return {
         "stage2_reviewed": len(reviewed), "dossier_count": dossier_lines,
         "final20_count": len(final), "max_single_industry": int(max_industry),
         "source_manifest_coverage": source_manifest_coverage,
+        "substantive_h1_coverage": substantive_h1_coverage,
     }
 
 
