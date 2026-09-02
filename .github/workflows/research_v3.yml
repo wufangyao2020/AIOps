@@ -1,0 +1,89 @@
+name: Run A-share 2026 H1 full research v3
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: a-share-2026-h1-full-research-v3
+  cancel-in-progress: false
+
+jobs:
+  research:
+    if: github.event_name != 'issues' || github.event.issue.title == '[research-v3] run 2026H1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      PYTHONUNBUFFERED: '1'
+      ANNOUNCEMENT_WORKERS: '32'
+      REVIEW_WORKERS: '8'
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check pandas numpy requests pypdf
+      - name: Compile pipeline
+        run: |
+          python -m py_compile scripts/run_research_pipeline.py
+          python -m py_compile scripts/run_research_pipeline_v2.py
+      - name: Run full research
+        run: python scripts/run_research_pipeline_v2.py
+      - name: Validate outputs
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          import pandas as pd
+          out=Path('results/2026H1')
+          u=pd.read_csv(out/'universe_four_model_scores.csv', dtype={'security_code':str}, low_memory=False)
+          t=pd.read_csv(out/'top100_announcement_reviews.csv', dtype={'security_code':str}, low_memory=False)
+          p=pd.read_csv(out/'top100_peer_comparison.csv', dtype={'security_code':str}, low_memory=False)
+          f=pd.read_csv(out/'final20_high_convexity.csv', dtype={'security_code':str}, low_memory=False)
+          m=json.loads((out/'audit_manifest.json').read_text('utf-8'))
+          assert len(u)==5550, len(u)
+          assert u['security_code'].nunique()==5550
+          assert len(t)==100 and t['security_code'].nunique()==100
+          assert len(p)==100 and p['security_code'].nunique()==100
+          assert len(f)==20 and f['security_code'].nunique()==20
+          assert m['universe_count']==5550
+          assert m['final20_count']==20
+          assert int(m.get('top100_fulltext_success_count',0)) >= 60, m
+          print({'universe':len(u),'top100':len(t),'peer_rows':len(p),'final20':len(f),'fulltext':m.get('top100_fulltext_success_count'),'announcement_success':m.get('announcement_company_success_count')})
+          PY
+      - name: Commit results
+        run: |
+          git config user.name 'a-share-research-bot'
+          git config user.email 'a-share-research-bot@users.noreply.github.com'
+          git add results/2026H1 data/research/2026H1 status/research_status_2026_h1.csv meta
+          if git diff --cached --quiet; then
+            echo 'No research changes to commit.'
+          else
+            git commit -m 'research: complete 5550-company four-model scan v3'
+            for attempt in 1 2 3 4; do
+              git pull --rebase origin main && git push && break
+              sleep $((attempt * 3))
+            done
+          fi
+      - name: Close issue
+        if: success() && github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.update({owner:context.repo.owner,repo:context.repo.repo,issue_number:context.issue.number,state:'closed',state_reason:'completed'});
+      - name: Comment failure
+        if: failure() && github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({owner:context.repo.owner,repo:context.repo.repo,issue_number:context.issue.number,body:`V3全量研究失败，run id: ${context.runId}。请查看Actions日志。`});
