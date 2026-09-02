@@ -1,0 +1,49 @@
+{
+  "dataset": "2026H1 A-share full-market four-model research",
+  "generated_at_utc": "2026-09-02T03:27:08Z",
+  "universe_count": 5550,
+  "announcement_company_success_count": 5545,
+  "announcement_company_error_count": 0,
+  "top100_count": 100,
+  "top100_fulltext_success_count": 100,
+  "final20_count": 20,
+  "statement_fetch_rows": {
+    "RPT_DMSK_FN_BALANCE": {
+      "current_rows": 5566,
+      "prior_rows": 5581
+    },
+    "RPT_DMSK_FN_CASHFLOW": {
+      "current_rows": 5566,
+      "prior_rows": 5572
+    },
+    "RPT_DMSK_FN_INCOME": {
+      "current_rows": 5566,
+      "prior_rows": 5571
+    }
+  },
+  "model_status": {
+    "fundamental_acceleration": "completed",
+    "new_profit_pool": "completed_with_fulltext_confirmation_for_top100",
+    "cycle_inflection": "completed",
+    "capital_event": "completed_from_recent_announcement_scan",
+    "top100_announcement_review": "completed_best_effort",
+    "peer_comparison": "completed",
+    "final20": "completed"
+  },
+  "known_limitations": [
+    "Eastmoney is an aggregation source; official exchange filings remain the legal source of record.",
+    "Some PDFs may reject automated download; those companies receive lower evidence scores and retain error logs.",
+    "New-profit-pool identification is a structured proxy until segment disclosures and customer evidence are manually signed off.",
+    "Current market fields are point-in-time and must be refreshed before trade execution."
+  ],
+  "checksums": {
+    "results/2026H1/universe_four_model_scores.csv": "eb4a7ca2e0ef1348b6ecf018988df1758b594c3de2dce5b52ed072fe198fc31b",
+    "results/2026H1/top100_blind_preliminary.csv": "e18891aab67afcc12084debc79bd8cf1921eb17e87c784bd02e7b3109e4059e3",
+    "results/2026H1/top100_announcement_reviews.csv": "c9188eadcd390d123f664a358df87e1f95010ac9a7d53c95b920219644a17491",
+    "results/2026H1/top100_peer_comparison.csv": "5f67b4d0f4460ca173123487860b4dc8ffe263ac29015dfc7e3b338e4e2215ff",
+    "results/2026H1/final20_high_convexity.csv": "acbbedc1e860d17fb412207d6cfd117ed46fccd5bcabc8d04621918ab909c27e",
+    "results/2026H1/final20_high_convexity.jsonl": "b139a6f0292b225659444078f12aabcecb55307eb0bfbecb1bd5e2b2d4cf2b8b",
+    "results/2026H1/final20_high_convexity.md": "d020c3416f7928047720d9d639c20bfc224731ec10bf28866a3f5f78b094ce56",
+    "status/research_status_2026_h1.csv": "92e6340bbd49e511d54f831fe7e27ae0e6458160b3a441c79c387c81aa07001a"
+  }
+}

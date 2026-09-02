@@ -1,0 +1,605 @@
+{
+  "generated_at": "2026-09-02T03:02:47Z",
+  "company_count": 5550,
+  "company_announcement_coverage": 5545,
+  "company_h1_full_report_coverage": 5537,
+  "retained_notice_count": 53319,
+  "segment_count": 74,
+  "segment_success_count": 74,
+  "segment_error_count": 0,
+  "segments": [
+    {
+      "node": 1,
+      "begin": "2026-01-01",
+      "end": "2026-01-31",
+      "total_hits": 3352,
+      "pages": 34,
+      "kept": 24
+    },
+    {
+      "node": 1,
+      "begin": "2026-02-01",
+      "end": "2026-02-28",
+      "total_hits": 1172,
+      "pages": 12,
+      "kept": 22
+    },
+    {
+      "node": 1,
+      "begin": "2026-03-01",
+      "end": "2026-03-31",
+      "total_hits": 4966,
+      "pages": 50,
+      "kept": 1233
+    },
+    {
+      "node": 1,
+      "begin": "2026-04-01",
+      "end": "2026-04-30",
+      "total_hits": 25530,
+      "pages": 256,
+      "kept": 7004
+    },
+    {
+      "node": 1,
+      "begin": "2026-05-01",
+      "end": "2026-05-31",
+      "total_hits": 5352,
+      "pages": 54,
+      "kept": 161
+    },
+    {
+      "node": 1,
+      "begin": "2026-06-01",
+      "end": "2026-06-30",
+      "total_hits": 2252,
+      "pages": 23,
+      "kept": 159
+    },
+    {
+      "node": 1,
+      "begin": "2026-07-01",
+      "end": "2026-07-31",
+      "total_hits": 2773,
+      "pages": 28,
+      "kept": 149
+    },
+    {
+      "node": 1,
+      "begin": "2026-08-01",
+      "end": "2026-08-31",
+      "total_hits": 13051,
+      "pages": 131,
+      "kept": 5554
+    },
+    {
+      "node": 1,
+      "begin": "2026-09-01",
+      "end": "2026-09-02",
+      "total_hits": 47,
+      "pages": 1,
+      "kept": 8
+    },
+    {
+      "node": 2,
+      "begin": "2025-09-01",
+      "end": "2025-09-30",
+      "total_hits": 717,
+      "pages": 8,
+      "kept": 55
+    },
+    {
+      "node": 2,
+      "begin": "2025-10-01",
+      "end": "2025-10-31",
+      "total_hits": 497,
+      "pages": 5,
+      "kept": 42
+    },
+    {
+      "node": 2,
+      "begin": "2025-11-01",
+      "end": "2025-11-30",
+      "total_hits": 572,
+      "pages": 6,
+      "kept": 61
+    },
+    {
+      "node": 2,
+      "begin": "2025-12-01",
+      "end": "2025-12-31",
+      "total_hits": 851,
+      "pages": 9,
+      "kept": 81
+    },
+    {
+      "node": 2,
+      "begin": "2026-01-01",
+      "end": "2026-01-31",
+      "total_hits": 645,
+      "pages": 7,
+      "kept": 87
+    },
+    {
+      "node": 2,
+      "begin": "2026-02-01",
+      "end": "2026-02-28",
+      "total_hits": 465,
+      "pages": 5,
+      "kept": 45
+    },
+    {
+      "node": 2,
+      "begin": "2026-03-01",
+      "end": "2026-03-31",
+      "total_hits": 783,
+      "pages": 8,
+      "kept": 56
+    },
+    {
+      "node": 2,
+      "begin": "2026-04-01",
+      "end": "2026-04-30",
+      "total_hits": 1288,
+      "pages": 13,
+      "kept": 46
+    },
+    {
+      "node": 2,
+      "begin": "2026-05-01",
+      "end": "2026-05-31",
+      "total_hits": 686,
+      "pages": 7,
+      "kept": 55
+    },
+    {
+      "node": 2,
+      "begin": "2026-06-01",
+      "end": "2026-06-30",
+      "total_hits": 940,
+      "pages": 10,
+      "kept": 73
+    },
+    {
+      "node": 2,
+      "begin": "2026-07-01",
+      "end": "2026-07-31",
+      "total_hits": 824,
+      "pages": 9,
+      "kept": 55
+    },
+    {
+      "node": 2,
+      "begin": "2026-08-01",
+      "end": "2026-08-31",
+      "total_hits": 1009,
+      "pages": 11,
+      "kept": 69
+    },
+    {
+      "node": 2,
+      "begin": "2026-09-01",
+      "end": "2026-09-02",
+      "total_hits": 85,
+      "pages": 1,
+      "kept": 9
+    },
+    {
+      "node": 3,
+      "begin": "2025-09-01",
+      "end": "2025-09-30",
+      "total_hits": 863,
+      "pages": 9,
+      "kept": 51
+    },
+    {
+      "node": 3,
+      "begin": "2025-10-01",
+      "end": "2025-10-31",
+      "total_hits": 1244,
+      "pages": 13,
+      "kept": 43
+    },
+    {
+      "node": 3,
+      "begin": "2025-11-01",
+      "end": "2025-11-30",
+      "total_hits": 908,
+      "pages": 10,
+      "kept": 70
+    },
+    {
+      "node": 3,
+      "begin": "2025-12-01",
+      "end": "2025-12-31",
+      "total_hits": 1016,
+      "pages": 11,
+      "kept": 124
+    },
+    {
+      "node": 3,
+      "begin": "2026-01-01",
+      "end": "2026-01-31",
+      "total_hits": 1412,
+      "pages": 15,
+      "kept": 209
+    },
+    {
+      "node": 3,
+      "begin": "2026-02-01",
+      "end": "2026-02-28",
+      "total_hits": 731,
+      "pages": 8,
+      "kept": 133
+    },
+    {
+      "node": 3,
+      "begin": "2026-03-01",
+      "end": "2026-03-31",
+      "total_hits": 1053,
+      "pages": 11,
+      "kept": 248
+    },
+    {
+      "node": 3,
+      "begin": "2026-04-01",
+      "end": "2026-04-30",
+      "total_hits": 2058,
+      "pages": 21,
+      "kept": 382
+    },
+    {
+      "node": 3,
+      "begin": "2026-05-01",
+      "end": "2026-05-31",
+      "total_hits": 1144,
+      "pages": 12,
+      "kept": 120
+    },
+    {
+      "node": 3,
+      "begin": "2026-06-01",
+      "end": "2026-06-30",
+      "total_hits": 1244,
+      "pages": 13,
+      "kept": 104
+    },
+    {
+      "node": 3,
+      "begin": "2026-07-01",
+      "end": "2026-07-31",
+      "total_hits": 1428,
+      "pages": 15,
+      "kept": 94
+    },
+    {
+      "node": 3,
+      "begin": "2026-08-01",
+      "end": "2026-08-31",
+      "total_hits": 1144,
+      "pages": 12,
+      "kept": 66
+    },
+    {
+      "node": 3,
+      "begin": "2026-09-01",
+      "end": "2026-09-02",
+      "total_hits": 66,
+      "pages": 1,
+      "kept": 7
+    },
+    {
+      "node": 5,
+      "begin": "2025-09-01",
+      "end": "2025-09-30",
+      "total_hits": 4348,
+      "pages": 44,
+      "kept": 1301
+    },
+    {
+      "node": 5,
+      "begin": "2025-10-01",
+      "end": "2025-10-31",
+      "total_hits": 4360,
+      "pages": 44,
+      "kept": 1060
+    },
+    {
+      "node": 5,
+      "begin": "2025-11-01",
+      "end": "2025-11-30",
+      "total_hits": 3576,
+      "pages": 36,
+      "kept": 807
+    },
+    {
+      "node": 5,
+      "begin": "2025-12-01",
+      "end": "2025-12-31",
+      "total_hits": 5658,
+      "pages": 57,
+      "kept": 1169
+    },
+    {
+      "node": 5,
+      "begin": "2026-01-01",
+      "end": "2026-01-31",
+      "total_hits": 4132,
+      "pages": 42,
+      "kept": 818
+    },
+    {
+      "node": 5,
+      "begin": "2026-02-01",
+      "end": "2026-02-28",
+      "total_hits": 2540,
+      "pages": 26,
+      "kept": 564
+    },
+    {
+      "node": 5,
+      "begin": "2026-03-01",
+      "end": "2026-03-31",
+      "total_hits": 5847,
+      "pages": 59,
+      "kept": 1432
+    },
+    {
+      "node": 5,
+      "begin": "2026-04-01",
+      "end": "2026-04-30",
+      "total_hits": 13884,
+      "pages": 139,
+      "kept": 4010
+    },
+    {
+      "node": 5,
+      "begin": "2026-05-01",
+      "end": "2026-05-31",
+      "total_hits": 3519,
+      "pages": 36,
+      "kept": 971
+    },
+    {
+      "node": 5,
+      "begin": "2026-06-01",
+      "end": "2026-06-30",
+      "total_hits": 4599,
+      "pages": 46,
+      "kept": 1239
+    },
+    {
+      "node": 5,
+      "begin": "2026-07-01",
+      "end": "2026-07-31",
+      "total_hits": 4815,
+      "pages": 49,
+      "kept": 1350
+    },
+    {
+      "node": 5,
+      "begin": "2026-08-01",
+      "end": "2026-08-31",
+      "total_hits": 10656,
+      "pages": 107,
+      "kept": 4343
+    },
+    {
+      "node": 5,
+      "begin": "2026-09-01",
+      "end": "2026-09-02",
+      "total_hits": 295,
+      "pages": 3,
+      "kept": 85
+    },
+    {
+      "node": 6,
+      "begin": "2025-09-01",
+      "end": "2025-09-30",
+      "total_hits": 1577,
+      "pages": 16,
+      "kept": 815
+    },
+    {
+      "node": 6,
+      "begin": "2025-10-01",
+      "end": "2025-10-31",
+      "total_hits": 1429,
+      "pages": 15,
+      "kept": 740
+    },
+    {
+      "node": 6,
+      "begin": "2025-11-01",
+      "end": "2025-11-30",
+      "total_hits": 1455,
+      "pages": 15,
+      "kept": 734
+    },
+    {
+      "node": 6,
+      "begin": "2025-12-01",
+      "end": "2025-12-31",
+      "total_hits": 1733,
+      "pages": 18,
+      "kept": 828
+    },
+    {
+      "node": 6,
+      "begin": "2026-01-01",
+      "end": "2026-01-31",
+      "total_hits": 1253,
+      "pages": 13,
+      "kept": 600
+    },
+    {
+      "node": 6,
+      "begin": "2026-02-01",
+      "end": "2026-02-28",
+      "total_hits": 887,
+      "pages": 9,
+      "kept": 441
+    },
+    {
+      "node": 6,
+      "begin": "2026-03-01",
+      "end": "2026-03-31",
+      "total_hits": 1257,
+      "pages": 13,
+      "kept": 649
+    },
+    {
+      "node": 6,
+      "begin": "2026-04-01",
+      "end": "2026-04-30",
+      "total_hits": 1686,
+      "pages": 17,
+      "kept": 977
+    },
+    {
+      "node": 6,
+      "begin": "2026-05-01",
+      "end": "2026-05-31",
+      "total_hits": 1178,
+      "pages": 12,
+      "kept": 625
+    },
+    {
+      "node": 6,
+      "begin": "2026-06-01",
+      "end": "2026-06-30",
+      "total_hits": 1638,
+      "pages": 17,
+      "kept": 842
+    },
+    {
+      "node": 6,
+      "begin": "2026-07-01",
+      "end": "2026-07-31",
+      "total_hits": 2045,
+      "pages": 21,
+      "kept": 1021
+    },
+    {
+      "node": 6,
+      "begin": "2026-08-01",
+      "end": "2026-08-31",
+      "total_hits": 1820,
+      "pages": 19,
+      "kept": 966
+    },
+    {
+      "node": 6,
+      "begin": "2026-09-01",
+      "end": "2026-09-02",
+      "total_hits": 355,
+      "pages": 4,
+      "kept": 145
+    },
+    {
+      "node": 7,
+      "begin": "2025-09-01",
+      "end": "2025-09-30",
+      "total_hits": 1262,
+      "pages": 13,
+      "kept": 1110
+    },
+    {
+      "node": 7,
+      "begin": "2025-10-01",
+      "end": "2025-10-31",
+      "total_hits": 853,
+      "pages": 9,
+      "kept": 748
+    },
+    {
+      "node": 7,
+      "begin": "2025-11-01",
+      "end": "2025-11-30",
+      "total_hits": 1101,
+      "pages": 12,
+      "kept": 968
+    },
+    {
+      "node": 7,
+      "begin": "2025-12-01",
+      "end": "2025-12-31",
+      "total_hits": 1123,
+      "pages": 12,
+      "kept": 986
+    },
+    {
+      "node": 7,
+      "begin": "2026-01-01",
+      "end": "2026-01-31",
+      "total_hits": 1096,
+      "pages": 11,
+      "kept": 966
+    },
+    {
+      "node": 7,
+      "begin": "2026-02-01",
+      "end": "2026-02-28",
+      "total_hits": 663,
+      "pages": 7,
+      "kept": 571
+    },
+    {
+      "node": 7,
+      "begin": "2026-03-01",
+      "end": "2026-03-31",
+      "total_hits": 801,
+      "pages": 9,
+      "kept": 691
+    },
+    {
+      "node": 7,
+      "begin": "2026-04-01",
+      "end": "2026-04-30",
+      "total_hits": 732,
+      "pages": 8,
+      "kept": 631
+    },
+    {
+      "node": 7,
+      "begin": "2026-05-01",
+      "end": "2026-05-31",
+      "total_hits": 947,
+      "pages": 10,
+      "kept": 840
+    },
+    {
+      "node": 7,
+      "begin": "2026-06-01",
+      "end": "2026-06-30",
+      "total_hits": 844,
+      "pages": 9,
+      "kept": 702
+    },
+    {
+      "node": 7,
+      "begin": "2026-07-01",
+      "end": "2026-07-31",
+      "total_hits": 780,
+      "pages": 8,
+      "kept": 622
+    },
+    {
+      "node": 7,
+      "begin": "2026-08-01",
+      "end": "2026-08-31",
+      "total_hits": 546,
+      "pages": 6,
+      "kept": 475
+    },
+    {
+      "node": 7,
+      "begin": "2026-09-01",
+      "end": "2026-09-02",
+      "total_hits": 80,
+      "pages": 1,
+      "kept": 70
+    }
+  ],
+  "errors": {}
+}
