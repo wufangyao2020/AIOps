@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Hardened launcher for the full 5,550-company research pipeline."""
+"""Hardened launcher for the full 5,550-company research pipeline.
+
+This wrapper fixes the two operational weaknesses observed in the first V2 run:
+- reuse the audited multi-period statement caches already archived in the repo;
+- replace the single unstable numbered quote host with a Sina-first, multi-host
+  quote adapter and retain explicit coverage checks.
+"""
 from __future__ import annotations
 
 import concurrent.futures as cf
+import gzip
 import json
 import os
 from pathlib import Path
@@ -13,6 +20,71 @@ import numpy as np
 import pandas as pd
 
 import run_research_pipeline as p
+import research_stage1_v3 as quote_tools
+
+
+STAGE1_INPUT_CACHE = p.ROOT / "data" / "2026H1" / "research" / "raw" / "stage1_inputs"
+_original_fetch_periodic = p.fetch_periodic
+
+
+def cached_fetch_periodic(report_name: str, report_date: str) -> pd.DataFrame:
+    """Read the previously archived public statement table before going online."""
+    for date_field in ("REPORTDATE", "REPORT_DATE"):
+        path = STAGE1_INPUT_CACHE / f"{report_name}_{date_field}_{report_date}.json.gz"
+        if not path.exists() or path.stat().st_size < 100:
+            continue
+        try:
+            with gzip.open(path, "rt", encoding="utf-8") as handle:
+                rows = json.load(handle)
+            if isinstance(rows, list) and rows:
+                print(f"use cached {report_name} {report_date}: {len(rows)} rows", flush=True)
+                return pd.DataFrame(rows)
+        except Exception as exc:  # noqa: BLE001
+            print(f"cached input unreadable {path.name}: {exc}", flush=True)
+    frame = _original_fetch_periodic(report_name, report_date)
+    if not frame.empty:
+        STAGE1_INPUT_CACHE.mkdir(parents=True, exist_ok=True)
+        path = STAGE1_INPUT_CACHE / f"{report_name}_REPORT_DATE_{report_date}.json.gz"
+        try:
+            with gzip.open(path, "wt", encoding="utf-8") as handle:
+                json.dump(frame.to_dict("records"), handle, ensure_ascii=False, separators=(",", ":"), default=str)
+        except Exception as exc:  # noqa: BLE001
+            print(f"could not persist periodic cache {path.name}: {exc}", flush=True)
+    return frame
+
+
+def resilient_fetch_quotes() -> pd.DataFrame:
+    """Adapt the hardened full-market quote source to this pipeline's schema."""
+    frame = quote_tools.fetch_quote_snapshot_resilient().copy()
+    rename = {
+        "security_code": "code",
+        "daily_return_pct": "day_change_pct",
+        "turnover_amount_cny": "turnover_amount",
+        "turnover_rate_pct": "turnover_rate",
+        "market_cap_cny": "market_cap",
+        "float_market_cap_cny": "float_market_cap",
+        "return_60d_pct": "change_60d_pct",
+        "return_ytd_pct": "change_ytd_pct",
+    }
+    frame = frame.rename(columns=rename)
+    required = [
+        "code", "quote_name", "price", "day_change_pct", "volume",
+        "turnover_amount", "turnover_rate", "pe_dynamic", "volume_ratio",
+        "market_cap", "float_market_cap", "pb", "change_60d_pct",
+        "change_ytd_pct", "quote_industry", "quote_roe", "total_shares",
+    ]
+    for column in required:
+        if column not in frame:
+            frame[column] = "" if column in {"code", "quote_name", "quote_industry"} else np.nan
+    frame["code"] = frame["code"].astype(str).str.zfill(6)
+    numeric = [c for c in required if c not in {"code", "quote_name", "quote_industry"}]
+    for column in numeric:
+        frame[column] = pd.to_numeric(frame[column], errors="coerce")
+    frame = frame[required].drop_duplicates("code", keep="last")
+    if len(frame) < 4800:
+        raise RuntimeError(f"full-market quote coverage too low after adapter: {len(frame)}")
+    print(f"resilient quote coverage: {len(frame)}", flush=True)
+    return frame.set_index("code")
 
 
 # Always materialize statement columns, even when an optional source table is unavailable.
@@ -137,6 +209,8 @@ def compact_pdf_candidates(code: str, item: dict[str, Any]):
     return output
 
 
+p.fetch_periodic = cached_fetch_periodic
+p.fetch_quotes = resilient_fetch_quotes
 p.add_statement = safe_add_statement
 p.fetch_announcements = compact_fetch_announcements
 p.scan_all_announcements = compact_scan_all_announcements
