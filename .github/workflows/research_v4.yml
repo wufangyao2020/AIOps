@@ -1,0 +1,124 @@
+name: Run A-share 2026 H1 audited research v4
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: a-share-2026-h1-audited-v4
+  cancel-in-progress: false
+
+jobs:
+  research:
+    if: github.event_name != 'issues' || github.event.issue.title == '[research-v4] run 2026H1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      PYTHONUNBUFFERED: '1'
+      ANNOUNCEMENT_WORKERS: '24'
+      REVIEW_WORKERS: '8'
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check pandas numpy requests pypdf
+      - name: Compile pipeline
+        run: |
+          python -m py_compile scripts/run_research_pipeline.py
+          python -m py_compile scripts/run_research_pipeline_v2.py
+          python -m py_compile scripts/run_research_pipeline_v3.py
+      - name: Run audited full research
+        run: python scripts/run_research_pipeline_v3.py
+      - name: Validate outputs
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          import pandas as pd
+
+          out = Path('results/2026H1')
+          required = [
+              'universe_four_model_scores.csv',
+              'top100_blind_preliminary.csv',
+              'top100_announcement_reviews.csv',
+              'top100_peer_comparison.csv',
+              'final20_high_convexity.csv',
+              'final20_high_convexity.md',
+              'audit_manifest.json',
+          ]
+          for name in required:
+              assert (out / name).exists(), name
+
+          u = pd.read_csv(out/'universe_four_model_scores.csv', dtype={'security_code':str}, low_memory=False)
+          b = pd.read_csv(out/'top100_blind_preliminary.csv', low_memory=False)
+          t = pd.read_csv(out/'top100_announcement_reviews.csv', dtype={'code':str}, low_memory=False)
+          peers = pd.read_csv(out/'top100_peer_comparison.csv', dtype={'code':str}, low_memory=False)
+          f = pd.read_csv(out/'final20_high_convexity.csv', dtype={'security_code':str}, low_memory=False)
+          m = json.loads((out/'audit_manifest.json').read_text('utf-8'))
+
+          assert len(u) == 5550, len(u)
+          assert u['security_code'].astype(str).str.zfill(6).nunique() == 5550
+          assert len(b) == 100, len(b)
+          assert len(t) == 100 and t['code'].astype(str).str.zfill(6).nunique() == 100
+          assert len(peers) == 100 and peers['code'].astype(str).str.zfill(6).nunique() == 100
+          assert len(f) == 20 and f['security_code'].astype(str).str.zfill(6).nunique() == 20
+          assert m['universe_count'] == 5550
+          assert m['top100_count'] == 100
+          assert m['final20_count'] == 20
+          assert int(m.get('announcement_company_success_count', 0)) >= 5000, m
+          assert int(m.get('top100_fulltext_success_count', 0)) >= 60, m
+
+          score_cols = [
+              'fundamental_acceleration_score', 'new_profit_pool_score',
+              'cycle_inflection_score', 'capital_event_score',
+          ]
+          for col in score_cols:
+              assert col in u.columns
+              values = pd.to_numeric(u[col], errors='coerce')
+              assert values.notna().mean() > 0.99, (col, values.notna().mean())
+              assert values.between(0, 100).mean() > 0.999, col
+          assert not f['security_name'].astype(str).str.contains(r'ST|退', regex=True).any() if 'security_name' in f else True
+          print({
+              'universe': len(u), 'blind_top100': len(b), 'reviewed_top100': len(t),
+              'peer_rows': len(peers), 'final20': len(f),
+              'announcement_success': m.get('announcement_company_success_count'),
+              'fulltext_success': m.get('top100_fulltext_success_count'),
+          })
+          PY
+      - name: Commit results
+        run: |
+          git config user.name 'a-share-research-bot'
+          git config user.email 'a-share-research-bot@users.noreply.github.com'
+          git add results/2026H1 data/research/2026H1 status/research_status_2026_h1.csv meta
+          if git diff --cached --quiet; then
+            echo 'No research changes to commit.'
+          else
+            git commit -m 'research: complete audited 5550-company four-model scan v4'
+            for attempt in 1 2 3 4; do
+              git pull --rebase origin main && git push && break
+              sleep $((attempt * 3))
+            done
+          fi
+      - name: Close issue
+        if: success() && github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.update({owner:context.repo.owner,repo:context.repo.repo,issue_number:context.issue.number,state:'closed',state_reason:'completed'});
+      - name: Comment failure
+        if: failure() && github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({owner:context.repo.owner,repo:context.repo.repo,issue_number:context.issue.number,body:`V4审计版全量研究失败，run id: ${context.runId}。请查看Actions日志。`});
