@@ -1,47 +1,1382 @@
 {
-  "as_of_utc": "2026-09-01T18:28:11.306376+00:00",
+  "as_of_utc": "2026-09-02T02:33:49.654376+00:00",
   "events": {
+    "1": {
+      "page_1": {
+        "total_hits": 13098,
+        "items": [
+          {
+            "title": "耐普矿机:2026年半年度分红派息实施公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828889897",
+            "columns": [
+              "分配方案实施",
+              "分红派息报告"
+            ],
+            "codes": [
+              {
+                "stock_code": "123265",
+                "short_name": "耐普转02",
+                "ann_type": "KZZ,Bond"
+              },
+              {
+                "stock_code": "300818",
+                "short_name": "耐普矿机",
+                "ann_type": "A,CYB"
+              }
+            ]
+          },
+          {
+            "title": "金发拉比:2026年半年度报告更正公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888758",
+            "columns": [
+              "半年报更正公告"
+            ],
+            "codes": [
+              {
+                "stock_code": "002762",
+                "short_name": "金发拉比",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "金发拉比:金发拉比妇婴童用品股份有限公司2026年半年度报告(更新后)",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888757",
+            "columns": [
+              "半年度报告全文"
+            ],
+            "codes": [
+              {
+                "stock_code": "002762",
+                "short_name": "金发拉比",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "金发拉比:2026年半年度报告摘要(更新后)",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888755",
+            "columns": [
+              "半年度报告摘要"
+            ],
+            "codes": [
+              {
+                "stock_code": "002762",
+                "short_name": "金发拉比",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "青鸟智控:2026年第二次临时股东会决议公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888284",
+            "columns": [
+              "分配方案决议公告",
+              "股东大会决议公告"
+            ],
+            "codes": [
+              {
+                "stock_code": "002960",
+                "short_name": "青鸟智控",
+                "ann_type": "A,SZA"
+              }
+            ]
+          }
+        ]
+      },
+      "page_2": {
+        "total_hits": 13098,
+        "items": [
+          {
+            "title": "长海股份:2026年半年度权益分派实施公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828887536",
+            "columns": [
+              "分配方案实施",
+              "其它"
+            ],
+            "codes": [
+              {
+                "stock_code": "123091",
+                "short_name": "长海转债",
+                "ann_type": "KZZ,Bond"
+              },
+              {
+                "stock_code": "300196",
+                "short_name": "长海股份",
+                "ann_type": "A,CYB"
+              }
+            ]
+          },
+          {
+            "title": "佰维存储:关于调整2026年半年度利润分配现金分红总额的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828887526",
+            "columns": [
+              "分配方案调整"
+            ],
+            "codes": [
+              {
+                "stock_code": "688525",
+                "short_name": "佰维存储",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          },
+          {
+            "title": "凯中精密:2026年半年度权益分派实施公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828887074",
+            "columns": [
+              "分配方案实施"
+            ],
+            "codes": [
+              {
+                "stock_code": "002823",
+                "short_name": "凯中精密",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "领益智造:关于2026年半年度A股权益分派实施的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828886320",
+            "columns": [
+              "分配方案实施"
+            ],
+            "codes": [
+              {
+                "stock_code": "002600",
+                "short_name": "领益智造",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "洁美科技:2026年半年度分红派息实施公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828886317",
+            "columns": [
+              "分配方案实施"
+            ],
+            "codes": [
+              {
+                "stock_code": "002859",
+                "short_name": "洁美科技",
+                "ann_type": "A,SZA"
+              }
+            ]
+          }
+        ]
+      }
+    },
     "2": {
-      "total_hits": 6725,
-      "first_title": "柳钢股份:柳州钢铁股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书(修订稿)"
+      "page_1": {
+        "total_hits": 1094,
+        "items": [
+          {
+            "title": "柳钢股份:柳州钢铁股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书(修订稿)",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828891372",
+            "columns": [
+              "其他增发事项公告"
+            ],
+            "codes": [
+              {
+                "stock_code": "601003",
+                "short_name": "柳钢股份",
+                "ann_type": "A,SHA"
+              }
+            ]
+          },
+          {
+            "title": "柳钢股份:柳州钢铁股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书(修订稿)摘要",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828891366",
+            "columns": [
+              "其他增发事项公告"
+            ],
+            "codes": [
+              {
+                "stock_code": "601003",
+                "short_name": "柳钢股份",
+                "ann_type": "A,SHA"
+              }
+            ]
+          },
+          {
+            "title": "盛科通信:盛科通信第二届董事会第十五次会议决议公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828891249",
+            "columns": [
+              "增发预案",
+              "董事会决议公告"
+            ],
+            "codes": [
+              {
+                "stock_code": "688702",
+                "short_name": "盛科通信",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          },
+          {
+            "title": "盛科通信:盛科通信关于2026年度向特定对象发行A股股票预案披露的提示性公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828891251",
+            "columns": [
+              "增发提示性公告"
+            ],
+            "codes": [
+              {
+                "stock_code": "688702",
+                "short_name": "盛科通信",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          },
+          {
+            "title": "盛科通信:盛科通信2026年度向特定对象发行A股股票预案",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828891246",
+            "columns": [
+              "增发预案"
+            ],
+            "codes": [
+              {
+                "stock_code": "688702",
+                "short_name": "盛科通信",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          }
+        ]
+      },
+      "page_2": {
+        "total_hits": 1094,
+        "items": [
+          {
+            "title": "裕太微:2026年度向特定对象发行A股股票预案(二次修订稿)",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828891085",
+            "columns": [
+              "增发方案修订"
+            ],
+            "codes": [
+              {
+                "stock_code": "688515",
+                "short_name": "裕太微",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          },
+          {
+            "title": "裕太微:关于2026年度向特定对象发行A股股票预案(二次修订稿)修订情况说明的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828891077",
+            "columns": [
+              "增发方案修订"
+            ],
+            "codes": [
+              {
+                "stock_code": "688515",
+                "short_name": "裕太微",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          },
+          {
+            "title": "裕太微:第二届董事会第十六次会议决议公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828891080",
+            "columns": [
+              "增发预案",
+              "董事会决议公告"
+            ],
+            "codes": [
+              {
+                "stock_code": "688515",
+                "short_name": "裕太微",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          },
+          {
+            "title": "裕太微:关于调整公司2026年度向特定对象发行A股股票方案的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828891078",
+            "columns": [
+              "增发方案修订"
+            ],
+            "codes": [
+              {
+                "stock_code": "688515",
+                "short_name": "裕太微",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          },
+          {
+            "title": "裕太微:关于2026年度向特定对象发行A股股票预案(二次修订稿)披露的提示性公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828891082",
+            "columns": [
+              "增发提示性公告"
+            ],
+            "codes": [
+              {
+                "stock_code": "688515",
+                "short_name": "裕太微",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "3": {
+      "page_1": {
+        "total_hits": 1210,
+        "items": [
+          {
+            "title": "华昌化工:关于筹划公司控制权变更事项的进展暨复牌公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828892572",
+            "columns": [
+              "复牌公告"
+            ],
+            "codes": [
+              {
+                "stock_code": "002274",
+                "short_name": "华昌化工",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "*ST新元:关于公司股票交易撤销退市风险警示并继续被实施其他风险警示暨停牌一天的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828890688",
+            "columns": [
+              "撤销退市风险警示",
+              "停牌公告",
+              "其它风险提示公告"
+            ],
+            "codes": [
+              {
+                "stock_code": "300472",
+                "short_name": "*ST新元",
+                "ann_type": "A"
+              }
+            ]
+          },
+          {
+            "title": "*ST清越:清越科技关于公司股票存在可能因股价低于1元而终止上市的第五次风险提示暨可能被实施重大违法强制退市的风险提示公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828890123",
+            "columns": [
+              "终止上市风险提示",
+              "其它风险提示公告",
+              "违法违规"
+            ],
+            "codes": [
+              {
+                "stock_code": "688496",
+                "short_name": "*ST清越",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          },
+          {
+            "title": "*ST清越:清越科技关于公司股票可能被实施重大违法强制退市暨继续实施退市风险警示的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828890121",
+            "columns": [
+              "其它风险提示公告",
+              "违法违规"
+            ],
+            "codes": [
+              {
+                "stock_code": "688496",
+                "short_name": "*ST清越",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          },
+          {
+            "title": "红宝丽:股票交易异常波动公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828889923",
+            "columns": [
+              "股票交易异常波动"
+            ],
+            "codes": [
+              {
+                "stock_code": "002165",
+                "short_name": "红宝丽",
+                "ann_type": "A,SZA"
+              }
+            ]
+          }
+        ]
+      },
+      "page_2": {
+        "total_hits": 1210,
+        "items": [
+          {
+            "title": "龙版传媒:股票交易异常波动公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828889582",
+            "columns": [
+              "股票交易异常波动"
+            ],
+            "codes": [
+              {
+                "stock_code": "605577",
+                "short_name": "龙版传媒",
+                "ann_type": "A,SHA"
+              }
+            ]
+          },
+          {
+            "title": "集泰股份:关于股票交易异常波动的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828889048",
+            "columns": [
+              "股票交易异常波动"
+            ],
+            "codes": [
+              {
+                "stock_code": "002909",
+                "short_name": "集泰股份",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "海鸥住工:股票交易异常波动暨风险提示公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888738",
+            "columns": [
+              "股票交易异常波动"
+            ],
+            "codes": [
+              {
+                "stock_code": "002084",
+                "short_name": "海鸥住工",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "博纳影业:股票交易异常波动公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888578",
+            "columns": [
+              "股票交易异常波动"
+            ],
+            "codes": [
+              {
+                "stock_code": "001330",
+                "short_name": "博纳影业",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "比亚迪:2026年8月产销快报",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888163",
+            "columns": [
+              "月度经营情况"
+            ],
+            "codes": [
+              {
+                "stock_code": "002594",
+                "short_name": "比亚迪",
+                "ann_type": "A,SZA"
+              }
+            ]
+          }
+        ]
+      }
     },
     "4": {
-      "total_hits": 35287,
-      "first_title": "华昌化工:关于控股股东及其一致行动人签署《股份转让协议》暨公司控制权拟发生变更的提示性进展公告"
+      "page_1": {
+        "total_hits": 5428,
+        "items": [
+          {
+            "title": "华昌化工:关于控股股东及其一致行动人签署《股份转让协议》暨公司控制权拟发生变更的提示性进展公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609021828893909",
+            "columns": [
+              "公司关联方基本资料变更",
+              "签订协议"
+            ],
+            "codes": [
+              {
+                "stock_code": "002274",
+                "short_name": "华昌化工",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "盈趣科技:关于选举职工董事的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828890282",
+            "columns": [
+              "高管人员任职变动"
+            ],
+            "codes": [
+              {
+                "stock_code": "002925",
+                "short_name": "盈趣科技",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "盈趣科技:2026年第一次临时股东会决议公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828890280",
+            "columns": [
+              "股东大会决议公告",
+              "高管人员任职变动"
+            ],
+            "codes": [
+              {
+                "stock_code": "002925",
+                "short_name": "盈趣科技",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "永悦科技:永悦科技关于公司副董事长兼总经理辞职的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828889831",
+            "columns": [
+              "高管人员任职变动"
+            ],
+            "codes": [
+              {
+                "stock_code": "603879",
+                "short_name": "永悦科技",
+                "ann_type": "A,SHA"
+              }
+            ]
+          },
+          {
+            "title": "赛微电子:关于董事会换届选举的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888981",
+            "columns": [
+              "高管人员任职变动"
+            ],
+            "codes": [
+              {
+                "stock_code": "300456",
+                "short_name": "赛微电子",
+                "ann_type": "A,CYB"
+              }
+            ]
+          }
+        ]
+      },
+      "page_2": {
+        "total_hits": 5428,
+        "items": [
+          {
+            "title": "赛微电子:第五届董事会第三十一次会议决议公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888979",
+            "columns": [
+              "高管人员任职变动",
+              "董事会决议公告"
+            ],
+            "codes": [
+              {
+                "stock_code": "300456",
+                "short_name": "赛微电子",
+                "ann_type": "A,CYB"
+              }
+            ]
+          },
+          {
+            "title": "科华生物:关于变更保荐代表人的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888281",
+            "columns": [
+              "保荐代表人（机构）变更"
+            ],
+            "codes": [
+              {
+                "stock_code": "002022",
+                "short_name": "科华生物",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "龙腾光电:龙腾光电关于董事会秘书辞任的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888088",
+            "columns": [
+              "高管人员任职变动"
+            ],
+            "codes": [
+              {
+                "stock_code": "688055",
+                "short_name": "龙腾光电",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          },
+          {
+            "title": "迈信林:江苏迈信林航空科技股份有限公司关于聘任董事会秘书的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888080",
+            "columns": [
+              "高管人员任职变动"
+            ],
+            "codes": [
+              {
+                "stock_code": "688685",
+                "short_name": "迈信林",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          },
+          {
+            "title": "迈信林:江苏迈信林航空科技股份有限公司关于董事会完成换届选举及聘任高级管理人员、证券事务代表的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888077",
+            "columns": [
+              "高管人员任职变动"
+            ],
+            "codes": [
+              {
+                "stock_code": "688685",
+                "short_name": "迈信林",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          }
+        ]
+      }
     },
     "5": {
-      "total_hits": 50000,
-      "first_title": "华昌化工:关于控股股东及其一致行动人签署《股份转让协议》暨公司控制权拟发生变更的提示性进展公告"
+      "page_1": {
+        "total_hits": 10951,
+        "items": [
+          {
+            "title": "宇晶股份:关于公司及子公司涉及诉讼事项暨子公司银行账户部分资金被冻结、部分资产被查封的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609021828900615",
+            "columns": [
+              "诉讼仲裁"
+            ],
+            "codes": [
+              {
+                "stock_code": "002943",
+                "short_name": "宇晶股份",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "华昌化工:关于控股股东及其一致行动人签署《股份转让协议》暨公司控制权拟发生变更的提示性进展公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609021828893909",
+            "columns": [
+              "公司关联方基本资料变更",
+              "签订协议"
+            ],
+            "codes": [
+              {
+                "stock_code": "002274",
+                "short_name": "华昌化工",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "盛科通信:盛科通信前次募集资金使用情况专项报告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828891257",
+            "columns": [
+              "募集资金使用情况报告"
+            ],
+            "codes": [
+              {
+                "stock_code": "688702",
+                "short_name": "盛科通信",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          },
+          {
+            "title": "盛科通信:盛科通信关于2026年度向特定对象发行A股股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828891253",
+            "columns": [
+              "获得补贴（资助）"
+            ],
+            "codes": [
+              {
+                "stock_code": "688702",
+                "short_name": "盛科通信",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          },
+          {
+            "title": "惠天热电:关于投资建设法库200MW风力发电项目的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828890188",
+            "columns": [
+              "对外项目投资"
+            ],
+            "codes": [
+              {
+                "stock_code": "000692",
+                "short_name": "惠天热电",
+                "ann_type": "A,SZA"
+              }
+            ]
+          }
+        ]
+      },
+      "page_2": {
+        "total_hits": 10951,
+        "items": [
+          {
+            "title": "惠天热电:关于投资成立全资子公司惠天新能源(法库)有限公司的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828890186",
+            "columns": [
+              "投资设立公司"
+            ],
+            "codes": [
+              {
+                "stock_code": "000692",
+                "short_name": "惠天热电",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "中塑股份:募集资金具体运用情况",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828890110",
+            "columns": [
+              "募集资金使用情况报告"
+            ],
+            "codes": [
+              {
+                "stock_code": "301686",
+                "short_name": "中塑股份",
+                "ann_type": "A"
+              }
+            ]
+          },
+          {
+            "title": "*ST清越:清越科技关于公司股票存在可能因股价低于1元而终止上市的第五次风险提示暨可能被实施重大违法强制退市的风险提示公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828890123",
+            "columns": [
+              "终止上市风险提示",
+              "其它风险提示公告",
+              "违法违规"
+            ],
+            "codes": [
+              {
+                "stock_code": "688496",
+                "short_name": "*ST清越",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          },
+          {
+            "title": "*ST清越:清越科技关于收到中国证监会《行政处罚事先告知书》的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828890122",
+            "columns": [
+              "处罚"
+            ],
+            "codes": [
+              {
+                "stock_code": "688496",
+                "short_name": "*ST清越",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          },
+          {
+            "title": "*ST清越:清越科技关于公司股票可能被实施重大违法强制退市暨继续实施退市风险警示的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828890121",
+            "columns": [
+              "其它风险提示公告",
+              "违法违规"
+            ],
+            "codes": [
+              {
+                "stock_code": "688496",
+                "short_name": "*ST清越",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          }
+        ]
+      }
     },
     "6": {
-      "total_hits": 12124,
-      "first_title": "拓维信息:关于限制性股票回购注销完成的公告"
+      "page_1": {
+        "total_hits": 2175,
+        "items": [
+          {
+            "title": "拓维信息:关于限制性股票回购注销完成的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828891406",
+            "columns": [
+              "股本变动",
+              "回购进展情况",
+              "回购实施公告"
+            ],
+            "codes": [
+              {
+                "stock_code": "002261",
+                "short_name": "拓维信息",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "世龙实业:关于回购公司股份的进展公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828890171",
+            "columns": [
+              "回购进展情况"
+            ],
+            "codes": [
+              {
+                "stock_code": "002748",
+                "short_name": "世龙实业",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "安旭生物:安旭生物关于股份回购进展公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828890161",
+            "columns": [
+              "回购进展情况"
+            ],
+            "codes": [
+              {
+                "stock_code": "688075",
+                "short_name": "安旭生物",
+                "ann_type": "A,KCB,SHA"
+              }
+            ]
+          },
+          {
+            "title": "盈峰环境:关于回购公司股份进展情况的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828890068",
+            "columns": [
+              "回购进展情况"
+            ],
+            "codes": [
+              {
+                "stock_code": "000967",
+                "short_name": "盈峰环境",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "金风科技:关于回购公司股份的进展公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828889832",
+            "columns": [
+              "回购进展情况"
+            ],
+            "codes": [
+              {
+                "stock_code": "002202",
+                "short_name": "金风科技",
+                "ann_type": "A,SZA"
+              }
+            ]
+          }
+        ]
+      },
+      "page_2": {
+        "total_hits": 2175,
+        "items": [
+          {
+            "title": "大千生态:大千生态环境集团股份有限公司收购报告书",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888960",
+            "columns": [
+              "收购出售资产/股权"
+            ],
+            "codes": [
+              {
+                "stock_code": "603955",
+                "short_name": "大千生态",
+                "ann_type": "A,SHA"
+              }
+            ]
+          },
+          {
+            "title": "格力电器:关于股份回购进展情况的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888739",
+            "columns": [
+              "回购进展情况"
+            ],
+            "codes": [
+              {
+                "stock_code": "000651",
+                "short_name": "格力电器",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "长江证券:关于回购公司股份的进展公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888664",
+            "columns": [
+              "回购进展情况"
+            ],
+            "codes": [
+              {
+                "stock_code": "000783",
+                "short_name": "长江证券",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "曼卡龙:关于回购公司股份的进展公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888663",
+            "columns": [
+              "回购进展情况"
+            ],
+            "codes": [
+              {
+                "stock_code": "300945",
+                "short_name": "曼卡龙",
+                "ann_type": "A,CYB"
+              }
+            ]
+          },
+          {
+            "title": "崇达技术:关于回购公司股份的进展公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888636",
+            "columns": [
+              "回购进展情况"
+            ],
+            "codes": [
+              {
+                "stock_code": "002815",
+                "short_name": "崇达技术",
+                "ann_type": "A,SZA"
+              }
+            ]
+          }
+        ]
+      }
     },
     "7": {
-      "total_hits": 6489,
-      "first_title": "康惠股份:康惠股份关于持股5%以上股东减持股份计划实施完成暨减持股份结果公告"
+      "page_1": {
+        "total_hits": 626,
+        "items": [
+          {
+            "title": "康惠股份:康惠股份关于持股5%以上股东减持股份计划实施完成暨减持股份结果公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828890540",
+            "columns": [
+              "股东/实际控制人股份减持"
+            ],
+            "codes": [
+              {
+                "stock_code": "603139",
+                "short_name": "康惠股份",
+                "ann_type": "A,SHA"
+              }
+            ]
+          },
+          {
+            "title": "兰州银行:兰州银行股份有限公司关于持股5%以上股东股份变动暨完成过户登记的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828890249",
+            "columns": [
+              "股东/实际控制人股份减持"
+            ],
+            "codes": [
+              {
+                "stock_code": "001227",
+                "short_name": "兰州银行",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "怡亚通:关于持股5%以上股东减持股份的预披露公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828890172",
+            "columns": [
+              "股东/实际控制人股份减持"
+            ],
+            "codes": [
+              {
+                "stock_code": "002183",
+                "short_name": "怡亚通",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "雅化集团:关于出售已回购股份进展的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828890117",
+            "columns": [
+              "股东/实际控制人股份减持"
+            ],
+            "codes": [
+              {
+                "stock_code": "002497",
+                "short_name": "雅化集团",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "三维通信:关于实际控制人减持计划期限届满暨实施情况的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828889834",
+            "columns": [
+              "股东/实际控制人股份减持"
+            ],
+            "codes": [
+              {
+                "stock_code": "002115",
+                "short_name": "三维通信",
+                "ann_type": "A,SZA"
+              }
+            ]
+          }
+        ]
+      },
+      "page_2": {
+        "total_hits": 626,
+        "items": [
+          {
+            "title": "伟隆股份:关于股东减持股份触及1%整数倍暨减持计划实施完毕的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828889339",
+            "columns": [
+              "股东/实际控制人股份减持"
+            ],
+            "codes": [
+              {
+                "stock_code": "002871",
+                "short_name": "伟隆股份",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "联诚精密:关于出售部分已回购股份计划的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888947",
+            "columns": [
+              "股东/实际控制人股份减持"
+            ],
+            "codes": [
+              {
+                "stock_code": "002921",
+                "short_name": "联诚精密",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "摩登大道:关于公司持股5%以上股东股份减持计划期限届满暨实施情况的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828888409",
+            "columns": [
+              "股东/实际控制人股份减持"
+            ],
+            "codes": [
+              {
+                "stock_code": "002656",
+                "short_name": "摩登大道",
+                "ann_type": "A,SZA"
+              }
+            ]
+          },
+          {
+            "title": "深圳新星:关于控股股东、实际控制人股权转让完成工商变更登记的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828887895",
+            "columns": [
+              "公司注册资本变更",
+              "公司关联方基本资料变更",
+              "股权转让",
+              "股东/实际控制人变更"
+            ],
+            "codes": [
+              {
+                "stock_code": "603978",
+                "short_name": "深圳新星",
+                "ann_type": "A,SHA"
+              }
+            ]
+          },
+          {
+            "title": "建科智能:关于公司实际控制人之一减持计划期限届满暨实施结果的公告",
+            "notice_date": "2026-09-02",
+            "art_code": "AN202609011828887854",
+            "columns": [
+              "股东/实际控制人股份减持"
+            ],
+            "codes": [
+              {
+                "stock_code": "300823",
+                "short_name": "建科智能",
+                "ann_type": "A,CYB"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "8": {
+      "page_1": {
+        "total_hits": 0,
+        "items": []
+      },
+      "page_2": {
+        "total_hits": 0,
+        "items": []
+      }
+    },
+    "9": {
+      "page_1": {
+        "total_hits": 0,
+        "items": []
+      },
+      "page_2": {
+        "total_hits": 0,
+        "items": []
+      }
+    },
+    "10": {
+      "page_1": {
+        "total_hits": 0,
+        "items": []
+      },
+      "page_2": {
+        "total_hits": 0,
+        "items": []
+      }
+    },
+    "all_no_node": {
+      "total_hits": 50000,
+      "items": [
+        {
+          "title": "002063远光软件投资者关系管理信息20260902",
+          "notice_date": "2026-09-02",
+          "art_code": "AN202609021828905400",
+          "columns": [
+            "调研活动"
+          ],
+          "codes": [
+            {
+              "stock_code": "002063",
+              "short_name": "远光软件",
+              "ann_type": "INV"
+            }
+          ]
+        },
+        {
+          "title": "汇川技术:投资者关系活动记录表（2026年8月31日）",
+          "notice_date": "2026-09-02",
+          "art_code": "AN202609021828904430",
+          "columns": [
+            "调研活动"
+          ],
+          "codes": [
+            {
+              "stock_code": "300124",
+              "short_name": "汇川技术",
+              "ann_type": "INV"
+            }
+          ]
+        },
+        {
+          "title": "好想你:002582好想你投资者关系管理信息20260902",
+          "notice_date": "2026-09-02",
+          "art_code": "AN202609021828902933",
+          "columns": [
+            "调研活动"
+          ],
+          "codes": [
+            {
+              "stock_code": "002582",
+              "short_name": "好想你",
+              "ann_type": "INV"
+            }
+          ]
+        },
+        {
+          "title": "嘉立创:2026年9月1日投资者关系活动记录表",
+          "notice_date": "2026-09-02",
+          "art_code": "AN202609021828901678",
+          "columns": [
+            "调研活动"
+          ],
+          "codes": [
+            {
+              "stock_code": "001232",
+              "short_name": "嘉立创",
+              "ann_type": "INV"
+            }
+          ]
+        },
+        {
+          "title": "福晶科技:福晶科技投资者关系管理信息20260902",
+          "notice_date": "2026-09-02",
+          "art_code": "AN202609021828901057",
+          "columns": [
+            "调研活动"
+          ],
+          "codes": [
+            {
+              "stock_code": "002222",
+              "short_name": "福晶科技",
+              "ann_type": "INV"
+            }
+          ]
+        }
+      ]
+    },
+    "stock_sample_600519": {
+      "total_hits": 6,
+      "items": [
+        {
+          "title": "贵州茅台:贵州茅台关于召开2026年半年度业绩说明会的公告",
+          "notice_date": "2026-08-15",
+          "art_code": "AN202608141827994407",
+          "columns": [
+            "其他"
+          ],
+          "codes": [
+            {
+              "stock_code": "600519",
+              "short_name": "贵州茅台",
+              "ann_type": "A,SHA"
+            }
+          ]
+        },
+        {
+          "title": "贵州茅台:贵州茅台关于贵州茅台集团财务有限公司的风险评估报告",
+          "notice_date": "2026-08-15",
+          "art_code": "AN202608141827994404",
+          "columns": [
+            "其他"
+          ],
+          "codes": [
+            {
+              "stock_code": "600519",
+              "short_name": "贵州茅台",
+              "ann_type": "A,SHA"
+            }
+          ]
+        },
+        {
+          "title": "贵州茅台:贵州茅台2026年半年度报告摘要",
+          "notice_date": "2026-08-15",
+          "art_code": "AN202608141827994403",
+          "columns": [
+            "半年度报告摘要"
+          ],
+          "codes": [
+            {
+              "stock_code": "600519",
+              "short_name": "贵州茅台",
+              "ann_type": "A,SHA"
+            }
+          ]
+        },
+        {
+          "title": "贵州茅台:贵州茅台关于会计政策变更的公告",
+          "notice_date": "2026-08-15",
+          "art_code": "AN202608141827994406",
+          "columns": [
+            "其他"
+          ],
+          "codes": [
+            {
+              "stock_code": "600519",
+              "short_name": "贵州茅台",
+              "ann_type": "A,SHA"
+            }
+          ]
+        },
+        {
+          "title": "贵州茅台:贵州茅台第五届董事会2026年度第三次会议决议公告",
+          "notice_date": "2026-08-15",
+          "art_code": "AN202608141827994405",
+          "columns": [
+            "董事会决议公告"
+          ],
+          "codes": [
+            {
+              "stock_code": "600519",
+              "short_name": "贵州茅台",
+              "ann_type": "A,SHA"
+            }
+          ]
+        }
+      ]
     }
   },
   "quotes": {
     "https://push2.eastmoney.com": {
-      "total": 3088,
+      "total": 3089,
       "rows": 10
     },
     "https://7.push2.eastmoney.com": {
-      "total": 3088,
-      "rows": 10
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "https://82.push2.eastmoney.com": {
       "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "sina": {
       "status": 200,
-      "text_prefix": "[{\"symbol\":\"bj920000\",\"code\":\"920000\",\"name\":\"\\u5b89\\u5fbd\\u51e4\\u51f0\",\"trade\":\"14.190\",\"pricechange\":0.45,\"changeperce",
-      "content_length": 3715
+      "text_prefix": "[{\"symbol\":\"bj920000\",\"code\":\"920000\",\"name\":\"\\u5b89\\u5fbd\\u51e4\\u51f0\",\"trade\":\"15.200\",\"pricechange\":1.01,\"changeperce",
+      "content_length": 3719
     }
   },
   "reports": {
-    "total_page": 1268,
+    "total_page": 1270,
     "total_count": null,
     "rows": 10
   }
