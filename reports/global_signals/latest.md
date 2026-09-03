@@ -1,4 +1,4 @@
-# A股海外产业信号雷达｜2026-09-03 13:04（北京时间）
+# A股海外产业信号雷达｜2026-09-03 13:09（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
@@ -15,15 +15,15 @@
 |P1|台积电月营收同比|44.70|-34.17%|101.35%|下行|TSMC investor relations|
 |P1|布伦特原油现货|96.02|6.99%|3.57%|上行|FRED|
 |P1|WTI原油现货|91.48|5.11%|9.03%|上行|FRED|
-|P2|CBOT玉米期货|540.75|4.24%|5.98%|上行|Yahoo public chart endpoint|
+|P2|CBOT玉米期货|541.00|4.29%|6.03%|上行|Yahoo public chart endpoint|
 |P2|ICE棉花期货|86.38|-4.03%|-1.58%|下行|Yahoo public chart endpoint|
-|P2|COMEX白银期货|66.74|3.12%|-3.87%|上行|Yahoo public chart endpoint|
-|P2|COMEX黄金期货|4,480.80|2.62%|-2.80%|上行|Yahoo public chart endpoint|
-|P2|CBOT小麦期货|772.75|2.38%|4.04%|上行|Yahoo public chart endpoint|
+|P2|COMEX白银期货|66.74|3.11%|-3.88%|上行|Yahoo public chart endpoint|
+|P2|COMEX黄金期货|4,482.60|2.66%|-2.76%|上行|Yahoo public chart endpoint|
+|P2|CBOT小麦期货|773.00|2.42%|4.07%|上行|Yahoo public chart endpoint|
 |P2|ICE原糖期货|18.70|1.85%|6.31%|上行|Yahoo public chart endpoint|
-|P2|CBOT大豆期货|1,313.25|0.88%|4.52%|上行|Yahoo public chart endpoint|
+|P2|CBOT大豆期货|1,313.50|0.90%|4.54%|上行|Yahoo public chart endpoint|
 |P2|美国10年期国债收益率|4.79|0.84%|3.23%|上行|FRED|
-|P2|美元兑人民币|6.72|-0.04%|-0.07%|下行|Yahoo public chart endpoint|
+|P2|美元兑人民币|6.72|-0.04%|-0.08%|下行|Yahoo public chart endpoint|
 |P2|美国输电与变压器政策|1条事件|—|—|待判定|A|
 |P3|荣昌生物海外临床状态|5条事件|—|—|待判定|A|
 |P3|USDA全球农产品供需报告|1条事件|—|—|待判定|A|
