@@ -1,0 +1,722 @@
+{
+  "version": "1.0.0",
+  "timezone": "Asia/Shanghai",
+  "signals": [
+    {
+      "id": "bdi",
+      "name": "波罗的海干散货指数 BDI",
+      "group": "shipping",
+      "provider": "baltic",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://www.balticexchange.com/en/data-services/routes.html",
+      "thresholds": {
+        "pct_1": {
+          "p1": 5.0,
+          "p2": 3.0
+        },
+        "pct_5": {
+          "p1": 12.0,
+          "p2": 8.0
+        },
+        "breakout": 20
+      }
+    },
+    {
+      "id": "bci",
+      "name": "海岬型船指数 BCI",
+      "group": "shipping",
+      "provider": "baltic",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://www.balticexchange.com/en/data-services/routes.html",
+      "thresholds": {
+        "pct_1": {
+          "p1": 5.0,
+          "p2": 3.0
+        },
+        "pct_5": {
+          "p1": 12.0,
+          "p2": 8.0
+        },
+        "breakout": 20
+      }
+    },
+    {
+      "id": "bpi",
+      "name": "巴拿马型船指数 BPI",
+      "group": "shipping",
+      "provider": "baltic",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://www.balticexchange.com/en/data-services/routes.html",
+      "thresholds": {
+        "pct_1": {
+          "p1": 5.0,
+          "p2": 3.0
+        },
+        "pct_5": {
+          "p1": 12.0,
+          "p2": 8.0
+        },
+        "breakout": 20
+      }
+    },
+    {
+      "id": "bsi",
+      "name": "超灵便型船指数 BSI",
+      "group": "shipping",
+      "provider": "baltic",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://www.balticexchange.com/en/data-services/routes.html",
+      "thresholds": {
+        "pct_1": {
+          "p1": 5.0,
+          "p2": 3.0
+        },
+        "pct_5": {
+          "p1": 12.0,
+          "p2": 8.0
+        },
+        "breakout": 20
+      }
+    },
+    {
+      "id": "bdti",
+      "name": "原油轮指数 BDTI",
+      "group": "shipping",
+      "provider": "baltic",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://www.balticexchange.com/en/data-services/routes.html",
+      "thresholds": {
+        "pct_1": {
+          "p1": 5.0,
+          "p2": 3.0
+        },
+        "pct_5": {
+          "p1": 12.0,
+          "p2": 8.0
+        },
+        "breakout": 20
+      }
+    },
+    {
+      "id": "bcti",
+      "name": "成品油轮指数 BCTI",
+      "group": "shipping",
+      "provider": "baltic",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://www.balticexchange.com/en/data-services/routes.html",
+      "thresholds": {
+        "pct_1": {
+          "p1": 5.0,
+          "p2": 3.0
+        },
+        "pct_5": {
+          "p1": 12.0,
+          "p2": 8.0
+        },
+        "breakout": 20
+      }
+    },
+    {
+      "id": "blng",
+      "name": "LNG航运指数 BLNG",
+      "group": "shipping",
+      "provider": "baltic",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://www.balticexchange.com/en/data-services/routes.html",
+      "thresholds": {
+        "pct_1": {
+          "p1": 8.0,
+          "p2": 5.0
+        },
+        "pct_5": {
+          "p1": 12.0,
+          "p2": 8.0
+        },
+        "breakout": 20
+      }
+    },
+    {
+      "id": "blpg",
+      "name": "LPG航运指数 BLPG",
+      "group": "shipping",
+      "provider": "baltic",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://www.balticexchange.com/en/data-services/routes.html",
+      "thresholds": {
+        "pct_1": {
+          "p1": 8.0,
+          "p2": 5.0
+        },
+        "pct_5": {
+          "p1": 12.0,
+          "p2": 8.0
+        },
+        "breakout": 20
+      }
+    },
+    {
+      "id": "fbx",
+      "name": "全球集装箱运价指数 FBX",
+      "group": "shipping",
+      "provider": "baltic",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://www.balticexchange.com/en/data-services/routes.html",
+      "thresholds": {
+        "pct_1": {
+          "p1": 5.0,
+          "p2": 3.0
+        },
+        "pct_5": {
+          "p1": 12.0,
+          "p2": 8.0
+        },
+        "breakout": 20
+      }
+    },
+    {
+      "id": "bai00",
+      "name": "全球航空货运指数 BAI00",
+      "group": "shipping",
+      "provider": "baltic",
+      "frequency": "weekly",
+      "source_tier": "A",
+      "source_url": "https://www.balticexchange.com/en/data-services/routes.html",
+      "thresholds": {
+        "pct_1": {
+          "p1": 5.0,
+          "p2": 3.0
+        },
+        "pct_5": {
+          "p1": 12.0,
+          "p2": 8.0
+        },
+        "breakout": 20
+      }
+    },
+    {
+      "id": "brent",
+      "name": "布伦特原油现货",
+      "group": "energy",
+      "provider": "fred",
+      "series": "DCOILBRENTEU",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+      "thresholds": {
+        "pct_1": {
+          "p1": 5.0,
+          "p2": 3.0
+        },
+        "pct_5": {
+          "p1": 12.0,
+          "p2": 6.8999999999999995
+        },
+        "breakout": 60
+      }
+    },
+    {
+      "id": "wti",
+      "name": "WTI原油现货",
+      "group": "energy",
+      "provider": "fred",
+      "series": "DCOILWTICO",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+      "thresholds": {
+        "pct_1": {
+          "p1": 5.0,
+          "p2": 3.0
+        },
+        "pct_5": {
+          "p1": 12.0,
+          "p2": 6.8999999999999995
+        },
+        "breakout": 60
+      }
+    },
+    {
+      "id": "henry_hub",
+      "name": "Henry Hub天然气现货",
+      "group": "energy",
+      "provider": "fred",
+      "series": "DHHNGSP",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://fred.stlouisfed.org/series/DHHNGSP",
+      "thresholds": {
+        "pct_1": {
+          "p1": 10.0,
+          "p2": 6.0
+        },
+        "pct_5": {
+          "p1": 24.0,
+          "p2": 13.799999999999999
+        },
+        "breakout": 60
+      }
+    },
+    {
+      "id": "us10y",
+      "name": "美国10年期国债收益率",
+      "group": "rates",
+      "provider": "fred",
+      "series": "DGS10",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://fred.stlouisfed.org/series/DGS10",
+      "thresholds": {
+        "abs_1": {
+          "p1": 0.25,
+          "p2": 0.15
+        },
+        "abs_5": {
+          "p1": 0.5,
+          "p2": 0.3
+        },
+        "breakout": 60
+      }
+    },
+    {
+      "id": "copper",
+      "name": "COMEX铜期货",
+      "group": "metals",
+      "provider": "yahoo",
+      "ticker": "HG=F",
+      "frequency": "daily",
+      "source_tier": "B",
+      "source_url": "https://finance.yahoo.com/quote/HG=F",
+      "thresholds": {
+        "pct_1": {
+          "p1": 4.0,
+          "p2": 2.5
+        },
+        "pct_5": {
+          "p1": 9.6,
+          "p2": 6.0
+        },
+        "breakout": 60
+      }
+    },
+    {
+      "id": "aluminum",
+      "name": "CME铝期货",
+      "group": "metals",
+      "provider": "yahoo",
+      "ticker": "ALI=F",
+      "frequency": "daily",
+      "source_tier": "B",
+      "source_url": "https://finance.yahoo.com/quote/ALI=F",
+      "thresholds": {
+        "pct_1": {
+          "p1": 4.0,
+          "p2": 2.5
+        },
+        "pct_5": {
+          "p1": 9.6,
+          "p2": 6.0
+        },
+        "breakout": 60
+      }
+    },
+    {
+      "id": "gold",
+      "name": "COMEX黄金期货",
+      "group": "metals",
+      "provider": "yahoo",
+      "ticker": "GC=F",
+      "frequency": "daily",
+      "source_tier": "B",
+      "source_url": "https://finance.yahoo.com/quote/GC=F",
+      "thresholds": {
+        "pct_1": {
+          "p1": 3.5,
+          "p2": 2.0
+        },
+        "pct_5": {
+          "p1": 8.4,
+          "p2": 4.8
+        },
+        "breakout": 60
+      }
+    },
+    {
+      "id": "silver",
+      "name": "COMEX白银期货",
+      "group": "metals",
+      "provider": "yahoo",
+      "ticker": "SI=F",
+      "frequency": "daily",
+      "source_tier": "B",
+      "source_url": "https://finance.yahoo.com/quote/SI=F",
+      "thresholds": {
+        "pct_1": {
+          "p1": 5.0,
+          "p2": 3.0
+        },
+        "pct_5": {
+          "p1": 12.0,
+          "p2": 7.199999999999999
+        },
+        "breakout": 60
+      }
+    },
+    {
+      "id": "corn",
+      "name": "CBOT玉米期货",
+      "group": "agriculture",
+      "provider": "yahoo",
+      "ticker": "ZC=F",
+      "frequency": "daily",
+      "source_tier": "B",
+      "source_url": "https://finance.yahoo.com/quote/ZC=F",
+      "thresholds": {
+        "pct_1": {
+          "p1": 4.5,
+          "p2": 2.5
+        },
+        "pct_5": {
+          "p1": 10.799999999999999,
+          "p2": 6.0
+        },
+        "breakout": 60
+      }
+    },
+    {
+      "id": "soybeans",
+      "name": "CBOT大豆期货",
+      "group": "agriculture",
+      "provider": "yahoo",
+      "ticker": "ZS=F",
+      "frequency": "daily",
+      "source_tier": "B",
+      "source_url": "https://finance.yahoo.com/quote/ZS=F",
+      "thresholds": {
+        "pct_1": {
+          "p1": 4.5,
+          "p2": 2.5
+        },
+        "pct_5": {
+          "p1": 10.799999999999999,
+          "p2": 6.0
+        },
+        "breakout": 60
+      }
+    },
+    {
+      "id": "wheat",
+      "name": "CBOT小麦期货",
+      "group": "agriculture",
+      "provider": "yahoo",
+      "ticker": "ZW=F",
+      "frequency": "daily",
+      "source_tier": "B",
+      "source_url": "https://finance.yahoo.com/quote/ZW=F",
+      "thresholds": {
+        "pct_1": {
+          "p1": 5.0,
+          "p2": 3.0
+        },
+        "pct_5": {
+          "p1": 12.0,
+          "p2": 7.199999999999999
+        },
+        "breakout": 60
+      }
+    },
+    {
+      "id": "sugar",
+      "name": "ICE原糖期货",
+      "group": "agriculture",
+      "provider": "yahoo",
+      "ticker": "SB=F",
+      "frequency": "daily",
+      "source_tier": "B",
+      "source_url": "https://finance.yahoo.com/quote/SB=F",
+      "thresholds": {
+        "pct_1": {
+          "p1": 5.0,
+          "p2": 3.0
+        },
+        "pct_5": {
+          "p1": 12.0,
+          "p2": 7.199999999999999
+        },
+        "breakout": 60
+      }
+    },
+    {
+      "id": "cotton",
+      "name": "ICE棉花期货",
+      "group": "agriculture",
+      "provider": "yahoo",
+      "ticker": "CT=F",
+      "frequency": "daily",
+      "source_tier": "B",
+      "source_url": "https://finance.yahoo.com/quote/CT=F",
+      "thresholds": {
+        "pct_1": {
+          "p1": 4.5,
+          "p2": 2.5
+        },
+        "pct_5": {
+          "p1": 10.799999999999999,
+          "p2": 6.0
+        },
+        "breakout": 60
+      }
+    },
+    {
+      "id": "usd_cny",
+      "name": "美元兑人民币",
+      "group": "fx",
+      "provider": "yahoo",
+      "ticker": "CNY=X",
+      "frequency": "daily",
+      "source_tier": "B",
+      "source_url": "https://finance.yahoo.com/quote/CNY=X",
+      "thresholds": {
+        "pct_1": {
+          "p1": 1.0,
+          "p2": 0.6
+        },
+        "pct_5": {
+          "p1": 2.4,
+          "p2": 1.44
+        },
+        "breakout": 60
+      }
+    },
+    {
+      "id": "eur_cny",
+      "name": "欧元兑人民币",
+      "group": "fx",
+      "provider": "yahoo",
+      "ticker": "EURCNY=X",
+      "frequency": "daily",
+      "source_tier": "B",
+      "source_url": "https://finance.yahoo.com/quote/EURCNY=X",
+      "thresholds": {
+        "pct_1": {
+          "p1": 1.3,
+          "p2": 0.8
+        },
+        "pct_5": {
+          "p1": 3.12,
+          "p2": 1.92
+        },
+        "breakout": 60
+      }
+    },
+    {
+      "id": "sox",
+      "name": "费城半导体指数",
+      "group": "semiconductor",
+      "provider": "yahoo",
+      "ticker": "^SOX",
+      "frequency": "daily",
+      "source_tier": "B",
+      "source_url": "https://finance.yahoo.com/quote/^SOX",
+      "thresholds": {
+        "pct_1": {
+          "p1": 5.0,
+          "p2": 3.0
+        },
+        "pct_5": {
+          "p1": 12.0,
+          "p2": 7.199999999999999
+        },
+        "breakout": 60
+      }
+    },
+    {
+      "id": "tsmc_revenue_yoy",
+      "name": "台积电月营收同比",
+      "group": "semiconductor",
+      "provider": "tsmc",
+      "frequency": "monthly",
+      "source_tier": "A",
+      "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
+      "thresholds": {
+        "level": {
+          "p1": 45.0,
+          "p2": 30.0
+        },
+        "abs_1": {
+          "p1": 15.0,
+          "p2": 8.0
+        }
+      }
+    },
+    {
+      "id": "sia_sales_yoy",
+      "name": "全球半导体销售额同比",
+      "group": "semiconductor",
+      "provider": "sia",
+      "frequency": "monthly",
+      "source_tier": "A",
+      "source_url": "https://www.semiconductors.org/category/industry-statistics/",
+      "thresholds": {
+        "level": {
+          "p1": 40.0,
+          "p2": 25.0
+        },
+        "abs_1": {
+          "p1": 15.0,
+          "p2": 8.0
+        }
+      }
+    },
+    {
+      "id": "acea_bev_share",
+      "name": "欧洲纯电动车注册份额",
+      "group": "automotive",
+      "provider": "acea",
+      "frequency": "monthly",
+      "source_tier": "A",
+      "source_url": "https://www.acea.auto/press-releases/",
+      "thresholds": {
+        "level": {
+          "p1": 30.0,
+          "p2": 20.0
+        },
+        "abs_1": {
+          "p1": 3.0,
+          "p2": 1.5
+        }
+      }
+    },
+    {
+      "id": "ctg_rongchang",
+      "name": "荣昌生物海外临床状态",
+      "group": "biotech",
+      "provider": "clinicaltrials",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://clinicaltrials.gov/data-api/api",
+      "study_ids": [
+        "NCT07462143",
+        "NCT07416474",
+        "NCT06016062",
+        "NCT06456580",
+        "NCT05306574"
+      ]
+    },
+    {
+      "id": "sec_abbvie",
+      "name": "艾伯维SEC重大披露",
+      "group": "biotech",
+      "provider": "sec",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://data.sec.gov/submissions/",
+      "ciks": [
+        "0001551152"
+      ],
+      "forms": [
+        "8-K",
+        "10-Q",
+        "10-K"
+      ]
+    },
+    {
+      "id": "sec_hyperscalers",
+      "name": "美股云厂商SEC披露",
+      "group": "semiconductor",
+      "provider": "sec",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://data.sec.gov/submissions/",
+      "ciks": [
+        "0000789019",
+        "0001018724",
+        "0001652044",
+        "0001326801"
+      ],
+      "forms": [
+        "8-K",
+        "10-Q",
+        "10-K"
+      ]
+    },
+    {
+      "id": "fr_hfc",
+      "name": "美国HFC/制冷剂政策",
+      "group": "policy",
+      "provider": "federal_register",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
+      "terms": [
+        "hydrofluorocarbon allowance",
+        "HFC phasedown",
+        "AIM Act refrigerant"
+      ]
+    },
+    {
+      "id": "fr_packaging",
+      "name": "美国纸浆模塑/食品包装贸易政策",
+      "group": "policy",
+      "provider": "federal_register",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
+      "terms": [
+        "molded fiber tableware",
+        "pulp molded products",
+        "single-use food packaging antidumping"
+      ]
+    },
+    {
+      "id": "fr_battery",
+      "name": "美国电池与电动车贸易政策",
+      "group": "policy",
+      "provider": "federal_register",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
+      "terms": [
+        "lithium-ion battery tariff",
+        "electric vehicle battery antidumping",
+        "critical minerals battery"
+      ]
+    },
+    {
+      "id": "fr_grid",
+      "name": "美国输电与变压器政策",
+      "group": "policy",
+      "provider": "federal_register",
+      "frequency": "daily",
+      "source_tier": "A",
+      "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
+      "terms": [
+        "electric transmission grid transformer",
+        "high-voltage transmission infrastructure"
+      ]
+    },
+    {
+      "id": "usda_wasde",
+      "name": "USDA全球农产品供需报告",
+      "group": "agriculture",
+      "provider": "usda",
+      "frequency": "monthly",
+      "source_tier": "A",
+      "source_url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report"
+    }
+  ],
+  "policy": {
+    "p1": "可能改变次日板块定价，开盘前必须复核",
+    "p2": "趋势增强或关键事件，进入重点观察",
+    "p3": "记录变化，不提高交易优先级",
+    "rule": "任何单一海外信号不得直接触发买入；至少与公司公告、季度经营或价格相对强弱中的一项交叉验证。"
+  }
+}

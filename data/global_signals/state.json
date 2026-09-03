@@ -1,0 +1,50 @@
+{
+  "updated_at": "2026-09-03T13:04:02.398414+08:00",
+  "event_state": {
+    "ctg_rongchang": {
+      "NCT07462143": {
+        "title": "A Phase Ⅱ/Ⅲ Clinical Trial of RC148 Plus Chemotherapy as 1L Therapy for Unresectable or Metastatic Colorectal Cancer",
+        "status": "RECRUITING",
+        "enrollment": 80,
+        "primary_completion": "2027-05-12",
+        "completion": "2030-12-31",
+        "has_results": false
+      },
+      "NCT07416474": {
+        "title": "RC148 Plus Platinum-Based Chemotherapy vs Tislelizumab Plus Platinum-Based Chemotherapy for First-Line Squamous Non-Small Cell Lung Cancer (sqNSCLC)",
+        "status": "RECRUITING",
+        "enrollment": 574,
+        "primary_completion": "2027-12-31",
+        "completion": "2029-11-30",
+        "has_results": false
+      },
+      "NCT06016062": {
+        "title": "A Study of RC148 As a Single Agent and Combination Therapy in Patients with Locally Advanced Unresectable or Metastatic Malignant Solid Tumors",
+        "status": "RECRUITING",
+        "enrollment": 221,
+        "primary_completion": "2025-12-31",
+        "completion": "2025-12-31",
+        "has_results": false
+      },
+      "NCT06456580": {
+        "title": "A Study of Telitacicept for the Treatment of Generalized Myasthenia Gravis (UPSTREAM MG)",
+        "status": "RECRUITING",
+        "enrollment": 180,
+        "primary_completion": "2027-05",
+        "completion": "2029-01",
+        "has_results": false
+      },
+      "NCT05306574": {
+        "title": "A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)",
+        "status": "TERMINATED",
+        "enrollment": 91,
+        "primary_completion": "2025-01-06",
+        "completion": "2025-01-06",
+        "has_results": false
+      }
+    }
+  },
+  "page_state": {
+    "usda_wasde": "fdd94ff962ebe46e665d045dfdb0c1e8e1743ccbeb88933a6a95fc842e9bce0e"
+  }
+}
