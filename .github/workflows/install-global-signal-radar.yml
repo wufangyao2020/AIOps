@@ -43,11 +43,11 @@ jobs:
 
       - name: Validate signal catalog and mapping
         run: |
-          python -m py_compile scripts/global_signal_radar.py scripts/validate_global_signal_radar.py
+          python -m py_compile scripts/global_signal_radar.py scripts/global_signal_radar_v2.py scripts/validate_global_signal_radar.py
           python scripts/validate_global_signal_radar.py
 
       - name: Run overseas industry signal radar
-        run: python scripts/global_signal_radar.py
+        run: python scripts/global_signal_radar_v2.py
 
       - name: Validate generated data
         run: |
@@ -63,11 +63,13 @@ jobs:
           alert=json.loads((data/'latest_alert.json').read_text('utf-8'))
           history=pd.read_csv(data/'numeric_history.csv',low_memory=False)
           assert latest['data_health']['configured']==37
-          assert latest['data_health']['successful']>=20, latest['data_health']
+          assert latest['data_health']['successful']>=24, latest['data_health']
+          assert latest['data_health']['failed']<=13, latest['data_health']
           assert history['signal_id'].nunique()>=15, history['signal_id'].nunique()
+          assert 'bdi' in latest['signal_results'], 'BDI is a mandatory core signal'
           assert alert['max_level'] in {'NONE','P3','P2','P1'}
           assert len(alert['fingerprint'])>=12
-          print({'configured':37,'successful':latest['data_health']['successful'],'failed':latest['data_health']['failed'],'numeric_series':history['signal_id'].nunique(),'max_level':alert['max_level']})
+          print({'configured':37,'successful':latest['data_health']['successful'],'failed':latest['data_health']['failed'],'numeric_series':history['signal_id'].nunique(),'bdi_ok':True,'max_level':alert['max_level']})
           PY
 
       - name: Commit signal history and reports
