@@ -53,7 +53,7 @@ def robust_fetch_baltic() -> dict[str, list[dict[str, Any]]]:
     pattern = re.compile(r"\b(" + "|".join(base.BALTIC_CODES) + r")\s*[:：]?\s*([0-9][0-9,]*(?:\.\d+)?)\b")
     for url in official_urls:
         try:
-            text = BeautifulSoup(base.request(url).text, "html.parser").get_text(" ", strip=True)
+            text = BeautifulSoup(base.request(url, retries=1, timeout=12).text, "html.parser").get_text(" ", strip=True)
             for code, raw in pattern.findall(text):
                 value = base.num(raw)
                 if base.finite(value) and code.lower() not in values:
@@ -67,7 +67,7 @@ def robust_fetch_baltic() -> dict[str, list[dict[str, Any]]]:
         if code.lower() in values:
             continue
         try:
-            text = re.sub(r"\s+", " ", BeautifulSoup(base.request(url).text, "html.parser").get_text(" ", strip=True))
+            text = re.sub(r"\s+", " ", BeautifulSoup(base.request(url, retries=1, timeout=12).text, "html.parser").get_text(" ", strip=True))
             match = re.search(regex, text, re.I | re.S)
             if not match:
                 # BalticDryIndex.com exposes all four dry indices in prose/table
@@ -93,10 +93,6 @@ def robust_fetch_baltic() -> dict[str, list[dict[str, Any]]]:
 
 
 def robust_fetch_sia() -> list[dict[str, Any]]:
-    try:
-        return base.fetch_sia()
-    except Exception:
-        pass
     index_urls = [
         "https://www.semiconductors.org/news-events/latest-news/",
         "https://www.semiconductors.org/category/industry-statistics/",
@@ -105,7 +101,7 @@ def robust_fetch_sia() -> list[dict[str, Any]]:
     links: list[str] = []
     for index in index_urls:
         try:
-            soup = BeautifulSoup(base.request(index).text, "html.parser")
+            soup = BeautifulSoup(base.request(index, retries=2, timeout=15).text, "html.parser")
             for anchor in soup.find_all("a", href=True):
                 label = anchor.get_text(" ", strip=True)
                 href = str(anchor["href"])
@@ -117,7 +113,7 @@ def robust_fetch_sia() -> list[dict[str, Any]]:
             continue
     for url in dict.fromkeys(links):
         try:
-            soup = BeautifulSoup(base.request(url).text, "html.parser")
+            soup = BeautifulSoup(base.request(url, retries=1, timeout=12).text, "html.parser")
             title = soup.title.get_text(" ", strip=True) if soup.title else ""
             text = re.sub(r"\s+", " ", soup.get_text(" ", strip=True))
             match = re.search(r"(?:increase|up)\s+([0-9]+(?:\.[0-9]+)?)%\s+(?:year-to-year|year-over-year)", title + " " + text, re.I)
@@ -133,15 +129,11 @@ def robust_fetch_sia() -> list[dict[str, Any]]:
 
 
 def robust_fetch_acea() -> list[dict[str, Any]]:
-    try:
-        return base.fetch_acea()
-    except Exception:
-        pass
     index_urls = ["https://www.acea.auto/", "https://www.acea.auto/press-releases/"]
     links: list[str] = []
     for index in index_urls:
         try:
-            soup = BeautifulSoup(base.request(index).text, "html.parser")
+            soup = BeautifulSoup(base.request(index, retries=2, timeout=15).text, "html.parser")
             for anchor in soup.find_all("a", href=True):
                 href = str(anchor["href"])
                 label = anchor.get_text(" ", strip=True)
@@ -153,7 +145,7 @@ def robust_fetch_acea() -> list[dict[str, Any]]:
             continue
     for url in dict.fromkeys(links):
         try:
-            text = re.sub(r"\s+", " ", BeautifulSoup(base.request(url).text, "html.parser").get_text(" ", strip=True))
+            text = re.sub(r"\s+", " ", BeautifulSoup(base.request(url, retries=1, timeout=12).text, "html.parser").get_text(" ", strip=True))
             match = re.search(r"battery-electric(?: cars?)?.{0,100}?(?:accounted for|market share.{0,20}?(?:reached|was|stood at)|capturing)\s*([0-9]+(?:\.[0-9]+)?)%", text, re.I)
             if not match:
                 title_match = re.search(r"battery-electric\s+([0-9]+(?:\.[0-9]+)?)%\s+market share", text, re.I)
@@ -168,17 +160,13 @@ def robust_fetch_acea() -> list[dict[str, Any]]:
 
 
 def robust_sec_events(signal: dict[str, Any]) -> list[dict[str, Any]]:
-    try:
-        return base.sec_events(signal)
-    except Exception:
-        pass
     events: list[dict[str, Any]] = []
     cutoff = base.NOW.date() - timedelta(days=10)
     allowed = set(signal.get("forms", []))
     atom_ns = {"a": "http://www.w3.org/2005/Atom"}
     for cik in signal.get("ciks", []):
         params = {"action": "getcompany", "CIK": str(cik), "type": "", "owner": "exclude", "count": 40, "output": "atom"}
-        xml = base.request("https://www.sec.gov/cgi-bin/browse-edgar", params=params, headers={"Accept": "application/atom+xml,application/xml,text/xml"}).content
+        xml = base.request("https://www.sec.gov/cgi-bin/browse-edgar", params=params, headers={"Accept": "application/atom+xml,application/xml,text/xml"}, retries=2, timeout=15).content
         root = ET.fromstring(xml)
         company = root.findtext("a:title", default=str(cik), namespaces=atom_ns)
         for entry in root.findall("a:entry", atom_ns):
@@ -200,17 +188,23 @@ def robust_sec_events(signal: dict[str, Any]) -> list[dict[str, Any]]:
 
 def fixed_clinical_events(signal: dict[str, Any], prior: dict[str, Any]):
     events, snapshot = base.clinical_events(signal, prior)
+    existing_titles = " | ".join(str(event.get("title", "")) for event in events)
     old_all = prior.get(signal["id"]) or {}
-    if old_all:
-        return events, snapshot
-    adjusted: list[dict[str, Any]] = []
-    by_nct = {event["title"].split("纳入")[0]: event for event in events}
-    for nct, current in snapshot.items():
-        status = str(current.get("status", "")).upper()
-        if status in {"TERMINATED", "WITHDRAWN", "SUSPENDED"}:
-            adjusted.append(base.make_event(signal, nct + ":baseline-negative", f"{nct}基线状态为{status}：{current.get('title','')}", "该状态本身已经构成负面事实，不能仅作为中性建档。", f"https://clinicaltrials.gov/study/{nct}", -1, "P1"))
-        else:
-            adjusted.append(by_nct.get(nct) or base.make_event(signal, nct, f"{nct}纳入临床监控", json.dumps(current, ensure_ascii=False), f"https://clinicaltrials.gov/study/{nct}", 0, "P3"))
+    adjusted: list[dict[str, Any]] = list(events)
+    if not old_all:
+        by_nct = {event["title"].split("纳入")[0]: event for event in events}
+        adjusted = []
+        for nct, current in snapshot.items():
+            status = str(current.get("status", "")).upper()
+            if status in {"TERMINATED", "WITHDRAWN", "SUSPENDED"}:
+                adjusted.append(base.make_event(signal, nct + ":standing-negative", f"{nct}状态为{status}：{current.get('title','')}", "该状态本身已经构成负面事实，不能仅作为中性建档。", f"https://clinicaltrials.gov/study/{nct}", -1, "P1"))
+            else:
+                adjusted.append(by_nct.get(nct) or base.make_event(signal, nct, f"{nct}纳入临床监控", json.dumps(current, ensure_ascii=False), f"https://clinicaltrials.gov/study/{nct}", 0, "P3"))
+    else:
+        for nct, current in snapshot.items():
+            status = str(current.get("status", "")).upper()
+            if status in {"TERMINATED", "WITHDRAWN", "SUSPENDED"} and nct not in existing_titles:
+                adjusted.append(base.make_event(signal, nct + ":standing-negative", f"{nct}状态为{status}：{current.get('title','')}", "持续性负面状态；在状态恢复或试验替代前维持风险提示。", f"https://clinicaltrials.gov/study/{nct}", -1, "P1"))
     return adjusted, snapshot
 
 
@@ -255,6 +249,15 @@ def main() -> int:
         "failed": len(failed_ids),
     }
     base.write_json(base.LATEST_FILE, latest)
+    try:
+        report = (base.REPORT_DIR / "latest.md").read_text("utf-8")
+        report = re.sub(r"- 数据源成功：\d+条；失败：\d+条。", f"- 数据源成功：{latest['data_health']['successful']}条；失败：{latest['data_health']['failed']}条。", report)
+        base.atomic_write(base.REPORT_DIR / "latest.md", report)
+        dated = base.REPORT_DIR / f"{base.NOW:%Y-%m-%d}-{base.RUN_SLOT}.md"
+        if dated.exists():
+            base.atomic_write(dated, report)
+    except Exception as exc:  # noqa: BLE001
+        base.log(f"data-health report patch failed: {exc}")
     return rc
 
 
