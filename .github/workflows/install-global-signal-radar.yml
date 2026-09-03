@@ -43,11 +43,11 @@ jobs:
 
       - name: Validate signal catalog and mapping
         run: |
-          python -m py_compile scripts/global_signal_radar.py scripts/global_signal_radar_v2.py scripts/validate_global_signal_radar.py
+          python -m py_compile scripts/global_signal_radar.py scripts/global_signal_radar_v2.py scripts/global_signal_radar_v3.py scripts/validate_global_signal_radar.py
           python scripts/validate_global_signal_radar.py
 
       - name: Run overseas industry signal radar
-        run: python scripts/global_signal_radar_v2.py
+        run: python scripts/global_signal_radar_v3.py
 
       - name: Validate generated data
         run: |
