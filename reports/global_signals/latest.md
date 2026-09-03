@@ -1,31 +1,30 @@
-# A股海外产业信号雷达｜2026-09-03 13:09（北京时间）
+# A股海外产业信号雷达｜2026-09-03 13:32（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
-- 触发P1：3条；P2：10条；P3：2条。
-- 数据源成功：25条；失败：14条。
-- 最强信号：台积电月营收同比（P1）；布伦特原油现货（P1）；WTI原油现货（P1）；CBOT玉米期货（P2）；ICE棉花期货（P2）。
+- 触发P1：3条；P2：10条；P3：1条。
+- 数据源成功：24条；失败：13条。
+- 最强信号：布伦特原油现货（P1）；WTI原油现货（P1）；荣昌生物海外临床状态（P1）；台积电月营收同比（P2）；CBOT玉米期货（P2）。
 
 ## 触发信号
 
 |级别|信号|最新值/事件|单周期|五周期|方向|来源|
 |---|---|---:|---:|---:|---|---|
-|P1|台积电月营收同比|44.70|-34.17%|101.35%|下行|TSMC investor relations|
 |P1|布伦特原油现货|96.02|6.99%|3.57%|上行|FRED|
 |P1|WTI原油现货|91.48|5.11%|9.03%|上行|FRED|
-|P2|CBOT玉米期货|541.00|4.29%|6.03%|上行|Yahoo public chart endpoint|
+|P1|荣昌生物海外临床状态|6条事件|—|—|下行|A|
+|P2|台积电月营收同比|44.70|-34.17%|101.35%|上行|TSMC investor relations|
+|P2|CBOT玉米期货|540.25|4.14%|5.88%|上行|Yahoo public chart endpoint|
 |P2|ICE棉花期货|86.38|-4.03%|-1.58%|下行|Yahoo public chart endpoint|
-|P2|COMEX白银期货|66.74|3.11%|-3.88%|上行|Yahoo public chart endpoint|
-|P2|COMEX黄金期货|4,482.60|2.66%|-2.76%|上行|Yahoo public chart endpoint|
-|P2|CBOT小麦期货|773.00|2.42%|4.07%|上行|Yahoo public chart endpoint|
+|P2|COMEX黄金期货|4,470.60|2.39%|-3.02%|上行|Yahoo public chart endpoint|
+|P2|CBOT小麦期货|771.00|2.15%|3.80%|上行|Yahoo public chart endpoint|
 |P2|ICE原糖期货|18.70|1.85%|6.31%|上行|Yahoo public chart endpoint|
-|P2|CBOT大豆期货|1,313.50|0.90%|4.54%|上行|Yahoo public chart endpoint|
+|P2|CBOT大豆期货|1,313.00|0.86%|4.50%|上行|Yahoo public chart endpoint|
 |P2|美国10年期国债收益率|4.79|0.84%|3.23%|上行|FRED|
-|P2|美元兑人民币|6.72|-0.04%|-0.08%|下行|Yahoo public chart endpoint|
+|P2|美元兑人民币|6.72|-0.04%|-0.07%|下行|Yahoo public chart endpoint|
 |P2|美国输电与变压器政策|1条事件|—|—|待判定|A|
-|P3|荣昌生物海外临床状态|5条事件|—|—|待判定|A|
 |P3|USDA全球农产品供需报告|1条事件|—|—|待判定|A|
 
 ## A股优先复核
@@ -37,31 +36,31 @@
 |000876|新希望|-3.90|0.00|3.90|0.50|CBOT玉米期货(P2/A)；CBOT大豆期货(P2/A)；CBOT小麦期货(P2/A)|否|
 |601857|中国石油|4.35|4.35|0.00|0.00|布伦特原油现货(P1/A)；WTI原油现货(P1/B)|否|
 |600256|广汇能源|3.60|3.60|0.00|0.00|WTI原油现货(P1/B)；布伦特原油现货(P1/B)|否|
-|300308|中际旭创|-3.00|0.00|3.00|0.00|台积电月营收同比(P1/A)|否|
-|300502|新易盛|-3.00|0.00|3.00|0.00|台积电月营收同比(P1/A)|否|
+|688331|荣昌生物|-3.00|0.00|3.00|0.00|荣昌生物海外临床状态(P1/A)|是|
 |002714|牧原股份|-2.70|0.00|2.70|0.00|CBOT玉米期货(P2/B)；CBOT大豆期货(P2/B)；CBOT小麦期货(P2/B)|否|
 |300498|温氏股份|-2.70|0.00|2.70|0.00|CBOT玉米期货(P2/B)；CBOT大豆期货(P2/B)；CBOT小麦期货(P2/B)|否|
-|300476|胜宏科技|-2.70|0.00|2.70|0.00|台积电月营收同比(P1/A)|否|
-|002463|沪电股份|-2.70|0.00|2.70|0.00|台积电月营收同比(P1/A)|否|
 |601952|苏垦农发|2.10|2.10|0.00|0.35|CBOT玉米期货(P2/C)；CBOT大豆期货(P2/C)；CBOT小麦期货(P2/C)|否|
-|601138|工业富联|-2.40|0.00|2.40|0.00|台积电月营收同比(P1/A)|否|
 |000911|广农糖业|2.00|2.00|0.00|0.35|ICE原糖期货(P2/A)；USDA全球农产品供需报告(P3/B)|否|
-|688008|澜起科技|-2.25|0.00|2.25|0.00|台积电月营收同比(P1/B)|否|
-|002916|深南电路|-2.25|0.00|2.25|0.00|台积电月营收同比(P1/B)|否|
 |600737|中粮糖业|1.80|1.80|0.00|0.35|ICE原糖期货(P2/A)；USDA全球农产品供需报告(P3/B)|否|
 |601111|中国国航|-2.10|0.00|2.10|0.00|布伦特原油现货(P1/C)|否|
 |600115|中国东航|-2.10|0.00|2.10|0.00|布伦特原油现货(P1/C)|否|
 |600029|南方航空|-2.10|0.00|2.10|0.00|布伦特原油现货(P1/A)|否|
 |600547|山东黄金|2.00|2.00|0.00|0.00|COMEX黄金期货(P2/A)|否|
-|000603|盛达资源|2.00|2.00|0.00|0.00|COMEX白银期货(P2/A)|否|
-|603986|兆易创新|-1.95|0.00|1.95|0.00|台积电月营收同比(P1/B)|否|
-|301308|江波龙|-1.95|0.00|1.95|0.00|台积电月营收同比(P1/B)|否|
-|000426|兴业银锡|1.90|1.90|0.00|0.00|COMEX白银期货(P2/A)|否|
+|300308|中际旭创|2.00|2.00|0.00|0.00|台积电月营收同比(P2/A)|否|
+|300502|新易盛|2.00|2.00|0.00|0.00|台积电月营收同比(P2/A)|否|
 |600489|中金黄金|1.80|1.80|0.00|0.00|COMEX黄金期货(P2/A)|否|
 |600988|赤峰黄金|1.80|1.80|0.00|0.00|COMEX黄金期货(P2/A)|否|
-|000833|粤桂股份|1.80|1.80|0.00|0.00|COMEX白银期货(P2/B)；ICE原糖期货(P2/B)|是|
+|300476|胜宏科技|1.80|1.80|0.00|0.00|台积电月营收同比(P2/A)|否|
+|002463|沪电股份|1.80|1.80|0.00|0.00|台积电月营收同比(P2/A)|否|
 |600598|北大荒|1.80|1.80|0.00|0.00|CBOT玉米期货(P2/C)；CBOT大豆期货(P2/C)；CBOT小麦期货(P2/C)|否|
 |603162|海通发展|-1.70|0.00|1.70|0.00|美元兑人民币(P2/B)；布伦特原油现货(P1/C)|是|
+|601138|工业富联|1.60|1.60|0.00|0.00|台积电月营收同比(P2/A)|否|
+|600359|新农开发|-1.50|0.00|1.50|0.00|ICE棉花期货(P2/B)|否|
+|600540|新赛股份|-1.50|0.00|1.50|0.00|ICE棉花期货(P2/B)|否|
+|603091|众鑫股份|-1.50|0.00|1.50|0.00|美元兑人民币(P2/A)|是|
+|688008|澜起科技|1.50|1.50|0.00|0.00|台积电月营收同比(P2/B)|否|
+|002916|深南电路|1.50|1.50|0.00|0.00|台积电月营收同比(P2/B)|否|
+|002155|湖南黄金|1.30|1.30|0.00|0.00|COMEX黄金期货(P2/A)|否|
 
 ## 最终20只的海外敏感度
 
@@ -90,11 +89,11 @@
 
 ## 新事件
 
-- **美国输电与变压器政策｜2026-08-31｜待判定**：Declaring a National Emergency To Secure the United States Bulk-Power System  
-    
-  来源：https://www.federalregister.gov/documents/2026/08/31/2026-17843/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system
 - **荣昌生物海外临床状态｜2026-09-03｜待判定**：NCT05306574纳入临床监控：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
   状态=TERMINATED，入组=91，主要完成=2025-01-06  
+  来源：https://clinicaltrials.gov/study/NCT05306574
+- **荣昌生物海外临床状态｜2026-09-03｜负向**：NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
+  持续性负面状态；在状态恢复或替代试验明确前维持风险提示。  
   来源：https://clinicaltrials.gov/study/NCT05306574
 - **荣昌生物海外临床状态｜2026-09-03｜待判定**：NCT06016062纳入临床监控：A Study of RC148 As a Single Agent and Combination Therapy in Patients with Locally Advanced Unresectable or Metastatic Malignant Solid Tumors  
   状态=RECRUITING，入组=221，主要完成=2025-12-31  
@@ -108,26 +107,28 @@
 - **荣昌生物海外临床状态｜2026-09-03｜待判定**：NCT07462143纳入临床监控：A Phase Ⅱ/Ⅲ Clinical Trial of RC148 Plus Chemotherapy as 1L Therapy for Unresectable or Metastatic Colorectal Cancer  
   状态=RECRUITING，入组=80，主要完成=2027-05-12  
   来源：https://clinicaltrials.gov/study/NCT07462143
+- **美国输电与变压器政策｜2026-08-31｜待判定**：Declaring a National Emergency To Secure the United States Bulk-Power System  
+    
+  来源：https://www.federalregister.gov/documents/2026/08/31/2026-17843/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system
 - **USDA全球农产品供需报告｜2026-09-03｜待判定**：USDA WASDE监控建立基线  
   首次运行仅建立页面基线，不视为利好或利空。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 
 ## 数据健康
 
-- `bdi`：Baltic Exchange headline values were not parsed
-- `bci`：Baltic Exchange headline values were not parsed
-- `bpi`：Baltic Exchange headline values were not parsed
-- `bsi`：Baltic Exchange headline values were not parsed
-- `bdti`：Baltic Exchange headline values were not parsed
-- `bcti`：Baltic Exchange headline values were not parsed
-- `blng`：Baltic Exchange headline values were not parsed
-- `blpg`：Baltic Exchange headline values were not parsed
-- `fbx`：Baltic Exchange headline values were not parsed
-- `bai00`：Baltic Exchange headline values were not parsed
-- `sia_sales_yoy`：No SIA global-sales post found
-- `acea_bev_share`：ACEA passenger-registration post was not found
-- `sec_abbvie`：GET failed after 4 attempts: https://data.sec.gov/submissions/CIK0001551152.json: 403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001551152.json
-- `sec_hyperscalers`：GET failed after 4 attempts: https://data.sec.gov/submissions/CIK0000789019.json: 403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0000789019.json
+- `bci`：bci absent from Baltic page
+- `bpi`：bpi absent from Baltic page
+- `bsi`：bsi absent from Baltic page
+- `bdti`：bdti absent from Baltic page
+- `bcti`：bcti absent from Baltic page
+- `blng`：blng absent from Baltic page
+- `blpg`：blpg absent from Baltic page
+- `fbx`：fbx absent from Baltic page
+- `bai00`：bai00 absent from Baltic page
+- `sia_sales_yoy`：SIA official pages did not expose a parseable latest global-sales release
+- `acea_bev_share`：ACEA official pages did not expose a parseable passenger-registration release
+- `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
+- `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
 
 ## 执行纪律
 
