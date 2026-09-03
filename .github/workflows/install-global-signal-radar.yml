@@ -1,0 +1,97 @@
+name: Install A-share global signal radar
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: install-a-share-global-signal-radar
+  cancel-in-progress: false
+
+jobs:
+  install:
+    if: github.event_name != 'issues' || github.event.issue.title == '[global-signal-radar] install'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Reassemble and verify bundle
+        run: |
+          cat .github/radar_bundle.part* | base64 --decode > /tmp/global_signal_radar.tar.gz
+          echo 'd340687bf4d9315db7b32d09bfb57668191b4ccceccda8222d6f0931f9e7584a  /tmp/global_signal_radar.tar.gz' | sha256sum --check
+          tar -tzf /tmp/global_signal_radar.tar.gz
+
+      - name: Extract monitored system
+        run: tar -xzf /tmp/global_signal_radar.tar.gz
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install validator dependencies
+        run: python -m pip install --disable-pip-version-check pandas
+
+      - name: Validate catalog and mappings
+        run: |
+          python -m py_compile scripts/global_signal_radar.py scripts/validate_global_signal_radar.py
+          python scripts/validate_global_signal_radar.py
+
+      - name: Commit monitoring system
+        run: |
+          git config user.name 'global-signal-radar-installer'
+          git config user.email 'global-signal-radar-installer@users.noreply.github.com'
+          git add \
+            .github/workflows/global-signal-radar.yml \
+            config/global_signal_catalog.json \
+            config/global_signal_stock_map.csv \
+            config/final20_overseas_sensitivity.csv \
+            docs/global_signal_radar.md \
+            scripts/global_signal_radar.py \
+            scripts/validate_global_signal_radar.py
+          git rm .github/radar_bundle.part00 .github/radar_bundle.part01 .github/radar_bundle.part02 .github/radar_bundle.part03
+          git commit -m 'feat: install A-share overseas industry signal radar'
+          for attempt in 1 2 3 4; do
+            git pull --rebase origin main && git push && break
+            sleep $((attempt * 3))
+          done
+
+      - name: Close trigger issue
+        if: success() && github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: '海外产业信号雷达代码、37项信号和97只A股映射已安装，并通过配置硬校验。',
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed',
+              state_reason: 'completed',
+            });
+
+      - name: Comment on failure
+        if: failure() && github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `安装或校验失败，run id: ${context.runId}。失败结果不会被视为已上线。`,
+            });
