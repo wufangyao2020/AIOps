@@ -1,0 +1,67 @@
+{
+  "started_at": "2026-09-06T14:26:33.158531+00:00",
+  "finished_at": "2026-09-06T14:27:26.296507+00:00",
+  "source_sha256": "eb4a7ca2e0ef1348b6ecf018988df1758b594c3de2dce5b52ed072fe198fc31b",
+  "archive_count": 5550,
+  "unique_codes": 5550,
+  "quote_retrieved": 5550,
+  "quote_date_counts": {
+    "2026-09-04": 5550
+  },
+  "quotes_asof_count": 5550,
+  "financial_pass_count": 188,
+  "review_count": 80,
+  "price_setup_counts": {
+    "not_extended_trend_research_only": 30,
+    "below_ma20_no_short_term_confirmation": 42,
+    "recovery_needs_confirmation": 5,
+    "extended_do_not_chase": 1,
+    "unverified": 2
+  },
+  "quote_batch_failures": 0,
+  "announcement_errors": 0,
+  "exclusion_counts": {
+    "financial_requires_separate_model": 122,
+    "high_or_missing_leverage": 703,
+    "revenue_growth_below5_or_missing": 2691,
+    "deduct_growth_below15_or_lowbase": 4201,
+    "deduct_profit_below30m": 2693,
+    "loss_or_missing_profit": 1413,
+    "cash_conversion_below0.8_or_missing": 3421,
+    "large_nonrecurring_gap_or_missing": 2483,
+    "high_or_invalid_ttm_pe": 3438,
+    "receivables_outrun_sales": 688,
+    "inventory_outruns_sales": 986,
+    "risk_warning_name": 202,
+    "low_or_missing_liquidity": 272,
+    "large_last_day_move": 111
+  },
+  "missing_fields": {
+    "h1_deduct_growth_pct": 1511,
+    "q2_profit_growth_pct": 1359,
+    "cash_profit_ratio": 1413,
+    "debt_ratio": 0,
+    "pe_ttm_recomputed": 1637
+  },
+  "all_5550_filing_read": false,
+  "fresh_financial_statement_download": false,
+  "final_buy_recommendations": 0,
+  "limitations": [
+    "Archived input reused and requires official-filing spot checks.",
+    "Financial institutions excluded from generic industrial screen, not judged unattractive.",
+    "Recovery and speculative events without current recurring earnings are not covered.",
+    "No analyst-count or prior final20 score used.",
+    "Technical filters are heuristics, not backtested probabilities.",
+    "Only recent announcement TITLES retrieved, not equivalent to full-text review.",
+    "No order placed; screen is not a buy list."
+  ],
+  "checksums": {
+    "financial_pass.csv": "5bf50770165c4c023750eed096712a7d822ff3a656b10c0ea2ab8073a5c6392c",
+    "review80.md": "ee96992912c7b77a3b91dee1ae05cf7ab163d97bf3e1822f17d7cceacc0d27a0",
+    "recent_announcements.json": "db7e3f1b5840009dceb37af82cb7a690e2552b983b2d4080461f2847dd878ebe",
+    "review80.csv": "8baab1952a302a069de058e398eddf807d7e5a445b60a6daabddfda3a2acb224",
+    "review80_daily_history.csv": "4d8f77a87c4d48986ab93f09bf650bac652fe0157b31b4979a3e2f1076bf94e7",
+    "universe_audit.csv": "15edfd31c5694c2f05c20b65eb65416d075ae9d57b437bb7d574001d4374e982",
+    "quote_errors.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  }
+}
