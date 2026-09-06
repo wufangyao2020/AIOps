@@ -1,0 +1,67 @@
+name: One-off buyability audit 2026-09-07
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: buyability-audit-20260906
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    if: github.event_name == 'workflow_dispatch' || (github.event.issue.title == '[buyability-audit] 2026-09-07' && github.event.issue.user.login == github.repository_owner)
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run isolated research screen
+        run: python -u scripts/buyability_audit_20260906.py
+      - name: Validate scope, not investment conclusions
+        run: |
+          python - <<'PY'
+          import json,csv
+          from pathlib import Path
+          p=Path('results/buyability_20260906')
+          m=json.loads((p/'manifest.json').read_text())
+          assert m['archive_count']==5550 and m['unique_codes']==5550
+          assert m['final_buy_recommendations']==0
+          rows=list(csv.DictReader((p/'universe_audit.csv').open(encoding='utf-8-sig')))
+          assert len(rows)==5550
+          print('Scope verified; financial statement spot checks and final human judgment remain required.')
+          PY
+      - name: Preserve audit outputs without replacing previous research
+        run: |
+          git config user.name 'research-audit-bot'
+          git config user.email 'research-audit-bot@users.noreply.github.com'
+          git add results/buyability_20260906
+          if ! git diff --cached --quiet; then
+            git commit -m 'research: preserve full-universe 2026-09-07 screening audit'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Publish review artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: buyability-audit-20260906
+          path: results/buyability_20260906/
+          if-no-files-found: warn
+          retention-days: 30
+      - name: Record completed screen
+        if: success() && github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({owner:context.repo.owner,repo:context.repo.repo,issue_number:context.issue.number,body:'The one-off data screen finished. Outputs: results/buyability_20260906. This is NOT a finalized buy list. Missing coverage and source limitations remain in manifest.json.'});
+            await github.rest.issues.update({owner:context.repo.owner,repo:context.repo.repo,issue_number:context.issue.number,state:'closed'});
