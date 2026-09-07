@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T08:15:23.313744+08:00",
+  "generated_at": "2026-09-08T02:43:53.636622+08:00",
   "run_slot": "am",
   "catalog_version": "1.0.0",
   "signal_results": {
@@ -8,24 +8,18 @@
       "name": "波罗的海干散货指数 BDI",
       "group": "shipping",
       "type": "numeric",
-      "latest": 3628.0,
-      "latest_date": "2026-09-07",
-      "pct_1": 0.0,
-      "pct_5": 8.916241368958278,
-      "abs_1": 0.0,
-      "abs_5": 297.0,
+      "latest": 3575.0,
+      "latest_date": "2026-09-08",
+      "pct_1": -1.4608599779492804,
+      "pct_5": 7.325127589312519,
+      "abs_1": -53.0,
+      "abs_5": 244.0,
       "breakout": false,
       "breakdown": false,
-      "level": "P2",
-      "severity": 2,
-      "trend_sign": 0,
-      "hits": [
-        {
-          "metric": "五周期涨跌",
-          "value": 8.916241368958278,
-          "level": "P2"
-        }
-      ],
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": -1,
+      "hits": [],
       "provider": "BalticDryIndex.com (Baltic Exchange sourced)",
       "source_url": "https://www.balticdryindex.com/",
       "source_tier": "A",
@@ -164,16 +158,16 @@
       "group": "metals",
       "type": "numeric",
       "latest": 3473.25,
-      "latest_date": "2026-09-06",
-      "pct_1": 0.9885876281165995,
-      "pct_5": 2.8653931585961745,
-      "abs_1": 34.0,
-      "abs_5": 96.75,
+      "latest_date": "2026-09-07",
+      "pct_1": 0.0,
+      "pct_5": 1.7504028123626725,
+      "abs_1": 0.0,
+      "abs_5": 59.75,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": 0,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ALI=F",
@@ -229,29 +223,18 @@
       "name": "CBOT玉米期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 536.75,
+      "latest": 512.0,
       "latest_date": "2026-09-04",
-      "pct_1": 4.172731683648712,
-      "pct_5": 4.833984375,
-      "abs_1": 21.5,
-      "abs_5": 24.75,
-      "breakout": true,
+      "pct_1": -0.6307617661329479,
+      "pct_5": 0.0,
+      "abs_1": -3.25,
+      "abs_5": 0.0,
+      "breakout": false,
       "breakdown": false,
-      "level": "P2",
-      "severity": 2,
-      "trend_sign": 1,
-      "hits": [
-        {
-          "metric": "单周期涨跌",
-          "value": 4.172731683648712,
-          "level": "P2"
-        },
-        {
-          "metric": "60周期新高",
-          "value": 536.75,
-          "level": "P2"
-        }
-      ],
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": -1,
+      "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZC=F",
       "source_tier": "B",
@@ -262,24 +245,18 @@
       "name": "CBOT大豆期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 1309.75,
+      "latest": 1293.75,
       "latest_date": "2026-09-04",
-      "pct_1": 0.2679425837320615,
-      "pct_5": 2.6248775710088212,
-      "abs_1": 3.5,
-      "abs_5": 33.5,
-      "breakout": true,
+      "pct_1": -0.9569377990430672,
+      "pct_5": 1.3712047012732542,
+      "abs_1": -12.5,
+      "abs_5": 17.5,
+      "breakout": false,
       "breakdown": false,
-      "level": "P2",
-      "severity": 2,
-      "trend_sign": 1,
-      "hits": [
-        {
-          "metric": "60周期新高",
-          "value": 1309.75,
-          "level": "P2"
-        }
-      ],
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": -1,
+      "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZS=F",
       "source_tier": "B",
@@ -290,12 +267,12 @@
       "name": "CBOT小麦期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 734.0,
+      "latest": 716.0,
       "latest_date": "2026-09-04",
-      "pct_1": -0.27173913043477826,
-      "pct_5": -4.30247718383312,
-      "abs_1": -2.0,
-      "abs_5": -33.0,
+      "pct_1": -2.717391304347827,
+      "pct_5": -6.649282920469357,
+      "abs_1": -20.0,
+      "abs_5": -51.0,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -312,17 +289,17 @@
       "name": "ICE原糖期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 18.020000457763672,
+      "latest": 18.06999969482422,
       "latest_date": "2026-09-04",
-      "pct_1": -0.276697498090539,
-      "pct_5": 2.6195957050765273,
-      "abs_1": -0.049999237060546875,
-      "abs_5": 0.46000099182128906,
+      "pct_1": 0.0,
+      "pct_5": 2.9043294099807992,
+      "abs_1": 0.0,
+      "abs_5": 0.5100002288818359,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 0,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/SB=F",
@@ -362,17 +339,17 @@
       "name": "美元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 6.701300144195557,
-      "latest_date": "2026-09-06",
-      "pct_1": 0.0,
-      "pct_5": -0.36722700823880183,
-      "abs_1": 0.0,
-      "abs_5": -0.024699687957763672,
+      "latest": 6.710299968719482,
+      "latest_date": "2026-09-07",
+      "pct_1": 0.13429967812621513,
+      "pct_5": -0.14731842783806126,
+      "abs_1": 0.008999824523925781,
+      "abs_5": -0.009900093078613281,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 0,
+      "trend_sign": 1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/CNY=X",
@@ -384,12 +361,12 @@
       "name": "欧元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 7.798600196838379,
+      "latest": 7.799499988555908,
       "latest_date": "2026-09-07",
-      "pct_1": 0.3784218354253799,
-      "pct_5": -0.19507145256284497,
-      "abs_1": 0.029400348663330078,
-      "abs_5": -0.015242576599121094,
+      "pct_1": 0.3900033590714891,
+      "pct_5": -0.18355609778006876,
+      "abs_1": 0.030300140380859375,
+      "abs_5": -0.014342784881591797,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -500,7 +477,7 @@
       "group": "biotech",
       "type": "event",
       "latest": null,
-      "latest_date": "2026-09-07",
+      "latest_date": "2026-09-08",
       "level": "P1",
       "severity": 3,
       "trend_sign": -1,
@@ -570,13 +547,13 @@
           "event_key": "ctg_rongchang:NCT05306574:standing-negative",
           "signal_id": "ctg_rongchang",
           "signal_name": "荣昌生物海外临床状态",
-          "date": "2026-09-07",
+          "date": "2026-09-08",
           "title": "NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)",
           "summary": "持续性负面状态；在状态恢复或替代试验明确前维持风险提示。",
           "source_url": "https://clinicaltrials.gov/study/NCT05306574",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-09-07T08:15:23.313744+08:00"
+          "fetched_at": "2026-09-08T02:43:53.636622+08:00"
         }
       ],
       "source_url": "https://clinicaltrials.gov/data-api/api",
@@ -685,7 +662,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/08/31/2026-17843/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system",
           "polarity": 0,
           "level": "P2",
-          "fetched_at": "2026-09-07T08:15:23.313744+08:00"
+          "fetched_at": "2026-09-08T02:43:53.636622+08:00"
         }
       ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
@@ -794,44 +771,6 @@
       "in_final20": false
     },
     {
-      "security_code": "002311",
-      "security_name": "海大集团",
-      "score": -3.0,
-      "positive": 0.0,
-      "negative": 3.0,
-      "mixed": 1.1,
-      "signals": [
-        {
-          "signal_id": "corn",
-          "signal_name": "CBOT玉米期货",
-          "level": "P2",
-          "impact": -1.5,
-          "weight": 0.75,
-          "directness": "A",
-          "rationale": "国际谷物上涨可能推高饲料成本。"
-        },
-        {
-          "signal_id": "soybeans",
-          "signal_name": "CBOT大豆期货",
-          "level": "P2",
-          "impact": -1.5,
-          "weight": 0.75,
-          "directness": "A",
-          "rationale": "国际谷物上涨可能推高饲料成本。"
-        },
-        {
-          "signal_id": "usda_wasde",
-          "signal_name": "USDA全球农产品供需报告",
-          "level": "P2",
-          "impact": 0.0,
-          "weight": 0.55,
-          "directness": "B",
-          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "600256",
       "security_name": "广汇能源",
       "score": 3.6000000000000005,
@@ -856,44 +795,6 @@
           "weight": 0.65,
           "directness": "B",
           "rationale": "国际油价对油气上游盈利同向映射。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "000876",
-      "security_name": "新希望",
-      "score": -2.6,
-      "positive": 0.0,
-      "negative": 2.6,
-      "mixed": 1.0,
-      "signals": [
-        {
-          "signal_id": "corn",
-          "signal_name": "CBOT玉米期货",
-          "level": "P2",
-          "impact": -1.3,
-          "weight": 0.65,
-          "directness": "A",
-          "rationale": "国际谷物上涨可能推高饲料成本。"
-        },
-        {
-          "signal_id": "soybeans",
-          "signal_name": "CBOT大豆期货",
-          "level": "P2",
-          "impact": -1.3,
-          "weight": 0.65,
-          "directness": "A",
-          "rationale": "国际谷物上涨可能推高饲料成本。"
-        },
-        {
-          "signal_id": "usda_wasde",
-          "signal_name": "USDA全球农产品供需报告",
-          "level": "P2",
-          "impact": 0.0,
-          "weight": 0.5,
-          "directness": "B",
-          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
         }
       ],
       "in_final20": false
@@ -1035,35 +936,6 @@
       "in_final20": false
     },
     {
-      "security_code": "603162",
-      "security_name": "海通发展",
-      "score": -0.6000000000000001,
-      "positive": 0.0,
-      "negative": 0.6000000000000001,
-      "mixed": 2.0,
-      "signals": [
-        {
-          "signal_id": "bdi",
-          "signal_name": "波罗的海干散货指数 BDI",
-          "level": "P2",
-          "impact": 0.0,
-          "weight": 1.0,
-          "directness": "A",
-          "rationale": "干散货运价上行通常提高船东TCE；港口仅为贸易景气间接映射。"
-        },
-        {
-          "signal_id": "brent",
-          "signal_name": "布伦特原油现货",
-          "level": "P1",
-          "impact": -0.6,
-          "weight": 0.2,
-          "directness": "C",
-          "rationale": "燃油成本上升压缩航空或航运利润，转嫁能力决定影响。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
       "security_code": "601138",
       "security_name": "工业富联",
       "score": 2.56,
@@ -1088,35 +960,6 @@
           "weight": 0.48,
           "directness": "C",
           "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "000520",
-      "security_name": "凤凰航运",
-      "score": -0.6000000000000001,
-      "positive": 0.0,
-      "negative": 0.6000000000000001,
-      "mixed": 1.8,
-      "signals": [
-        {
-          "signal_id": "bdi",
-          "signal_name": "波罗的海干散货指数 BDI",
-          "level": "P2",
-          "impact": 0.0,
-          "weight": 0.9,
-          "directness": "A",
-          "rationale": "干散货运价上行通常提高船东TCE；港口仅为贸易景气间接映射。"
-        },
-        {
-          "signal_id": "brent",
-          "signal_name": "布伦特原油现货",
-          "level": "P1",
-          "impact": -0.6,
-          "weight": 0.2,
-          "directness": "C",
-          "rationale": "燃油成本上升压缩航空或航运利润，转嫁能力决定影响。"
         }
       ],
       "in_final20": false
@@ -1240,44 +1083,6 @@
       "in_final20": false
     },
     {
-      "security_code": "601952",
-      "security_name": "苏垦农发",
-      "score": 1.4,
-      "positive": 1.4,
-      "negative": 0.0,
-      "mixed": 0.7,
-      "signals": [
-        {
-          "signal_id": "corn",
-          "signal_name": "CBOT玉米期货",
-          "level": "P2",
-          "impact": 0.7,
-          "weight": 0.35,
-          "directness": "C",
-          "rationale": "国际粮价上行是景气映射，但国内定价和政策削弱相关性。"
-        },
-        {
-          "signal_id": "soybeans",
-          "signal_name": "CBOT大豆期货",
-          "level": "P2",
-          "impact": 0.7,
-          "weight": 0.35,
-          "directness": "C",
-          "rationale": "国际粮价上行是景气映射，但国内定价和政策削弱相关性。"
-        },
-        {
-          "signal_id": "usda_wasde",
-          "signal_name": "USDA全球农产品供需报告",
-          "level": "P2",
-          "impact": 0.0,
-          "weight": 0.35,
-          "directness": "B",
-          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "603986",
       "security_name": "兆易创新",
       "score": 2.08,
@@ -1336,64 +1141,6 @@
       "in_final20": false
     },
     {
-      "security_code": "002714",
-      "security_name": "牧原股份",
-      "score": -1.8,
-      "positive": 0.0,
-      "negative": 1.8,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "corn",
-          "signal_name": "CBOT玉米期货",
-          "level": "P2",
-          "impact": -0.9,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "国际谷物上涨可能推高饲料成本。"
-        },
-        {
-          "signal_id": "soybeans",
-          "signal_name": "CBOT大豆期货",
-          "level": "P2",
-          "impact": -0.9,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "国际谷物上涨可能推高饲料成本。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "300498",
-      "security_name": "温氏股份",
-      "score": -1.8,
-      "positive": 0.0,
-      "negative": 1.8,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "corn",
-          "signal_name": "CBOT玉米期货",
-          "level": "P2",
-          "impact": -0.9,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "国际谷物上涨可能推高饲料成本。"
-        },
-        {
-          "signal_id": "soybeans",
-          "signal_name": "CBOT大豆期货",
-          "level": "P2",
-          "impact": -0.9,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "国际谷物上涨可能推高饲料成本。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "688012",
       "security_name": "中微公司",
       "score": 1.7600000000000002,
@@ -1447,26 +1194,6 @@
           "weight": 0.33,
           "directness": "C",
           "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600798",
-      "security_name": "宁波海运",
-      "score": 0.0,
-      "positive": 0.0,
-      "negative": 0.0,
-      "mixed": 1.6,
-      "signals": [
-        {
-          "signal_id": "bdi",
-          "signal_name": "波罗的海干散货指数 BDI",
-          "level": "P2",
-          "impact": 0.0,
-          "weight": 0.8,
-          "directness": "A",
-          "rationale": "干散货运价上行通常提高船东TCE；港口仅为贸易景气间接映射。"
         }
       ],
       "in_final20": false
@@ -1572,35 +1299,6 @@
       "in_final20": false
     },
     {
-      "security_code": "600598",
-      "security_name": "北大荒",
-      "score": 1.2,
-      "positive": 1.2,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "corn",
-          "signal_name": "CBOT玉米期货",
-          "level": "P2",
-          "impact": 0.6,
-          "weight": 0.3,
-          "directness": "C",
-          "rationale": "国际粮价上行是景气映射，但国内定价和政策削弱相关性。"
-        },
-        {
-          "signal_id": "soybeans",
-          "signal_name": "CBOT大豆期货",
-          "level": "P2",
-          "impact": 0.6,
-          "weight": 0.3,
-          "directness": "C",
-          "rationale": "国际粮价上行是景气映射，但国内定价和政策削弱相关性。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "601339",
       "security_name": "百隆东方",
       "score": 1.2,
@@ -1661,6 +1359,26 @@
       "in_final20": true
     },
     {
+      "security_code": "002311",
+      "security_name": "海大集团",
+      "score": 0.0,
+      "positive": 0.0,
+      "negative": 0.0,
+      "mixed": 1.1,
+      "signals": [
+        {
+          "signal_id": "usda_wasde",
+          "signal_name": "USDA全球农产品供需报告",
+          "level": "P2",
+          "impact": 0.0,
+          "weight": 0.55,
+          "directness": "B",
+          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "600028",
       "security_name": "中国石化",
       "score": 1.0499999999999998,
@@ -1696,6 +1414,26 @@
           "weight": 0.5,
           "directness": "B",
           "rationale": "棉价上涨推高纺织原料成本，库存收益和提价能力可能抵消。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "000876",
+      "security_name": "新希望",
+      "score": 0.0,
+      "positive": 0.0,
+      "negative": 0.0,
+      "mixed": 1.0,
+      "signals": [
+        {
+          "signal_id": "usda_wasde",
+          "signal_name": "USDA全球农产品供需报告",
+          "level": "P2",
+          "impact": 0.0,
+          "weight": 0.5,
+          "directness": "B",
+          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
         }
       ],
       "in_final20": false
@@ -1770,26 +1508,6 @@
       "in_final20": false
     },
     {
-      "security_code": "601872",
-      "security_name": "招商轮船",
-      "score": 0.0,
-      "positive": 0.0,
-      "negative": 0.0,
-      "mixed": 0.9,
-      "signals": [
-        {
-          "signal_id": "bdi",
-          "signal_name": "波罗的海干散货指数 BDI",
-          "level": "P2",
-          "impact": 0.0,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "干散货运价上行通常提高船东TCE；港口仅为贸易景气间接映射。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "600251",
       "security_name": "冠农股份",
       "score": -0.9,
@@ -1808,26 +1526,6 @@
         }
       ],
       "in_final20": false
-    },
-    {
-      "security_code": "600872",
-      "security_name": "中炬高新",
-      "score": -0.9,
-      "positive": 0.0,
-      "negative": 0.9,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "soybeans",
-          "signal_name": "CBOT大豆期货",
-          "level": "P2",
-          "impact": -0.9,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "大豆和豆粕上涨可能推高酱油原料成本。"
-        }
-      ],
-      "in_final20": true
     },
     {
       "security_code": "600741",
@@ -1910,21 +1608,21 @@
       "in_final20": false
     },
     {
-      "security_code": "600428",
-      "security_name": "中远海特",
+      "security_code": "601952",
+      "security_name": "苏垦农发",
       "score": 0.0,
       "positive": 0.0,
       "negative": 0.0,
       "mixed": 0.7,
       "signals": [
         {
-          "signal_id": "bdi",
-          "signal_name": "波罗的海干散货指数 BDI",
+          "signal_id": "usda_wasde",
+          "signal_name": "USDA全球农产品供需报告",
           "level": "P2",
           "impact": 0.0,
           "weight": 0.35,
-          "directness": "C",
-          "rationale": "干散货运价上行通常提高船东TCE；港口仅为贸易景气间接映射。"
+          "directness": "B",
+          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
         }
       ],
       "in_final20": false
@@ -1970,6 +1668,46 @@
       "in_final20": false
     },
     {
+      "security_code": "603162",
+      "security_name": "海通发展",
+      "score": -0.6000000000000001,
+      "positive": 0.0,
+      "negative": 0.6000000000000001,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "brent",
+          "signal_name": "布伦特原油现货",
+          "level": "P1",
+          "impact": -0.6,
+          "weight": 0.2,
+          "directness": "C",
+          "rationale": "燃油成本上升压缩航空或航运利润，转嫁能力决定影响。"
+        }
+      ],
+      "in_final20": true
+    },
+    {
+      "security_code": "000520",
+      "security_name": "凤凰航运",
+      "score": -0.6000000000000001,
+      "positive": 0.0,
+      "negative": 0.6000000000000001,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "brent",
+          "signal_name": "布伦特原油现货",
+          "level": "P1",
+          "impact": -0.6,
+          "weight": 0.2,
+          "directness": "C",
+          "rationale": "燃油成本上升压缩航空或航运利润，转嫁能力决定影响。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "601002",
       "security_name": "晋亿实业",
       "score": 0.5,
@@ -1985,26 +1723,6 @@
           "weight": 0.25,
           "directness": "C",
           "rationale": "海外汽车景气对汽车紧固件需求有间接影响。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
-      "security_code": "600717",
-      "security_name": "天津港",
-      "score": 0.0,
-      "positive": 0.0,
-      "negative": 0.0,
-      "mixed": 0.4,
-      "signals": [
-        {
-          "signal_id": "bdi",
-          "signal_name": "波罗的海干散货指数 BDI",
-          "level": "P2",
-          "impact": 0.0,
-          "weight": 0.2,
-          "directness": "C",
-          "rationale": "干散货运价上行通常提高船东TCE；港口仅为贸易景气间接映射。"
         }
       ],
       "in_final20": true
@@ -2062,6 +1780,11 @@
       "error": "SIA official pages did not expose a parseable latest global-sales release"
     },
     {
+      "signal_id": "acea_bev_share",
+      "provider": "acea",
+      "error": "ACEA official pages did not expose a parseable passenger-registration release"
+    },
+    {
       "signal_id": "sec_abbvie",
       "provider": "sec",
       "error": "GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom"
@@ -2074,7 +1797,7 @@
   ],
   "data_health": {
     "configured": 37,
-    "successful": 25,
-    "failed": 12
+    "successful": 24,
+    "failed": 13
   }
 }
