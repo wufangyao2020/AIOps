@@ -1,12 +1,12 @@
-# A股海外产业信号雷达｜2026-09-12 01:44（北京时间）
+# A股海外产业信号雷达｜2026-09-12 08:31（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
 - 触发P1：3条；P2：9条；P3：0条。
-- 数据源成功：24条；失败：13条。
-- 最强信号：台积电月营收同比（P1）；布伦特原油现货（P1）；荣昌生物海外临床状态（P1）；WTI原油现货（P2）；ICE棉花期货（P2）。
+- 数据源成功：25条；失败：12条。
+- 最强信号：台积电月营收同比（P1）；布伦特原油现货（P1）；荣昌生物海外临床状态（P1）；CBOT玉米期货（P2）；WTI原油现货（P2）。
 
 ## 触发信号
 
@@ -15,12 +15,12 @@
 |P1|台积电月营收同比|53.30|19.24%|17.92%|上行|TSMC investor relations|
 |P1|布伦特原油现货|109.51|3.19%|12.21%|上行|FRED|
 |P1|荣昌生物海外临床状态|1条事件|—|—|下行|A|
+|P2|CBOT玉米期货|532.00|3.50%|3.25%|上行|Yahoo public chart endpoint|
 |P2|WTI原油现货|97.26|3.24%|6.32%|上行|FRED|
 |P2|ICE棉花期货|87.37|3.23%|4.81%|上行|Yahoo public chart endpoint|
-|P2|CBOT玉米期货|527.25|2.58%|2.33%|上行|Yahoo public chart endpoint|
+|P2|美国10年期国债收益率|4.95|2.48%|3.34%|上行|FRED|
 |P2|ICE原糖期货|19.15|2.24%|5.98%|上行|Yahoo public chart endpoint|
-|P2|美国10年期国债收益率|4.83|0.63%|0.84%|上行|FRED|
-|P2|美元兑人民币|6.70|-0.07%|-0.21%|下行|Yahoo public chart endpoint|
+|P2|美元兑人民币|6.70|-0.13%|-0.20%|下行|Yahoo public chart endpoint|
 |P2|欧洲纯电动车注册份额|20.70|—%|—%|上行|ACEA|
 |P2|美国电池与电动车贸易政策|1条事件|—|—|待判定|A|
 |P2|USDA全球农产品供需报告|1条事件|—|—|待判定|A|
@@ -109,7 +109,6 @@
 - `fbx`：fbx absent from Baltic page
 - `bai00`：bai00 absent from Baltic page
 - `sia_sales_yoy`：SIA official pages did not expose a parseable latest global-sales release
-- `acea_bev_share`：ACEA official pages did not expose a parseable passenger-registration release
 - `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
 - `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
 
