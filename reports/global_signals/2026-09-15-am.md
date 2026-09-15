@@ -1,26 +1,25 @@
-# A股海外产业信号雷达｜2026-09-15 03:21（北京时间）
+# A股海外产业信号雷达｜2026-09-15 08:50（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
-- 触发P1：6条；P2：6条；P3：0条。
+- 触发P1：5条；P2：6条；P3：0条。
 - 数据源成功：24条；失败：13条。
-- 最强信号：台积电月营收同比（P1）；费城半导体指数（P1）；ICE原糖期货（P1）；CBOT玉米期货（P1）；布伦特原油现货（P1）。
+- 最强信号：台积电月营收同比（P1）；费城半导体指数（P1）；ICE原糖期货（P1）；布伦特原油现货（P1）；荣昌生物海外临床状态（P1）。
 
 ## 触发信号
 
 |级别|信号|最新值/事件|单周期|五周期|方向|来源|
 |---|---|---:|---:|---:|---|---|
 |P1|台积电月营收同比|53.30|19.24%|17.92%|上行|TSMC investor relations|
-|P1|费城半导体指数|11,217.37|-5.13%|-4.41%|下行|Yahoo public chart endpoint|
+|P1|费城半导体指数|11,131.28|-5.86%|-5.15%|下行|Yahoo public chart endpoint|
 |P1|ICE原糖期货|19.06|5.01%|5.48%|上行|Yahoo public chart endpoint|
-|P1|CBOT玉米期货|534.00|4.65%|4.30%|上行|Yahoo public chart endpoint|
 |P1|布伦特原油现货|109.51|3.19%|12.21%|上行|FRED|
 |P1|荣昌生物海外临床状态|1条事件|—|—|下行|A|
 |P2|WTI原油现货|97.26|3.24%|6.32%|上行|FRED|
 |P2|ICE棉花期货|85.04|3.23%|3.18%|上行|Yahoo public chart endpoint|
-|P2|美国10年期国债收益率|4.95|2.48%|3.34%|上行|FRED|
+|P2|美国10年期国债收益率|4.96|0.20%|3.98%|上行|FRED|
 |P2|欧洲纯电动车注册份额|20.70|—%|—%|上行|ACEA|
 |P2|美国电池与电动车贸易政策|1条事件|—|—|待判定|A|
 |P2|USDA全球农产品供需报告|1条事件|—|—|待判定|A|
@@ -33,20 +32,15 @@
 |000911|广农糖业|3.00|3.00|0.00|0.70|ICE原糖期货(P1/A)；USDA全球农产品供需报告(P2/B)|否|
 |601857|中国石油|3.65|3.65|0.00|0.00|布伦特原油现货(P1/A)；WTI原油现货(P2/B)|否|
 |600737|中粮糖业|2.70|2.70|0.00|0.70|ICE原糖期货(P1/A)；USDA全球农产品供需报告(P2/B)|否|
-|002311|海大集团|-2.25|0.00|2.25|1.10|CBOT玉米期货(P1/A)；USDA全球农产品供需报告(P2/B)|否|
 |688331|荣昌生物|-3.00|0.00|3.00|0.00|荣昌生物海外临床状态(P1/A)|是|
 |600256|广汇能源|2.95|2.95|0.00|0.00|布伦特原油现货(P1/B)；WTI原油现货(P2/B)|否|
-|000876|新希望|-1.95|0.00|1.95|1.00|CBOT玉米期货(P1/A)；USDA全球农产品供需报告(P2/B)|否|
 |601111|中国国航|-2.10|0.00|2.10|0.00|布伦特原油现货(P1/C)|否|
 |600115|中国东航|-2.10|0.00|2.10|0.00|布伦特原油现货(P1/C)|否|
 |600029|南方航空|-2.10|0.00|2.10|0.00|布伦特原油现货(P1/A)|否|
-|601952|苏垦农发|1.05|1.05|0.00|0.70|CBOT玉米期货(P1/C)；USDA全球农产品供需报告(P2/B)|否|
 |600359|新农开发|1.50|1.50|0.00|0.00|ICE棉花期货(P2/B)|否|
 |600540|新赛股份|1.50|1.50|0.00|0.00|ICE棉花期货(P2/B)|否|
 |002048|宁波华翔|1.50|1.50|0.00|0.00|欧洲纯电动车注册份额(P2/A)|是|
 |002805|丰元股份|0.00|0.00|0.00|1.50|美国电池与电动车贸易政策(P2/B)|是|
-|002714|牧原股份|-1.35|0.00|1.35|0.00|CBOT玉米期货(P1/B)|否|
-|300498|温氏股份|-1.35|0.00|1.35|0.00|CBOT玉米期货(P1/B)|否|
 |000833|粤桂股份|1.35|1.35|0.00|0.00|ICE原糖期货(P1/B)|是|
 |603997|继峰股份|1.30|1.30|0.00|0.00|欧洲纯电动车注册份额(P2/A)|否|
 |600699|均胜电子|1.30|1.30|0.00|0.00|欧洲纯电动车注册份额(P2/A)|否|
@@ -56,9 +50,14 @@
 |601339|百隆东方|-1.20|0.00|1.20|0.00|ICE棉花期货(P2/B)|否|
 |002042|华孚时尚|-1.20|0.00|1.20|0.00|ICE棉花期货(P2/B)|否|
 |002074|国轩高科|0.00|0.00|0.00|1.20|美国电池与电动车贸易政策(P2/B)|否|
+|002311|海大集团|0.00|0.00|0.00|1.10|USDA全球农产品供需报告(P2/B)|否|
 |300014|亿纬锂能|0.00|0.00|0.00|1.10|美国电池与电动车贸易政策(P2/B)|否|
 |300476|胜宏科技|1.08|2.70|1.62|0.00|台积电月营收同比(P1/A)；费城半导体指数(P1/C)|否|
 |002463|沪电股份|1.08|2.70|1.62|0.00|台积电月营收同比(P1/A)；费城半导体指数(P1/C)|否|
+|600028|中国石化|1.05|1.05|0.00|0.00|布伦特原油现货(P1/B)|否|
+|000726|鲁泰A|-1.00|0.00|1.00|0.00|ICE棉花期货(P2/B)|否|
+|000876|新希望|0.00|0.00|0.00|1.00|USDA全球农产品供需报告(P2/B)|否|
+|002709|天赐材料|0.00|0.00|0.00|1.00|美国电池与电动车贸易政策(P2/B)|否|
 
 ## 最终20只的海外敏感度
 
@@ -109,9 +108,9 @@
 - `fbx`：fbx absent from Baltic page
 - `bai00`：bai00 absent from Baltic page
 - `sia_sales_yoy`：SIA official pages did not expose a parseable latest global-sales release
-- `acea_bev_share`：ACEA official pages did not expose a parseable passenger-registration release
 - `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
 - `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
+- `usda_wasde`：GET failed after 4 attempts: https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report: 403 Client Error: Forbidden for url: https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 
 ## 执行纪律
 
