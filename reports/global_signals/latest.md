@@ -1,10 +1,10 @@
-# A股海外产业信号雷达｜2026-09-19 01:41（北京时间）
+# A股海外产业信号雷达｜2026-09-19 08:32（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
-- 触发P1：4条；P2：7条；P3：0条。
+- 触发P1：4条；P2：6条；P3：0条。
 - 数据源成功：24条；失败：13条。
 - 最强信号：台积电月营收同比（P1）；布伦特原油现货（P1）；WTI原油现货（P1）；荣昌生物海外临床状态（P1）；ICE原糖期货（P2）。
 
@@ -18,11 +18,10 @@
 |P1|荣昌生物海外临床状态|1条事件|—|—|下行|A|
 |P2|ICE原糖期货|18.28|4.94%|0.72%|上行|Yahoo public chart endpoint|
 |P2|ICE棉花期货|81.21|3.57%|-1.42%|上行|Yahoo public chart endpoint|
-|P2|美国10年期国债收益率|5.01|0.20%|3.73%|上行|FRED|
-|P2|美元兑人民币|6.69|-0.12%|-0.31%|下行|Yahoo public chart endpoint|
-|P2|欧元兑人民币|7.67|-0.05%|-1.43%|下行|Yahoo public chart endpoint|
+|P2|欧元兑人民币|7.67|-0.37%|-1.39%|下行|Yahoo public chart endpoint|
+|P2|美元兑人民币|6.70|-0.16%|-0.16%|下行|Yahoo public chart endpoint|
 |P2|欧洲纯电动车注册份额|20.70|—%|—%|上行|ACEA|
-|P2|USDA全球农产品供需报告|2条事件|—|—|待判定|A|
+|P2|USDA全球农产品供需报告|3条事件|—|—|待判定|A|
 
 ## A股优先复核
 
@@ -90,6 +89,9 @@
   持续性负面状态；在状态恢复或替代试验明确前维持风险提示。  
   来源：https://clinicaltrials.gov/study/NCT05306574
 - **USDA全球农产品供需报告｜2026-09-18｜待判定**：USDA WASDE页面出现更新  
+  需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
+  来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
+- **USDA全球农产品供需报告｜2026-09-19｜待判定**：USDA WASDE页面出现更新  
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 - **USDA全球农产品供需报告｜2026-09-19｜待判定**：USDA WASDE页面出现更新  

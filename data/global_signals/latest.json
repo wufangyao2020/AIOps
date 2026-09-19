@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T01:41:03.492575+08:00",
+  "generated_at": "2026-09-19T08:32:04.261255+08:00",
   "run_slot": "am",
   "catalog_version": "1.0.0",
   "signal_results": {
@@ -128,24 +128,18 @@
       "name": "美国10年期国债收益率",
       "group": "rates",
       "type": "numeric",
-      "latest": 5.01,
-      "latest_date": "2026-09-16",
-      "pct_1": 0.20000000000000018,
-      "pct_5": 3.7267080745341463,
-      "abs_1": 0.009999999999999787,
-      "abs_5": 0.17999999999999972,
-      "breakout": true,
+      "latest": 4.94,
+      "latest_date": "2026-09-17",
+      "pct_1": -1.3972055888223478,
+      "pct_5": -0.20202020202019222,
+      "abs_1": -0.0699999999999994,
+      "abs_5": -0.009999999999999787,
+      "breakout": false,
       "breakdown": false,
-      "level": "P2",
-      "severity": 2,
-      "trend_sign": 1,
-      "hits": [
-        {
-          "metric": "60周期新高",
-          "value": 5.01,
-          "level": "P2"
-        }
-      ],
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": -1,
+      "hits": [],
       "provider": "FRED",
       "source_url": "https://fred.stlouisfed.org/series/DGS10",
       "source_tier": "A",
@@ -156,12 +150,12 @@
       "name": "COMEX铜期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 6.695000171661377,
+      "latest": 6.7154998779296875,
       "latest_date": "2026-09-18",
-      "pct_1": 1.6473089053327783,
-      "pct_5": 3.4855878282884944,
-      "abs_1": 0.10850000381469727,
-      "abs_5": 0.22550010681152344,
+      "pct_1": 1.9585471311873048,
+      "pct_5": 3.802454758697693,
+      "abs_1": 0.1289997100830078,
+      "abs_5": 0.24599981307983398,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -178,12 +172,12 @@
       "name": "CME铝期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3466.75,
+      "latest": 3460.0,
       "latest_date": "2026-09-18",
-      "pct_1": 1.0051715347075607,
-      "pct_5": 2.4756133609222575,
-      "abs_1": 34.5,
-      "abs_5": 83.75,
+      "pct_1": 0.8085075387865182,
+      "pct_5": 2.276086313922554,
+      "abs_1": 27.75,
+      "abs_5": 77.0,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -200,12 +194,12 @@
       "name": "COMEX黄金期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 4425.7001953125,
+      "latest": 4415.89990234375,
       "latest_date": "2026-09-18",
-      "pct_1": 0.5909493566789159,
-      "pct_5": 0.38105408017585773,
-      "abs_1": 26.0,
-      "abs_5": 16.80029296875,
+      "pct_1": 0.3682002480193791,
+      "pct_5": 0.15876976468163218,
+      "abs_1": 16.19970703125,
+      "abs_5": 7.0,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -222,12 +216,12 @@
       "name": "COMEX白银期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 67.20500183105469,
+      "latest": 66.78500366210938,
       "latest_date": "2026-09-18",
-      "pct_1": 2.6500696166214643,
-      "pct_5": 4.106640861095467,
-      "abs_1": 1.7350006103515625,
-      "abs_5": 2.6510009765625,
+      "pct_1": 2.00855722756641,
+      "pct_5": 3.456025618994518,
+      "abs_1": 1.31500244140625,
+      "abs_5": 2.2310028076171875,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -266,12 +260,12 @@
       "name": "CBOT大豆期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 1303.75,
+      "latest": 1303.0,
       "latest_date": "2026-09-18",
-      "pct_1": -1.2123508240197034,
-      "pct_5": 1.8355789884788143,
-      "abs_1": -16.0,
-      "abs_5": 23.5,
+      "pct_1": -1.269179768895623,
+      "pct_5": 1.7769966803358628,
+      "abs_1": -16.75,
+      "abs_5": 22.75,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -288,12 +282,12 @@
       "name": "CBOT小麦期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 712.25,
+      "latest": 713.5,
       "latest_date": "2026-09-18",
-      "pct_1": -2.028885832187066,
-      "pct_5": 0.7425742574257432,
-      "abs_1": -14.75,
-      "abs_5": 5.25,
+      "pct_1": -1.8569463548830822,
+      "pct_5": 0.9193776520509234,
+      "abs_1": -13.5,
+      "abs_5": 6.5,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -366,12 +360,12 @@
       "name": "美元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 6.687300205230713,
+      "latest": 6.697000026702881,
       "latest_date": "2026-09-18",
-      "pct_1": -0.11649752197940844,
-      "pct_5": -0.3085864238180913,
-      "abs_1": -0.007799625396728516,
-      "abs_5": -0.02069997787475586,
+      "pct_1": -0.15504992486725655,
+      "pct_5": -0.16398563062494098,
+      "abs_1": -0.010399818420410156,
+      "abs_5": -0.01100015640258789,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -380,7 +374,7 @@
       "hits": [
         {
           "metric": "60周期新低",
-          "value": 6.687300205230713,
+          "value": 6.697000026702881,
           "level": "P2"
         }
       ],
@@ -394,12 +388,12 @@
       "name": "欧元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 7.666200160980225,
+      "latest": 7.669400215148926,
       "latest_date": "2026-09-18",
-      "pct_1": -0.054755705195730364,
-      "pct_5": -1.4285248319117483,
-      "abs_1": -0.004199981689453125,
-      "abs_5": -0.11110067367553711,
+      "pct_1": -0.373490285517486,
+      "pct_5": -1.3873787551849537,
+      "abs_1": -0.028751850128173828,
+      "abs_5": -0.10790061950683594,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -408,7 +402,7 @@
       "hits": [
         {
           "metric": "60周期新低",
-          "value": 7.666200160980225,
+          "value": 7.669400215148926,
           "level": "P2"
         }
       ],
@@ -422,12 +416,12 @@
       "name": "费城半导体指数",
       "group": "semiconductor",
       "type": "numeric",
-      "latest": 11731.857421875,
+      "latest": 11921.685546875,
       "latest_date": "2026-09-18",
-      "pct_1": 1.1411465920091013,
-      "pct_5": -0.7792843210842393,
-      "abs_1": 132.3671875,
-      "abs_5": -92.142578125,
+      "pct_1": 2.7776678628960383,
+      "pct_5": 0.8261632854786871,
+      "abs_1": 322.1953125,
+      "abs_5": 97.685546875,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -526,7 +520,7 @@
           "source_url": "https://clinicaltrials.gov/study/NCT05306574",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-09-19T01:41:03.492575+08:00"
+          "fetched_at": "2026-09-19T08:32:04.261255+08:00"
         }
       ],
       "source_url": "https://clinicaltrials.gov/data-api/api",
@@ -639,7 +633,7 @@
       "level": "P2",
       "severity": 2,
       "trend_sign": 0,
-      "event_count": 2,
+      "event_count": 3,
       "events": [
         {
           "event_key": "usda_wasde:4556cc021e501fe7",
@@ -652,6 +646,18 @@
           "polarity": 0,
           "level": "P2",
           "fetched_at": "2026-09-18T02:13:15.745527+08:00"
+        },
+        {
+          "event_key": "usda_wasde:4c81a88fbb109da2",
+          "signal_id": "usda_wasde",
+          "signal_name": "USDA全球农产品供需报告",
+          "date": "2026-09-19",
+          "title": "USDA WASDE页面出现更新",
+          "summary": "需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。",
+          "source_url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
+          "polarity": 0,
+          "level": "P2",
+          "fetched_at": "2026-09-19T08:32:04.261255+08:00"
         },
         {
           "event_key": "usda_wasde:85685031b7f92ef8",
@@ -1565,26 +1571,6 @@
       "in_final20": true
     },
     {
-      "security_code": "600663",
-      "security_name": "陆家嘴",
-      "score": -0.5,
-      "positive": 0.0,
-      "negative": 0.5,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "us10y",
-          "signal_name": "美国10年期国债收益率",
-          "level": "P2",
-          "impact": -0.5,
-          "weight": 0.25,
-          "directness": "C",
-          "rationale": "海外长端利率通过全球估值和汇率间接影响。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
       "security_code": "600872",
       "security_name": "中炬高新",
       "score": 0.4,
@@ -1629,26 +1615,6 @@
           "weight": 0.65,
           "directness": "A",
           "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "601318",
-      "security_name": "中国平安",
-      "score": -0.4,
-      "positive": 0.0,
-      "negative": 0.4,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "us10y",
-          "signal_name": "美国10年期国债收益率",
-          "level": "P2",
-          "impact": -0.4,
-          "weight": 0.2,
-          "directness": "C",
-          "rationale": "海外长端利率通过全球估值和汇率间接影响。"
         }
       ],
       "in_final20": false
@@ -1719,26 +1685,6 @@
         }
       ],
       "in_final20": false
-    },
-    {
-      "security_code": "603605",
-      "security_name": "珀莱雅",
-      "score": -0.2,
-      "positive": 0.0,
-      "negative": 0.2,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "us10y",
-          "signal_name": "美国10年期国债收益率",
-          "level": "P2",
-          "impact": -0.2,
-          "weight": 0.1,
-          "directness": "C",
-          "rationale": "海外长端利率通过全球估值和汇率间接影响。"
-        }
-      ],
-      "in_final20": true
     }
   ],
   "errors": [
