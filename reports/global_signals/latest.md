@@ -1,4 +1,4 @@
-# A股海外产业信号雷达｜2026-09-22 03:27（北京时间）
+# A股海外产业信号雷达｜2026-09-22 09:03（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
@@ -18,11 +18,11 @@
 |P1|ICE原糖期货|18.38|5.88%|1.21%|上行|Yahoo public chart endpoint|
 |P1|WTI原油现货|107.02|4.49%|13.60%|上行|FRED|
 |P1|荣昌生物海外临床状态|1条事件|—|—|下行|A|
-|P2|费城半导体指数|12,441.10|4.36%|11.77%|上行|Yahoo public chart endpoint|
-|P2|CBOT玉米期货|543.00|2.94%|6.05%|上行|Yahoo public chart endpoint|
-|P2|COMEX铜期货|6.78|2.43%|7.05%|上行|Yahoo public chart endpoint|
-|P2|CBOT大豆期货|1,327.00|1.80%|3.25%|上行|Yahoo public chart endpoint|
-|P2|美元兑人民币|6.69|-0.03%|-0.20%|下行|Yahoo public chart endpoint|
+|P2|费城半导体指数|12,433.17|4.29%|11.70%|上行|Yahoo public chart endpoint|
+|P2|COMEX铜期货|6.81|0.50%|6.93%|上行|Yahoo public chart endpoint|
+|P2|美元兑人民币|6.68|-0.15%|-0.32%|下行|Yahoo public chart endpoint|
+|P2|CBOT玉米期货|543.50|0.09%|1.45%|上行|Yahoo public chart endpoint|
+|P2|CBOT大豆期货|1,327.75|0.06%|0.68%|上行|Yahoo public chart endpoint|
 |P2|欧洲纯电动车注册份额|20.70|—%|—%|上行|ACEA|
 |P2|USDA全球农产品供需报告|3条事件|—|—|待判定|A|
 
