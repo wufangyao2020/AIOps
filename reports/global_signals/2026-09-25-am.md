@@ -1,11 +1,11 @@
-# A股海外产业信号雷达｜2026-09-25 02:25（北京时间）
+# A股海外产业信号雷达｜2026-09-25 08:44（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
 - 触发P1：4条；P2：6条；P3：0条。
-- 数据源成功：25条；失败：12条。
+- 数据源成功：24条；失败：13条。
 - 最强信号：台积电月营收同比（P1）；ICE棉花期货（P1）；布伦特原油现货（P1）；荣昌生物海外临床状态（P1）；ICE原糖期货（P2）。
 
 ## 触发信号
@@ -18,9 +18,9 @@
 |P1|荣昌生物海外临床状态|1条事件|—|—|下行|A|
 |P2|ICE原糖期货|18.63|4.96%|6.95%|上行|Yahoo public chart endpoint|
 |P2|欧洲纯电动车注册份额|21.70|4.83%|4.83%|上行|ACEA|
-|P2|费城半导体指数|12,435.80|-0.79%|7.21%|下行|Yahoo public chart endpoint|
+|P2|美国10年期国债收益率|5.11|3.02%|2.00%|上行|FRED|
 |P2|WTI原油现货|96.41|-0.58%|-9.91%|下行|FRED|
-|P2|欧元兑人民币|7.61|-0.48%|-0.82%|下行|Yahoo public chart endpoint|
+|P2|费城半导体指数|12,492.54|-0.33%|7.70%|下行|Yahoo public chart endpoint|
 |P2|USDA全球农产品供需报告|5条事件|—|—|待判定|A|
 
 ## A股优先复核
@@ -45,18 +45,18 @@
 |300476|胜宏科技|1.62|2.70|1.08|0.00|台积电月营收同比(P1/A)；费城半导体指数(P2/C)|否|
 |002463|沪电股份|1.62|2.70|1.08|0.00|台积电月营收同比(P1/A)；费城半导体指数(P2/C)|否|
 |000726|鲁泰A|-1.50|0.00|1.50|0.00|ICE棉花期货(P1/B)|否|
+|002048|宁波华翔|1.50|1.50|0.00|0.00|欧洲纯电动车注册份额(P2/A)|是|
 |601138|工业富联|1.44|2.40|0.96|0.00|台积电月营收同比(P1/A)；费城半导体指数(P2/C)|否|
 |600251|冠农股份|1.35|1.35|0.00|0.00|ICE棉花期货(P1/B)|否|
 |688008|澜起科技|1.35|2.25|0.90|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
 |002916|深南电路|1.35|2.25|0.90|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
+|603997|继峰股份|1.30|1.30|0.00|0.00|欧洲纯电动车注册份额(P2/A)|否|
 |600699|均胜电子|1.30|1.30|0.00|0.00|欧洲纯电动车注册份额(P2/A)|否|
 |603986|兆易创新|1.17|1.95|0.78|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
 |301308|江波龙|1.17|1.95|0.78|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
 |002311|海大集团|0.00|0.00|0.00|1.10|USDA全球农产品供需报告(P2/B)|否|
 |600028|中国石化|-1.05|0.00|1.05|0.00|布伦特原油现货(P1/B)|否|
 |000876|新希望|0.00|0.00|0.00|1.00|USDA全球农产品供需报告(P2/B)|否|
-|688012|中微公司|0.99|1.65|0.66|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
-|002371|北方华创|0.99|1.65|0.66|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
 
 ## 最终20只的海外敏感度
 
@@ -116,6 +116,7 @@
 - `fbx`：fbx absent from Baltic page
 - `bai00`：bai00 absent from Baltic page
 - `sia_sales_yoy`：SIA official pages did not expose a parseable latest global-sales release
+- `acea_bev_share`：ACEA official pages did not expose a parseable passenger-registration release
 - `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
 - `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
 
