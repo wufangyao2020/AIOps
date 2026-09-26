@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T02:36:03.863977+08:00",
+  "generated_at": "2026-09-26T08:48:23.183798+08:00",
   "run_slot": "am",
   "catalog_version": "1.0.0",
   "signal_results": {
@@ -108,12 +108,12 @@
       "name": "美国10年期国债收益率",
       "group": "rates",
       "type": "numeric",
-      "latest": 5.11,
-      "latest_date": "2026-09-23",
-      "pct_1": 3.0241935483870996,
-      "pct_5": 1.9960079840319445,
-      "abs_1": 0.15000000000000036,
-      "abs_5": 0.10000000000000053,
+      "latest": 5.18,
+      "latest_date": "2026-09-24",
+      "pct_1": 1.3698630136986134,
+      "pct_5": 4.85829959514168,
+      "abs_1": 0.0699999999999994,
+      "abs_5": 0.23999999999999932,
       "breakout": true,
       "breakdown": false,
       "level": "P2",
@@ -121,13 +121,8 @@
       "trend_sign": 1,
       "hits": [
         {
-          "metric": "单周期绝对变化",
-          "value": 0.15000000000000036,
-          "level": "P2"
-        },
-        {
           "metric": "60周期新高",
-          "value": 5.11,
+          "value": 5.18,
           "level": "P2"
         }
       ],
@@ -185,12 +180,12 @@
       "name": "COMEX黄金期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 4324.5,
+      "latest": 4320.5,
       "latest_date": "2026-09-25",
-      "pct_1": 0.6165658445788758,
-      "pct_5": -2.2689756731123056,
-      "abs_1": 26.5,
-      "abs_5": -100.39990234375,
+      "pct_1": 0.5234993020009293,
+      "pct_5": -2.35937319821522,
+      "abs_1": 22.5,
+      "abs_5": -104.39990234375,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -207,12 +202,12 @@
       "name": "COMEX白银期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 64.80999755859375,
+      "latest": 64.70999908447266,
       "latest_date": "2026-09-25",
-      "pct_1": 2.132147455057054,
-      "pct_5": -2.6233580799181255,
-      "abs_1": 1.352996826171875,
-      "abs_5": -1.746002197265625,
+      "pct_1": 1.9745628340272159,
+      "pct_5": -2.773605201872431,
+      "abs_1": 1.2529983520507812,
+      "abs_5": -1.8460006713867188,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -358,9 +353,9 @@
       "type": "numeric",
       "latest": 6.712299823760986,
       "latest_date": "2026-09-25",
-      "pct_1": 0.14173221624567134,
+      "pct_1": 0.01787668596653358,
       "pct_5": 0.22097192046861558,
-      "abs_1": 0.00950002670288086,
+      "abs_1": 0.0011997222900390625,
       "abs_5": 0.01479959487915039,
       "breakout": false,
       "breakdown": false,
@@ -378,18 +373,24 @@
       "name": "欧元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 7.649099826812744,
+      "latest": 7.623700141906738,
       "latest_date": "2026-09-25",
-      "pct_1": 0.09552592484620703,
-      "pct_5": -0.5131645438359644,
-      "abs_1": 0.007299900054932529,
-      "abs_5": -0.03945493698120117,
+      "pct_1": -0.13567956586536534,
+      "pct_5": -0.8435216224590425,
+      "abs_1": -0.010357856750488281,
+      "abs_5": -0.06485462188720703,
       "breakout": false,
-      "breakdown": false,
-      "level": "NONE",
-      "severity": 0,
-      "trend_sign": 1,
-      "hits": [],
+      "breakdown": true,
+      "level": "P2",
+      "severity": 2,
+      "trend_sign": -1,
+      "hits": [
+        {
+          "metric": "60周期新低",
+          "value": 7.623700141906738,
+          "level": "P2"
+        }
+      ],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/EURCNY=X",
       "source_tier": "B",
@@ -400,12 +401,12 @@
       "name": "费城半导体指数",
       "group": "semiconductor",
       "type": "numeric",
-      "latest": 12688.89453125,
+      "latest": 12668.9287109375,
       "latest_date": "2026-09-25",
-      "pct_1": 1.5717739672918896,
-      "pct_5": 6.435363391520399,
-      "abs_1": 196.3544921875,
-      "abs_5": 767.2041015625,
+      "pct_1": 1.4119520235553074,
+      "pct_5": 6.267888649324593,
+      "abs_1": 176.388671875,
+      "abs_5": 747.23828125,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -504,7 +505,7 @@
           "source_url": "https://clinicaltrials.gov/study/NCT05306574",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-09-26T02:36:03.863977+08:00"
+          "fetched_at": "2026-09-26T08:48:23.183798+08:00"
         }
       ],
       "source_url": "https://clinicaltrials.gov/data-api/api",
@@ -1172,26 +1173,6 @@
       "in_final20": false
     },
     {
-      "security_code": "002048",
-      "security_name": "宁波华翔",
-      "score": 1.5,
-      "positive": 1.5,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "acea_bev_share",
-          "signal_name": "欧洲纯电动车注册份额",
-          "level": "P2",
-          "impact": 1.5,
-          "weight": 0.75,
-          "directness": "A",
-          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
       "security_code": "000833",
       "security_name": "粤桂股份",
       "score": 1.35,
@@ -1210,26 +1191,6 @@
         }
       ],
       "in_final20": true
-    },
-    {
-      "security_code": "603997",
-      "security_name": "继峰股份",
-      "score": 1.3,
-      "positive": 1.3,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "acea_bev_share",
-          "signal_name": "欧洲纯电动车注册份额",
-          "level": "P2",
-          "impact": 1.3,
-          "weight": 0.65,
-          "directness": "A",
-          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
-        }
-      ],
-      "in_final20": false
     },
     {
       "security_code": "600699",
@@ -1387,26 +1348,6 @@
           "weight": 0.45,
           "directness": "B",
           "rationale": "国际棉价对棉花种植和加工形成景气映射。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600741",
-      "security_name": "华域汽车",
-      "score": 0.9,
-      "positive": 0.9,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "acea_bev_share",
-          "signal_name": "欧洲纯电动车注册份额",
-          "level": "P2",
-          "impact": 0.9,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
         }
       ],
       "in_final20": false
@@ -1572,6 +1513,35 @@
       "in_final20": true
     },
     {
+      "security_code": "603997",
+      "security_name": "继峰股份",
+      "score": 0.4,
+      "positive": 1.3,
+      "negative": 0.9,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "eur_cny",
+          "signal_name": "欧元兑人民币",
+          "level": "P2",
+          "impact": -0.9,
+          "weight": 0.45,
+          "directness": "B",
+          "rationale": "欧元升值可能抬升欧洲收入折算，但当地成本与套保会弱化。"
+        },
+        {
+          "signal_id": "acea_bev_share",
+          "signal_name": "欧洲纯电动车注册份额",
+          "level": "P2",
+          "impact": 1.3,
+          "weight": 0.65,
+          "directness": "A",
+          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "601318",
       "security_name": "中国平安",
       "score": -0.4,
@@ -1587,6 +1557,64 @@
           "weight": 0.2,
           "directness": "C",
           "rationale": "海外长端利率通过全球估值和汇率间接影响。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "002048",
+      "security_name": "宁波华翔",
+      "score": 0.3999999999999999,
+      "positive": 1.5,
+      "negative": 1.1,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "eur_cny",
+          "signal_name": "欧元兑人民币",
+          "level": "P2",
+          "impact": -1.1,
+          "weight": 0.55,
+          "directness": "B",
+          "rationale": "欧元升值可能抬升欧洲收入折算，但当地成本与套保会弱化。"
+        },
+        {
+          "signal_id": "acea_bev_share",
+          "signal_name": "欧洲纯电动车注册份额",
+          "level": "P2",
+          "impact": 1.5,
+          "weight": 0.75,
+          "directness": "A",
+          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
+        }
+      ],
+      "in_final20": true
+    },
+    {
+      "security_code": "600741",
+      "security_name": "华域汽车",
+      "score": 0.20000000000000007,
+      "positive": 0.9,
+      "negative": 0.7,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "eur_cny",
+          "signal_name": "欧元兑人民币",
+          "level": "P2",
+          "impact": -0.7,
+          "weight": 0.35,
+          "directness": "B",
+          "rationale": "欧元升值可能抬升欧洲收入折算，但当地成本与套保会弱化。"
+        },
+        {
+          "signal_id": "acea_bev_share",
+          "signal_name": "欧洲纯电动车注册份额",
+          "level": "P2",
+          "impact": 0.9,
+          "weight": 0.45,
+          "directness": "B",
+          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
         }
       ],
       "in_final20": false
