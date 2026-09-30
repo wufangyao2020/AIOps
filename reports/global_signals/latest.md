@@ -1,11 +1,11 @@
-# A股海外产业信号雷达｜2026-09-30 03:25（北京时间）
+# A股海外产业信号雷达｜2026-09-30 09:28（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
 - 触发P1：4条；P2：5条；P3：0条。
-- 数据源成功：25条；失败：12条。
+- 数据源成功：24条；失败：13条。
 - 最强信号：台积电月营收同比（P1）；ICE原糖期货（P1）；布伦特原油现货（P1）；荣昌生物海外临床状态（P1）；欧洲纯电动车注册份额（P2）。
 
 ## 触发信号
@@ -18,8 +18,8 @@
 |P1|荣昌生物海外临床状态|1条事件|—|—|下行|A|
 |P2|欧洲纯电动车注册份额|21.70|4.83%|4.83%|上行|ACEA|
 |P2|波罗的海干散货指数 BDI|3,178.00|-2.75%|-7.35%|下行|BalticDryIndex.com (Baltic Exchange sourced)|
+|P2|美国10年期国债收益率|5.24|1.35%|5.65%|上行|FRED|
 |P2|WTI原油现货|96.41|-0.58%|-9.91%|下行|FRED|
-|P2|欧元兑人民币|7.60|-0.37%|-0.49%|下行|Yahoo public chart endpoint|
 |P2|USDA全球农产品供需报告|4条事件|—|—|待判定|A|
 
 ## A股优先复核
@@ -47,15 +47,15 @@
 |688012|中微公司|1.65|1.65|0.00|0.00|台积电月营收同比(P1/B)|否|
 |002371|北方华创|1.65|1.65|0.00|0.00|台积电月营收同比(P1/B)|否|
 |600798|宁波海运|-1.60|0.00|1.60|0.00|波罗的海干散货指数 BDI(P2/A)|否|
+|002048|宁波华翔|1.50|1.50|0.00|0.00|欧洲纯电动车注册份额(P2/A)|是|
 |603162|海通发展|-1.40|0.60|2.00|0.00|波罗的海干散货指数 BDI(P2/A)；布伦特原油现货(P1/C)|是|
 |000833|粤桂股份|1.35|1.35|0.00|0.00|ICE原糖期货(P1/B)|是|
+|603997|继峰股份|1.30|1.30|0.00|0.00|欧洲纯电动车注册份额(P2/A)|否|
 |600699|均胜电子|1.30|1.30|0.00|0.00|欧洲纯电动车注册份额(P2/A)|否|
 |000520|凤凰航运|-1.20|0.60|1.80|0.00|波罗的海干散货指数 BDI(P2/A)；布伦特原油现货(P1/C)|否|
 |002311|海大集团|0.00|0.00|0.00|1.10|USDA全球农产品供需报告(P2/B)|否|
 |600028|中国石化|-1.05|0.00|1.05|0.00|布伦特原油现货(P1/B)|否|
 |000876|新希望|0.00|0.00|0.00|1.00|USDA全球农产品供需报告(P2/B)|否|
-|601872|招商轮船|-0.90|0.00|0.90|0.00|波罗的海干散货指数 BDI(P2/B)|否|
-|601689|拓普集团|0.90|0.90|0.00|0.00|欧洲纯电动车注册份额(P2/B)|否|
 
 ## 最终20只的海外敏感度
 
@@ -112,6 +112,7 @@
 - `fbx`：fbx absent from Baltic page
 - `bai00`：bai00 absent from Baltic page
 - `sia_sales_yoy`：SIA official pages did not expose a parseable latest global-sales release
+- `acea_bev_share`：ACEA official pages did not expose a parseable passenger-registration release
 - `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
 - `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
 
