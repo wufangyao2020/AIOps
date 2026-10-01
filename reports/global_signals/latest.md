@@ -1,12 +1,12 @@
-# A股海外产业信号雷达｜2026-10-01 03:19（北京时间）
+# A股海外产业信号雷达｜2026-10-01 09:27（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
-- 触发P1：4条；P2：8条；P3：0条。
-- 数据源成功：25条；失败：12条。
-- 最强信号：台积电月营收同比（P1）；ICE棉花期货（P1）；布伦特原油现货（P1）；荣昌生物海外临床状态（P1）；欧洲纯电动车注册份额（P2）。
+- 触发P1：7条；P2：7条；P3：0条。
+- 数据源成功：24条；失败：13条。
+- 最强信号：台积电月营收同比（P1）；ICE棉花期货（P1）；布伦特原油现货（P1）；荣昌生物海外临床状态（P1）；美国HFC/制冷剂政策（P1）。
 
 ## 触发信号
 
@@ -16,13 +16,15 @@
 |P1|ICE棉花期货|79.33|5.59%|0.53%|上行|Yahoo public chart endpoint|
 |P1|布伦特原油现货|113.96|-5.01%|-0.81%|下行|FRED|
 |P1|荣昌生物海外临床状态|1条事件|—|—|下行|A|
+|P1|美国HFC/制冷剂政策|1条事件|—|—|待判定|A|
+|P1|美国电池与电动车贸易政策|1条事件|—|—|待判定|A|
+|P1|美国输电与变压器政策|1条事件|—|—|待判定|A|
 |P2|欧洲纯电动车注册份额|21.70|4.83%|4.83%|上行|ACEA|
 |P2|ICE原糖期货|18.62|4.49%|4.90%|上行|Yahoo public chart endpoint|
-|P2|CBOT玉米期货|501.25|-3.98%|-5.25%|下行|Yahoo public chart endpoint|
 |P2|WTI原油现货|96.16|-3.23%|-0.26%|下行|FRED|
 |P2|波罗的海干散货指数 BDI|3,113.00|-2.05%|-10.37%|下行|BalticDryIndex.com (Baltic Exchange sourced)|
-|P2|美国10年期国债收益率|5.24|1.35%|5.65%|上行|FRED|
-|P2|CME铝期货|3,295.75|-0.75%|-4.05%|下行|Yahoo public chart endpoint|
+|P2|CME铝期货|3,288.50|-0.96%|-4.26%|下行|Yahoo public chart endpoint|
+|P2|美国10年期国债收益率|5.26|0.38%|6.05%|上行|FRED|
 |P2|USDA全球农产品供需报告|5条事件|—|—|待判定|A|
 
 ## A股优先复核
@@ -34,31 +36,31 @@
 |300308|中际旭创|3.00|3.00|0.00|0.00|台积电月营收同比(P1/A)|否|
 |300502|新易盛|3.00|3.00|0.00|0.00|台积电月营收同比(P1/A)|否|
 |688331|荣昌生物|-3.00|0.00|3.00|0.00|荣昌生物海外临床状态(P1/A)|是|
+|605020|永和股份|0.00|0.00|0.00|3.00|美国HFC/制冷剂政策(P1/A)|是|
 |600256|广汇能源|-2.95|0.00|2.95|0.00|布伦特原油现货(P1/B)；WTI原油现货(P2/B)|否|
 |000911|广农糖业|2.00|2.00|0.00|0.70|ICE原糖期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
 |300476|胜宏科技|2.70|2.70|0.00|0.00|台积电月营收同比(P1/A)|否|
 |002463|沪电股份|2.70|2.70|0.00|0.00|台积电月营收同比(P1/A)|否|
-|002311|海大集团|1.50|1.50|0.00|1.10|CBOT玉米期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
+|600160|巨化股份|0.00|0.00|0.00|2.70|美国HFC/制冷剂政策(P1/A)|否|
+|603379|三美股份|0.00|0.00|0.00|2.55|美国HFC/制冷剂政策(P1/A)|否|
 |600737|中粮糖业|1.80|1.80|0.00|0.70|ICE原糖期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
 |601138|工业富联|2.40|2.40|0.00|0.00|台积电月营收同比(P1/A)|否|
-|000876|新希望|1.30|1.30|0.00|1.00|CBOT玉米期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
 |600359|新农开发|2.25|2.25|0.00|0.00|ICE棉花期货(P1/B)|否|
 |600540|新赛股份|2.25|2.25|0.00|0.00|ICE棉花期货(P1/B)|否|
 |688008|澜起科技|2.25|2.25|0.00|0.00|台积电月营收同比(P1/B)|否|
 |002916|深南电路|2.25|2.25|0.00|0.00|台积电月营收同比(P1/B)|否|
+|002805|丰元股份|0.00|0.00|0.00|2.25|美国电池与电动车贸易政策(P1/B)|是|
 |601111|中国国航|2.10|2.10|0.00|0.00|布伦特原油现货(P1/C)|否|
 |600115|中国东航|2.10|2.10|0.00|0.00|布伦特原油现货(P1/C)|否|
 |600029|南方航空|2.10|2.10|0.00|0.00|布伦特原油现货(P1/A)|否|
 |000612|焦作万方|-2.00|0.00|2.00|0.00|CME铝期货(P2/A)|是|
 |603986|兆易创新|1.95|1.95|0.00|0.00|台积电月营收同比(P1/B)|否|
 |301308|江波龙|1.95|1.95|0.00|0.00|台积电月营收同比(P1/B)|否|
+|300750|宁德时代|0.00|0.00|0.00|1.95|美国电池与电动车贸易政策(P1/B)|否|
 |000807|云铝股份|-1.80|0.00|1.80|0.00|CME铝期货(P2/A)|否|
 |000933|神火股份|-1.80|0.00|1.80|0.00|CME铝期货(P2/A)|否|
 |601339|百隆东方|-1.80|0.00|1.80|0.00|ICE棉花期货(P1/B)|否|
 |002042|华孚时尚|-1.80|0.00|1.80|0.00|ICE棉花期货(P1/B)|否|
-|688012|中微公司|1.65|1.65|0.00|0.00|台积电月营收同比(P1/B)|否|
-|002371|北方华创|1.65|1.65|0.00|0.00|台积电月营收同比(P1/B)|否|
-|600798|宁波海运|-1.60|0.00|1.60|0.00|波罗的海干散货指数 BDI(P2/A)|否|
 
 ## 最终20只的海外敏感度
 
@@ -90,6 +92,15 @@
 - **荣昌生物海外临床状态｜2026-10-01｜负向**：NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
   持续性负面状态；在状态恢复或替代试验明确前维持风险提示。  
   来源：https://clinicaltrials.gov/study/NCT05306574
+- **美国HFC/制冷剂政策｜2026-09-30｜待判定**：The Safer Affordable Fuel-Efficient (SAFE) Vehicles Rule III for Model Years 2022 to 2031 Passenger Cars and Light Trucks  
+  NHTSA, on behalf of the U.S. Department of Transportation (DOT), is substantially recalibrating the Corporate Average Fuel Economy (CAFE) program to bring the program into compliance with the law and to remove previous regulatory distortions which have induced manufacturers to make design decisions that have neither aligned with market demand and the needs of American families nor have delivered t  
+  来源：https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger
+- **美国电池与电动车贸易政策｜2026-09-30｜待判定**：The Safer Affordable Fuel-Efficient (SAFE) Vehicles Rule III for Model Years 2022 to 2031 Passenger Cars and Light Trucks  
+  NHTSA, on behalf of the U.S. Department of Transportation (DOT), is substantially recalibrating the Corporate Average Fuel Economy (CAFE) program to bring the program into compliance with the law and to remove previous regulatory distortions which have induced manufacturers to make design decisions that have neither aligned with market demand and the needs of American families nor have delivered t  
+  来源：https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger
+- **美国输电与变压器政策｜2026-09-30｜待判定**：The Safer Affordable Fuel-Efficient (SAFE) Vehicles Rule III for Model Years 2022 to 2031 Passenger Cars and Light Trucks  
+  NHTSA, on behalf of the U.S. Department of Transportation (DOT), is substantially recalibrating the Corporate Average Fuel Economy (CAFE) program to bring the program into compliance with the law and to remove previous regulatory distortions which have induced manufacturers to make design decisions that have neither aligned with market demand and the needs of American families nor have delivered t  
+  来源：https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger
 - **USDA全球农产品供需报告｜2026-09-23｜待判定**：USDA WASDE页面出现更新  
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
@@ -118,6 +129,7 @@
 - `fbx`：fbx absent from Baltic page
 - `bai00`：bai00 absent from Baltic page
 - `sia_sales_yoy`：SIA official pages did not expose a parseable latest global-sales release
+- `acea_bev_share`：ACEA official pages did not expose a parseable passenger-registration release
 - `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
 - `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
 

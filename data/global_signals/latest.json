@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T03:19:00.460457+08:00",
+  "generated_at": "2026-10-01T09:27:10.880255+08:00",
   "run_slot": "am",
   "catalog_version": "1.0.0",
   "signal_results": {
@@ -119,12 +119,12 @@
       "name": "美国10年期国债收益率",
       "group": "rates",
       "type": "numeric",
-      "latest": 5.24,
-      "latest_date": "2026-09-28",
-      "pct_1": 1.3539651837524147,
-      "pct_5": 5.645161290322576,
-      "abs_1": 0.07000000000000028,
-      "abs_5": 0.28000000000000025,
+      "latest": 5.26,
+      "latest_date": "2026-09-29",
+      "pct_1": 0.3816793893129722,
+      "pct_5": 6.048387096774199,
+      "abs_1": 0.019999999999999574,
+      "abs_5": 0.2999999999999998,
       "breakout": true,
       "breakdown": false,
       "level": "P2",
@@ -133,7 +133,7 @@
       "hits": [
         {
           "metric": "60周期新高",
-          "value": 5.24,
+          "value": 5.26,
           "level": "P2"
         }
       ],
@@ -147,17 +147,17 @@
       "name": "COMEX铜期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 6.626999855041504,
-      "latest_date": "2026-09-30",
-      "pct_1": 1.2760741060405367,
-      "pct_5": -0.7637034809755305,
-      "abs_1": 0.08349990844726562,
-      "abs_5": -0.051000118255615234,
+      "latest": 6.612500190734863,
+      "latest_date": "2026-10-01",
+      "pct_1": -0.2187968103788296,
+      "pct_5": -1.577732297797907,
+      "abs_1": -0.014499664306640625,
+      "abs_5": -0.10599994659423828,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/HG=F",
@@ -169,12 +169,12 @@
       "name": "CME铝期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3295.75,
+      "latest": 3288.5,
       "latest_date": "2026-09-30",
-      "pct_1": -0.7453696732419801,
-      "pct_5": -4.046873862726541,
-      "abs_1": -24.75,
-      "abs_5": -139.0,
+      "pct_1": -0.963710284595698,
+      "pct_5": -4.257951815998251,
+      "abs_1": -32.0,
+      "abs_5": -146.25,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -183,7 +183,7 @@
       "hits": [
         {
           "metric": "60周期新低",
-          "value": 3295.75,
+          "value": 3288.5,
           "level": "P2"
         }
       ],
@@ -197,12 +197,12 @@
       "name": "COMEX黄金期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 4183.60009765625,
-      "latest_date": "2026-09-30",
-      "pct_1": 0.09330579136090922,
-      "pct_5": -3.121522039085345,
-      "abs_1": 3.89990234375,
-      "abs_5": -134.7998046875,
+      "latest": 4191.0,
+      "latest_date": "2026-10-01",
+      "pct_1": 0.1768788165937618,
+      "pct_5": -2.489530013959984,
+      "abs_1": 7.39990234375,
+      "abs_5": -107.0,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -219,17 +219,17 @@
       "name": "COMEX白银期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 60.619998931884766,
-      "latest_date": "2026-09-30",
-      "pct_1": -0.07911969452240042,
-      "pct_5": -5.843255306103634,
-      "abs_1": -0.048000335693359375,
-      "abs_5": -3.762004852294922,
+      "latest": 60.935001373291016,
+      "latest_date": "2026-10-01",
+      "pct_1": 0.5196345215383369,
+      "pct_5": -3.974343776134859,
+      "abs_1": 0.31500244140625,
+      "abs_5": -2.5219993591308594,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/SI=F",
@@ -241,24 +241,18 @@
       "name": "CBOT玉米期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 501.25,
-      "latest_date": "2026-09-30",
-      "pct_1": -3.9750957854406077,
-      "pct_5": -5.245746691871456,
-      "abs_1": -20.75,
-      "abs_5": -27.75,
+      "latest": 501.5,
+      "latest_date": "2026-10-01",
+      "pct_1": 0.04987531172069293,
+      "pct_5": -4.928909952606631,
+      "abs_1": 0.25,
+      "abs_5": -26.0,
       "breakout": false,
       "breakdown": false,
-      "level": "P2",
-      "severity": 2,
-      "trend_sign": -1,
-      "hits": [
-        {
-          "metric": "单周期涨跌",
-          "value": -3.9750957854406077,
-          "level": "P2"
-        }
-      ],
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": 1,
+      "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZC=F",
       "source_tier": "B",
@@ -269,12 +263,12 @@
       "name": "CBOT大豆期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 1294.0,
-      "latest_date": "2026-09-30",
-      "pct_1": -0.288961664419185,
-      "pct_5": -1.8209408194233667,
-      "abs_1": -3.75,
-      "abs_5": -24.0,
+      "latest": 1291.5,
+      "latest_date": "2026-10-01",
+      "pct_1": -0.19319938176197704,
+      "pct_5": -1.973434535104368,
+      "abs_1": -2.5,
+      "abs_5": -26.0,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -291,17 +285,17 @@
       "name": "CBOT小麦期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 675.25,
-      "latest_date": "2026-09-30",
-      "pct_1": -2.5261638397690356,
-      "pct_5": -4.693013408609737,
-      "abs_1": -17.5,
-      "abs_5": -33.25,
+      "latest": 676.5,
+      "latest_date": "2026-10-01",
+      "pct_1": 0.1851166234727808,
+      "pct_5": -4.3140028288543135,
+      "abs_1": 1.25,
+      "abs_5": -30.5,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZW=F",
@@ -370,16 +364,16 @@
       "group": "fx",
       "type": "numeric",
       "latest": 6.698699951171875,
-      "latest_date": "2026-09-30",
-      "pct_1": -0.05669400058806451,
-      "pct_5": -0.18477075459438774,
-      "abs_1": -0.003799915313720703,
-      "abs_5": -0.012400150299072266,
+      "latest_date": "2026-10-01",
+      "pct_1": 0.0,
+      "pct_5": -0.2026112203893038,
+      "abs_1": 0.0,
+      "abs_5": -0.013599872589111328,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 0,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/CNY=X",
@@ -391,12 +385,12 @@
       "name": "欧元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 7.603700160980225,
-      "latest_date": "2026-09-30",
-      "pct_1": 0.04210320536450762,
-      "pct_5": -0.39766317838221266,
-      "abs_1": 0.003200054168701172,
-      "abs_5": -0.030357837677001953,
+      "latest": 7.6082000732421875,
+      "latest_date": "2026-10-01",
+      "pct_1": 0.059180559026450474,
+      "pct_5": -0.20331424867234826,
+      "abs_1": 0.004499912261962891,
+      "abs_5": -0.015500068664550781,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -413,17 +407,17 @@
       "name": "费城半导体指数",
       "group": "semiconductor",
       "type": "numeric",
-      "latest": 12655.9521484375,
+      "latest": 12628.6240234375,
       "latest_date": "2026-09-30",
-      "pct_1": 0.2121438944159726,
-      "pct_5": 0.9707128957204381,
-      "abs_1": 26.7919921875,
-      "abs_5": 121.671875,
+      "pct_1": -0.004245197668462097,
+      "pct_5": 0.7526858179478513,
+      "abs_1": -0.5361328125,
+      "abs_5": 94.34375,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/^SOX",
@@ -517,7 +511,7 @@
           "source_url": "https://clinicaltrials.gov/study/NCT05306574",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-10-01T03:19:00.460457+08:00"
+          "fetched_at": "2026-10-01T09:27:10.880255+08:00"
         }
       ],
       "source_url": "https://clinicaltrials.gov/data-api/api",
@@ -562,12 +556,25 @@
       "group": "policy",
       "type": "event",
       "latest": null,
-      "latest_date": "",
-      "level": "NONE",
-      "severity": 0,
+      "latest_date": "2026-09-30",
+      "level": "P1",
+      "severity": 3,
       "trend_sign": 0,
-      "event_count": 0,
-      "events": [],
+      "event_count": 1,
+      "events": [
+        {
+          "event_key": "fr_hfc:2026-19964",
+          "signal_id": "fr_hfc",
+          "signal_name": "美国HFC/制冷剂政策",
+          "date": "2026-09-30",
+          "title": "The Safer Affordable Fuel-Efficient (SAFE) Vehicles Rule III for Model Years 2022 to 2031 Passenger Cars and Light Trucks",
+          "summary": "NHTSA, on behalf of the U.S. Department of Transportation (DOT), is substantially recalibrating the Corporate Average Fuel Economy (CAFE) program to bring the program into compliance with the law and to remove previous regulatory distortions which have induced manufacturers to make design decisions that have neither aligned with market demand and the needs of American families nor have delivered the consistent improvements in the fuel economy performance of manufacturer fleets, as Congress intended. This recalibration finalizes amendments to fuel economy standards for light-duty vehicles for model years 2022- 2026 and MYs 2027-2031. This final rule also finalizes amendments to compliance aspects of the program, including to vehicle classification and other compliance pathways.",
+          "source_url": "https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger",
+          "polarity": 0,
+          "level": "P1",
+          "fetched_at": "2026-10-01T09:27:10.880255+08:00"
+        }
+      ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
       "source_tier": "A",
       "frequency": "daily"
@@ -594,12 +601,25 @@
       "group": "policy",
       "type": "event",
       "latest": null,
-      "latest_date": "",
-      "level": "NONE",
-      "severity": 0,
+      "latest_date": "2026-09-30",
+      "level": "P1",
+      "severity": 3,
       "trend_sign": 0,
-      "event_count": 0,
-      "events": [],
+      "event_count": 1,
+      "events": [
+        {
+          "event_key": "fr_battery:2026-19964",
+          "signal_id": "fr_battery",
+          "signal_name": "美国电池与电动车贸易政策",
+          "date": "2026-09-30",
+          "title": "The Safer Affordable Fuel-Efficient (SAFE) Vehicles Rule III for Model Years 2022 to 2031 Passenger Cars and Light Trucks",
+          "summary": "NHTSA, on behalf of the U.S. Department of Transportation (DOT), is substantially recalibrating the Corporate Average Fuel Economy (CAFE) program to bring the program into compliance with the law and to remove previous regulatory distortions which have induced manufacturers to make design decisions that have neither aligned with market demand and the needs of American families nor have delivered the consistent improvements in the fuel economy performance of manufacturer fleets, as Congress intended. This recalibration finalizes amendments to fuel economy standards for light-duty vehicles for model years 2022- 2026 and MYs 2027-2031. This final rule also finalizes amendments to compliance aspects of the program, including to vehicle classification and other compliance pathways.",
+          "source_url": "https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger",
+          "polarity": 0,
+          "level": "P1",
+          "fetched_at": "2026-10-01T09:27:10.880255+08:00"
+        }
+      ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
       "source_tier": "A",
       "frequency": "daily"
@@ -610,12 +630,25 @@
       "group": "policy",
       "type": "event",
       "latest": null,
-      "latest_date": "",
-      "level": "NONE",
-      "severity": 0,
+      "latest_date": "2026-09-30",
+      "level": "P1",
+      "severity": 3,
       "trend_sign": 0,
-      "event_count": 0,
-      "events": [],
+      "event_count": 1,
+      "events": [
+        {
+          "event_key": "fr_grid:2026-19964",
+          "signal_id": "fr_grid",
+          "signal_name": "美国输电与变压器政策",
+          "date": "2026-09-30",
+          "title": "The Safer Affordable Fuel-Efficient (SAFE) Vehicles Rule III for Model Years 2022 to 2031 Passenger Cars and Light Trucks",
+          "summary": "NHTSA, on behalf of the U.S. Department of Transportation (DOT), is substantially recalibrating the Corporate Average Fuel Economy (CAFE) program to bring the program into compliance with the law and to remove previous regulatory distortions which have induced manufacturers to make design decisions that have neither aligned with market demand and the needs of American families nor have delivered the consistent improvements in the fuel economy performance of manufacturer fleets, as Congress intended. This recalibration finalizes amendments to fuel economy standards for light-duty vehicles for model years 2022- 2026 and MYs 2027-2031. This final rule also finalizes amendments to compliance aspects of the program, including to vehicle classification and other compliance pathways.",
+          "source_url": "https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger",
+          "polarity": 0,
+          "level": "P1",
+          "fetched_at": "2026-10-01T09:27:10.880255+08:00"
+        }
+      ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
       "source_tier": "A",
       "frequency": "daily"
@@ -818,6 +851,26 @@
       "in_final20": true
     },
     {
+      "security_code": "605020",
+      "security_name": "永和股份",
+      "score": 0.0,
+      "positive": 0.0,
+      "negative": 0.0,
+      "mixed": 3.0,
+      "signals": [
+        {
+          "signal_id": "fr_hfc",
+          "signal_name": "美国HFC/制冷剂政策",
+          "level": "P1",
+          "impact": 0.0,
+          "weight": 1.0,
+          "directness": "A",
+          "rationale": "美国HFC配额与淘汰政策影响全球供给约束和制冷剂价格预期。"
+        }
+      ],
+      "in_final20": true
+    },
+    {
       "security_code": "600256",
       "security_name": "广汇能源",
       "score": -2.95,
@@ -916,30 +969,41 @@
       "in_final20": false
     },
     {
-      "security_code": "002311",
-      "security_name": "海大集团",
-      "score": 1.5,
-      "positive": 1.5,
+      "security_code": "600160",
+      "security_name": "巨化股份",
+      "score": 0.0,
+      "positive": 0.0,
       "negative": 0.0,
-      "mixed": 1.1,
+      "mixed": 2.7,
       "signals": [
         {
-          "signal_id": "corn",
-          "signal_name": "CBOT玉米期货",
-          "level": "P2",
-          "impact": 1.5,
-          "weight": 0.75,
-          "directness": "A",
-          "rationale": "国际谷物上涨可能推高饲料成本。"
-        },
-        {
-          "signal_id": "usda_wasde",
-          "signal_name": "USDA全球农产品供需报告",
-          "level": "P2",
+          "signal_id": "fr_hfc",
+          "signal_name": "美国HFC/制冷剂政策",
+          "level": "P1",
           "impact": 0.0,
-          "weight": 0.55,
-          "directness": "B",
-          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
+          "weight": 0.9,
+          "directness": "A",
+          "rationale": "美国HFC配额与淘汰政策影响全球供给约束和制冷剂价格预期。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "603379",
+      "security_name": "三美股份",
+      "score": 0.0,
+      "positive": 0.0,
+      "negative": 0.0,
+      "mixed": 2.55,
+      "signals": [
+        {
+          "signal_id": "fr_hfc",
+          "signal_name": "美国HFC/制冷剂政策",
+          "level": "P1",
+          "impact": 0.0,
+          "weight": 0.85,
+          "directness": "A",
+          "rationale": "美国HFC配额与淘汰政策影响全球供给约束和制冷剂价格预期。"
         }
       ],
       "in_final20": false
@@ -989,35 +1053,6 @@
           "weight": 0.8,
           "directness": "A",
           "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "000876",
-      "security_name": "新希望",
-      "score": 1.3,
-      "positive": 1.3,
-      "negative": 0.0,
-      "mixed": 1.0,
-      "signals": [
-        {
-          "signal_id": "corn",
-          "signal_name": "CBOT玉米期货",
-          "level": "P2",
-          "impact": 1.3,
-          "weight": 0.65,
-          "directness": "A",
-          "rationale": "国际谷物上涨可能推高饲料成本。"
-        },
-        {
-          "signal_id": "usda_wasde",
-          "signal_name": "USDA全球农产品供需报告",
-          "level": "P2",
-          "impact": 0.0,
-          "weight": 0.5,
-          "directness": "B",
-          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
         }
       ],
       "in_final20": false
@@ -1101,6 +1136,26 @@
         }
       ],
       "in_final20": false
+    },
+    {
+      "security_code": "002805",
+      "security_name": "丰元股份",
+      "score": 0.0,
+      "positive": 0.0,
+      "negative": 0.0,
+      "mixed": 2.25,
+      "signals": [
+        {
+          "signal_id": "fr_battery",
+          "signal_name": "美国电池与电动车贸易政策",
+          "level": "P1",
+          "impact": 0.0,
+          "weight": 0.75,
+          "directness": "B",
+          "rationale": "补贴/本地化规则与关税限制方向相反，按事件文本判定。"
+        }
+      ],
+      "in_final20": true
     },
     {
       "security_code": "601111",
@@ -1223,6 +1278,26 @@
       "in_final20": false
     },
     {
+      "security_code": "300750",
+      "security_name": "宁德时代",
+      "score": 0.0,
+      "positive": 0.0,
+      "negative": 0.0,
+      "mixed": 1.9500000000000002,
+      "signals": [
+        {
+          "signal_id": "fr_battery",
+          "signal_name": "美国电池与电动车贸易政策",
+          "level": "P1",
+          "impact": 0.0,
+          "weight": 0.65,
+          "directness": "B",
+          "rationale": "补贴/本地化规则与关税限制方向相反，按事件文本判定。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "000807",
       "security_name": "云铝股份",
       "score": -1.8,
@@ -1303,6 +1378,46 @@
       "in_final20": false
     },
     {
+      "security_code": "002074",
+      "security_name": "国轩高科",
+      "score": 0.0,
+      "positive": 0.0,
+      "negative": 0.0,
+      "mixed": 1.7999999999999998,
+      "signals": [
+        {
+          "signal_id": "fr_battery",
+          "signal_name": "美国电池与电动车贸易政策",
+          "level": "P1",
+          "impact": 0.0,
+          "weight": 0.6,
+          "directness": "B",
+          "rationale": "补贴/本地化规则与关税限制方向相反，按事件文本判定。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "002606",
+      "security_name": "大连电瓷",
+      "score": 0.0,
+      "positive": 0.0,
+      "negative": 0.0,
+      "mixed": 1.7999999999999998,
+      "signals": [
+        {
+          "signal_id": "fr_grid",
+          "signal_name": "美国输电与变压器政策",
+          "level": "P1",
+          "impact": 0.0,
+          "weight": 0.6,
+          "directness": "B",
+          "rationale": "海外输电投资提高全球设备需求与行业估值，出口占比决定强弱。"
+        }
+      ],
+      "in_final20": true
+    },
+    {
       "security_code": "688012",
       "security_name": "中微公司",
       "score": 1.6500000000000001,
@@ -1338,6 +1453,26 @@
           "weight": 0.55,
           "directness": "B",
           "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "300014",
+      "security_name": "亿纬锂能",
+      "score": 0.0,
+      "positive": 0.0,
+      "negative": 0.0,
+      "mixed": 1.6500000000000001,
+      "signals": [
+        {
+          "signal_id": "fr_battery",
+          "signal_name": "美国电池与电动车贸易政策",
+          "level": "P1",
+          "impact": 0.0,
+          "weight": 0.55,
+          "directness": "B",
+          "rationale": "补贴/本地化规则与关税限制方向相反，按事件文本判定。"
         }
       ],
       "in_final20": false
@@ -1423,6 +1558,66 @@
       "in_final20": true
     },
     {
+      "security_code": "002709",
+      "security_name": "天赐材料",
+      "score": 0.0,
+      "positive": 0.0,
+      "negative": 0.0,
+      "mixed": 1.5,
+      "signals": [
+        {
+          "signal_id": "fr_battery",
+          "signal_name": "美国电池与电动车贸易政策",
+          "level": "P1",
+          "impact": 0.0,
+          "weight": 0.5,
+          "directness": "B",
+          "rationale": "补贴/本地化规则与关税限制方向相反，按事件文本判定。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "600312",
+      "security_name": "平高电气",
+      "score": 0.0,
+      "positive": 0.0,
+      "negative": 0.0,
+      "mixed": 1.5,
+      "signals": [
+        {
+          "signal_id": "fr_grid",
+          "signal_name": "美国输电与变压器政策",
+          "level": "P1",
+          "impact": 0.0,
+          "weight": 0.5,
+          "directness": "B",
+          "rationale": "海外输电投资提高全球设备需求与行业估值，出口占比决定强弱。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "601179",
+      "security_name": "中国西电",
+      "score": 0.0,
+      "positive": 0.0,
+      "negative": 0.0,
+      "mixed": 1.5,
+      "signals": [
+        {
+          "signal_id": "fr_grid",
+          "signal_name": "美国输电与变压器政策",
+          "level": "P1",
+          "impact": 0.0,
+          "weight": 0.5,
+          "directness": "B",
+          "rationale": "海外输电投资提高全球设备需求与行业估值，出口占比决定强弱。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "603162",
       "security_name": "海通发展",
       "score": -1.4,
@@ -1450,35 +1645,6 @@
         }
       ],
       "in_final20": true
-    },
-    {
-      "security_code": "601952",
-      "security_name": "苏垦农发",
-      "score": -0.7,
-      "positive": 0.0,
-      "negative": 0.7,
-      "mixed": 0.7,
-      "signals": [
-        {
-          "signal_id": "corn",
-          "signal_name": "CBOT玉米期货",
-          "level": "P2",
-          "impact": -0.7,
-          "weight": 0.35,
-          "directness": "C",
-          "rationale": "国际粮价上行是景气映射，但国内定价和政策削弱相关性。"
-        },
-        {
-          "signal_id": "usda_wasde",
-          "signal_name": "USDA全球农产品供需报告",
-          "level": "P2",
-          "impact": 0.0,
-          "weight": 0.35,
-          "directness": "B",
-          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
-        }
-      ],
-      "in_final20": false
     },
     {
       "security_code": "600251",
@@ -1541,6 +1707,26 @@
       "in_final20": false
     },
     {
+      "security_code": "600089",
+      "security_name": "特变电工",
+      "score": 0.0,
+      "positive": 0.0,
+      "negative": 0.0,
+      "mixed": 1.2000000000000002,
+      "signals": [
+        {
+          "signal_id": "fr_grid",
+          "signal_name": "美国输电与变压器政策",
+          "level": "P1",
+          "impact": 0.0,
+          "weight": 0.4,
+          "directness": "B",
+          "rationale": "海外输电投资提高全球设备需求与行业估值，出口占比决定强弱。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "000520",
       "security_name": "凤凰航运",
       "score": -1.2,
@@ -1590,6 +1776,26 @@
       "in_final20": false
     },
     {
+      "security_code": "002311",
+      "security_name": "海大集团",
+      "score": 0.0,
+      "positive": 0.0,
+      "negative": 0.0,
+      "mixed": 1.1,
+      "signals": [
+        {
+          "signal_id": "usda_wasde",
+          "signal_name": "USDA全球农产品供需报告",
+          "level": "P2",
+          "impact": 0.0,
+          "weight": 0.55,
+          "directness": "B",
+          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "600028",
       "security_name": "中国石化",
       "score": -1.0499999999999998,
@@ -1610,6 +1816,26 @@
       "in_final20": false
     },
     {
+      "security_code": "000876",
+      "security_name": "新希望",
+      "score": 0.0,
+      "positive": 0.0,
+      "negative": 0.0,
+      "mixed": 1.0,
+      "signals": [
+        {
+          "signal_id": "usda_wasde",
+          "signal_name": "USDA全球农产品供需报告",
+          "level": "P2",
+          "impact": 0.0,
+          "weight": 0.5,
+          "directness": "B",
+          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "601872",
       "security_name": "招商轮船",
       "score": -0.9,
@@ -1625,46 +1851,6 @@
           "weight": 0.45,
           "directness": "B",
           "rationale": "干散货运价上行通常提高船东TCE；港口仅为贸易景气间接映射。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "002714",
-      "security_name": "牧原股份",
-      "score": 0.9,
-      "positive": 0.9,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "corn",
-          "signal_name": "CBOT玉米期货",
-          "level": "P2",
-          "impact": 0.9,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "国际谷物上涨可能推高饲料成本。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "300498",
-      "security_name": "温氏股份",
-      "score": 0.9,
-      "positive": 0.9,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "corn",
-          "signal_name": "CBOT玉米期货",
-          "level": "P2",
-          "impact": 0.9,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "国际谷物上涨可能推高饲料成本。"
         }
       ],
       "in_final20": false
@@ -1790,21 +1976,21 @@
       "in_final20": false
     },
     {
-      "security_code": "600598",
-      "security_name": "北大荒",
-      "score": -0.6,
+      "security_code": "601952",
+      "security_name": "苏垦农发",
+      "score": 0.0,
       "positive": 0.0,
-      "negative": 0.6,
-      "mixed": 0.0,
+      "negative": 0.0,
+      "mixed": 0.7,
       "signals": [
         {
-          "signal_id": "corn",
-          "signal_name": "CBOT玉米期货",
+          "signal_id": "usda_wasde",
+          "signal_name": "USDA全球农产品供需报告",
           "level": "P2",
-          "impact": -0.6,
-          "weight": 0.3,
-          "directness": "C",
-          "rationale": "国际粮价上行是景气映射，但国内定价和政策削弱相关性。"
+          "impact": 0.0,
+          "weight": 0.35,
+          "directness": "B",
+          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
         }
       ],
       "in_final20": false
@@ -1962,6 +2148,11 @@
       "error": "SIA official pages did not expose a parseable latest global-sales release"
     },
     {
+      "signal_id": "acea_bev_share",
+      "provider": "acea",
+      "error": "ACEA official pages did not expose a parseable passenger-registration release"
+    },
+    {
       "signal_id": "sec_abbvie",
       "provider": "sec",
       "error": "GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom"
@@ -1974,7 +2165,7 @@
   ],
   "data_health": {
     "configured": 37,
-    "successful": 25,
-    "failed": 12
+    "successful": 24,
+    "failed": 13
   }
 }
