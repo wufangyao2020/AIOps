@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T03:31:38.094978+08:00",
+  "generated_at": "2026-10-02T09:46:56.524458+08:00",
   "run_slot": "am",
   "catalog_version": "1.0.0",
   "signal_results": {
@@ -114,12 +114,12 @@
       "name": "美国10年期国债收益率",
       "group": "rates",
       "type": "numeric",
-      "latest": 5.26,
-      "latest_date": "2026-09-29",
-      "pct_1": 0.3816793893129722,
-      "pct_5": 6.048387096774199,
-      "abs_1": 0.019999999999999574,
-      "abs_5": 0.2999999999999998,
+      "latest": 5.29,
+      "latest_date": "2026-09-30",
+      "pct_1": 0.5703422053231932,
+      "pct_5": 3.5225048923678948,
+      "abs_1": 0.03000000000000025,
+      "abs_5": 0.17999999999999972,
       "breakout": true,
       "breakdown": false,
       "level": "P2",
@@ -128,7 +128,7 @@
       "hits": [
         {
           "metric": "60周期新高",
-          "value": 5.26,
+          "value": 5.29,
           "level": "P2"
         }
       ],
@@ -142,17 +142,17 @@
       "name": "COMEX铜期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 6.589000225067139,
-      "latest_date": "2026-10-01",
-      "pct_1": 0.45738999448936557,
-      "pct_5": -1.9275122365844721,
-      "abs_1": 0.03000020980834961,
-      "abs_5": -0.1294999122619629,
+      "latest": 6.5269999504089355,
+      "latest_date": "2026-10-02",
+      "pct_1": -0.9409663460372863,
+      "pct_5": -2.5166148784448006,
+      "abs_1": -0.062000274658203125,
+      "abs_5": -0.16849994659423828,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/HG=F",
@@ -164,29 +164,18 @@
       "name": "CME铝期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3218.0,
-      "latest_date": "2026-10-01",
-      "pct_1": -2.0395738203957348,
-      "pct_5": -6.091777923688624,
-      "abs_1": -67.0,
-      "abs_5": -208.75,
+      "latest": 3235.0,
+      "latest_date": "2026-10-02",
+      "pct_1": 1.156973108192627,
+      "pct_5": -5.822416302765642,
+      "abs_1": 37.0,
+      "abs_5": -200.0,
       "breakout": false,
-      "breakdown": true,
-      "level": "P2",
-      "severity": 2,
-      "trend_sign": -1,
-      "hits": [
-        {
-          "metric": "五周期涨跌",
-          "value": -6.091777923688624,
-          "level": "P2"
-        },
-        {
-          "metric": "60周期新低",
-          "value": 3218.0,
-          "level": "P2"
-        }
-      ],
+      "breakdown": false,
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": 1,
+      "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ALI=F",
       "source_tier": "B",
@@ -197,17 +186,17 @@
       "name": "COMEX黄金期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 4210.39990234375,
-      "latest_date": "2026-10-01",
-      "pct_1": 0.5660712715418459,
-      "pct_5": -2.038159554589347,
-      "abs_1": 23.69970703125,
-      "abs_5": -87.60009765625,
+      "latest": 4175.89990234375,
+      "latest_date": "2026-10-02",
+      "pct_1": -0.6282251046034859,
+      "pct_5": -3.362498528218316,
+      "abs_1": -26.39990234375,
+      "abs_5": -145.30029296875,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/GC=F",
@@ -219,17 +208,17 @@
       "name": "COMEX白银期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 61.35499954223633,
-      "latest_date": "2026-10-01",
-      "pct_1": 2.0915837106370017,
-      "pct_5": -3.3124811540479526,
-      "abs_1": 1.2569999694824219,
-      "abs_5": -2.102001190185547,
+      "latest": 60.6150016784668,
+      "latest_date": "2026-10-02",
+      "pct_1": -1.206092199968356,
+      "pct_5": -5.650246576272977,
+      "abs_1": -0.7399978637695312,
+      "abs_5": -3.6300010681152344,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/SI=F",
@@ -241,17 +230,17 @@
       "name": "CBOT玉米期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 502.0,
-      "latest_date": "2026-10-01",
-      "pct_1": 0.24962556165750716,
-      "pct_5": -4.83412322274882,
-      "abs_1": 1.25,
-      "abs_5": -25.5,
+      "latest": 498.0,
+      "latest_date": "2026-10-02",
+      "pct_1": -0.7968127490039834,
+      "pct_5": -5.7264552768575445,
+      "abs_1": -4.0,
+      "abs_5": -30.25,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZC=F",
@@ -263,12 +252,12 @@
       "name": "CBOT大豆期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 1283.25,
-      "latest_date": "2026-10-01",
-      "pct_1": -0.7540603248259892,
-      "pct_5": -2.599620493358634,
+      "latest": 1273.5,
+      "latest_date": "2026-10-02",
+      "pct_1": -0.7597895967270563,
+      "pct_5": -3.449583017437452,
       "abs_1": -9.75,
-      "abs_5": -34.25,
+      "abs_5": -45.5,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -285,17 +274,17 @@
       "name": "CBOT小麦期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 681.75,
-      "latest_date": "2026-10-01",
-      "pct_1": 0.8879023307436285,
-      "pct_5": -3.57142857142857,
-      "abs_1": 6.0,
-      "abs_5": -25.25,
+      "latest": 678.25,
+      "latest_date": "2026-10-02",
+      "pct_1": -0.5133846718005097,
+      "pct_5": -3.5549235691432646,
+      "abs_1": -3.5,
+      "abs_5": -25.0,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZW=F",
@@ -374,11 +363,11 @@
       "group": "fx",
       "type": "numeric",
       "latest": 6.698699951171875,
-      "latest_date": "2026-10-01",
+      "latest_date": "2026-10-02",
       "pct_1": 0.0,
-      "pct_5": -0.2026112203893038,
+      "pct_5": -0.2100475913714095,
       "abs_1": 0.0,
-      "abs_5": -0.013599872589111328,
+      "abs_5": -0.014100074768066406,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -395,12 +384,12 @@
       "name": "欧元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 7.539100170135498,
-      "latest_date": "2026-10-01",
-      "pct_1": -0.8495862471830873,
-      "pct_5": -1.109697000098453,
-      "abs_1": -0.06459999084472656,
-      "abs_5": -0.08459997177124023,
+      "latest": 7.513199806213379,
+      "latest_date": "2026-10-02",
+      "pct_1": -0.34354715201579955,
+      "pct_5": -1.6293261983795548,
+      "abs_1": -0.02590036392211914,
+      "abs_5": -0.12444210052490234,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -408,13 +397,8 @@
       "trend_sign": -1,
       "hits": [
         {
-          "metric": "单周期涨跌",
-          "value": -0.8495862471830873,
-          "level": "P2"
-        },
-        {
           "metric": "60周期新低",
-          "value": 7.539100170135498,
+          "value": 7.513199806213379,
           "level": "P2"
         }
       ],
@@ -428,12 +412,12 @@
       "name": "费城半导体指数",
       "group": "semiconductor",
       "type": "numeric",
-      "latest": 12833.1162109375,
+      "latest": 12829.0,
       "latest_date": "2026-10-01",
-      "pct_1": 1.6193067164296249,
-      "pct_5": 2.7262363843546966,
-      "abs_1": 204.49609375,
-      "abs_5": 340.576171875,
+      "pct_1": 1.5867124115942266,
+      "pct_5": 2.6932870327846414,
+      "abs_1": 200.3798828125,
+      "abs_5": 336.4599609375,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -532,7 +516,7 @@
           "source_url": "https://clinicaltrials.gov/study/NCT05306574",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-10-02T03:31:38.094978+08:00"
+          "fetched_at": "2026-10-02T09:46:56.524458+08:00"
         }
       ],
       "source_url": "https://clinicaltrials.gov/data-api/api",
@@ -593,7 +577,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger",
           "polarity": 0,
           "level": "P1",
-          "fetched_at": "2026-10-02T03:31:38.094978+08:00"
+          "fetched_at": "2026-10-02T09:46:56.524458+08:00"
         }
       ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
@@ -638,7 +622,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger",
           "polarity": 0,
           "level": "P1",
-          "fetched_at": "2026-10-02T03:31:38.094978+08:00"
+          "fetched_at": "2026-10-02T09:46:56.524458+08:00"
         },
         {
           "event_key": "fr_battery:2026-20160",
@@ -650,7 +634,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/10/01/2026-20160/initiation-of-antidumping-and-countervailing-duty-administrative-reviews",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-10-02T03:31:38.094978+08:00"
+          "fetched_at": "2026-10-02T09:46:56.524458+08:00"
         }
       ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
@@ -679,7 +663,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger",
           "polarity": 0,
           "level": "P1",
-          "fetched_at": "2026-10-02T03:31:38.094978+08:00"
+          "fetched_at": "2026-10-02T09:46:56.524458+08:00"
         }
       ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
@@ -1269,26 +1253,6 @@
       "in_final20": false
     },
     {
-      "security_code": "000612",
-      "security_name": "焦作万方",
-      "score": -2.0,
-      "positive": 0.0,
-      "negative": 2.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "aluminum",
-          "signal_name": "CME铝期货",
-          "level": "P2",
-          "impact": -2.0,
-          "weight": 1.0,
-          "directness": "A",
-          "rationale": "铝价利好电解铝，但要同时看氧化铝和电力成本。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
       "security_code": "603986",
       "security_name": "兆易创新",
       "score": 1.9500000000000002,
@@ -1344,46 +1308,6 @@
           "weight": 0.65,
           "directness": "B",
           "rationale": "补贴/本地化规则与关税限制方向相反，按事件文本判定。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "000807",
-      "security_name": "云铝股份",
-      "score": -1.8,
-      "positive": 0.0,
-      "negative": 1.8,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "aluminum",
-          "signal_name": "CME铝期货",
-          "level": "P2",
-          "impact": -1.8,
-          "weight": 0.9,
-          "directness": "A",
-          "rationale": "铝价利好电解铝，但要同时看氧化铝和电力成本。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "000933",
-      "security_name": "神火股份",
-      "score": -1.8,
-      "positive": 0.0,
-      "negative": 1.8,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "aluminum",
-          "signal_name": "CME铝期货",
-          "level": "P2",
-          "impact": -1.8,
-          "weight": 0.9,
-          "directness": "A",
-          "rationale": "铝价利好电解铝，但要同时看氧化铝和电力成本。"
         }
       ],
       "in_final20": false
@@ -1504,26 +1428,6 @@
           "weight": 0.8,
           "directness": "A",
           "rationale": "干散货运价上行通常提高船东TCE；港口仅为贸易景气间接映射。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "601600",
-      "security_name": "中国铝业",
-      "score": -1.6,
-      "positive": 0.0,
-      "negative": 1.6,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "aluminum",
-          "signal_name": "CME铝期货",
-          "level": "P2",
-          "impact": -1.6,
-          "weight": 0.8,
-          "directness": "A",
-          "rationale": "铝价利好电解铝，但要同时看氧化铝和电力成本。"
         }
       ],
       "in_final20": false
@@ -1724,26 +1628,6 @@
           "weight": 0.6,
           "directness": "B",
           "rationale": "棉价上涨推高纺织原料成本，库存收益和提价能力可能抵消。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600219",
-      "security_name": "南山铝业",
-      "score": -1.1,
-      "positive": 0.0,
-      "negative": 1.1,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "aluminum",
-          "signal_name": "CME铝期货",
-          "level": "P2",
-          "impact": -1.1,
-          "weight": 0.55,
-          "directness": "B",
-          "rationale": "铝价利好电解铝，但要同时看氧化铝和电力成本。"
         }
       ],
       "in_final20": false
