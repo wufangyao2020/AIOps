@@ -1,10 +1,10 @@
-# A股海外产业信号雷达｜2026-10-03 03:17（北京时间）
+# A股海外产业信号雷达｜2026-10-03 09:21（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
-- 触发P1：8条；P2：6条；P3：0条。
+- 触发P1：8条；P2：7条；P3：0条。
 - 数据源成功：24条；失败：13条。
 - 最强信号：台积电月营收同比（P1）；ICE棉花期货（P1）；ICE原糖期货（P1）；布伦特原油现货（P1）；美国电池与电动车贸易政策（P1）。
 
@@ -22,9 +22,10 @@
 |P1|美国输电与变压器政策|1条事件|—|—|待判定|A|
 |P2|欧洲纯电动车注册份额|21.70|4.83%|4.83%|上行|ACEA|
 |P2|WTI原油现货|96.16|-3.23%|-0.26%|下行|FRED|
-|P2|费城半导体指数|13,148.65|2.49%|3.79%|上行|Yahoo public chart endpoint|
-|P2|美国10年期国债收益率|5.29|0.57%|3.52%|上行|FRED|
+|P2|费城半导体指数|13,136.67|2.40%|3.69%|上行|Yahoo public chart endpoint|
+|P2|CME铝期货|3,222.00|0.75%|-6.20%|上行|Yahoo public chart endpoint|
 |P2|波罗的海干散货指数 BDI|3,148.00|0.25%|-8.11%|上行|BalticDryIndex.com (Baltic Exchange sourced)|
+|P2|欧元兑人民币|7.53|-0.21%|-1.47%|下行|Yahoo public chart endpoint|
 |P2|USDA全球农产品供需报告|5条事件|—|—|待判定|A|
 
 ## A股优先复核
@@ -59,8 +60,8 @@
 |601111|中国国航|2.10|2.10|0.00|0.00|布伦特原油现货(P1/C)|否|
 |600115|中国东航|2.10|2.10|0.00|0.00|布伦特原油现货(P1/C)|否|
 |600029|南方航空|2.10|2.10|0.00|0.00|布伦特原油现货(P1/A)|否|
+|000612|焦作万方|2.00|2.00|0.00|0.00|CME铝期货(P2/A)|是|
 |300750|宁德时代|0.00|0.00|0.00|1.95|美国电池与电动车贸易政策(P1/B)|否|
-|601339|百隆东方|-1.80|0.00|1.80|0.00|ICE棉花期货(P1/B)|否|
 
 ## 最终20只的海外敏感度
 
@@ -132,9 +133,9 @@
 - `fbx`：fbx absent from Baltic page
 - `bai00`：bai00 absent from Baltic page
 - `sia_sales_yoy`：SIA official pages did not expose a parseable latest global-sales release
-- `acea_bev_share`：ACEA official pages did not expose a parseable passenger-registration release
 - `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
 - `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
+- `usda_wasde`：GET failed after 4 attempts: https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report: 403 Client Error: Forbidden for url: https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 
 ## 执行纪律
 
