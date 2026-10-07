@@ -1,11 +1,11 @@
-# A股海外产业信号雷达｜2026-10-07 03:32（北京时间）
+# A股海外产业信号雷达｜2026-10-07 09:45（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
-- 触发P1：8条；P2：5条；P3：0条。
-- 数据源成功：25条；失败：12条。
+- 触发P1：8条；P2：7条；P3：0条。
+- 数据源成功：24条；失败：13条。
 - 最强信号：台积电月营收同比（P1）；布伦特原油现货（P1）；ICE棉花期货（P1）；ICE原糖期货（P1）；美国HFC/制冷剂政策（P1）。
 
 ## 触发信号
@@ -15,7 +15,7 @@
 |P1|台积电月营收同比|53.30|19.24%|17.92%|上行|TSMC investor relations|
 |P1|布伦特原油现货|113.96|-5.01%|-0.81%|下行|FRED|
 |P1|ICE棉花期货|80.92|4.91%|7.71%|上行|Yahoo public chart endpoint|
-|P1|ICE原糖期货|20.87|0.43%|17.12%|上行|Yahoo public chart endpoint|
+|P1|ICE原糖期货|20.87|0.68%|17.12%|上行|Yahoo public chart endpoint|
 |P1|美国HFC/制冷剂政策|2条事件|—|—|待判定|A|
 |P1|美国电池与电动车贸易政策|2条事件|—|—|下行|A|
 |P1|荣昌生物海外临床状态|1条事件|—|—|下行|A|
@@ -23,7 +23,9 @@
 |P2|欧洲纯电动车注册份额|21.70|4.83%|4.83%|上行|ACEA|
 |P2|WTI原油现货|96.16|-3.23%|-0.26%|下行|FRED|
 |P2|波罗的海干散货指数 BDI|3,002.00|-2.21%|-3.57%|下行|BalticDryIndex.com (Baltic Exchange sourced)|
-|P2|费城半导体指数|13,224.67|0.39%|4.72%|上行|Yahoo public chart endpoint|
+|P2|美国10年期国债收益率|5.31|0.57%|1.34%|上行|FRED|
+|P2|费城半导体指数|13,217.82|0.34%|4.66%|上行|Yahoo public chart endpoint|
+|P2|美元兑人民币|6.69|-0.16%|-0.16%|下行|Yahoo public chart endpoint|
 |P2|USDA全球农产品供需报告|5条事件|—|—|待判定|A|
 
 ## A股优先复核
@@ -44,10 +46,13 @@
 |688331|荣昌生物|-3.00|0.00|3.00|0.00|荣昌生物海外临床状态(P1/A)|是|
 |605020|永和股份|0.00|0.00|0.00|3.00|美国HFC/制冷剂政策(P1/A)|是|
 |600256|广汇能源|-2.95|0.00|2.95|0.00|布伦特原油现货(P1/B)；WTI原油现货(P2/B)|否|
+|601339|百隆东方|-2.90|0.00|2.90|0.00|ICE棉花期货(P1/B)；美元兑人民币(P2/B)|否|
+|000726|鲁泰A|-2.80|0.00|2.80|0.00|ICE棉花期货(P1/B)；美元兑人民币(P2/A)|否|
 |603986|兆易创新|2.73|2.73|0.00|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
 |301308|江波龙|2.73|2.73|0.00|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
 |600160|巨化股份|0.00|0.00|0.00|2.70|美国HFC/制冷剂政策(P1/A)|否|
 |603379|三美股份|0.00|0.00|0.00|2.55|美国HFC/制冷剂政策(P1/A)|否|
+|603162|海通发展|-2.50|0.60|3.10|0.00|波罗的海干散货指数 BDI(P2/A)；美元兑人民币(P2/B)；布伦特原油现货(P1/C)|是|
 |688012|中微公司|2.31|2.31|0.00|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
 |002371|北方华创|2.31|2.31|0.00|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
 |600359|新农开发|2.25|2.25|0.00|0.00|ICE棉花期货(P1/B)|否|
@@ -57,9 +62,6 @@
 |600115|中国东航|2.10|2.10|0.00|0.00|布伦特原油现货(P1/C)|否|
 |600029|南方航空|2.10|2.10|0.00|0.00|布伦特原油现货(P1/A)|否|
 |300750|宁德时代|0.00|0.00|0.00|1.95|美国电池与电动车贸易政策(P1/B)|否|
-|601339|百隆东方|-1.80|0.00|1.80|0.00|ICE棉花期货(P1/B)|否|
-|002042|华孚时尚|-1.80|0.00|1.80|0.00|ICE棉花期货(P1/B)|否|
-|002074|国轩高科|0.00|0.00|0.00|1.80|美国电池与电动车贸易政策(P1/B)|否|
 
 ## 最终20只的海外敏感度
 
@@ -134,6 +136,7 @@
 - `fbx`：fbx absent from Baltic page
 - `bai00`：bai00 absent from Baltic page
 - `sia_sales_yoy`：SIA official pages did not expose a parseable latest global-sales release
+- `acea_bev_share`：ACEA official pages did not expose a parseable passenger-registration release
 - `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
 - `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
 
