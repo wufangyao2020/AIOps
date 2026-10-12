@@ -1,30 +1,24 @@
-# A股海外产业信号雷达｜2026-10-10 09:52（北京时间）
+# A股海外产业信号雷达｜2026-10-12 09:39（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
-- 触发P1：3条；P2：11条；P3：0条。
+- 触发P1：3条；P2：5条；P3：0条。
 - 数据源成功：24条；失败：13条。
-- 最强信号：ICE棉花期货（P1）；台积电月营收同比（P1）；荣昌生物海外临床状态（P1）；欧洲纯电动车注册份额（P2）；CBOT玉米期货（P2）。
+- 最强信号：ICE棉花期货（P1）；台积电月营收同比（P1）；荣昌生物海外临床状态（P1）；欧洲纯电动车注册份额（P2）；布伦特原油现货（P2）。
 
 ## 触发信号
 
 |级别|信号|最新值/事件|单周期|五周期|方向|来源|
 |---|---|---:|---:|---:|---|---|
-|P1|ICE棉花期货|81.02|6.31%|7.81%|上行|Yahoo public chart endpoint|
+|P1|ICE棉花期货|80.54|5.68%|7.17%|上行|Yahoo public chart endpoint|
 |P1|台积电月营收同比|54.60|2.44%|212.00%|上行|TSMC investor relations|
 |P1|荣昌生物海外临床状态|1条事件|—|—|下行|A|
 |P2|欧洲纯电动车注册份额|21.70|4.83%|4.83%|上行|ACEA|
-|P2|CBOT玉米期货|480.50|-3.95%|-3.47%|下行|Yahoo public chart endpoint|
-|P2|COMEX白银期货|61.11|3.46%|1.89%|上行|Yahoo public chart endpoint|
-|P2|COMEX铜期货|6.71|2.95%|3.37%|上行|Yahoo public chart endpoint|
-|P2|波罗的海干散货指数 BDI|2,917.00|-1.88%|-7.34%|下行|BalticDryIndex.com (Baltic Exchange sourced)|
-|P2|欧元兑人民币|7.47|-0.60%|-1.01%|下行|Yahoo public chart endpoint|
-|P2|美元兑人民币|6.68|-0.33%|-0.37%|下行|Yahoo public chart endpoint|
 |P2|布伦特原油现货|125.44|-0.06%|10.07%|下行|FRED|
-|P2|USDA全球农产品供需报告|6条事件|—|—|待判定|A|
-|P2|美国输电与变压器政策|2条事件|—|—|待判定|A|
+|P2|USDA全球农产品供需报告|5条事件|—|—|待判定|A|
+|P2|美国输电与变压器政策|3条事件|—|—|待判定|A|
 |P2|美国HFC/制冷剂政策|1条事件|—|—|待判定|A|
 
 ## A股优先复核
@@ -34,33 +28,33 @@
 |300308|中际旭创|3.00|3.00|0.00|0.00|台积电月营收同比(P1/A)|否|
 |300502|新易盛|3.00|3.00|0.00|0.00|台积电月营收同比(P1/A)|否|
 |688331|荣昌生物|-3.00|0.00|3.00|0.00|荣昌生物海外临床状态(P1/A)|是|
-|601339|百隆东方|-2.90|0.00|2.90|0.00|ICE棉花期货(P1/B)；美元兑人民币(P2/B)|否|
-|000726|鲁泰A|-2.80|0.00|2.80|0.00|ICE棉花期货(P1/B)；美元兑人民币(P2/A)|否|
-|603162|海通发展|-2.70|0.40|3.10|0.00|波罗的海干散货指数 BDI(P2/A)；美元兑人民币(P2/B)；布伦特原油现货(P2/C)|是|
 |300476|胜宏科技|2.70|2.70|0.00|0.00|台积电月营收同比(P1/A)|否|
 |002463|沪电股份|2.70|2.70|0.00|0.00|台积电月营收同比(P1/A)|否|
-|002311|海大集团|1.50|1.50|0.00|1.10|CBOT玉米期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
 |601138|工业富联|2.40|2.40|0.00|0.00|台积电月营收同比(P1/A)|否|
-|000876|新希望|1.30|1.30|0.00|1.00|CBOT玉米期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
 |600359|新农开发|2.25|2.25|0.00|0.00|ICE棉花期货(P1/B)|否|
 |600540|新赛股份|2.25|2.25|0.00|0.00|ICE棉花期货(P1/B)|否|
 |688008|澜起科技|2.25|2.25|0.00|0.00|台积电月营收同比(P1/B)|否|
 |002916|深南电路|2.25|2.25|0.00|0.00|台积电月营收同比(P1/B)|否|
 |600938|中国海油|-2.00|0.00|2.00|0.00|布伦特原油现货(P2/A)|否|
-|603993|洛阳钼业|2.00|2.00|0.00|0.00|COMEX铜期货(P2/A)|否|
-|000603|盛达资源|2.00|2.00|0.00|0.00|COMEX白银期货(P2/A)|否|
 |605020|永和股份|0.00|0.00|0.00|2.00|美国HFC/制冷剂政策(P2/A)|是|
 |603986|兆易创新|1.95|1.95|0.00|0.00|台积电月营收同比(P1/B)|否|
 |301308|江波龙|1.95|1.95|0.00|0.00|台积电月营收同比(P1/B)|否|
-|000426|兴业银锡|1.90|1.90|0.00|0.00|COMEX白银期货(P2/A)|否|
-|000737|北方铜业|1.80|1.80|0.00|0.00|COMEX铜期货(P2/A)|是|
 |600160|巨化股份|0.00|0.00|0.00|1.80|美国HFC/制冷剂政策(P2/A)|否|
+|601339|百隆东方|-1.80|0.00|1.80|0.00|ICE棉花期货(P1/B)|否|
 |002042|华孚时尚|-1.80|0.00|1.80|0.00|ICE棉花期货(P1/B)|否|
-|601899|紫金矿业|1.70|1.70|0.00|0.00|COMEX铜期货(P2/A)|否|
-|600362|江西铜业|1.70|1.70|0.00|0.00|COMEX铜期货(P2/A)|否|
 |603379|三美股份|0.00|0.00|0.00|1.70|美国HFC/制冷剂政策(P2/A)|否|
 |688012|中微公司|1.65|1.65|0.00|0.00|台积电月营收同比(P1/B)|否|
 |002371|北方华创|1.65|1.65|0.00|0.00|台积电月营收同比(P1/B)|否|
+|601857|中国石油|-1.50|0.00|1.50|0.00|布伦特原油现货(P2/A)|否|
+|000726|鲁泰A|-1.50|0.00|1.50|0.00|ICE棉花期货(P1/B)|否|
+|002048|宁波华翔|1.50|1.50|0.00|0.00|欧洲纯电动车注册份额(P2/A)|是|
+|601111|中国国航|1.40|1.40|0.00|0.00|布伦特原油现货(P2/C)|否|
+|600115|中国东航|1.40|1.40|0.00|0.00|布伦特原油现货(P2/C)|否|
+|600029|南方航空|1.40|1.40|0.00|0.00|布伦特原油现货(P2/A)|否|
+|600251|冠农股份|1.35|1.35|0.00|0.00|ICE棉花期货(P1/B)|否|
+|603997|继峰股份|1.30|1.30|0.00|0.00|欧洲纯电动车注册份额(P2/A)|否|
+|600699|均胜电子|1.30|1.30|0.00|0.00|欧洲纯电动车注册份额(P2/A)|否|
+|002606|大连电瓷|0.00|0.00|0.00|1.20|美国输电与变压器政策(P2/B)|是|
 
 ## 最终20只的海外敏感度
 
@@ -89,12 +83,9 @@
 
 ## 新事件
 
-- **荣昌生物海外临床状态｜2026-10-10｜负向**：NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
+- **荣昌生物海外临床状态｜2026-10-12｜负向**：NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
   持续性负面状态；在状态恢复或替代试验明确前维持风险提示。  
   来源：https://clinicaltrials.gov/study/NCT05306574
-- **USDA全球农产品供需报告｜2026-10-02｜待判定**：USDA WASDE页面出现更新  
-  需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
-  来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 - **USDA全球农产品供需报告｜2026-10-05｜待判定**：USDA WASDE页面出现更新  
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
@@ -116,6 +107,9 @@
 - **美国输电与变压器政策｜2026-10-08｜待判定**：Ampersand Ogdensburg Hydro, LLC; Notice of Application Accepted for Filing and Soliciting Motions To Intervene and Protests  
     
   来源：https://www.federalregister.gov/documents/2026/10/08/2026-20657/ampersand-ogdensburg-hydro-llc-notice-of-application-accepted-for-filing-and-soliciting-motions-to
+- **美国输电与变压器政策｜2026-10-13｜待判定**：Great Lakes Hydro America, LLC; Notice of Intent To Prepare an Environmental Impact Statement for the Penobscot Mills and Ripogenus Hydroelectric Projects, Schedule for Environmental Review, and Request for Comments  
+    
+  来源：https://www.federalregister.gov/documents/2026/10/13/2026-20882/great-lakes-hydro-america-llc-notice-of-intent-to-prepare-an-environmental-impact-statement-for-the
 - **美国HFC/制冷剂政策｜2026-10-06｜待判定**：Phasedown of Hydrofluorocarbons: Notice of 2027 Allowance Allocations for Production and Consumption of Regulated Substances Under the American Innovation and Manufacturing Act of 2020, and Notice of Final Actions Establishing Administrative Consequences  
   The Environmental Protection Agency (EPA) has issued calendar year 2027 allowances for the production and consumption of hydrofluorocarbons in accordance with the Agency's regulations. This issuance of allowances is undertaken pursuant to the American Innovation and Manufacturing (AIM) Act, which directs the EPA by October 1 of each calendar year to determine the quantity of production and consump  
   来源：https://www.federalregister.gov/documents/2026/10/06/2026-20389/phasedown-of-hydrofluorocarbons-notice-of-2027-allowance-allocations-for-production-and-consumption
@@ -132,9 +126,9 @@
 - `fbx`：fbx absent from Baltic page
 - `bai00`：bai00 absent from Baltic page
 - `sia_sales_yoy`：SIA official pages did not expose a parseable latest global-sales release
-- `acea_bev_share`：ACEA official pages did not expose a parseable passenger-registration release
 - `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
 - `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
+- `usda_wasde`：GET failed after 4 attempts: https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report: 403 Client Error: Forbidden for url: https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 
 ## 执行纪律
 
