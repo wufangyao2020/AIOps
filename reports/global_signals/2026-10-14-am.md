@@ -1,4 +1,4 @@
-# A股海外产业信号雷达｜2026-10-14 04:15（北京时间）
+# A股海外产业信号雷达｜2026-10-14 09:20（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
@@ -19,7 +19,7 @@
 |P2|ICE原糖期货|21.10|1.20%|1.34%|上行|Yahoo public chart endpoint|
 |P2|费城半导体指数|12,208.79|-0.23%|-7.63%|下行|Yahoo public chart endpoint|
 |P2|布伦特原油现货|125.44|-0.06%|10.07%|下行|FRED|
-|P2|USDA全球农产品供需报告|5条事件|—|—|待判定|A|
+|P2|USDA全球农产品供需报告|6条事件|—|—|待判定|A|
 |P2|美国输电与变压器政策|3条事件|—|—|待判定|A|
 |P2|美国HFC/制冷剂政策|1条事件|—|—|待判定|A|
 
@@ -101,6 +101,9 @@
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 - **USDA全球农产品供需报告｜2026-10-13｜待判定**：USDA WASDE页面出现更新  
+  需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
+  来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
+- **USDA全球农产品供需报告｜2026-10-14｜待判定**：USDA WASDE页面出现更新  
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 - **美国输电与变压器政策｜2026-10-08｜待判定**：Ampersand Ogdensburg Hydro, LLC; Notice of Scoping Period Requesting Comments on Environmental Issues for the Proposed Ogdensburg Hydroelectric Project  
