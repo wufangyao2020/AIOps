@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T08:46:05.208520+08:00",
+  "updated_at": "2026-10-16T02:17:34.670323+08:00",
   "event_state": {
     "ctg_rongchang": {
       "NCT07462143": {
@@ -28,9 +28,9 @@
       },
       "NCT06456580": {
         "title": "A Study of Telitacicept for the Treatment of Generalized Myasthenia Gravis (UPSTREAM MG)",
-        "status": "RECRUITING",
-        "enrollment": 180,
-        "primary_completion": "2027-05",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "enrollment": 191,
+        "primary_completion": "2027-03",
         "completion": "2029-01",
         "has_results": false
       },
@@ -45,6 +45,6 @@
     }
   },
   "page_state": {
-    "usda_wasde": "9e17031fef37f05b6846468715b4bf99bf2eecad21458719e2f75fa8ce61168e"
+    "usda_wasde": "48af1713de34b76662ee5141e9d6c5f5128ec5fab5958b30b2d601442451e5b5"
   }
 }
