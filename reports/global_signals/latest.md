@@ -1,12 +1,12 @@
-# A股海外产业信号雷达｜2026-10-14 09:20（北京时间）
+# A股海外产业信号雷达｜2026-10-15 08:46（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
-- 触发P1：2条；P2：8条；P3：0条。
+- 触发P1：2条；P2：10条；P3：0条。
 - 数据源成功：24条；失败：13条。
-- 最强信号：台积电月营收同比（P1）；荣昌生物海外临床状态（P1）；欧洲纯电动车注册份额（P2）；波罗的海干散货指数 BDI（P2）；ICE原糖期货（P2）。
+- 最强信号：台积电月营收同比（P1）；荣昌生物海外临床状态（P1）；COMEX白银期货（P2）；欧洲纯电动车注册份额（P2）；波罗的海干散货指数 BDI（P2）。
 
 ## 触发信号
 
@@ -14,12 +14,14 @@
 |---|---|---:|---:|---:|---|---|
 |P1|台积电月营收同比|54.60|2.44%|212.00%|上行|TSMC investor relations|
 |P1|荣昌生物海外临床状态|1条事件|—|—|下行|A|
+|P2|COMEX白银期货|56.24|-4.89%|-4.79%|下行|Yahoo public chart endpoint|
 |P2|欧洲纯电动车注册份额|21.70|4.83%|4.83%|上行|ACEA|
-|P2|波罗的海干散货指数 BDI|2,801.00|-1.79%|-6.45%|下行|BalticDryIndex.com (Baltic Exchange sourced)|
-|P2|ICE原糖期货|21.10|1.20%|1.34%|上行|Yahoo public chart endpoint|
-|P2|费城半导体指数|12,208.79|-0.23%|-7.63%|下行|Yahoo public chart endpoint|
+|P2|波罗的海干散货指数 BDI|2,667.00|-4.78%|-10.29%|下行|BalticDryIndex.com (Baltic Exchange sourced)|
+|P2|费城半导体指数|11,684.38|-4.30%|-10.58%|下行|Yahoo public chart endpoint|
+|P2|CME铝期货|3,074.25|-1.85%|-2.52%|下行|Yahoo public chart endpoint|
+|P2|ICE棉花期货|81.17|0.82%|6.38%|上行|Yahoo public chart endpoint|
 |P2|布伦特原油现货|125.44|-0.06%|10.07%|下行|FRED|
-|P2|USDA全球农产品供需报告|6条事件|—|—|待判定|A|
+|P2|USDA全球农产品供需报告|7条事件|—|—|待判定|A|
 |P2|美国输电与变压器政策|3条事件|—|—|待判定|A|
 |P2|美国HFC/制冷剂政策|1条事件|—|—|待判定|A|
 
@@ -28,10 +30,13 @@
 |代码|公司|方向分|正向|负向|待判定|主要触发|最终20|
 |---|---|---:|---:|---:|---:|---|---|
 |688331|荣昌生物|-3.00|0.00|3.00|0.00|荣昌生物海外临床状态(P1/A)|是|
-|000911|广农糖业|2.00|2.00|0.00|0.70|ICE原糖期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
-|600737|中粮糖业|1.80|1.80|0.00|0.70|ICE原糖期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
 |600938|中国海油|-2.00|0.00|2.00|0.00|布伦特原油现货(P2/A)|否|
+|000612|焦作万方|-2.00|0.00|2.00|0.00|CME铝期货(P2/A)|是|
+|000603|盛达资源|-2.00|0.00|2.00|0.00|COMEX白银期货(P2/A)|否|
 |605020|永和股份|0.00|0.00|0.00|2.00|美国HFC/制冷剂政策(P2/A)|是|
+|000426|兴业银锡|-1.90|0.00|1.90|0.00|COMEX白银期货(P2/A)|否|
+|000807|云铝股份|-1.80|0.00|1.80|0.00|CME铝期货(P2/A)|否|
+|000933|神火股份|-1.80|0.00|1.80|0.00|CME铝期货(P2/A)|否|
 |300308|中际旭创|1.80|3.00|1.20|0.00|台积电月营收同比(P1/A)；费城半导体指数(P2/C)|否|
 |300502|新易盛|1.80|3.00|1.20|0.00|台积电月营收同比(P1/A)；费城半导体指数(P2/C)|否|
 |600160|巨化股份|0.00|0.00|0.00|1.80|美国HFC/制冷剂政策(P2/A)|否|
@@ -40,7 +45,10 @@
 |002463|沪电股份|1.62|2.70|1.08|0.00|台积电月营收同比(P1/A)；费城半导体指数(P2/C)|否|
 |603162|海通发展|-1.60|0.40|2.00|0.00|波罗的海干散货指数 BDI(P2/A)；布伦特原油现货(P2/C)|是|
 |600798|宁波海运|-1.60|0.00|1.60|0.00|波罗的海干散货指数 BDI(P2/A)|否|
+|601600|中国铝业|-1.60|0.00|1.60|0.00|CME铝期货(P2/A)|否|
 |601857|中国石油|-1.50|0.00|1.50|0.00|布伦特原油现货(P2/A)|否|
+|600359|新农开发|1.50|1.50|0.00|0.00|ICE棉花期货(P2/B)|否|
+|600540|新赛股份|1.50|1.50|0.00|0.00|ICE棉花期货(P2/B)|否|
 |002048|宁波华翔|1.50|1.50|0.00|0.00|欧洲纯电动车注册份额(P2/A)|是|
 |601138|工业富联|1.44|2.40|0.96|0.00|台积电月营收同比(P1/A)；费城半导体指数(P2/C)|否|
 |000520|凤凰航运|-1.40|0.40|1.80|0.00|波罗的海干散货指数 BDI(P2/A)；布伦特原油现货(P2/C)|否|
@@ -49,14 +57,8 @@
 |600029|南方航空|1.40|1.40|0.00|0.00|布伦特原油现货(P2/A)|否|
 |688008|澜起科技|1.35|2.25|0.90|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
 |002916|深南电路|1.35|2.25|0.90|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
+|600531|豫光金铅|-1.30|0.00|1.30|0.00|COMEX白银期货(P2/A)|否|
 |603997|继峰股份|1.30|1.30|0.00|0.00|欧洲纯电动车注册份额(P2/A)|否|
-|600699|均胜电子|1.30|1.30|0.00|0.00|欧洲纯电动车注册份额(P2/A)|否|
-|002606|大连电瓷|0.00|0.00|0.00|1.20|美国输电与变压器政策(P2/B)|是|
-|603986|兆易创新|1.17|1.95|0.78|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
-|301308|江波龙|1.17|1.95|0.78|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
-|600256|广汇能源|-1.10|0.00|1.10|0.00|布伦特原油现货(P2/B)|否|
-|002311|海大集团|0.00|0.00|0.00|1.10|USDA全球农产品供需报告(P2/B)|否|
-|000876|新希望|0.00|0.00|0.00|1.00|USDA全球农产品供需报告(P2/B)|否|
 
 ## 最终20只的海外敏感度
 
@@ -85,7 +87,7 @@
 
 ## 新事件
 
-- **荣昌生物海外临床状态｜2026-10-14｜负向**：NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
+- **荣昌生物海外临床状态｜2026-10-15｜负向**：NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
   持续性负面状态；在状态恢复或替代试验明确前维持风险提示。  
   来源：https://clinicaltrials.gov/study/NCT05306574
 - **USDA全球农产品供需报告｜2026-10-07｜待判定**：USDA WASDE页面出现更新  
@@ -106,6 +108,9 @@
 - **USDA全球农产品供需报告｜2026-10-14｜待判定**：USDA WASDE页面出现更新  
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
+- **USDA全球农产品供需报告｜2026-10-15｜待判定**：USDA WASDE页面出现更新  
+  需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
+  来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 - **美国输电与变压器政策｜2026-10-08｜待判定**：Ampersand Ogdensburg Hydro, LLC; Notice of Scoping Period Requesting Comments on Environmental Issues for the Proposed Ogdensburg Hydroelectric Project  
     
   来源：https://www.federalregister.gov/documents/2026/10/08/2026-20656/ampersand-ogdensburg-hydro-llc-notice-of-scoping-period-requesting-comments-on-environmental-issues
@@ -115,9 +120,9 @@
 - **美国输电与变压器政策｜2026-10-13｜待判定**：Great Lakes Hydro America, LLC; Notice of Intent To Prepare an Environmental Impact Statement for the Penobscot Mills and Ripogenus Hydroelectric Projects, Schedule for Environmental Review, and Request for Comments  
     
   来源：https://www.federalregister.gov/documents/2026/10/13/2026-20882/great-lakes-hydro-america-llc-notice-of-intent-to-prepare-an-environmental-impact-statement-for-the
-- **美国HFC/制冷剂政策｜2026-10-06｜待判定**：Phasedown of Hydrofluorocarbons: Notice of 2027 Allowance Allocations for Production and Consumption of Regulated Substances Under the American Innovation and Manufacturing Act of 2020, and Notice of Final Actions Establishing Administrative Consequences  
-  The Environmental Protection Agency (EPA) has issued calendar year 2027 allowances for the production and consumption of hydrofluorocarbons in accordance with the Agency's regulations. This issuance of allowances is undertaken pursuant to the American Innovation and Manufacturing (AIM) Act, which directs the EPA by October 1 of each calendar year to determine the quantity of production and consump  
-  来源：https://www.federalregister.gov/documents/2026/10/06/2026-20389/phasedown-of-hydrofluorocarbons-notice-of-2027-allowance-allocations-for-production-and-consumption
+- **美国HFC/制冷剂政策｜2026-10-14｜待判定**：Trichloroethylene (TCE); Regulation Under the Toxic Substances Control Act (TSCA); Compliance Date Extensions  
+  The Environmental Protection Agency (EPA or Agency) is proposing to extend certain compliance dates applicable to certain entities subject to the regulation of trichloroethylene (TCE) under the Toxic Substances Control Act (TSCA) until December 31, 2027, including for certain chemical processors in meeting the prohibition compliance deadline for the processing of TCE, industrial and commercial use  
+  来源：https://www.federalregister.gov/documents/2026/10/14/2026-20964/trichloroethylene-tce-regulation-under-the-toxic-substances-control-act-tsca-compliance-date
 
 ## 数据健康
 
