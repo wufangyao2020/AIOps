@@ -1,4 +1,4 @@
-# A股海外产业信号雷达｜2026-10-16 08:39（北京时间）
+# A股海外产业信号雷达｜2026-10-17 02:03（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
@@ -6,32 +6,30 @@
 
 - 触发P1：3条；P2：7条；P3：0条。
 - 数据源成功：24条；失败：13条。
-- 最强信号：波罗的海干散货指数 BDI（P1）；台积电月营收同比（P1）；荣昌生物海外临床状态（P1）；欧洲纯电动车注册份额（P2）；ICE原糖期货（P2）。
+- 最强信号：台积电月营收同比（P1）；波罗的海干散货指数 BDI（P1）；荣昌生物海外临床状态（P1）；欧洲纯电动车注册份额（P2）；费城半导体指数（P2）。
 
 ## 触发信号
 
 |级别|信号|最新值/事件|单周期|五周期|方向|来源|
 |---|---|---:|---:|---:|---|---|
-|P1|波罗的海干散货指数 BDI|2,545.00|-4.57%|-12.75%|下行|BalticDryIndex.com (Baltic Exchange sourced)|
 |P1|台积电月营收同比|54.60|2.44%|212.00%|上行|TSMC investor relations|
+|P1|波罗的海干散货指数 BDI|2,511.00|-1.34%|-13.92%|下行|BalticDryIndex.com (Baltic Exchange sourced)|
 |P1|荣昌生物海外临床状态|2条事件|—|—|下行|A|
 |P2|欧洲纯电动车注册份额|21.70|4.83%|4.83%|上行|ACEA|
-|P2|ICE原糖期货|21.14|1.44%|4.91%|上行|Yahoo public chart endpoint|
+|P2|费城半导体指数|11,237.77|-2.97%|-10.62%|下行|Yahoo public chart endpoint|
 |P2|WTI原油现货|101.91|1.04%|7.25%|上行|FRED|
-|P2|费城半导体指数|11,581.21|-0.88%|-8.26%|下行|Yahoo public chart endpoint|
-|P2|USDA全球农产品供需报告|7条事件|—|—|待判定|A|
-|P2|美国输电与变压器政策|3条事件|—|—|待判定|A|
+|P2|美元兑人民币|6.68|-0.07%|-0.24%|下行|Yahoo public chart endpoint|
+|P2|USDA全球农产品供需报告|6条事件|—|—|待判定|A|
 |P2|美国HFC/制冷剂政策|1条事件|—|—|待判定|A|
+|P2|美国输电与变压器政策|1条事件|—|—|待判定|A|
 
 ## A股优先复核
 
 |代码|公司|方向分|正向|负向|待判定|主要触发|最终20|
 |---|---|---:|---:|---:|---:|---|---|
-|603162|海通发展|-3.00|0.00|3.00|0.00|波罗的海干散货指数 BDI(P1/A)|是|
+|603162|海通发展|-4.10|0.00|4.10|0.00|波罗的海干散货指数 BDI(P1/A)；美元兑人民币(P2/B)|是|
 |688331|荣昌生物|-3.00|0.00|3.00|0.00|荣昌生物海外临床状态(P1/A)|是|
 |000520|凤凰航运|-2.70|0.00|2.70|0.00|波罗的海干散货指数 BDI(P1/A)|否|
-|000911|广农糖业|2.00|2.00|0.00|0.70|ICE原糖期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
-|600737|中粮糖业|1.80|1.80|0.00|0.70|ICE原糖期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
 |600798|宁波海运|-2.40|0.00|2.40|0.00|波罗的海干散货指数 BDI(P1/A)|否|
 |605020|永和股份|0.00|0.00|0.00|2.00|美国HFC/制冷剂政策(P2/A)|是|
 |300308|中际旭创|1.80|3.00|1.20|0.00|台积电月营收同比(P1/A)；费城半导体指数(P2/C)|否|
@@ -41,22 +39,24 @@
 |300476|胜宏科技|1.62|2.70|1.08|0.00|台积电月营收同比(P1/A)；费城半导体指数(P2/C)|否|
 |002463|沪电股份|1.62|2.70|1.08|0.00|台积电月营收同比(P1/A)；费城半导体指数(P2/C)|否|
 |600938|中国海油|1.60|1.60|0.00|0.00|WTI原油现货(P2/B)|否|
-|002048|宁波华翔|1.50|1.50|0.00|0.00|欧洲纯电动车注册份额(P2/A)|是|
+|603091|众鑫股份|-1.50|0.00|1.50|0.00|美元兑人民币(P2/A)|是|
 |601138|工业富联|1.44|2.40|0.96|0.00|台积电月营收同比(P1/A)；费城半导体指数(P2/C)|否|
 |601857|中国石油|1.40|1.40|0.00|0.00|WTI原油现货(P2/B)|否|
 |601872|招商轮船|-1.35|0.00|1.35|0.00|波罗的海干散货指数 BDI(P1/B)|否|
 |688008|澜起科技|1.35|2.25|0.90|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
 |002916|深南电路|1.35|2.25|0.90|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
 |600256|广汇能源|1.30|1.30|0.00|0.00|WTI原油现货(P2/B)|否|
+|000726|鲁泰A|-1.30|0.00|1.30|0.00|美元兑人民币(P2/A)|否|
+|002221|东华能源|1.30|1.30|0.00|0.00|美元兑人民币(P2/B)|否|
 |603997|继峰股份|1.30|1.30|0.00|0.00|欧洲纯电动车注册份额(P2/A)|否|
 |600699|均胜电子|1.30|1.30|0.00|0.00|欧洲纯电动车注册份额(P2/A)|否|
 |002606|大连电瓷|0.00|0.00|0.00|1.20|美国输电与变压器政策(P2/B)|是|
 |603986|兆易创新|1.17|1.95|0.78|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
 |301308|江波龙|1.17|1.95|0.78|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
 |002311|海大集团|0.00|0.00|0.00|1.10|USDA全球农产品供需报告(P2/B)|否|
+|601339|百隆东方|-1.10|0.00|1.10|0.00|美元兑人民币(P2/B)|否|
 |600428|中远海特|-1.05|0.00|1.05|0.00|波罗的海干散货指数 BDI(P1/C)|否|
 |000876|新希望|0.00|0.00|0.00|1.00|USDA全球农产品供需报告(P2/B)|否|
-|600312|平高电气|0.00|0.00|0.00|1.00|美国输电与变压器政策(P2/B)|否|
 
 ## 最终20只的海外敏感度
 
@@ -85,15 +85,12 @@
 
 ## 新事件
 
-- **荣昌生物海外临床状态｜2026-10-16｜负向**：NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
-  持续性负面状态；在状态恢复或替代试验明确前维持风险提示。  
-  来源：https://clinicaltrials.gov/study/NCT05306574
 - **荣昌生物海外临床状态｜2026-10-16｜待判定**：NCT06456580临床记录更新：A Study of Telitacicept for the Treatment of Generalized Myasthenia Gravis (UPSTREAM MG)  
   {"status": {"old": "RECRUITING", "new": "ACTIVE_NOT_RECRUITING"}, "enrollment": {"old": 180, "new": 191}, "primary_completion": {"old": "2027-05", "new": "2027-03"}}  
   来源：https://clinicaltrials.gov/study/NCT06456580
-- **USDA全球农产品供需报告｜2026-10-08｜待判定**：USDA WASDE页面出现更新  
-  需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
-  来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
+- **荣昌生物海外临床状态｜2026-10-17｜负向**：NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
+  持续性负面状态；在状态恢复或替代试验明确前维持风险提示。  
+  来源：https://clinicaltrials.gov/study/NCT05306574
 - **USDA全球农产品供需报告｜2026-10-09｜待判定**：USDA WASDE页面出现更新  
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
@@ -112,18 +109,12 @@
 - **USDA全球农产品供需报告｜2026-10-16｜待判定**：USDA WASDE页面出现更新  
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
-- **美国输电与变压器政策｜2026-10-08｜待判定**：Ampersand Ogdensburg Hydro, LLC; Notice of Scoping Period Requesting Comments on Environmental Issues for the Proposed Ogdensburg Hydroelectric Project  
-    
-  来源：https://www.federalregister.gov/documents/2026/10/08/2026-20656/ampersand-ogdensburg-hydro-llc-notice-of-scoping-period-requesting-comments-on-environmental-issues
-- **美国输电与变压器政策｜2026-10-08｜待判定**：Ampersand Ogdensburg Hydro, LLC; Notice of Application Accepted for Filing and Soliciting Motions To Intervene and Protests  
-    
-  来源：https://www.federalregister.gov/documents/2026/10/08/2026-20657/ampersand-ogdensburg-hydro-llc-notice-of-application-accepted-for-filing-and-soliciting-motions-to
-- **美国输电与变压器政策｜2026-10-13｜待判定**：Great Lakes Hydro America, LLC; Notice of Intent To Prepare an Environmental Impact Statement for the Penobscot Mills and Ripogenus Hydroelectric Projects, Schedule for Environmental Review, and Request for Comments  
-    
-  来源：https://www.federalregister.gov/documents/2026/10/13/2026-20882/great-lakes-hydro-america-llc-notice-of-intent-to-prepare-an-environmental-impact-statement-for-the
 - **美国HFC/制冷剂政策｜2026-10-14｜待判定**：Trichloroethylene (TCE); Regulation Under the Toxic Substances Control Act (TSCA); Compliance Date Extensions  
   The Environmental Protection Agency (EPA or Agency) is proposing to extend certain compliance dates applicable to certain entities subject to the regulation of trichloroethylene (TCE) under the Toxic Substances Control Act (TSCA) until December 31, 2027, including for certain chemical processors in meeting the prohibition compliance deadline for the processing of TCE, industrial and commercial use  
   来源：https://www.federalregister.gov/documents/2026/10/14/2026-20964/trichloroethylene-tce-regulation-under-the-toxic-substances-control-act-tsca-compliance-date
+- **美国输电与变压器政策｜2026-10-13｜待判定**：Great Lakes Hydro America, LLC; Notice of Intent To Prepare an Environmental Impact Statement for the Penobscot Mills and Ripogenus Hydroelectric Projects, Schedule for Environmental Review, and Request for Comments  
+    
+  来源：https://www.federalregister.gov/documents/2026/10/13/2026-20882/great-lakes-hydro-america-llc-notice-of-intent-to-prepare-an-environmental-impact-statement-for-the
 
 ## 数据健康
 
