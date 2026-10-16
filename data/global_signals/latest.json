@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T02:17:34.670323+08:00",
+  "generated_at": "2026-10-16T08:39:04.492410+08:00",
   "run_slot": "am",
   "catalog_version": "1.0.0",
   "signal_results": {
@@ -46,24 +46,18 @@
       "name": "布伦特原油现货",
       "group": "energy",
       "type": "numeric",
-      "latest": 125.44,
-      "latest_date": "2026-10-06",
-      "pct_1": -0.055772448410496,
-      "pct_5": 10.073710073710075,
-      "abs_1": -0.07000000000000739,
-      "abs_5": 11.480000000000004,
+      "latest": 126.55,
+      "latest_date": "2026-10-14",
+      "pct_1": 0.6121799968198394,
+      "pct_5": 0.43650793650793496,
+      "abs_1": 0.769999999999996,
+      "abs_5": 0.5499999999999972,
       "breakout": false,
       "breakdown": false,
-      "level": "P2",
-      "severity": 2,
-      "trend_sign": -1,
-      "hits": [
-        {
-          "metric": "五周期涨跌",
-          "value": 10.073710073710075,
-          "level": "P2"
-        }
-      ],
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": 1,
+      "hits": [],
       "provider": "FRED",
       "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
       "source_tier": "A",
@@ -74,18 +68,24 @@
       "name": "WTI原油现货",
       "group": "energy",
       "type": "numeric",
-      "latest": 96.24,
-      "latest_date": "2026-10-06",
-      "pct_1": 0.1144283782378075,
-      "pct_5": 0.08319467554076532,
-      "abs_1": 0.10999999999999943,
-      "abs_5": 0.0799999999999983,
+      "latest": 101.91,
+      "latest_date": "2026-10-14",
+      "pct_1": 1.0410469958358037,
+      "pct_5": 7.251105030519889,
+      "abs_1": 1.0499999999999972,
+      "abs_5": 6.890000000000001,
       "breakout": false,
       "breakdown": false,
-      "level": "NONE",
-      "severity": 0,
+      "level": "P2",
+      "severity": 2,
       "trend_sign": 1,
-      "hits": [],
+      "hits": [
+        {
+          "metric": "五周期涨跌",
+          "value": 7.251105030519889,
+          "level": "P2"
+        }
+      ],
       "provider": "FRED",
       "source_url": "https://fred.stlouisfed.org/series/DCOILWTICO",
       "source_tier": "A",
@@ -96,12 +96,12 @@
       "name": "Henry Hub天然气现货",
       "group": "energy",
       "type": "numeric",
-      "latest": 3.03,
-      "latest_date": "2026-10-06",
-      "pct_1": 2.3648648648648685,
-      "pct_5": -4.716981132075482,
-      "abs_1": 0.06999999999999984,
-      "abs_5": -0.15000000000000036,
+      "latest": 3.22,
+      "latest_date": "2026-10-14",
+      "pct_1": 2.547770700636942,
+      "pct_5": 1.8987341772152,
+      "abs_1": 0.08000000000000007,
+      "abs_5": 0.06000000000000005,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -118,12 +118,12 @@
       "name": "美国10年期国债收益率",
       "group": "rates",
       "type": "numeric",
-      "latest": 5.21,
-      "latest_date": "2026-10-13",
-      "pct_1": -0.5725190839694694,
-      "pct_5": -1.883239171374762,
-      "abs_1": -0.03000000000000025,
-      "abs_5": -0.09999999999999964,
+      "latest": 5.19,
+      "latest_date": "2026-10-14",
+      "pct_1": -0.38387715930900956,
+      "pct_5": -1.5180265654648806,
+      "abs_1": -0.019999999999999574,
+      "abs_5": -0.07999999999999918,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -140,12 +140,12 @@
       "name": "COMEX铜期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 6.557499885559082,
-      "latest_date": "2026-10-15",
-      "pct_1": -0.8167572043054183,
-      "pct_5": 0.5905787979431976,
-      "abs_1": -0.053999900817871094,
-      "abs_5": 0.03849983215332031,
+      "latest": 6.550000190734863,
+      "latest_date": "2026-10-16",
+      "pct_1": -0.1143682036614968,
+      "pct_5": -1.3925439824406194,
+      "abs_1": -0.00749969482421875,
+      "abs_5": -0.0924997329711914,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -162,24 +162,18 @@
       "name": "CME铝期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3084.0,
+      "latest": 3091.25,
       "latest_date": "2026-10-15",
-      "pct_1": -0.07290400972053135,
-      "pct_5": -2.211652794292507,
-      "abs_1": -2.25,
-      "abs_5": -69.75,
+      "pct_1": 0.1620089104900746,
+      "pct_5": -1.9817677368212494,
+      "abs_1": 5.0,
+      "abs_5": -62.5,
       "breakout": false,
-      "breakdown": true,
-      "level": "P2",
-      "severity": 2,
-      "trend_sign": -1,
-      "hits": [
-        {
-          "metric": "60周期新低",
-          "value": 3084.0,
-          "level": "P2"
-        }
-      ],
+      "breakdown": false,
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": 1,
+      "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ALI=F",
       "source_tier": "B",
@@ -190,17 +184,17 @@
       "name": "COMEX黄金期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 4176.0,
-      "latest_date": "2026-10-15",
-      "pct_1": 1.6577837648233729,
-      "pct_5": 0.4570603800817974,
-      "abs_1": 68.10009765625,
-      "abs_5": 19.0,
+      "latest": 4175.60009765625,
+      "latest_date": "2026-10-16",
+      "pct_1": -0.009576205549566286,
+      "pct_5": -0.9652944267863006,
+      "abs_1": -0.39990234375,
+      "abs_5": -40.69970703125,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/GC=F",
@@ -212,24 +206,18 @@
       "name": "COMEX白银期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 57.255001068115234,
-      "latest_date": "2026-10-15",
-      "pct_1": 3.069310269075909,
-      "pct_5": -3.062776197254935,
-      "abs_1": 1.7050018310546875,
-      "abs_5": -1.8089981079101562,
+      "latest": 57.29499816894531,
+      "latest_date": "2026-10-16",
+      "pct_1": 0.06985782915713834,
+      "pct_5": -5.562881328266689,
+      "abs_1": 0.039997100830078125,
+      "abs_5": -3.375,
       "breakout": false,
       "breakdown": false,
-      "level": "P2",
-      "severity": 2,
+      "level": "NONE",
+      "severity": 0,
       "trend_sign": 1,
-      "hits": [
-        {
-          "metric": "单周期涨跌",
-          "value": 3.069310269075909,
-          "level": "P2"
-        }
-      ],
+      "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/SI=F",
       "source_tier": "B",
@@ -240,17 +228,17 @@
       "name": "CBOT玉米期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 477.75,
-      "latest_date": "2026-10-15",
-      "pct_1": -0.6240249609984372,
-      "pct_5": -4.497751124437777,
-      "abs_1": -3.0,
-      "abs_5": -22.5,
+      "latest": 479.75,
+      "latest_date": "2026-10-16",
+      "pct_1": 0.4186289900575568,
+      "pct_5": 0.0,
+      "abs_1": 2.0,
+      "abs_5": 0.0,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZC=F",
@@ -262,12 +250,12 @@
       "name": "CBOT大豆期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 1264.75,
-      "latest_date": "2026-10-15",
-      "pct_1": -0.9786651008025005,
-      "pct_5": -1.7669902912621382,
-      "abs_1": -12.5,
-      "abs_5": -22.75,
+      "latest": 1263.0,
+      "latest_date": "2026-10-16",
+      "pct_1": -0.13836726625815476,
+      "pct_5": -2.244582043343657,
+      "abs_1": -1.75,
+      "abs_5": -29.0,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -284,12 +272,12 @@
       "name": "CBOT小麦期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 671.25,
-      "latest_date": "2026-10-15",
-      "pct_1": -0.2970664686223534,
-      "pct_5": -1.7563117453347932,
-      "abs_1": -2.0,
-      "abs_5": -12.0,
+      "latest": 669.0,
+      "latest_date": "2026-10-16",
+      "pct_1": -0.3351955307262622,
+      "pct_5": -0.29806259314456574,
+      "abs_1": -2.25,
+      "abs_5": -2.0,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -356,17 +344,17 @@
       "name": "美元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 6.6803998947143555,
-      "latest_date": "2026-10-15",
-      "pct_1": -0.10766554433061515,
-      "pct_5": 0.008980226084687182,
-      "abs_1": -0.0072002410888671875,
-      "abs_5": 0.0005998611450195312,
+      "latest": 6.690400123596191,
+      "latest_date": "2026-10-16",
+      "pct_1": 0.14969506376028008,
+      "pct_5": -0.023905987548511476,
+      "abs_1": 0.01000022888183505,
+      "abs_5": -0.0015997886657714844,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/CNY=X",
@@ -378,17 +366,17 @@
       "name": "欧元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 7.481500148773193,
-      "latest_date": "2026-10-15",
-      "pct_1": -0.2519854599125626,
-      "pct_5": 0.15663275265735965,
-      "abs_1": -0.018899917602539062,
-      "abs_5": 0.011700153350830078,
+      "latest": 7.5046000480651855,
+      "latest_date": "2026-10-16",
+      "pct_1": 0.3087602597425576,
+      "pct_5": 0.08750660671701382,
+      "abs_1": 0.023099899291992188,
+      "abs_5": 0.006561279296875,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/EURCNY=X",
@@ -400,12 +388,12 @@
       "name": "费城半导体指数",
       "group": "semiconductor",
       "type": "numeric",
-      "latest": 11393.0849609375,
+      "latest": 11581.21484375,
       "latest_date": "2026-10-15",
-      "pct_1": -2.493028511538631,
-      "pct_5": -9.748520869126553,
-      "abs_1": -291.294921875,
-      "abs_5": -1230.625,
+      "pct_1": -0.8829312303877956,
+      "pct_5": -8.258230903699237,
+      "abs_1": -103.1650390625,
+      "abs_5": -1042.4951171875,
       "breakout": false,
       "breakdown": false,
       "level": "P2",
@@ -414,7 +402,7 @@
       "hits": [
         {
           "metric": "五周期涨跌",
-          "value": -9.748520869126553,
+          "value": -8.258230903699237,
           "level": "P2"
         }
       ],
@@ -505,7 +493,7 @@
           "source_url": "https://clinicaltrials.gov/study/NCT05306574",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-10-16T02:17:34.670323+08:00"
+          "fetched_at": "2026-10-16T08:39:04.492410+08:00"
         },
         {
           "event_key": "ctg_rongchang:NCT06456580bb62ee1eca895c7d51b9",
@@ -578,7 +566,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/10/14/2026-20964/trichloroethylene-tce-regulation-under-the-toxic-substances-control-act-tsca-compliance-date",
           "polarity": 0,
           "level": "P2",
-          "fetched_at": "2026-10-16T02:17:34.670323+08:00"
+          "fetched_at": "2026-10-16T08:39:04.492410+08:00"
         }
       ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
@@ -639,7 +627,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/10/08/2026-20656/ampersand-ogdensburg-hydro-llc-notice-of-scoping-period-requesting-comments-on-environmental-issues",
           "polarity": 0,
           "level": "P2",
-          "fetched_at": "2026-10-16T02:17:34.670323+08:00"
+          "fetched_at": "2026-10-16T08:39:04.492410+08:00"
         },
         {
           "event_key": "fr_grid:2026-20657",
@@ -651,7 +639,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/10/08/2026-20657/ampersand-ogdensburg-hydro-llc-notice-of-application-accepted-for-filing-and-soliciting-motions-to",
           "polarity": 0,
           "level": "P2",
-          "fetched_at": "2026-10-16T02:17:34.670323+08:00"
+          "fetched_at": "2026-10-16T08:39:04.492410+08:00"
         },
         {
           "event_key": "fr_grid:2026-20882",
@@ -663,7 +651,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/10/13/2026-20882/great-lakes-hydro-america-llc-notice-of-intent-to-prepare-an-environmental-impact-statement-for-the",
           "polarity": 0,
           "level": "P2",
-          "fetched_at": "2026-10-16T02:17:34.670323+08:00"
+          "fetched_at": "2026-10-16T08:39:04.492410+08:00"
         }
       ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
@@ -774,6 +762,26 @@
   },
   "stock_results": [
     {
+      "security_code": "603162",
+      "security_name": "海通发展",
+      "score": -3.0,
+      "positive": 0.0,
+      "negative": 3.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "bdi",
+          "signal_name": "波罗的海干散货指数 BDI",
+          "level": "P1",
+          "impact": -3.0,
+          "weight": 1.0,
+          "directness": "A",
+          "rationale": "干散货运价上行通常提高船东TCE；港口仅为贸易景气间接映射。"
+        }
+      ],
+      "in_final20": true
+    },
+    {
       "security_code": "688331",
       "security_name": "荣昌生物",
       "score": -3.0,
@@ -792,6 +800,26 @@
         }
       ],
       "in_final20": true
+    },
+    {
+      "security_code": "000520",
+      "security_name": "凤凰航运",
+      "score": -2.7,
+      "positive": 0.0,
+      "negative": 2.7,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "bdi",
+          "signal_name": "波罗的海干散货指数 BDI",
+          "level": "P1",
+          "impact": -2.7,
+          "weight": 0.9,
+          "directness": "A",
+          "rationale": "干散货运价上行通常提高船东TCE；港口仅为贸易景气间接映射。"
+        }
+      ],
+      "in_final20": false
     },
     {
       "security_code": "000911",
@@ -821,35 +849,6 @@
         }
       ],
       "in_final20": false
-    },
-    {
-      "security_code": "603162",
-      "security_name": "海通发展",
-      "score": -2.6,
-      "positive": 0.4,
-      "negative": 3.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "bdi",
-          "signal_name": "波罗的海干散货指数 BDI",
-          "level": "P1",
-          "impact": -3.0,
-          "weight": 1.0,
-          "directness": "A",
-          "rationale": "干散货运价上行通常提高船东TCE；港口仅为贸易景气间接映射。"
-        },
-        {
-          "signal_id": "brent",
-          "signal_name": "布伦特原油现货",
-          "level": "P2",
-          "impact": 0.4,
-          "weight": 0.2,
-          "directness": "C",
-          "rationale": "燃油成本上升压缩航空或航运利润，转嫁能力决定影响。"
-        }
-      ],
-      "in_final20": true
     },
     {
       "security_code": "600737",
@@ -901,95 +900,6 @@
       "in_final20": false
     },
     {
-      "security_code": "000520",
-      "security_name": "凤凰航运",
-      "score": -2.3000000000000003,
-      "positive": 0.4,
-      "negative": 2.7,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "bdi",
-          "signal_name": "波罗的海干散货指数 BDI",
-          "level": "P1",
-          "impact": -2.7,
-          "weight": 0.9,
-          "directness": "A",
-          "rationale": "干散货运价上行通常提高船东TCE；港口仅为贸易景气间接映射。"
-        },
-        {
-          "signal_id": "brent",
-          "signal_name": "布伦特原油现货",
-          "level": "P2",
-          "impact": 0.4,
-          "weight": 0.2,
-          "directness": "C",
-          "rationale": "燃油成本上升压缩航空或航运利润，转嫁能力决定影响。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600938",
-      "security_name": "中国海油",
-      "score": -2.0,
-      "positive": 0.0,
-      "negative": 2.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "brent",
-          "signal_name": "布伦特原油现货",
-          "level": "P2",
-          "impact": -2.0,
-          "weight": 1.0,
-          "directness": "A",
-          "rationale": "油价上升通常抬升上游实现价格；炼化需看价差。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "000612",
-      "security_name": "焦作万方",
-      "score": -2.0,
-      "positive": 0.0,
-      "negative": 2.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "aluminum",
-          "signal_name": "CME铝期货",
-          "level": "P2",
-          "impact": -2.0,
-          "weight": 1.0,
-          "directness": "A",
-          "rationale": "铝价利好电解铝，但要同时看氧化铝和电力成本。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
-      "security_code": "000603",
-      "security_name": "盛达资源",
-      "score": 2.0,
-      "positive": 2.0,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "silver",
-          "signal_name": "COMEX白银期货",
-          "level": "P2",
-          "impact": 2.0,
-          "weight": 1.0,
-          "directness": "A",
-          "rationale": "白银价格影响银资源或副产品价值。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "605020",
       "security_name": "永和股份",
       "score": 0.0,
@@ -1005,95 +915,6 @@
           "weight": 1.0,
           "directness": "A",
           "rationale": "美国HFC配额与淘汰政策影响全球供给约束和制冷剂价格预期。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
-      "security_code": "000426",
-      "security_name": "兴业银锡",
-      "score": 1.9,
-      "positive": 1.9,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "silver",
-          "signal_name": "COMEX白银期货",
-          "level": "P2",
-          "impact": 1.9,
-          "weight": 0.95,
-          "directness": "A",
-          "rationale": "白银价格影响银资源或副产品价值。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "000807",
-      "security_name": "云铝股份",
-      "score": -1.8,
-      "positive": 0.0,
-      "negative": 1.8,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "aluminum",
-          "signal_name": "CME铝期货",
-          "level": "P2",
-          "impact": -1.8,
-          "weight": 0.9,
-          "directness": "A",
-          "rationale": "铝价利好电解铝，但要同时看氧化铝和电力成本。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "000933",
-      "security_name": "神火股份",
-      "score": -1.8,
-      "positive": 0.0,
-      "negative": 1.8,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "aluminum",
-          "signal_name": "CME铝期货",
-          "level": "P2",
-          "impact": -1.8,
-          "weight": 0.9,
-          "directness": "A",
-          "rationale": "铝价利好电解铝，但要同时看氧化铝和电力成本。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "000833",
-      "security_name": "粤桂股份",
-      "score": 1.8,
-      "positive": 1.8,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "silver",
-          "signal_name": "COMEX白银期货",
-          "level": "P2",
-          "impact": 0.9,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "白银价格影响银资源或副产品价值。"
-        },
-        {
-          "signal_id": "sugar",
-          "signal_name": "ICE原糖期货",
-          "level": "P2",
-          "impact": 0.9,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "原糖上涨改善糖价预期，需结合国内配额和产量。"
         }
       ],
       "in_final20": true
@@ -1255,41 +1076,21 @@
       "in_final20": false
     },
     {
-      "security_code": "601600",
-      "security_name": "中国铝业",
-      "score": -1.6,
-      "positive": 0.0,
-      "negative": 1.6,
+      "security_code": "600938",
+      "security_name": "中国海油",
+      "score": 1.6,
+      "positive": 1.6,
+      "negative": 0.0,
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "aluminum",
-          "signal_name": "CME铝期货",
+          "signal_id": "wti",
+          "signal_name": "WTI原油现货",
           "level": "P2",
-          "impact": -1.6,
+          "impact": 1.6,
           "weight": 0.8,
-          "directness": "A",
-          "rationale": "铝价利好电解铝，但要同时看氧化铝和电力成本。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "601857",
-      "security_name": "中国石油",
-      "score": -1.5,
-      "positive": 0.0,
-      "negative": 1.5,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "brent",
-          "signal_name": "布伦特原油现货",
-          "level": "P2",
-          "impact": -1.5,
-          "weight": 0.75,
-          "directness": "A",
-          "rationale": "油价上升通常抬升上游实现价格；炼化需看价差。"
+          "directness": "B",
+          "rationale": "国际油价对油气上游盈利同向映射。"
         }
       ],
       "in_final20": false
@@ -1344,61 +1145,21 @@
       "in_final20": false
     },
     {
-      "security_code": "601111",
-      "security_name": "中国国航",
+      "security_code": "601857",
+      "security_name": "中国石油",
       "score": 1.4,
       "positive": 1.4,
       "negative": 0.0,
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "brent",
-          "signal_name": "布伦特原油现货",
+          "signal_id": "wti",
+          "signal_name": "WTI原油现货",
           "level": "P2",
           "impact": 1.4,
           "weight": 0.7,
-          "directness": "C",
-          "rationale": "燃油成本上升压缩航空或航运利润，转嫁能力决定影响。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600115",
-      "security_name": "中国东航",
-      "score": 1.4,
-      "positive": 1.4,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "brent",
-          "signal_name": "布伦特原油现货",
-          "level": "P2",
-          "impact": 1.4,
-          "weight": 0.7,
-          "directness": "C",
-          "rationale": "燃油成本上升压缩航空或航运利润，转嫁能力决定影响。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600029",
-      "security_name": "南方航空",
-      "score": 1.4,
-      "positive": 1.4,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "brent",
-          "signal_name": "布伦特原油现货",
-          "level": "P2",
-          "impact": 1.4,
-          "weight": 0.7,
-          "directness": "A",
-          "rationale": "燃油成本上升压缩航空或航运利润，转嫁能力决定影响。"
+          "directness": "B",
+          "rationale": "国际油价对油气上游盈利同向映射。"
         }
       ],
       "in_final20": false
@@ -1482,21 +1243,21 @@
       "in_final20": false
     },
     {
-      "security_code": "600531",
-      "security_name": "豫光金铅",
+      "security_code": "600256",
+      "security_name": "广汇能源",
       "score": 1.3,
       "positive": 1.3,
       "negative": 0.0,
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "silver",
-          "signal_name": "COMEX白银期货",
+          "signal_id": "wti",
+          "signal_name": "WTI原油现货",
           "level": "P2",
           "impact": 1.3,
           "weight": 0.65,
-          "directness": "A",
-          "rationale": "白银价格影响银资源或副产品价值。"
+          "directness": "B",
+          "rationale": "国际油价对油气上游盈利同向映射。"
         }
       ],
       "in_final20": false
@@ -1615,46 +1376,6 @@
           "weight": 0.39,
           "directness": "C",
           "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600256",
-      "security_name": "广汇能源",
-      "score": -1.1,
-      "positive": 0.0,
-      "negative": 1.1,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "brent",
-          "signal_name": "布伦特原油现货",
-          "level": "P2",
-          "impact": -1.1,
-          "weight": 0.55,
-          "directness": "B",
-          "rationale": "油价上升通常抬升上游实现价格；炼化需看价差。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600219",
-      "security_name": "南山铝业",
-      "score": -1.1,
-      "positive": 0.0,
-      "negative": 1.1,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "aluminum",
-          "signal_name": "CME铝期货",
-          "level": "P2",
-          "impact": -1.1,
-          "weight": 0.55,
-          "directness": "B",
-          "rationale": "铝价利好电解铝，但要同时看氧化铝和电力成本。"
         }
       ],
       "in_final20": false
@@ -1818,6 +1539,26 @@
       "in_final20": false
     },
     {
+      "security_code": "000833",
+      "security_name": "粤桂股份",
+      "score": 0.9,
+      "positive": 0.9,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "sugar",
+          "signal_name": "ICE原糖期货",
+          "level": "P2",
+          "impact": 0.9,
+          "weight": 0.45,
+          "directness": "B",
+          "rationale": "原糖上涨改善糖价预期，需结合国内配额和产量。"
+        }
+      ],
+      "in_final20": true
+    },
+    {
       "security_code": "600741",
       "security_name": "华域汽车",
       "score": 0.9,
@@ -1893,26 +1634,6 @@
           "weight": 0.4,
           "directness": "B",
           "rationale": "海外输电投资提高全球设备需求与行业估值，出口占比决定强弱。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600028",
-      "security_name": "中国石化",
-      "score": -0.7,
-      "positive": 0.0,
-      "negative": 0.7,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "brent",
-          "signal_name": "布伦特原油现货",
-          "level": "P2",
-          "impact": -0.7,
-          "weight": 0.35,
-          "directness": "B",
-          "rationale": "油价上升通常抬升上游实现价格；炼化需看价差。"
         }
       ],
       "in_final20": false
