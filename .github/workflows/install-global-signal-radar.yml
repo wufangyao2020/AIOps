@@ -16,7 +16,7 @@ permissions:
 
 concurrency:
   group: a-share-global-industry-signal-radar
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   radar:
@@ -45,6 +45,11 @@ jobs:
         run: |
           python -m py_compile scripts/global_signal_radar.py scripts/global_signal_radar_v2.py scripts/global_signal_radar_v3.py scripts/validate_global_signal_radar.py
           python scripts/validate_global_signal_radar.py
+
+      - name: Offline alert regression tests
+        run: |
+          python -m unittest discover -s tests -p 'test_global_signal_alert*.py' -v
+          node --test tests/test_global_signal_publisher.cjs
 
       - name: Run overseas industry signal radar
         run: python scripts/global_signal_radar_v3.py
@@ -93,15 +98,8 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const fs=require('fs');
-            const alert=JSON.parse(fs.readFileSync('data/global_signals/latest_alert.json','utf8'));
-            if (!alert.issue_required) { core.info('No P1/P2 alert required.'); return; }
-            const marker=`global-signal-fingerprint:${alert.fingerprint}`;
-            const q=`repo:${context.repo.owner}/${context.repo.repo} is:issue \"${marker}\" in:body`;
-            const found=await github.rest.search.issuesAndPullRequests({q,per_page:5});
-            if (found.data.total_count===0) {
-              await github.rest.issues.create({owner:context.repo.owner,repo:context.repo.repo,title:alert.title,body:alert.body});
-            }
+            const publish = require('./scripts/publish_global_signal_alert.cjs');
+            await publish({github, context, core});
 
       - name: Close manual trigger issue
         if: success() && github.event_name == 'issues'

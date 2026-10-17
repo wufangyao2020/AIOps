@@ -1,0 +1,23 @@
+name: Offline global signal alert tests
+on:
+  pull_request:
+    paths:
+      - 'scripts/global_signal*'
+      - 'scripts/publish_global_signal_alert.cjs'
+      - 'tests/**'
+      - '.github/workflows/*global-signal*'
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: python -m unittest discover -s tests -p 'test_global_signal_alert*.py' -v
+      - run: node --test tests/test_global_signal_publisher.cjs
