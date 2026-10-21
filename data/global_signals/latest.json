@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T02:27:46.079843+08:00",
+  "generated_at": "2026-10-21T08:49:01.745782+08:00",
   "run_slot": "am",
   "catalog_version": "1.0.0",
   "signal_results": {
@@ -102,17 +102,17 @@
       "name": "美国10年期国债收益率",
       "group": "rates",
       "type": "numeric",
-      "latest": 5.09,
-      "latest_date": "2026-10-16",
-      "pct_1": -0.19607843137254832,
-      "pct_5": -2.490421455938696,
-      "abs_1": -0.009999999999999787,
-      "abs_5": -0.1299999999999999,
+      "latest": 5.15,
+      "latest_date": "2026-10-19",
+      "pct_1": 1.1787819253438192,
+      "pct_5": -1.717557251908397,
+      "abs_1": 0.0600000000000005,
+      "abs_5": -0.08999999999999986,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 1,
       "hits": [],
       "provider": "FRED",
       "source_url": "https://fred.stlouisfed.org/series/DGS10",
@@ -124,12 +124,12 @@
       "name": "COMEX铜期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 6.618000030517578,
-      "latest_date": "2026-10-20",
-      "pct_1": 1.2236145977224444,
-      "pct_5": -0.8984717433282219,
-      "abs_1": 0.07999992370605469,
-      "abs_5": -0.059999942779541016,
+      "latest": 6.625,
+      "latest_date": "2026-10-21",
+      "pct_1": 0.10577167497949347,
+      "pct_5": 0.2041929071957993,
+      "abs_1": 0.006999969482421875,
+      "abs_5": 0.013500213623046875,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -146,12 +146,12 @@
       "name": "CME铝期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3106.0,
-      "latest_date": "2026-10-20",
-      "pct_1": -1.3498491345084962,
-      "pct_5": -0.695388058508517,
-      "abs_1": -42.5,
-      "abs_5": -21.75,
+      "latest": 3102.75,
+      "latest_date": "2026-10-21",
+      "pct_1": -0.1046361880231772,
+      "pct_5": 0.5346294046172595,
+      "abs_1": -3.25,
+      "abs_5": 16.5,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -168,12 +168,12 @@
       "name": "COMEX黄金期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 4143.39990234375,
-      "latest_date": "2026-10-20",
-      "pct_1": -0.40143734334442405,
-      "pct_5": -0.8115266782075303,
-      "abs_1": -16.7001953125,
-      "abs_5": -33.89990234375,
+      "latest": 4136.7001953125,
+      "latest_date": "2026-10-21",
+      "pct_1": -0.16169588234676846,
+      "pct_5": 0.7010952957329453,
+      "abs_1": -6.69970703125,
+      "abs_5": 28.80029296875,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -190,12 +190,12 @@
       "name": "COMEX白银期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 58.040000915527344,
-      "latest_date": "2026-10-20",
-      "pct_1": 1.871032243412163,
-      "pct_5": -1.8948266524707602,
-      "abs_1": 1.0660018920898438,
-      "abs_5": -1.1209983825683594,
+      "latest": 58.08000183105469,
+      "latest_date": "2026-10-21",
+      "pct_1": 0.06891956391517073,
+      "pct_5": 4.554460177753228,
+      "abs_1": 0.04000091552734375,
+      "abs_5": 2.5300025939941406,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -212,17 +212,17 @@
       "name": "CBOT玉米期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 461.5,
-      "latest_date": "2026-10-20",
-      "pct_1": -1.1777301927194839,
-      "pct_5": -4.4018643190057,
-      "abs_1": -5.5,
-      "abs_5": -21.25,
+      "latest": 461.75,
+      "latest_date": "2026-10-21",
+      "pct_1": 0.054171180931739116,
+      "pct_5": -3.952158086323454,
+      "abs_1": 0.25,
+      "abs_5": -19.0,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZC=F",
@@ -234,12 +234,12 @@
       "name": "CBOT大豆期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 1248.0,
-      "latest_date": "2026-10-20",
-      "pct_1": -0.43877143996808865,
-      "pct_5": -2.784810126582282,
-      "abs_1": -5.5,
-      "abs_5": -35.75,
+      "latest": 1247.5,
+      "latest_date": "2026-10-21",
+      "pct_1": -0.04006410256410797,
+      "pct_5": -2.3292229399099584,
+      "abs_1": -0.5,
+      "abs_5": -29.75,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -256,12 +256,12 @@
       "name": "CBOT小麦期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 643.25,
-      "latest_date": "2026-10-20",
-      "pct_1": -1.8313620755436855,
-      "pct_5": -3.884945834889797,
-      "abs_1": -12.0,
-      "abs_5": -26.0,
+      "latest": 641.75,
+      "latest_date": "2026-10-21",
+      "pct_1": -0.23319082782743417,
+      "pct_5": -4.678796880802083,
+      "abs_1": -1.5,
+      "abs_5": -31.5,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -322,24 +322,18 @@
       "name": "美元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 6.666500091552734,
-      "latest_date": "2026-10-20",
-      "pct_1": -0.20358786039301746,
-      "pct_5": -0.3899782257704265,
-      "abs_1": -0.013599872589111328,
-      "abs_5": -0.026099681854248047,
+      "latest": 6.6774001121521,
+      "latest_date": "2026-10-21",
+      "pct_1": 0.1635043943549519,
+      "pct_5": -0.20176264913054354,
+      "abs_1": 0.010900020599365234,
+      "abs_5": -0.013499736785888672,
       "breakout": false,
-      "breakdown": true,
-      "level": "P2",
-      "severity": 2,
-      "trend_sign": -1,
-      "hits": [
-        {
-          "metric": "60周期新低",
-          "value": 6.666500091552734,
-          "level": "P2"
-        }
-      ],
+      "breakdown": false,
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": 1,
+      "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/CNY=X",
       "source_tier": "B",
@@ -350,17 +344,17 @@
       "name": "欧元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 7.477799892425537,
-      "latest_date": "2026-10-20",
-      "pct_1": -0.20818592716330686,
-      "pct_5": -0.20177818336633013,
-      "abs_1": -0.015600204467773438,
-      "abs_5": -0.015119075775146484,
+      "latest": 7.497000217437744,
+      "latest_date": "2026-10-21",
+      "pct_1": 0.25676435968360334,
+      "pct_5": -0.08706124389927794,
+      "abs_1": 0.01920032501220703,
+      "abs_5": -0.0065326690673828125,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/EURCNY=X",
@@ -372,18 +366,24 @@
       "name": "费城半导体指数",
       "group": "semiconductor",
       "type": "numeric",
-      "latest": 11351.689453125,
+      "latest": 11283.8115234375,
       "latest_date": "2026-10-20",
-      "pct_1": 0.31237670362580516,
-      "pct_5": -7.020356507034464,
-      "abs_1": 35.349609375,
-      "abs_5": -857.1005859375,
+      "pct_1": -0.2874455942613374,
+      "pct_5": -7.57633240202752,
+      "abs_1": -32.5283203125,
+      "abs_5": -924.978515625,
       "breakout": false,
       "breakdown": false,
-      "level": "NONE",
-      "severity": 0,
-      "trend_sign": 1,
-      "hits": [],
+      "level": "P2",
+      "severity": 2,
+      "trend_sign": -1,
+      "hits": [
+        {
+          "metric": "五周期涨跌",
+          "value": -7.57633240202752,
+          "level": "P2"
+        }
+      ],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/^SOX",
       "source_tier": "B",
@@ -483,7 +483,7 @@
           "source_url": "https://clinicaltrials.gov/study/NCT05306574",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-10-21T02:27:46.079843+08:00"
+          "fetched_at": "2026-10-21T08:49:01.745782+08:00"
         }
       ],
       "source_url": "https://clinicaltrials.gov/data-api/api",
@@ -544,7 +544,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/10/14/2026-20964/trichloroethylene-tce-regulation-under-the-toxic-substances-control-act-tsca-compliance-date",
           "polarity": 0,
           "level": "P2",
-          "fetched_at": "2026-10-21T02:27:46.079843+08:00"
+          "fetched_at": "2026-10-21T08:49:01.745782+08:00"
         },
         {
           "event_key": "fr_hfc:2026-21443",
@@ -556,7 +556,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/10/20/2026-21443/authorizations-for-certain-activities-at-liquefied-natural-gas-plants",
           "polarity": 0,
           "level": "P2",
-          "fetched_at": "2026-10-21T02:27:46.079843+08:00"
+          "fetched_at": "2026-10-21T08:49:01.745782+08:00"
         }
       ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
@@ -617,7 +617,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/10/13/2026-20882/great-lakes-hydro-america-llc-notice-of-intent-to-prepare-an-environmental-impact-statement-for-the",
           "polarity": 0,
           "level": "P2",
-          "fetched_at": "2026-10-21T02:27:46.079843+08:00"
+          "fetched_at": "2026-10-21T08:49:01.745782+08:00"
         }
       ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
@@ -716,46 +716,6 @@
   },
   "stock_results": [
     {
-      "security_code": "300308",
-      "security_name": "中际旭创",
-      "score": 3.0,
-      "positive": 3.0,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "tsmc_revenue_yoy",
-          "signal_name": "台积电月营收同比",
-          "level": "P1",
-          "impact": 3.0,
-          "weight": 1.0,
-          "directness": "A",
-          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "300502",
-      "security_name": "新易盛",
-      "score": 3.0,
-      "positive": 3.0,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "tsmc_revenue_yoy",
-          "signal_name": "台积电月营收同比",
-          "level": "P1",
-          "impact": 3.0,
-          "weight": 1.0,
-          "directness": "A",
-          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "688331",
       "security_name": "荣昌生物",
       "score": -3.0,
@@ -774,106 +734,6 @@
         }
       ],
       "in_final20": true
-    },
-    {
-      "security_code": "300476",
-      "security_name": "胜宏科技",
-      "score": 2.7,
-      "positive": 2.7,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "tsmc_revenue_yoy",
-          "signal_name": "台积电月营收同比",
-          "level": "P1",
-          "impact": 2.7,
-          "weight": 0.9,
-          "directness": "A",
-          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "002463",
-      "security_name": "沪电股份",
-      "score": 2.7,
-      "positive": 2.7,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "tsmc_revenue_yoy",
-          "signal_name": "台积电月营收同比",
-          "level": "P1",
-          "impact": 2.7,
-          "weight": 0.9,
-          "directness": "A",
-          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "601138",
-      "security_name": "工业富联",
-      "score": 2.4000000000000004,
-      "positive": 2.4000000000000004,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "tsmc_revenue_yoy",
-          "signal_name": "台积电月营收同比",
-          "level": "P1",
-          "impact": 2.4,
-          "weight": 0.8,
-          "directness": "A",
-          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "688008",
-      "security_name": "澜起科技",
-      "score": 2.25,
-      "positive": 2.25,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "tsmc_revenue_yoy",
-          "signal_name": "台积电月营收同比",
-          "level": "P1",
-          "impact": 2.25,
-          "weight": 0.75,
-          "directness": "B",
-          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "002916",
-      "security_name": "深南电路",
-      "score": 2.25,
-      "positive": 2.25,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "tsmc_revenue_yoy",
-          "signal_name": "台积电月营收同比",
-          "level": "P1",
-          "impact": 2.25,
-          "weight": 0.75,
-          "directness": "B",
-          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        }
-      ],
-      "in_final20": false
     },
     {
       "security_code": "605020",
@@ -896,41 +756,59 @@
       "in_final20": true
     },
     {
-      "security_code": "603986",
-      "security_name": "兆易创新",
-      "score": 1.9500000000000002,
-      "positive": 1.9500000000000002,
-      "negative": 0.0,
+      "security_code": "300308",
+      "security_name": "中际旭创",
+      "score": 1.8,
+      "positive": 3.0,
+      "negative": 1.2,
       "mixed": 0.0,
       "signals": [
         {
           "signal_id": "tsmc_revenue_yoy",
           "signal_name": "台积电月营收同比",
           "level": "P1",
-          "impact": 1.95,
-          "weight": 0.65,
-          "directness": "B",
+          "impact": 3.0,
+          "weight": 1.0,
+          "directness": "A",
           "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        },
+        {
+          "signal_id": "sox",
+          "signal_name": "费城半导体指数",
+          "level": "P2",
+          "impact": -1.2,
+          "weight": 0.6,
+          "directness": "C",
+          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
         }
       ],
       "in_final20": false
     },
     {
-      "security_code": "301308",
-      "security_name": "江波龙",
-      "score": 1.9500000000000002,
-      "positive": 1.9500000000000002,
-      "negative": 0.0,
+      "security_code": "300502",
+      "security_name": "新易盛",
+      "score": 1.8,
+      "positive": 3.0,
+      "negative": 1.2,
       "mixed": 0.0,
       "signals": [
         {
           "signal_id": "tsmc_revenue_yoy",
           "signal_name": "台积电月营收同比",
           "level": "P1",
-          "impact": 1.95,
-          "weight": 0.65,
-          "directness": "B",
+          "impact": 3.0,
+          "weight": 1.0,
+          "directness": "A",
           "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        },
+        {
+          "signal_id": "sox",
+          "signal_name": "费城半导体指数",
+          "level": "P2",
+          "impact": -1.2,
+          "weight": 0.6,
+          "directness": "C",
+          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
         }
       ],
       "in_final20": false
@@ -976,41 +854,59 @@
       "in_final20": false
     },
     {
-      "security_code": "688012",
-      "security_name": "中微公司",
-      "score": 1.6500000000000001,
-      "positive": 1.6500000000000001,
-      "negative": 0.0,
+      "security_code": "300476",
+      "security_name": "胜宏科技",
+      "score": 1.62,
+      "positive": 2.7,
+      "negative": 1.08,
       "mixed": 0.0,
       "signals": [
         {
           "signal_id": "tsmc_revenue_yoy",
           "signal_name": "台积电月营收同比",
           "level": "P1",
-          "impact": 1.65,
-          "weight": 0.55,
-          "directness": "B",
+          "impact": 2.7,
+          "weight": 0.9,
+          "directness": "A",
           "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        },
+        {
+          "signal_id": "sox",
+          "signal_name": "费城半导体指数",
+          "level": "P2",
+          "impact": -1.08,
+          "weight": 0.54,
+          "directness": "C",
+          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
         }
       ],
       "in_final20": false
     },
     {
-      "security_code": "002371",
-      "security_name": "北方华创",
-      "score": 1.6500000000000001,
-      "positive": 1.6500000000000001,
-      "negative": 0.0,
+      "security_code": "002463",
+      "security_name": "沪电股份",
+      "score": 1.62,
+      "positive": 2.7,
+      "negative": 1.08,
       "mixed": 0.0,
       "signals": [
         {
           "signal_id": "tsmc_revenue_yoy",
           "signal_name": "台积电月营收同比",
           "level": "P1",
-          "impact": 1.65,
-          "weight": 0.55,
-          "directness": "B",
+          "impact": 2.7,
+          "weight": 0.9,
+          "directness": "A",
           "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        },
+        {
+          "signal_id": "sox",
+          "signal_name": "费城半导体指数",
+          "level": "P2",
+          "impact": -1.08,
+          "weight": 0.54,
+          "directness": "C",
+          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
         }
       ],
       "in_final20": false
@@ -1036,24 +932,53 @@
       "in_final20": false
     },
     {
-      "security_code": "603091",
-      "security_name": "众鑫股份",
-      "score": -1.5,
-      "positive": 0.0,
-      "negative": 1.5,
+      "security_code": "002048",
+      "security_name": "宁波华翔",
+      "score": 1.5,
+      "positive": 1.5,
+      "negative": 0.0,
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "usd_cny",
-          "signal_name": "美元兑人民币",
+          "signal_id": "acea_bev_share",
+          "signal_name": "欧洲纯电动车注册份额",
           "level": "P2",
-          "impact": -1.5,
+          "impact": 1.5,
           "weight": 0.75,
           "directness": "A",
-          "rationale": "人民币贬值通常利好美元收入型出口企业，需扣除美元原料和套保。"
+          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
         }
       ],
       "in_final20": true
+    },
+    {
+      "security_code": "601138",
+      "security_name": "工业富联",
+      "score": 1.4400000000000004,
+      "positive": 2.4000000000000004,
+      "negative": 0.96,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "tsmc_revenue_yoy",
+          "signal_name": "台积电月营收同比",
+          "level": "P1",
+          "impact": 2.4,
+          "weight": 0.8,
+          "directness": "A",
+          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        },
+        {
+          "signal_id": "sox",
+          "signal_name": "费城半导体指数",
+          "level": "P2",
+          "impact": -0.96,
+          "weight": 0.48,
+          "directness": "C",
+          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
+        }
+      ],
+      "in_final20": false
     },
     {
       "security_code": "601857",
@@ -1076,6 +1001,64 @@
       "in_final20": false
     },
     {
+      "security_code": "688008",
+      "security_name": "澜起科技",
+      "score": 1.35,
+      "positive": 2.25,
+      "negative": 0.8999999999999998,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "tsmc_revenue_yoy",
+          "signal_name": "台积电月营收同比",
+          "level": "P1",
+          "impact": 2.25,
+          "weight": 0.75,
+          "directness": "B",
+          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        },
+        {
+          "signal_id": "sox",
+          "signal_name": "费城半导体指数",
+          "level": "P2",
+          "impact": -0.9,
+          "weight": 0.4499999999999999,
+          "directness": "C",
+          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "002916",
+      "security_name": "深南电路",
+      "score": 1.35,
+      "positive": 2.25,
+      "negative": 0.8999999999999998,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "tsmc_revenue_yoy",
+          "signal_name": "台积电月营收同比",
+          "level": "P1",
+          "impact": 2.25,
+          "weight": 0.75,
+          "directness": "B",
+          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        },
+        {
+          "signal_id": "sox",
+          "signal_name": "费城半导体指数",
+          "level": "P2",
+          "impact": -0.9,
+          "weight": 0.4499999999999999,
+          "directness": "C",
+          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "600256",
       "security_name": "广汇能源",
       "score": 1.3,
@@ -1091,46 +1074,6 @@
           "weight": 0.65,
           "directness": "B",
           "rationale": "国际油价对油气上游盈利同向映射。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "000726",
-      "security_name": "鲁泰A",
-      "score": -1.3,
-      "positive": 0.0,
-      "negative": 1.3,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "usd_cny",
-          "signal_name": "美元兑人民币",
-          "level": "P2",
-          "impact": -1.3,
-          "weight": 0.65,
-          "directness": "A",
-          "rationale": "人民币贬值通常利好美元收入型出口企业，需扣除美元原料和套保。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "002221",
-      "security_name": "东华能源",
-      "score": 1.3,
-      "positive": 1.3,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "usd_cny",
-          "signal_name": "美元兑人民币",
-          "level": "P2",
-          "impact": 1.3,
-          "weight": 0.65,
-          "directness": "B",
-          "rationale": "人民币贬值抬升进口能源或原料的人民币成本。"
         }
       ],
       "in_final20": false
@@ -1196,6 +1139,64 @@
       "in_final20": true
     },
     {
+      "security_code": "603986",
+      "security_name": "兆易创新",
+      "score": 1.1700000000000002,
+      "positive": 1.9500000000000002,
+      "negative": 0.78,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "tsmc_revenue_yoy",
+          "signal_name": "台积电月营收同比",
+          "level": "P1",
+          "impact": 1.95,
+          "weight": 0.65,
+          "directness": "B",
+          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        },
+        {
+          "signal_id": "sox",
+          "signal_name": "费城半导体指数",
+          "level": "P2",
+          "impact": -0.78,
+          "weight": 0.39,
+          "directness": "C",
+          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "301308",
+      "security_name": "江波龙",
+      "score": 1.1700000000000002,
+      "positive": 1.9500000000000002,
+      "negative": 0.78,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "tsmc_revenue_yoy",
+          "signal_name": "台积电月营收同比",
+          "level": "P1",
+          "impact": 1.95,
+          "weight": 0.65,
+          "directness": "B",
+          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        },
+        {
+          "signal_id": "sox",
+          "signal_name": "费城半导体指数",
+          "level": "P2",
+          "impact": -0.78,
+          "weight": 0.39,
+          "directness": "C",
+          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "002311",
       "security_name": "海大集团",
       "score": 0.0,
@@ -1211,46 +1212,6 @@
           "weight": 0.55,
           "directness": "B",
           "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "603162",
-      "security_name": "海通发展",
-      "score": -1.1,
-      "positive": 0.0,
-      "negative": 1.1,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "usd_cny",
-          "signal_name": "美元兑人民币",
-          "level": "P2",
-          "impact": -1.1,
-          "weight": 0.55,
-          "directness": "B",
-          "rationale": "人民币贬值通常利好美元收入型出口企业，需扣除美元原料和套保。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
-      "security_code": "601339",
-      "security_name": "百隆东方",
-      "score": -1.1,
-      "positive": 0.0,
-      "negative": 1.1,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "usd_cny",
-          "signal_name": "美元兑人民币",
-          "level": "P2",
-          "impact": -1.1,
-          "weight": 0.55,
-          "directness": "B",
-          "rationale": "人民币贬值通常利好美元收入型出口企业，需扣除美元原料和套保。"
         }
       ],
       "in_final20": false
@@ -1274,26 +1235,6 @@
         }
       ],
       "in_final20": false
-    },
-    {
-      "security_code": "605090",
-      "security_name": "九丰能源",
-      "score": 1.0,
-      "positive": 1.0,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "usd_cny",
-          "signal_name": "美元兑人民币",
-          "level": "P2",
-          "impact": 1.0,
-          "weight": 0.5,
-          "directness": "B",
-          "rationale": "人民币贬值抬升进口能源或原料的人民币成本。"
-        }
-      ],
-      "in_final20": true
     },
     {
       "security_code": "600312",
@@ -1331,6 +1272,64 @@
           "weight": 0.5,
           "directness": "B",
           "rationale": "海外输电投资提高全球设备需求与行业估值，出口占比决定强弱。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "688012",
+      "security_name": "中微公司",
+      "score": 0.9900000000000001,
+      "positive": 1.6500000000000001,
+      "negative": 0.66,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "tsmc_revenue_yoy",
+          "signal_name": "台积电月营收同比",
+          "level": "P1",
+          "impact": 1.65,
+          "weight": 0.55,
+          "directness": "B",
+          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        },
+        {
+          "signal_id": "sox",
+          "signal_name": "费城半导体指数",
+          "level": "P2",
+          "impact": -0.66,
+          "weight": 0.33,
+          "directness": "C",
+          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "002371",
+      "security_name": "北方华创",
+      "score": 0.9900000000000001,
+      "positive": 1.6500000000000001,
+      "negative": 0.66,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "tsmc_revenue_yoy",
+          "signal_name": "台积电月营收同比",
+          "level": "P1",
+          "impact": 1.65,
+          "weight": 0.55,
+          "directness": "B",
+          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        },
+        {
+          "signal_id": "sox",
+          "signal_name": "费城半导体指数",
+          "level": "P2",
+          "impact": -0.66,
+          "weight": 0.33,
+          "directness": "C",
+          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
         }
       ],
       "in_final20": false
@@ -1394,55 +1393,6 @@
         }
       ],
       "in_final20": false
-    },
-    {
-      "security_code": "300693",
-      "security_name": "盛弘股份",
-      "score": 0.8999999999999999,
-      "positive": 0.8999999999999999,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "tsmc_revenue_yoy",
-          "signal_name": "台积电月营收同比",
-          "level": "P1",
-          "impact": 0.9,
-          "weight": 0.3,
-          "directness": "B",
-          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "002048",
-      "security_name": "宁波华翔",
-      "score": 0.8,
-      "positive": 1.5,
-      "negative": 0.7,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "usd_cny",
-          "signal_name": "美元兑人民币",
-          "level": "P2",
-          "impact": -0.7,
-          "weight": 0.35,
-          "directness": "B",
-          "rationale": "人民币贬值通常利好美元收入型出口企业，需扣除美元原料和套保。"
-        },
-        {
-          "signal_id": "acea_bev_share",
-          "signal_name": "欧洲纯电动车注册份额",
-          "level": "P2",
-          "impact": 1.5,
-          "weight": 0.75,
-          "directness": "A",
-          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
-        }
-      ],
-      "in_final20": true
     },
     {
       "security_code": "600089",
@@ -1525,6 +1475,35 @@
       "in_final20": false
     },
     {
+      "security_code": "300693",
+      "security_name": "盛弘股份",
+      "score": 0.5399999999999999,
+      "positive": 0.8999999999999999,
+      "negative": 0.36,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "tsmc_revenue_yoy",
+          "signal_name": "台积电月营收同比",
+          "level": "P1",
+          "impact": 0.9,
+          "weight": 0.3,
+          "directness": "B",
+          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        },
+        {
+          "signal_id": "sox",
+          "signal_name": "费城半导体指数",
+          "level": "P2",
+          "impact": -0.36,
+          "weight": 0.18,
+          "directness": "C",
+          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "601002",
       "security_name": "晋亿实业",
       "score": 0.5,
@@ -1540,26 +1519,6 @@
           "weight": 0.25,
           "directness": "C",
           "rationale": "海外汽车景气对汽车紧固件需求有间接影响。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
-      "security_code": "600872",
-      "security_name": "中炬高新",
-      "score": 0.4,
-      "positive": 0.4,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "usd_cny",
-          "signal_name": "美元兑人民币",
-          "level": "P2",
-          "impact": 0.4,
-          "weight": 0.2,
-          "directness": "B",
-          "rationale": "人民币贬值抬升进口能源或原料的人民币成本。"
         }
       ],
       "in_final20": true
