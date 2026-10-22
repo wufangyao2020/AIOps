@@ -1,60 +1,66 @@
-# A股海外产业信号雷达｜2026-10-21 08:49（北京时间）
+# A股海外产业信号雷达｜2026-10-23 02:32（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
-- 触发P1：2条；P2：6条；P3：0条。
-- 数据源成功：24条；失败：13条。
-- 最强信号：台积电月营收同比（P1）；荣昌生物海外临床状态（P1）；欧洲纯电动车注册份额（P2）；WTI原油现货（P2）；费城半导体指数（P2）。
+- 触发P1：4条；P2：10条；P3：0条。
+- 数据源成功：25条；失败：12条。
+- 最强信号：费城半导体指数（P1）；台积电月营收同比（P1）；WTI原油现货（P1）；荣昌生物海外临床状态（P1）；欧洲纯电动车注册份额（P2）。
 
 ## 触发信号
 
 |级别|信号|最新值/事件|单周期|五周期|方向|来源|
 |---|---|---:|---:|---:|---|---|
+|P1|费城半导体指数|10,756.18|-6.51%|-7.12%|下行|Yahoo public chart endpoint|
 |P1|台积电月营收同比|54.60|2.44%|212.00%|上行|TSMC investor relations|
+|P1|WTI原油现货|107.89|-1.93%|13.10%|下行|FRED|
 |P1|荣昌生物海外临床状态|2条事件|—|—|下行|A|
-|P2|欧洲纯电动车注册份额|21.70|4.83%|4.83%|上行|ACEA|
-|P2|WTI原油现货|101.91|1.04%|7.25%|上行|FRED|
-|P2|费城半导体指数|11,283.81|-0.29%|-7.58%|下行|Yahoo public chart endpoint|
-|P2|USDA全球农产品供需报告|6条事件|—|—|待判定|A|
-|P2|美国HFC/制冷剂政策|2条事件|—|—|待判定|A|
-|P2|美国输电与变压器政策|1条事件|—|—|待判定|A|
+|P2|欧洲纯电动车注册份额|22.70|4.61%|9.66%|上行|ACEA|
+|P2|COMEX白银期货|54.98|-4.25%|-3.27%|下行|Yahoo public chart endpoint|
+|P2|波罗的海干散货指数 BDI|2,693.00|3.86%|5.82%|上行|BalticDryIndex.com (Baltic Exchange sourced)|
+|P2|布伦特原油现货|115.22|-3.03%|-8.40%|下行|FRED|
+|P2|CME铝期货|3,091.50|-2.71%|-0.16%|下行|Yahoo public chart endpoint|
+|P2|COMEX黄金期货|4,054.30|-2.31%|-2.78%|下行|Yahoo public chart endpoint|
+|P2|CBOT小麦期货|624.75|-0.56%|-6.75%|下行|Yahoo public chart endpoint|
+|P2|美元兑人民币|6.66|-0.20%|-0.19%|下行|Yahoo public chart endpoint|
+|P2|USDA全球农产品供需报告|5条事件|—|—|待判定|A|
+|P2|美国HFC/制冷剂政策|1条事件|—|—|待判定|A|
 
 ## A股优先复核
 
 |代码|公司|方向分|正向|负向|待判定|主要触发|最终20|
 |---|---|---:|---:|---:|---:|---|---|
+|600938|中国海油|-4.40|0.00|4.40|0.00|WTI原油现货(P1/B)；布伦特原油现货(P2/A)|否|
+|601857|中国石油|-3.60|0.00|3.60|0.00|WTI原油现货(P1/B)；布伦特原油现货(P2/A)|否|
+|600256|广汇能源|-3.05|0.00|3.05|0.00|WTI原油现货(P1/B)；布伦特原油现货(P2/B)|否|
 |688331|荣昌生物|-3.00|0.00|3.00|0.00|荣昌生物海外临床状态(P1/A)|是|
+|002311|海大集团|1.50|1.50|0.00|1.10|CBOT小麦期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
+|000876|新希望|1.30|1.30|0.00|1.00|CBOT小麦期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
+|000520|凤凰航运|2.20|2.20|0.00|0.00|波罗的海干散货指数 BDI(P2/A)；布伦特原油现货(P2/C)|否|
+|000612|焦作万方|-2.00|0.00|2.00|0.00|CME铝期货(P2/A)|是|
+|600547|山东黄金|-2.00|0.00|2.00|0.00|COMEX黄金期货(P2/A)|否|
+|000603|盛达资源|-2.00|0.00|2.00|0.00|COMEX白银期货(P2/A)|否|
 |605020|永和股份|0.00|0.00|0.00|2.00|美国HFC/制冷剂政策(P2/A)|是|
-|300308|中际旭创|1.80|3.00|1.20|0.00|台积电月营收同比(P1/A)；费城半导体指数(P2/C)|否|
-|300502|新易盛|1.80|3.00|1.20|0.00|台积电月营收同比(P1/A)；费城半导体指数(P2/C)|否|
+|000426|兴业银锡|-1.90|0.00|1.90|0.00|COMEX白银期货(P2/A)|否|
+|000807|云铝股份|-1.80|0.00|1.80|0.00|CME铝期货(P2/A)|否|
+|000933|神火股份|-1.80|0.00|1.80|0.00|CME铝期货(P2/A)|否|
+|600489|中金黄金|-1.80|0.00|1.80|0.00|COMEX黄金期货(P2/A)|否|
+|600988|赤峰黄金|-1.80|0.00|1.80|0.00|COMEX黄金期货(P2/A)|否|
 |600160|巨化股份|0.00|0.00|0.00|1.80|美国HFC/制冷剂政策(P2/A)|否|
 |603379|三美股份|0.00|0.00|0.00|1.70|美国HFC/制冷剂政策(P2/A)|否|
-|300476|胜宏科技|1.62|2.70|1.08|0.00|台积电月营收同比(P1/A)；费城半导体指数(P2/C)|否|
-|002463|沪电股份|1.62|2.70|1.08|0.00|台积电月营收同比(P1/A)；费城半导体指数(P2/C)|否|
-|600938|中国海油|1.60|1.60|0.00|0.00|WTI原油现货(P2/B)|否|
-|002048|宁波华翔|1.50|1.50|0.00|0.00|欧洲纯电动车注册份额(P2/A)|是|
-|601138|工业富联|1.44|2.40|0.96|0.00|台积电月营收同比(P1/A)；费城半导体指数(P2/C)|否|
-|601857|中国石油|1.40|1.40|0.00|0.00|WTI原油现货(P2/B)|否|
-|688008|澜起科技|1.35|2.25|0.90|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
-|002916|深南电路|1.35|2.25|0.90|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
-|600256|广汇能源|1.30|1.30|0.00|0.00|WTI原油现货(P2/B)|否|
+|600798|宁波海运|1.60|1.60|0.00|0.00|波罗的海干散货指数 BDI(P2/A)|否|
+|601600|中国铝业|-1.60|0.00|1.60|0.00|CME铝期货(P2/A)|否|
+|603091|众鑫股份|-1.50|0.00|1.50|0.00|美元兑人民币(P2/A)|是|
+|601111|中国国航|1.40|1.40|0.00|0.00|布伦特原油现货(P2/C)|否|
+|600115|中国东航|1.40|1.40|0.00|0.00|布伦特原油现货(P2/C)|否|
+|600029|南方航空|1.40|1.40|0.00|0.00|布伦特原油现货(P2/A)|否|
+|601952|苏垦农发|-0.70|0.00|0.70|0.70|CBOT小麦期货(P2/C)；USDA全球农产品供需报告(P2/B)|否|
+|002155|湖南黄金|-1.30|0.00|1.30|0.00|COMEX黄金期货(P2/A)|否|
+|600531|豫光金铅|-1.30|0.00|1.30|0.00|COMEX白银期货(P2/A)|否|
+|000726|鲁泰A|-1.30|0.00|1.30|0.00|美元兑人民币(P2/A)|否|
+|002221|东华能源|1.30|1.30|0.00|0.00|美元兑人民币(P2/B)|否|
 |603997|继峰股份|1.30|1.30|0.00|0.00|欧洲纯电动车注册份额(P2/A)|否|
-|600699|均胜电子|1.30|1.30|0.00|0.00|欧洲纯电动车注册份额(P2/A)|否|
-|002606|大连电瓷|0.00|0.00|0.00|1.20|美国输电与变压器政策(P2/B)|是|
-|603986|兆易创新|1.17|1.95|0.78|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
-|301308|江波龙|1.17|1.95|0.78|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
-|002311|海大集团|0.00|0.00|0.00|1.10|USDA全球农产品供需报告(P2/B)|否|
-|000876|新希望|0.00|0.00|0.00|1.00|USDA全球农产品供需报告(P2/B)|否|
-|600312|平高电气|0.00|0.00|0.00|1.00|美国输电与变压器政策(P2/B)|否|
-|601179|中国西电|0.00|0.00|0.00|1.00|美国输电与变压器政策(P2/B)|否|
-|688012|中微公司|0.99|1.65|0.66|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
-|002371|北方华创|0.99|1.65|0.66|0.00|台积电月营收同比(P1/B)；费城半导体指数(P2/C)|否|
-|600741|华域汽车|0.90|0.90|0.00|0.00|欧洲纯电动车注册份额(P2/B)|否|
-|601689|拓普集团|0.90|0.90|0.00|0.00|欧洲纯电动车注册份额(P2/B)|否|
-|600660|福耀玻璃|0.90|0.90|0.00|0.00|欧洲纯电动车注册份额(P2/B)|否|
-|600089|特变电工|0.00|0.00|0.00|0.80|美国输电与变压器政策(P2/B)|否|
 
 ## 最终20只的海外敏感度
 
@@ -86,15 +92,9 @@
 - **荣昌生物海外临床状态｜2026-10-16｜待判定**：NCT06456580临床记录更新：A Study of Telitacicept for the Treatment of Generalized Myasthenia Gravis (UPSTREAM MG)  
   {"status": {"old": "RECRUITING", "new": "ACTIVE_NOT_RECRUITING"}, "enrollment": {"old": 180, "new": 191}, "primary_completion": {"old": "2027-05", "new": "2027-03"}}  
   来源：https://clinicaltrials.gov/study/NCT06456580
-- **荣昌生物海外临床状态｜2026-10-21｜负向**：NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
+- **荣昌生物海外临床状态｜2026-10-23｜负向**：NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
   持续性负面状态；在状态恢复或替代试验明确前维持风险提示。  
   来源：https://clinicaltrials.gov/study/NCT05306574
-- **USDA全球农产品供需报告｜2026-10-13｜待判定**：USDA WASDE页面出现更新  
-  需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
-  来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
-- **USDA全球农产品供需报告｜2026-10-14｜待判定**：USDA WASDE页面出现更新  
-  需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
-  来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 - **USDA全球农产品供需报告｜2026-10-15｜待判定**：USDA WASDE页面出现更新  
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
@@ -107,15 +107,12 @@
 - **USDA全球农产品供需报告｜2026-10-21｜待判定**：USDA WASDE页面出现更新  
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
-- **美国HFC/制冷剂政策｜2026-10-14｜待判定**：Trichloroethylene (TCE); Regulation Under the Toxic Substances Control Act (TSCA); Compliance Date Extensions  
-  The Environmental Protection Agency (EPA or Agency) is proposing to extend certain compliance dates applicable to certain entities subject to the regulation of trichloroethylene (TCE) under the Toxic Substances Control Act (TSCA) until December 31, 2027, including for certain chemical processors in meeting the prohibition compliance deadline for the processing of TCE, industrial and commercial use  
-  来源：https://www.federalregister.gov/documents/2026/10/14/2026-20964/trichloroethylene-tce-regulation-under-the-toxic-substances-control-act-tsca-compliance-date
+- **USDA全球农产品供需报告｜2026-10-23｜待判定**：USDA WASDE页面出现更新  
+  需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
+  来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 - **美国HFC/制冷剂政策｜2026-10-20｜待判定**：Authorizations for Certain Activities at Liquefied Natural Gas Plants  
   The Federal Energy Regulatory Commission proposes to revise its regulations to establish procedures for authorizing activities at liquefied natural gas plants without case-specific authorization orders under sections 3 or 7 of the Natural Gas Act.  
   来源：https://www.federalregister.gov/documents/2026/10/20/2026-21443/authorizations-for-certain-activities-at-liquefied-natural-gas-plants
-- **美国输电与变压器政策｜2026-10-13｜待判定**：Great Lakes Hydro America, LLC; Notice of Intent To Prepare an Environmental Impact Statement for the Penobscot Mills and Ripogenus Hydroelectric Projects, Schedule for Environmental Review, and Request for Comments  
-    
-  来源：https://www.federalregister.gov/documents/2026/10/13/2026-20882/great-lakes-hydro-america-llc-notice-of-intent-to-prepare-an-environmental-impact-statement-for-the
 
 ## 数据健康
 
@@ -129,7 +126,6 @@
 - `fbx`：fbx absent from Baltic page
 - `bai00`：bai00 absent from Baltic page
 - `sia_sales_yoy`：SIA official pages did not expose a parseable latest global-sales release
-- `acea_bev_share`：ACEA official pages did not expose a parseable passenger-registration release
 - `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
 - `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
 
