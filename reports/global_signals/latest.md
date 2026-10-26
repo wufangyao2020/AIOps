@@ -1,12 +1,12 @@
-# A股海外产业信号雷达｜2026-10-24 08:58（北京时间）
+# A股海外产业信号雷达｜2026-10-26 08:36（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
-- 触发P1：3条；P2：9条；P3：0条。
-- 数据源成功：24条；失败：13条。
-- 最强信号：台积电月营收同比（P1）；WTI原油现货（P1）；荣昌生物海外临床状态（P1）；欧洲纯电动车注册份额（P2）；美国10年期国债收益率（P2）。
+- 触发P1：3条；P2：8条；P3：0条。
+- 数据源成功：25条；失败：12条。
+- 最强信号：台积电月营收同比（P1）；WTI原油现货（P1）；荣昌生物海外临床状态（P1）；欧洲纯电动车注册份额（P2）；CME铝期货（P2）。
 
 ## 触发信号
 
@@ -14,14 +14,13 @@
 |---|---|---:|---:|---:|---|---|
 |P1|台积电月营收同比|54.60|2.44%|212.00%|上行|TSMC investor relations|
 |P1|WTI原油现货|107.89|-1.93%|13.10%|下行|FRED|
-|P1|荣昌生物海外临床状态|2条事件|—|—|下行|A|
+|P1|荣昌生物海外临床状态|1条事件|—|—|下行|A|
 |P2|欧洲纯电动车注册份额|22.70|4.61%|9.66%|上行|ACEA|
+|P2|CME铝期货|3,138.50|-3.98%|-0.32%|下行|Yahoo public chart endpoint|
 |P2|美国10年期国债收益率|4.96|-3.31%|-2.75%|下行|FRED|
 |P2|布伦特原油现货|115.22|-3.03%|-8.40%|下行|FRED|
-|P2|COMEX白银期货|53.96|-1.47%|-5.33%|下行|Yahoo public chart endpoint|
-|P2|COMEX黄金期货|4,010.00|-1.24%|-4.09%|下行|Yahoo public chart endpoint|
-|P2|欧元兑人民币|7.45|-0.61%|-0.84%|下行|Yahoo public chart endpoint|
-|P2|美元兑人民币|6.66|-0.26%|-0.45%|下行|Yahoo public chart endpoint|
+|P2|CBOT小麦期货|623.50|-0.24%|-4.85%|下行|Yahoo public chart endpoint|
+|P2|COMEX黄金期货|3,998.50|-0.23%|-3.88%|下行|Yahoo public chart endpoint|
 |P2|USDA全球农产品供需报告|5条事件|—|—|待判定|A|
 |P2|美国HFC/制冷剂政策|1条事件|—|—|待判定|A|
 
@@ -37,28 +36,28 @@
 |688331|荣昌生物|-3.00|0.00|3.00|0.00|荣昌生物海外临床状态(P1/A)|是|
 |300476|胜宏科技|2.70|2.70|0.00|0.00|台积电月营收同比(P1/A)|否|
 |002463|沪电股份|2.70|2.70|0.00|0.00|台积电月营收同比(P1/A)|否|
+|002311|海大集团|1.50|1.50|0.00|1.10|CBOT小麦期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
 |601138|工业富联|2.40|2.40|0.00|0.00|台积电月营收同比(P1/A)|否|
+|000876|新希望|1.30|1.30|0.00|1.00|CBOT小麦期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
 |688008|澜起科技|2.25|2.25|0.00|0.00|台积电月营收同比(P1/B)|否|
 |002916|深南电路|2.25|2.25|0.00|0.00|台积电月营收同比(P1/B)|否|
+|000612|焦作万方|-2.00|0.00|2.00|0.00|CME铝期货(P2/A)|是|
 |600547|山东黄金|-2.00|0.00|2.00|0.00|COMEX黄金期货(P2/A)|否|
-|000603|盛达资源|-2.00|0.00|2.00|0.00|COMEX白银期货(P2/A)|否|
 |605020|永和股份|0.00|0.00|0.00|2.00|美国HFC/制冷剂政策(P2/A)|是|
 |603986|兆易创新|1.95|1.95|0.00|0.00|台积电月营收同比(P1/B)|否|
 |301308|江波龙|1.95|1.95|0.00|0.00|台积电月营收同比(P1/B)|否|
-|000426|兴业银锡|-1.90|0.00|1.90|0.00|COMEX白银期货(P2/A)|否|
+|000807|云铝股份|-1.80|0.00|1.80|0.00|CME铝期货(P2/A)|否|
+|000933|神火股份|-1.80|0.00|1.80|0.00|CME铝期货(P2/A)|否|
 |600489|中金黄金|-1.80|0.00|1.80|0.00|COMEX黄金期货(P2/A)|否|
 |600988|赤峰黄金|-1.80|0.00|1.80|0.00|COMEX黄金期货(P2/A)|否|
 |600160|巨化股份|0.00|0.00|0.00|1.80|美国HFC/制冷剂政策(P2/A)|否|
 |603379|三美股份|0.00|0.00|0.00|1.70|美国HFC/制冷剂政策(P2/A)|否|
 |688012|中微公司|1.65|1.65|0.00|0.00|台积电月营收同比(P1/B)|否|
 |002371|北方华创|1.65|1.65|0.00|0.00|台积电月营收同比(P1/B)|否|
-|603091|众鑫股份|-1.50|0.00|1.50|0.00|美元兑人民币(P2/A)|是|
+|601600|中国铝业|-1.60|0.00|1.60|0.00|CME铝期货(P2/A)|否|
+|002048|宁波华翔|1.50|1.50|0.00|0.00|欧洲纯电动车注册份额(P2/A)|是|
 |601111|中国国航|1.40|1.40|0.00|0.00|布伦特原油现货(P2/C)|否|
 |600115|中国东航|1.40|1.40|0.00|0.00|布伦特原油现货(P2/C)|否|
-|600029|南方航空|1.40|1.40|0.00|0.00|布伦特原油现货(P2/A)|否|
-|002155|湖南黄金|-1.30|0.00|1.30|0.00|COMEX黄金期货(P2/A)|否|
-|600531|豫光金铅|-1.30|0.00|1.30|0.00|COMEX白银期货(P2/A)|否|
-|000726|鲁泰A|-1.30|0.00|1.30|0.00|美元兑人民币(P2/A)|否|
 
 ## 最终20只的海外敏感度
 
@@ -87,15 +86,9 @@
 
 ## 新事件
 
-- **荣昌生物海外临床状态｜2026-10-16｜待判定**：NCT06456580临床记录更新：A Study of Telitacicept for the Treatment of Generalized Myasthenia Gravis (UPSTREAM MG)  
-  {"status": {"old": "RECRUITING", "new": "ACTIVE_NOT_RECRUITING"}, "enrollment": {"old": 180, "new": 191}, "primary_completion": {"old": "2027-05", "new": "2027-03"}}  
-  来源：https://clinicaltrials.gov/study/NCT06456580
-- **荣昌生物海外临床状态｜2026-10-24｜负向**：NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
+- **荣昌生物海外临床状态｜2026-10-26｜负向**：NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
   持续性负面状态；在状态恢复或替代试验明确前维持风险提示。  
   来源：https://clinicaltrials.gov/study/NCT05306574
-- **USDA全球农产品供需报告｜2026-10-16｜待判定**：USDA WASDE页面出现更新  
-  需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
-  来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 - **USDA全球农产品供需报告｜2026-10-19｜待判定**：USDA WASDE页面出现更新  
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
@@ -106,6 +99,9 @@
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 - **USDA全球农产品供需报告｜2026-10-24｜待判定**：USDA WASDE页面出现更新  
+  需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
+  来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
+- **USDA全球农产品供需报告｜2026-10-26｜待判定**：USDA WASDE页面出现更新  
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 - **美国HFC/制冷剂政策｜2026-10-20｜待判定**：Authorizations for Certain Activities at Liquefied Natural Gas Plants  
@@ -124,7 +120,6 @@
 - `fbx`：fbx absent from Baltic page
 - `bai00`：bai00 absent from Baltic page
 - `sia_sales_yoy`：SIA official pages did not expose a parseable latest global-sales release
-- `acea_bev_share`：ACEA official pages did not expose a parseable passenger-registration release
 - `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
 - `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
 
