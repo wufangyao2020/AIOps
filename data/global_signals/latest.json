@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T03:56:26.016311+08:00",
+  "generated_at": "2026-10-27T09:35:42.779062+08:00",
   "run_slot": "am",
   "catalog_version": "1.0.0",
   "signal_results": {
@@ -113,24 +113,18 @@
       "name": "美国10年期国债收益率",
       "group": "rates",
       "type": "numeric",
-      "latest": 4.96,
-      "latest_date": "2026-10-22",
-      "pct_1": -3.3138401559454134,
-      "pct_5": -2.7450980392156765,
-      "abs_1": -0.16999999999999993,
-      "abs_5": -0.13999999999999968,
+      "latest": 5.0,
+      "latest_date": "2026-10-23",
+      "pct_1": 0.8064516129032251,
+      "pct_5": -1.7681728880157177,
+      "abs_1": 0.040000000000000036,
+      "abs_5": -0.08999999999999986,
       "breakout": false,
       "breakdown": false,
-      "level": "P2",
-      "severity": 2,
-      "trend_sign": -1,
-      "hits": [
-        {
-          "metric": "单周期绝对变化",
-          "value": -0.16999999999999993,
-          "level": "P2"
-        }
-      ],
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": 1,
+      "hits": [],
       "provider": "FRED",
       "source_url": "https://fred.stlouisfed.org/series/DGS10",
       "source_tier": "A",
@@ -141,12 +135,12 @@
       "name": "COMEX铜期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 6.551000118255615,
-      "latest_date": "2026-10-26",
-      "pct_1": 1.1581267456172384,
-      "pct_5": 0.1988377367958094,
-      "abs_1": 0.07500028610229492,
-      "abs_5": 0.013000011444091797,
+      "latest": 6.564499855041504,
+      "latest_date": "2026-10-27",
+      "pct_1": 0.20607138669206382,
+      "pct_5": -0.030462679078979704,
+      "abs_1": 0.013499736785888672,
+      "abs_5": -0.0020003318786621094,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -163,12 +157,12 @@
       "name": "CME铝期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3116.25,
-      "latest_date": "2026-10-26",
-      "pct_1": -0.7089373904731522,
-      "pct_5": 0.2331939530395566,
-      "abs_1": -22.25,
-      "abs_5": 7.25,
+      "latest": 3100.0,
+      "latest_date": "2026-10-27",
+      "pct_1": -0.5214600882470943,
+      "pct_5": -2.4466997089135356,
+      "abs_1": -16.25,
+      "abs_5": -77.75,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -185,17 +179,17 @@
       "name": "COMEX黄金期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 4026.10009765625,
-      "latest_date": "2026-10-26",
-      "pct_1": 0.45410803053880233,
-      "pct_5": -3.221076340819151,
-      "abs_1": 18.2001953125,
-      "abs_5": -134.0,
+      "latest": 4018.0,
+      "latest_date": "2026-10-27",
+      "pct_1": -0.20118967387237063,
+      "pct_5": -3.0077751827106036,
+      "abs_1": -8.10009765625,
+      "abs_5": -124.60009765625,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/GC=F",
@@ -207,17 +201,17 @@
       "name": "COMEX白银期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 53.97999954223633,
-      "latest_date": "2026-10-26",
-      "pct_1": 0.5008303967836358,
-      "pct_5": -5.255027789026223,
-      "abs_1": 0.2690010070800781,
-      "abs_5": -2.993999481201172,
+      "latest": 53.915000915527344,
+      "latest_date": "2026-10-27",
+      "pct_1": -0.12041242545421937,
+      "pct_5": -6.5695079922487025,
+      "abs_1": -0.06499862670898438,
+      "abs_5": -3.7910003662109375,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/SI=F",
@@ -229,12 +223,12 @@
       "name": "CBOT玉米期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 455.0,
-      "latest_date": "2026-10-26",
-      "pct_1": -0.21929824561403022,
-      "pct_5": -2.569593147751603,
-      "abs_1": -1.0,
-      "abs_5": -12.0,
+      "latest": 453.75,
+      "latest_date": "2026-10-27",
+      "pct_1": -0.27472527472527375,
+      "pct_5": -1.7857142857142905,
+      "abs_1": -1.25,
+      "abs_5": -8.25,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -251,12 +245,12 @@
       "name": "CBOT大豆期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 1253.5,
-      "latest_date": "2026-10-26",
-      "pct_1": -0.23875845602865375,
-      "pct_5": 0.0,
-      "abs_1": -3.0,
-      "abs_5": 0.0,
+      "latest": 1252.75,
+      "latest_date": "2026-10-27",
+      "pct_1": -0.05983246908656259,
+      "pct_5": 0.3605047065892153,
+      "abs_1": -0.75,
+      "abs_5": 4.5,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -273,12 +267,12 @@
       "name": "CBOT小麦期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 615.5,
-      "latest_date": "2026-10-26",
-      "pct_1": -1.5199999999999991,
-      "pct_5": -6.066386875238461,
-      "abs_1": -9.5,
-      "abs_5": -39.75,
+      "latest": 614.75,
+      "latest_date": "2026-10-27",
+      "pct_1": -0.12185215272136896,
+      "pct_5": -4.430625728721338,
+      "abs_1": -0.75,
+      "abs_5": -28.5,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -287,7 +281,7 @@
       "hits": [
         {
           "metric": "60周期新低",
-          "value": 615.5,
+          "value": 614.75,
           "level": "P2"
         }
       ],
@@ -351,24 +345,18 @@
       "name": "美元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 6.659299850463867,
-      "latest_date": "2026-10-26",
-      "pct_1": -0.01952278915151595,
-      "pct_5": -0.47228323824241025,
-      "abs_1": -0.0013003349304199219,
-      "abs_5": -0.031599998474121094,
+      "latest": 6.668799877166748,
+      "latest_date": "2026-10-27",
+      "pct_1": -0.13626979362666436,
+      "pct_5": -0.13626979362666436,
+      "abs_1": -0.009099960327148438,
+      "abs_5": -0.009099960327148438,
       "breakout": false,
-      "breakdown": true,
-      "level": "P2",
-      "severity": 2,
+      "breakdown": false,
+      "level": "NONE",
+      "severity": 0,
       "trend_sign": -1,
-      "hits": [
-        {
-          "metric": "60周期新低",
-          "value": 6.659299850463867,
-          "level": "P2"
-        }
-      ],
+      "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/CNY=X",
       "source_tier": "B",
@@ -379,18 +367,29 @@
       "name": "欧元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 7.459199905395508,
-      "latest_date": "2026-10-26",
-      "pct_1": 0.15978875818600802,
-      "pct_5": -0.5908281043100483,
-      "abs_1": 0.011899948120117188,
-      "abs_5": -0.04433298110961914,
+      "latest": 7.425300121307373,
+      "latest_date": "2026-10-27",
+      "pct_1": -0.874428286339024,
+      "pct_5": -0.9556026580207266,
+      "abs_1": -0.06550168991088867,
+      "abs_5": -0.0716409683227539,
       "breakout": false,
-      "breakdown": false,
-      "level": "NONE",
-      "severity": 0,
-      "trend_sign": 1,
-      "hits": [],
+      "breakdown": true,
+      "level": "P2",
+      "severity": 2,
+      "trend_sign": -1,
+      "hits": [
+        {
+          "metric": "单周期涨跌",
+          "value": -0.874428286339024,
+          "level": "P2"
+        },
+        {
+          "metric": "60周期新低",
+          "value": 7.425300121307373,
+          "level": "P2"
+        }
+      ],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/EURCNY=X",
       "source_tier": "B",
@@ -401,12 +400,12 @@
       "name": "费城半导体指数",
       "group": "semiconductor",
       "type": "numeric",
-      "latest": 11089.134765625,
+      "latest": 11083.4697265625,
       "latest_date": "2026-10-26",
-      "pct_1": 2.872822996789237,
-      "pct_5": -2.007761177749401,
-      "abs_1": 309.6748046875,
-      "abs_5": -227.205078125,
+      "pct_1": 2.8202689812538706,
+      "pct_5": -2.0578218788304903,
+      "abs_1": 304.009765625,
+      "abs_5": -232.8701171875,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -500,7 +499,7 @@
           "source_url": "https://clinicaltrials.gov/study/NCT05306574",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-10-27T03:56:26.016311+08:00"
+          "fetched_at": "2026-10-27T09:35:42.779062+08:00"
         }
       ],
       "source_url": "https://clinicaltrials.gov/data-api/api",
@@ -561,7 +560,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/10/20/2026-21443/authorizations-for-certain-activities-at-liquefied-natural-gas-plants",
           "polarity": 0,
           "level": "P2",
-          "fetched_at": "2026-10-27T03:56:26.016311+08:00"
+          "fetched_at": "2026-10-27T09:35:42.779062+08:00"
         }
       ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
@@ -1199,26 +1198,6 @@
       "in_final20": false
     },
     {
-      "security_code": "603091",
-      "security_name": "众鑫股份",
-      "score": -1.5,
-      "positive": 0.0,
-      "negative": 1.5,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "usd_cny",
-          "signal_name": "美元兑人民币",
-          "level": "P2",
-          "impact": -1.5,
-          "weight": 0.75,
-          "directness": "A",
-          "rationale": "人民币贬值通常利好美元收入型出口企业，需扣除美元原料和套保。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
       "security_code": "601111",
       "security_name": "中国国航",
       "score": 1.4,
@@ -1328,66 +1307,6 @@
       "in_final20": true
     },
     {
-      "security_code": "000726",
-      "security_name": "鲁泰A",
-      "score": -1.3,
-      "positive": 0.0,
-      "negative": 1.3,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "usd_cny",
-          "signal_name": "美元兑人民币",
-          "level": "P2",
-          "impact": -1.3,
-          "weight": 0.65,
-          "directness": "A",
-          "rationale": "人民币贬值通常利好美元收入型出口企业，需扣除美元原料和套保。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "002221",
-      "security_name": "东华能源",
-      "score": 1.3,
-      "positive": 1.3,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "usd_cny",
-          "signal_name": "美元兑人民币",
-          "level": "P2",
-          "impact": 1.3,
-          "weight": 0.65,
-          "directness": "B",
-          "rationale": "人民币贬值抬升进口能源或原料的人民币成本。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "603997",
-      "security_name": "继峰股份",
-      "score": 1.3,
-      "positive": 1.3,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "acea_bev_share",
-          "signal_name": "欧洲纯电动车注册份额",
-          "level": "P2",
-          "impact": 1.3,
-          "weight": 0.65,
-          "directness": "A",
-          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "600699",
       "security_name": "均胜电子",
       "score": 1.3,
@@ -1406,46 +1325,6 @@
         }
       ],
       "in_final20": false
-    },
-    {
-      "security_code": "601339",
-      "security_name": "百隆东方",
-      "score": -1.1,
-      "positive": 0.0,
-      "negative": 1.1,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "usd_cny",
-          "signal_name": "美元兑人民币",
-          "level": "P2",
-          "impact": -1.1,
-          "weight": 0.55,
-          "directness": "B",
-          "rationale": "人民币贬值通常利好美元收入型出口企业，需扣除美元原料和套保。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "605090",
-      "security_name": "九丰能源",
-      "score": 1.0,
-      "positive": 1.0,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "usd_cny",
-          "signal_name": "美元兑人民币",
-          "level": "P2",
-          "impact": 1.0,
-          "weight": 0.5,
-          "directness": "B",
-          "rationale": "人民币贬值抬升进口能源或原料的人民币成本。"
-        }
-      ],
-      "in_final20": true
     },
     {
       "security_code": "002714",
@@ -1483,26 +1362,6 @@
           "weight": 0.45,
           "directness": "B",
           "rationale": "国际谷物上涨可能推高饲料成本。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600741",
-      "security_name": "华域汽车",
-      "score": 0.9,
-      "positive": 0.9,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "acea_bev_share",
-          "signal_name": "欧洲纯电动车注册份额",
-          "level": "P2",
-          "impact": 0.9,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
         }
       ],
       "in_final20": false
@@ -1568,64 +1427,6 @@
       "in_final20": false
     },
     {
-      "security_code": "002048",
-      "security_name": "宁波华翔",
-      "score": 0.8,
-      "positive": 1.5,
-      "negative": 0.7,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "usd_cny",
-          "signal_name": "美元兑人民币",
-          "level": "P2",
-          "impact": -0.7,
-          "weight": 0.35,
-          "directness": "B",
-          "rationale": "人民币贬值通常利好美元收入型出口企业，需扣除美元原料和套保。"
-        },
-        {
-          "signal_id": "acea_bev_share",
-          "signal_name": "欧洲纯电动车注册份额",
-          "level": "P2",
-          "impact": 1.5,
-          "weight": 0.75,
-          "directness": "A",
-          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
-      "security_code": "603162",
-      "security_name": "海通发展",
-      "score": -0.7000000000000001,
-      "positive": 0.4,
-      "negative": 1.1,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "brent",
-          "signal_name": "布伦特原油现货",
-          "level": "P2",
-          "impact": 0.4,
-          "weight": 0.2,
-          "directness": "C",
-          "rationale": "燃油成本上升压缩航空或航运利润，转嫁能力决定影响。"
-        },
-        {
-          "signal_id": "usd_cny",
-          "signal_name": "美元兑人民币",
-          "level": "P2",
-          "impact": -1.1,
-          "weight": 0.55,
-          "directness": "B",
-          "rationale": "人民币贬值通常利好美元收入型出口企业，需扣除美元原料和套保。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
       "security_code": "600028",
       "security_name": "中国石化",
       "score": -0.7,
@@ -1686,21 +1487,21 @@
       "in_final20": true
     },
     {
-      "security_code": "600663",
-      "security_name": "陆家嘴",
-      "score": 0.5,
-      "positive": 0.5,
+      "security_code": "603162",
+      "security_name": "海通发展",
+      "score": 0.4,
+      "positive": 0.4,
       "negative": 0.0,
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "us10y",
-          "signal_name": "美国10年期国债收益率",
+          "signal_id": "brent",
+          "signal_name": "布伦特原油现货",
           "level": "P2",
-          "impact": 0.5,
-          "weight": 0.25,
+          "impact": 0.4,
+          "weight": 0.2,
           "directness": "C",
-          "rationale": "海外长端利率通过全球估值和汇率间接影响。"
+          "rationale": "燃油成本上升压缩航空或航运利润，转嫁能力决定影响。"
         }
       ],
       "in_final20": true
@@ -1726,64 +1527,91 @@
       "in_final20": false
     },
     {
-      "security_code": "600872",
-      "security_name": "中炬高新",
+      "security_code": "603997",
+      "security_name": "继峰股份",
       "score": 0.4,
-      "positive": 0.4,
-      "negative": 0.0,
+      "positive": 1.3,
+      "negative": 0.9,
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "usd_cny",
-          "signal_name": "美元兑人民币",
+          "signal_id": "eur_cny",
+          "signal_name": "欧元兑人民币",
           "level": "P2",
-          "impact": 0.4,
-          "weight": 0.2,
+          "impact": -0.9,
+          "weight": 0.45,
           "directness": "B",
-          "rationale": "人民币贬值抬升进口能源或原料的人民币成本。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
-      "security_code": "601318",
-      "security_name": "中国平安",
-      "score": 0.4,
-      "positive": 0.4,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
+          "rationale": "欧元升值可能抬升欧洲收入折算，但当地成本与套保会弱化。"
+        },
         {
-          "signal_id": "us10y",
-          "signal_name": "美国10年期国债收益率",
+          "signal_id": "acea_bev_share",
+          "signal_name": "欧洲纯电动车注册份额",
           "level": "P2",
-          "impact": 0.4,
-          "weight": 0.2,
-          "directness": "C",
-          "rationale": "海外长端利率通过全球估值和汇率间接影响。"
+          "impact": 1.3,
+          "weight": 0.65,
+          "directness": "A",
+          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
         }
       ],
       "in_final20": false
     },
     {
-      "security_code": "603605",
-      "security_name": "珀莱雅",
-      "score": 0.2,
-      "positive": 0.2,
-      "negative": 0.0,
+      "security_code": "002048",
+      "security_name": "宁波华翔",
+      "score": 0.3999999999999999,
+      "positive": 1.5,
+      "negative": 1.1,
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "us10y",
-          "signal_name": "美国10年期国债收益率",
+          "signal_id": "eur_cny",
+          "signal_name": "欧元兑人民币",
           "level": "P2",
-          "impact": 0.2,
-          "weight": 0.1,
-          "directness": "C",
-          "rationale": "海外长端利率通过全球估值和汇率间接影响。"
+          "impact": -1.1,
+          "weight": 0.55,
+          "directness": "B",
+          "rationale": "欧元升值可能抬升欧洲收入折算，但当地成本与套保会弱化。"
+        },
+        {
+          "signal_id": "acea_bev_share",
+          "signal_name": "欧洲纯电动车注册份额",
+          "level": "P2",
+          "impact": 1.5,
+          "weight": 0.75,
+          "directness": "A",
+          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
         }
       ],
       "in_final20": true
+    },
+    {
+      "security_code": "600741",
+      "security_name": "华域汽车",
+      "score": 0.20000000000000007,
+      "positive": 0.9,
+      "negative": 0.7,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "eur_cny",
+          "signal_name": "欧元兑人民币",
+          "level": "P2",
+          "impact": -0.7,
+          "weight": 0.35,
+          "directness": "B",
+          "rationale": "欧元升值可能抬升欧洲收入折算，但当地成本与套保会弱化。"
+        },
+        {
+          "signal_id": "acea_bev_share",
+          "signal_name": "欧洲纯电动车注册份额",
+          "level": "P2",
+          "impact": 0.9,
+          "weight": 0.45,
+          "directness": "B",
+          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
+        }
+      ],
+      "in_final20": false
     }
   ],
   "errors": [
