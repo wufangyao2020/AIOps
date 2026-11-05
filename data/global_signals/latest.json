@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T04:49:40.356099+08:00",
+  "generated_at": "2026-11-05T10:42:37.990538+08:00",
   "run_slot": "am",
   "catalog_version": "1.0.0",
   "signal_results": {
@@ -108,17 +108,17 @@
       "name": "美国10年期国债收益率",
       "group": "rates",
       "type": "numeric",
-      "latest": 4.91,
-      "latest_date": "2026-11-02",
-      "pct_1": -0.6072874493927127,
-      "pct_5": -1.8000000000000016,
-      "abs_1": -0.03000000000000025,
-      "abs_5": -0.08999999999999986,
+      "latest": 4.95,
+      "latest_date": "2026-11-03",
+      "pct_1": 0.8146639511201537,
+      "pct_5": -0.8016032064128265,
+      "abs_1": 0.040000000000000036,
+      "abs_5": -0.040000000000000036,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 1,
       "hits": [],
       "provider": "FRED",
       "source_url": "https://fred.stlouisfed.org/series/DGS10",
@@ -130,12 +130,12 @@
       "name": "COMEX铜期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 6.417500019073486,
-      "latest_date": "2026-11-04",
-      "pct_1": 0.6114295590745833,
-      "pct_5": -3.3727317208533614,
-      "abs_1": 0.03900003433227539,
-      "abs_5": -0.2239999771118164,
+      "latest": 6.432000160217285,
+      "latest_date": "2026-11-05",
+      "pct_1": 0.4529171144850075,
+      "pct_5": -2.2640889587886126,
+      "abs_1": 0.029000282287597656,
+      "abs_5": -0.14899969100952148,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -152,12 +152,12 @@
       "name": "CME铝期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3193.25,
-      "latest_date": "2026-11-04",
-      "pct_1": -1.2981995209025543,
-      "pct_5": -2.5854179377669317,
-      "abs_1": -42.0,
-      "abs_5": -84.75,
+      "latest": 3198.0,
+      "latest_date": "2026-11-05",
+      "pct_1": -1.7134076066077641,
+      "pct_5": -4.028809363042985,
+      "abs_1": -55.75,
+      "abs_5": -134.25,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -174,24 +174,18 @@
       "name": "COMEX黄金期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 4074.10009765625,
-      "latest_date": "2026-11-04",
-      "pct_1": 3.393061583241219,
-      "pct_5": 0.5553361501056342,
-      "abs_1": 133.7001953125,
-      "abs_5": 22.5,
+      "latest": 4137.0,
+      "latest_date": "2026-11-05",
+      "pct_1": 1.5713233488828804,
+      "pct_5": 2.619439902125742,
+      "abs_1": 64.0,
+      "abs_5": 105.60009765625,
       "breakout": false,
       "breakdown": false,
-      "level": "P2",
-      "severity": 2,
+      "level": "NONE",
+      "severity": 0,
       "trend_sign": 1,
-      "hits": [
-        {
-          "metric": "单周期涨跌",
-          "value": 3.393061583241219,
-          "level": "P2"
-        }
-      ],
+      "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/GC=F",
       "source_tier": "B",
@@ -202,24 +196,18 @@
       "name": "COMEX白银期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 52.36000061035156,
-      "latest_date": "2026-11-04",
-      "pct_1": 5.592188898552064,
-      "pct_5": -2.052116854743369,
-      "abs_1": 2.772998809814453,
-      "abs_5": -1.0970001220703125,
+      "latest": 53.19499969482422,
+      "latest_date": "2026-11-05",
+      "pct_1": 1.5947270334973451,
+      "pct_5": 1.9236990407086596,
+      "abs_1": 0.8349990844726562,
+      "abs_5": 1.003997802734375,
       "breakout": false,
       "breakdown": false,
-      "level": "P1",
-      "severity": 3,
+      "level": "NONE",
+      "severity": 0,
       "trend_sign": 1,
-      "hits": [
-        {
-          "metric": "单周期涨跌",
-          "value": 5.592188898552064,
-          "level": "P1"
-        }
-      ],
+      "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/SI=F",
       "source_tier": "B",
@@ -230,12 +218,12 @@
       "name": "CBOT玉米期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 445.75,
-      "latest_date": "2026-11-04",
-      "pct_1": 0.7344632768361503,
-      "pct_5": -1.3281682346430568,
-      "abs_1": 3.25,
-      "abs_5": -6.0,
+      "latest": 446.25,
+      "latest_date": "2026-11-05",
+      "pct_1": 0.11217049915872579,
+      "pct_5": -1.1080332409972304,
+      "abs_1": 0.5,
+      "abs_5": -5.0,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -252,12 +240,12 @@
       "name": "CBOT大豆期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 1203.75,
-      "latest_date": "2026-11-04",
-      "pct_1": 0.06234413965087171,
-      "pct_5": -1.6945692119232358,
-      "abs_1": 0.75,
-      "abs_5": -20.75,
+      "latest": 1204.25,
+      "latest_date": "2026-11-05",
+      "pct_1": 0.041536863966773474,
+      "pct_5": -1.2707522033203578,
+      "abs_1": 0.5,
+      "abs_5": -15.5,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -274,17 +262,17 @@
       "name": "CBOT小麦期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 599.25,
-      "latest_date": "2026-11-04",
-      "pct_1": -0.08336807002917723,
-      "pct_5": 0.04173622704508606,
-      "abs_1": -0.5,
-      "abs_5": 0.25,
+      "latest": 602.25,
+      "latest_date": "2026-11-05",
+      "pct_1": 0.5006257822277815,
+      "pct_5": -0.248447204968949,
+      "abs_1": 3.0,
+      "abs_5": -1.5,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZW=F",
@@ -340,17 +328,17 @@
       "name": "美元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 6.673099994659424,
-      "latest_date": "2026-11-04",
-      "pct_1": 0.3775606507765872,
-      "pct_5": 0.07648130230601957,
-      "abs_1": 0.025100231170654297,
-      "abs_5": 0.005099773406982422,
+      "latest": 6.667600154876709,
+      "latest_date": "2026-11-05",
+      "pct_1": -0.03748155411406051,
+      "pct_5": 0.02400638358066587,
+      "abs_1": -0.0025000572204589844,
+      "abs_5": 0.0016002655029296875,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/CNY=X",
@@ -362,12 +350,12 @@
       "name": "欧元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 7.48769998550415,
-      "latest_date": "2026-11-04",
-      "pct_1": 0.6300543021871663,
-      "pct_5": 0.9233780068673259,
-      "abs_1": 0.04688119888305664,
-      "abs_5": 0.06850719451904297,
+      "latest": 7.478799819946289,
+      "latest_date": "2026-11-05",
+      "pct_1": 0.050713723899176166,
+      "pct_5": 0.5711276712857316,
+      "abs_1": 0.0037908554077148438,
+      "abs_5": 0.04247093200683594,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -384,12 +372,12 @@
       "name": "费城半导体指数",
       "group": "semiconductor",
       "type": "numeric",
-      "latest": 10217.1533203125,
+      "latest": 10268.654296875,
       "latest_date": "2026-11-04",
-      "pct_1": -3.615401835683907,
-      "pct_5": -12.55431940848596,
-      "abs_1": -383.2470703125,
-      "abs_5": -1466.8466796875,
+      "pct_1": -3.1295619177120537,
+      "pct_5": -12.113537342733649,
+      "abs_1": -331.74609375,
+      "abs_5": -1415.345703125,
       "breakout": false,
       "breakdown": true,
       "level": "P1",
@@ -398,17 +386,17 @@
       "hits": [
         {
           "metric": "单周期涨跌",
-          "value": -3.615401835683907,
+          "value": -3.1295619177120537,
           "level": "P2"
         },
         {
           "metric": "五周期涨跌",
-          "value": -12.55431940848596,
+          "value": -12.113537342733649,
           "level": "P1"
         },
         {
           "metric": "60周期新低",
-          "value": 10217.1533203125,
+          "value": 10268.654296875,
           "level": "P2"
         }
       ],
@@ -529,7 +517,7 @@
           "source_url": "https://clinicaltrials.gov/study/NCT05306574",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-11-05T04:49:40.356099+08:00"
+          "fetched_at": "2026-11-05T10:42:37.990538+08:00"
         }
       ],
       "source_url": "https://clinicaltrials.gov/data-api/api",
@@ -1022,26 +1010,6 @@
       "in_final20": false
     },
     {
-      "security_code": "000603",
-      "security_name": "盛达资源",
-      "score": 3.0,
-      "positive": 3.0,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "silver",
-          "signal_name": "COMEX白银期货",
-          "level": "P1",
-          "impact": 3.0,
-          "weight": 1.0,
-          "directness": "A",
-          "rationale": "白银价格影响银资源或副产品价值。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "688331",
       "security_name": "荣昌生物",
       "score": -3.0,
@@ -1060,26 +1028,6 @@
         }
       ],
       "in_final20": true
-    },
-    {
-      "security_code": "000426",
-      "security_name": "兴业银锡",
-      "score": 2.8499999999999996,
-      "positive": 2.8499999999999996,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "silver",
-          "signal_name": "COMEX白银期货",
-          "level": "P1",
-          "impact": 2.85,
-          "weight": 0.95,
-          "directness": "A",
-          "rationale": "白银价格影响银资源或副产品价值。"
-        }
-      ],
-      "in_final20": false
     },
     {
       "security_code": "603986",
@@ -1372,86 +1320,6 @@
       "in_final20": false
     },
     {
-      "security_code": "600547",
-      "security_name": "山东黄金",
-      "score": 2.0,
-      "positive": 2.0,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "gold",
-          "signal_name": "COMEX黄金期货",
-          "level": "P2",
-          "impact": 2.0,
-          "weight": 1.0,
-          "directness": "A",
-          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600531",
-      "security_name": "豫光金铅",
-      "score": 1.9500000000000002,
-      "positive": 1.9500000000000002,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "silver",
-          "signal_name": "COMEX白银期货",
-          "level": "P1",
-          "impact": 1.95,
-          "weight": 0.65,
-          "directness": "A",
-          "rationale": "白银价格影响银资源或副产品价值。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600489",
-      "security_name": "中金黄金",
-      "score": 1.8,
-      "positive": 1.8,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "gold",
-          "signal_name": "COMEX黄金期货",
-          "level": "P2",
-          "impact": 1.8,
-          "weight": 0.9,
-          "directness": "A",
-          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600988",
-      "security_name": "赤峰黄金",
-      "score": 1.8,
-      "positive": 1.8,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "gold",
-          "signal_name": "COMEX黄金期货",
-          "level": "P2",
-          "impact": 1.8,
-          "weight": 0.9,
-          "directness": "A",
-          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "600256",
       "security_name": "广汇能源",
       "score": -1.6500000000000001,
@@ -1510,46 +1378,6 @@
         }
       ],
       "in_final20": true
-    },
-    {
-      "security_code": "000833",
-      "security_name": "粤桂股份",
-      "score": 1.35,
-      "positive": 1.35,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "silver",
-          "signal_name": "COMEX白银期货",
-          "level": "P1",
-          "impact": 1.35,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "白银价格影响银资源或副产品价值。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
-      "security_code": "002155",
-      "security_name": "湖南黄金",
-      "score": 1.3,
-      "positive": 1.3,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "gold",
-          "signal_name": "COMEX黄金期货",
-          "level": "P2",
-          "impact": 1.3,
-          "weight": 0.65,
-          "directness": "A",
-          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
-        }
-      ],
-      "in_final20": false
     },
     {
       "security_code": "603997",
@@ -1625,26 +1453,6 @@
           "weight": 0.18,
           "directness": "C",
           "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "601899",
-      "security_name": "紫金矿业",
-      "score": 1.1,
-      "positive": 1.1,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "gold",
-          "signal_name": "COMEX黄金期货",
-          "level": "P2",
-          "impact": 1.1,
-          "weight": 0.55,
-          "directness": "A",
-          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
         }
       ],
       "in_final20": false
