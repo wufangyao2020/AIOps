@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T05:05:11.674136+08:00",
+  "generated_at": "2026-11-06T10:46:12.386196+08:00",
   "run_slot": "am",
   "catalog_version": "1.0.0",
   "signal_results": {
@@ -102,17 +102,17 @@
       "name": "美国10年期国债收益率",
       "group": "rates",
       "type": "numeric",
-      "latest": 4.95,
-      "latest_date": "2026-11-03",
-      "pct_1": 0.8146639511201537,
-      "pct_5": -0.8016032064128265,
-      "abs_1": 0.040000000000000036,
-      "abs_5": -0.040000000000000036,
+      "latest": 4.9,
+      "latest_date": "2026-11-04",
+      "pct_1": -1.0101010101010055,
+      "pct_5": -2.970297029702962,
+      "abs_1": -0.04999999999999982,
+      "abs_5": -0.14999999999999947,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "FRED",
       "source_url": "https://fred.stlouisfed.org/series/DGS10",
@@ -124,29 +124,18 @@
       "name": "COMEX铜期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 6.215000152587891,
-      "latest_date": "2026-11-05",
-      "pct_1": -2.9361194584714534,
-      "pct_5": -5.561460369440486,
-      "abs_1": -0.18799972534179688,
-      "abs_5": -0.365999698638916,
+      "latest": 6.2789998054504395,
+      "latest_date": "2026-11-06",
+      "pct_1": 0.4800725335771805,
+      "pct_5": -2.7792847494207185,
+      "abs_1": 0.029999732971191406,
+      "abs_5": -0.17950010299682617,
       "breakout": false,
-      "breakdown": true,
-      "level": "P2",
-      "severity": 2,
-      "trend_sign": -1,
-      "hits": [
-        {
-          "metric": "单周期涨跌",
-          "value": -2.9361194584714534,
-          "level": "P2"
-        },
-        {
-          "metric": "60周期新低",
-          "value": 6.215000152587891,
-          "level": "P2"
-        }
-      ],
+      "breakdown": false,
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": 1,
+      "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/HG=F",
       "source_tier": "B",
@@ -157,12 +146,12 @@
       "name": "CME铝期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3192.5,
-      "latest_date": "2026-11-05",
-      "pct_1": -1.8824433346139036,
-      "pct_5": -4.193863005476784,
-      "abs_1": -61.25,
-      "abs_5": -139.75,
+      "latest": 3177.5,
+      "latest_date": "2026-11-06",
+      "pct_1": -1.0047511488433636,
+      "pct_5": -4.017520012082764,
+      "abs_1": -32.25,
+      "abs_5": -133.0,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -179,17 +168,17 @@
       "name": "COMEX黄金期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 4111.0,
-      "latest_date": "2026-11-05",
-      "pct_1": 0.932973238399204,
-      "pct_5": 1.9745026438575897,
-      "abs_1": 38.0,
-      "abs_5": 79.60009765625,
+      "latest": 4075.10009765625,
+      "latest_date": "2026-11-06",
+      "pct_1": -0.9335092340768236,
+      "pct_5": 4.519228493313721,
+      "abs_1": -38.39990234375,
+      "abs_5": 176.2001953125,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/GC=F",
@@ -201,12 +190,12 @@
       "name": "COMEX白银期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 52.095001220703125,
-      "latest_date": "2026-11-05",
-      "pct_1": -0.04796184131605763,
-      "pct_5": -0.1839410394634866,
-      "abs_1": -0.024997711181640625,
-      "abs_5": -0.09600067138671875,
+      "latest": 52.02000045776367,
+      "latest_date": "2026-11-06",
+      "pct_1": -0.4077905620041511,
+      "pct_5": 5.953521250638283,
+      "abs_1": -0.21300125122070312,
+      "abs_5": 2.9230003356933594,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -224,23 +213,17 @@
       "group": "agriculture",
       "type": "numeric",
       "latest": 440.75,
-      "latest_date": "2026-11-05",
-      "pct_1": -0.7878446820483997,
-      "pct_5": -2.3268698060941784,
-      "abs_1": -3.5,
-      "abs_5": -10.5,
+      "latest_date": "2026-11-06",
+      "pct_1": 0.17045454545454586,
+      "pct_5": -1.5633724176437713,
+      "abs_1": 0.75,
+      "abs_5": -7.0,
       "breakout": false,
-      "breakdown": true,
-      "level": "P2",
-      "severity": 2,
-      "trend_sign": -1,
-      "hits": [
-        {
-          "metric": "60周期新低",
-          "value": 440.75,
-          "level": "P2"
-        }
-      ],
+      "breakdown": false,
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": 1,
+      "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZC=F",
       "source_tier": "B",
@@ -251,17 +234,17 @@
       "name": "CBOT大豆期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 1189.75,
-      "latest_date": "2026-11-05",
-      "pct_1": -0.29331657238633735,
-      "pct_5": -2.4595203935232623,
-      "abs_1": -3.5,
-      "abs_5": -30.0,
+      "latest": 1193.0,
+      "latest_date": "2026-11-06",
+      "pct_1": 1.0160880609652923,
+      "pct_5": -2.3931274289220705,
+      "abs_1": 12.0,
+      "abs_5": -29.25,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZS=F",
@@ -273,18 +256,24 @@
       "name": "CBOT小麦期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 599.25,
-      "latest_date": "2026-11-05",
-      "pct_1": 0.12531328320801727,
-      "pct_5": -0.7453416149068359,
-      "abs_1": 0.75,
-      "abs_5": -4.5,
+      "latest": 597.25,
+      "latest_date": "2026-11-06",
+      "pct_1": -0.3337505214851877,
+      "pct_5": -1.035625517812755,
+      "abs_1": -2.0,
+      "abs_5": -6.25,
       "breakout": false,
-      "breakdown": false,
-      "level": "NONE",
-      "severity": 0,
-      "trend_sign": 1,
-      "hits": [],
+      "breakdown": true,
+      "level": "P2",
+      "severity": 2,
+      "trend_sign": -1,
+      "hits": [
+        {
+          "metric": "60周期新低",
+          "value": 597.25,
+          "level": "P2"
+        }
+      ],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZW=F",
       "source_tier": "B",
@@ -339,12 +328,12 @@
       "name": "美元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 6.667500019073486,
-      "latest_date": "2026-11-05",
-      "pct_1": -0.038982817963750804,
-      "pct_5": 0.02250419628866407,
-      "abs_1": -0.0026001930236816406,
-      "abs_5": 0.0015001296997070312,
+      "latest": 6.6682000160217285,
+      "latest_date": "2026-11-06",
+      "pct_1": -0.07342882081217139,
+      "pct_5": 0.10809550115831179,
+      "abs_1": -0.0048999786376953125,
+      "abs_5": 0.0072002410888671875,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -361,17 +350,17 @@
       "name": "欧元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 7.482500076293945,
-      "latest_date": "2026-11-05",
-      "pct_1": 0.10021542169258435,
-      "pct_5": 0.6208868522393329,
-      "abs_1": 0.007491111755371094,
-      "abs_5": 0.04617118835449219,
+      "latest": 7.473700046539307,
+      "latest_date": "2026-11-06",
+      "pct_1": -0.3278845942889186,
+      "pct_5": 0.33899613662327077,
+      "abs_1": -0.024585723876953125,
+      "abs_5": 0.025249958038330078,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/EURCNY=X",
@@ -528,7 +517,7 @@
           "source_url": "https://clinicaltrials.gov/study/NCT05306574",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-11-06T05:05:11.674136+08:00"
+          "fetched_at": "2026-11-06T10:46:12.386196+08:00"
         }
       ],
       "source_url": "https://clinicaltrials.gov/data-api/api",
@@ -621,7 +610,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/11/05/2026-22629/initiation-of-antidumping-and-countervailing-duty-administrative-reviews",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-11-06T05:05:11.674136+08:00"
+          "fetched_at": "2026-11-06T10:46:12.386196+08:00"
         }
       ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
@@ -1138,8 +1127,8 @@
       "mixed": 1.1,
       "signals": [
         {
-          "signal_id": "corn",
-          "signal_name": "CBOT玉米期货",
+          "signal_id": "wheat",
+          "signal_name": "CBOT小麦期货",
           "level": "P2",
           "impact": 1.5,
           "weight": 0.75,
@@ -1243,8 +1232,8 @@
       "mixed": 1.0,
       "signals": [
         {
-          "signal_id": "corn",
-          "signal_name": "CBOT玉米期货",
+          "signal_id": "wheat",
+          "signal_name": "CBOT小麦期货",
           "level": "P2",
           "impact": 1.3,
           "weight": 0.65,
@@ -1364,26 +1353,6 @@
       "in_final20": false
     },
     {
-      "security_code": "603993",
-      "security_name": "洛阳钼业",
-      "score": -2.0,
-      "positive": 0.0,
-      "negative": 2.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "copper",
-          "signal_name": "COMEX铜期货",
-          "level": "P2",
-          "impact": -2.0,
-          "weight": 1.0,
-          "directness": "A",
-          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "300750",
       "security_name": "宁德时代",
       "score": 0.0,
@@ -1404,26 +1373,6 @@
       "in_final20": false
     },
     {
-      "security_code": "000737",
-      "security_name": "北方铜业",
-      "score": -1.8,
-      "positive": 0.0,
-      "negative": 1.8,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "copper",
-          "signal_name": "COMEX铜期货",
-          "level": "P2",
-          "impact": -1.8,
-          "weight": 0.9,
-          "directness": "A",
-          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
       "security_code": "002074",
       "security_name": "国轩高科",
       "score": 0.0,
@@ -1439,46 +1388,6 @@
           "weight": 0.6,
           "directness": "B",
           "rationale": "补贴/本地化规则与关税限制方向相反，按事件文本判定。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "601899",
-      "security_name": "紫金矿业",
-      "score": -1.7,
-      "positive": 0.0,
-      "negative": 1.7,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "copper",
-          "signal_name": "COMEX铜期货",
-          "level": "P2",
-          "impact": -1.7,
-          "weight": 0.85,
-          "directness": "A",
-          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600362",
-      "security_name": "江西铜业",
-      "score": -1.7,
-      "positive": 0.0,
-      "negative": 1.7,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "copper",
-          "signal_name": "COMEX铜期货",
-          "level": "P2",
-          "impact": -1.7,
-          "weight": 0.85,
-          "directness": "A",
-          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
         }
       ],
       "in_final20": false
@@ -1519,46 +1428,6 @@
           "weight": 0.55,
           "directness": "B",
           "rationale": "补贴/本地化规则与关税限制方向相反，按事件文本判定。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "000630",
-      "security_name": "铜陵有色",
-      "score": -1.5,
-      "positive": 0.0,
-      "negative": 1.5,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "copper",
-          "signal_name": "COMEX铜期货",
-          "level": "P2",
-          "impact": -1.5,
-          "weight": 0.75,
-          "directness": "A",
-          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "000878",
-      "security_name": "云南铜业",
-      "score": -1.5,
-      "positive": 0.0,
-      "negative": 1.5,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "copper",
-          "signal_name": "COMEX铜期货",
-          "level": "P2",
-          "impact": -1.5,
-          "weight": 0.75,
-          "directness": "A",
-          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
         }
       ],
       "in_final20": false
@@ -1612,8 +1481,8 @@
       "mixed": 0.7,
       "signals": [
         {
-          "signal_id": "corn",
-          "signal_name": "CBOT玉米期货",
+          "signal_id": "wheat",
+          "signal_name": "CBOT小麦期货",
           "level": "P2",
           "impact": -0.7,
           "weight": 0.35,
@@ -1739,8 +1608,8 @@
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "corn",
-          "signal_name": "CBOT玉米期货",
+          "signal_id": "wheat",
+          "signal_name": "CBOT小麦期货",
           "level": "P2",
           "impact": 0.9,
           "weight": 0.45,
@@ -1759,8 +1628,8 @@
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "corn",
-          "signal_name": "CBOT玉米期货",
+          "signal_id": "wheat",
+          "signal_name": "CBOT小麦期货",
           "level": "P2",
           "impact": 0.9,
           "weight": 0.45,
@@ -1919,8 +1788,8 @@
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "corn",
-          "signal_name": "CBOT玉米期货",
+          "signal_id": "wheat",
+          "signal_name": "CBOT小麦期货",
           "level": "P2",
           "impact": -0.6,
           "weight": 0.3,
