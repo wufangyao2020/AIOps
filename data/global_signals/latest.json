@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T04:26:47.149088+08:00",
+  "generated_at": "2026-11-07T10:17:17.506926+08:00",
   "run_slot": "am",
   "catalog_version": "1.0.0",
   "signal_results": {
@@ -108,12 +108,12 @@
       "name": "美国10年期国债收益率",
       "group": "rates",
       "type": "numeric",
-      "latest": 4.9,
-      "latest_date": "2026-11-04",
-      "pct_1": -1.0101010101010055,
-      "pct_5": -2.970297029702962,
-      "abs_1": -0.04999999999999982,
-      "abs_5": -0.14999999999999947,
+      "latest": 4.84,
+      "latest_date": "2026-11-05",
+      "pct_1": -1.224489795918382,
+      "pct_5": -2.8112449799196915,
+      "abs_1": -0.0600000000000005,
+      "abs_5": -0.14000000000000057,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -130,12 +130,12 @@
       "name": "COMEX铜期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 6.264500141143799,
+      "latest": 6.260000228881836,
       "latest_date": "2026-11-06",
-      "pct_1": 0.24804078228153337,
-      "pct_5": -3.003789890121833,
-      "abs_1": 0.015500068664550781,
-      "abs_5": -0.1939997673034668,
+      "pct_1": 0.17603066530649247,
+      "pct_5": -3.0734641538944008,
+      "abs_1": 0.01100015640258789,
+      "abs_5": -0.1984996795654297,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -152,12 +152,12 @@
       "name": "CME铝期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3199.75,
+      "latest": 3200.0,
       "latest_date": "2026-11-06",
-      "pct_1": -0.31155074382740455,
-      "pct_5": -3.3454161002869687,
-      "abs_1": -10.0,
-      "abs_5": -110.75,
+      "pct_1": -0.30376197523172,
+      "pct_5": -3.337864370940946,
+      "abs_1": -9.75,
+      "abs_5": -110.5,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -174,12 +174,12 @@
       "name": "COMEX黄金期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 4071.39990234375,
+      "latest": 4079.5,
       "latest_date": "2026-11-06",
-      "pct_1": -1.0234617152364178,
-      "pct_5": 4.4243249203782975,
-      "abs_1": -42.10009765625,
-      "abs_5": 172.5,
+      "pct_1": -0.8265467363559043,
+      "pct_5": 4.6320783343959615,
+      "abs_1": -34.0,
+      "abs_5": 180.60009765625,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -196,12 +196,12 @@
       "name": "COMEX白银期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 51.970001220703125,
+      "latest": 51.96500015258789,
       "latest_date": "2026-11-06",
-      "pct_1": -0.5035140230817192,
-      "pct_5": 5.851683588589207,
-      "abs_1": -0.26300048828125,
-      "abs_5": 2.8730010986328125,
+      "pct_1": -0.5130885601590585,
+      "pct_5": 5.841497491469627,
+      "abs_1": -0.2680015563964844,
+      "abs_5": 2.868000030517578,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -334,12 +334,12 @@
       "name": "美元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 6.67549991607666,
+      "latest": 6.688000202178955,
       "latest_date": "2026-11-06",
-      "pct_1": 0.03596411591548776,
-      "pct_5": 0.21768715859091792,
-      "abs_1": 0.002399921417236328,
-      "abs_5": 0.014500141143798828,
+      "pct_1": 0.2232876403988504,
+      "pct_5": 0.4053509707011793,
+      "abs_1": 0.01490020751953125,
+      "abs_5": 0.02700042724609375,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -356,24 +356,18 @@
       "name": "欧元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 7.434899806976318,
+      "latest": 7.5095438957214355,
       "latest_date": "2026-11-06",
-      "pct_1": -0.8453393933053888,
-      "pct_5": -0.18192082062249426,
-      "abs_1": -0.0633859634399414,
-      "abs_5": -0.013550281524658203,
+      "pct_1": 0.15014265459971643,
+      "pct_5": 0.8202217440481441,
+      "abs_1": 0.011258125305175781,
+      "abs_5": 0.061093807220458984,
       "breakout": false,
       "breakdown": false,
-      "level": "P2",
-      "severity": 2,
-      "trend_sign": -1,
-      "hits": [
-        {
-          "metric": "单周期涨跌",
-          "value": -0.8453393933053888,
-          "level": "P2"
-        }
-      ],
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": 1,
+      "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/EURCNY=X",
       "source_tier": "B",
@@ -384,12 +378,12 @@
       "name": "费城半导体指数",
       "group": "semiconductor",
       "type": "numeric",
-      "latest": 9391.8603515625,
+      "latest": 9390.25,
       "latest_date": "2026-11-06",
-      "pct_1": 4.225000587922478,
-      "pct_5": -12.133630312322207,
-      "abs_1": 380.720703125,
-      "abs_5": -1296.939453125,
+      "pct_1": 4.207129912011043,
+      "pct_5": -12.148696096993316,
+      "abs_1": 379.1103515625,
+      "abs_5": -1298.5498046875,
       "breakout": false,
       "breakdown": false,
       "level": "P1",
@@ -398,12 +392,12 @@
       "hits": [
         {
           "metric": "单周期涨跌",
-          "value": 4.225000587922478,
+          "value": 4.207129912011043,
           "level": "P2"
         },
         {
           "metric": "五周期涨跌",
-          "value": -12.133630312322207,
+          "value": -12.148696096993316,
           "level": "P1"
         }
       ],
@@ -524,7 +518,7 @@
           "source_url": "https://clinicaltrials.gov/study/NCT05306574",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-11-07T04:26:47.149088+08:00"
+          "fetched_at": "2026-11-07T10:17:17.506926+08:00"
         }
       ],
       "source_url": "https://clinicaltrials.gov/data-api/api",
@@ -601,7 +595,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
           "polarity": 1,
           "level": "P1",
-          "fetched_at": "2026-11-07T04:26:47.149088+08:00"
+          "fetched_at": "2026-11-07T10:17:17.506926+08:00"
         }
       ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
@@ -630,7 +624,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/11/05/2026-22629/initiation-of-antidumping-and-countervailing-duty-administrative-reviews",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-11-07T04:26:47.149088+08:00"
+          "fetched_at": "2026-11-07T10:17:17.506926+08:00"
         },
         {
           "event_key": "fr_battery:2026-22739",
@@ -642,7 +636,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
           "polarity": 1,
           "level": "P1",
-          "fetched_at": "2026-11-07T04:26:47.149088+08:00"
+          "fetched_at": "2026-11-07T10:17:17.506926+08:00"
         }
       ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
@@ -1589,6 +1583,26 @@
       "in_final20": false
     },
     {
+      "security_code": "002048",
+      "security_name": "宁波华翔",
+      "score": 1.5,
+      "positive": 1.5,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "acea_bev_share",
+          "signal_name": "欧洲纯电动车注册份额",
+          "level": "P2",
+          "impact": 1.5,
+          "weight": 0.75,
+          "directness": "A",
+          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
+        }
+      ],
+      "in_final20": true
+    },
+    {
       "security_code": "002709",
       "security_name": "天赐材料",
       "score": 0.0,
@@ -1633,6 +1647,26 @@
           "weight": 0.35,
           "directness": "B",
           "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "603997",
+      "security_name": "继峰股份",
+      "score": 1.3,
+      "positive": 1.3,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "acea_bev_share",
+          "signal_name": "欧洲纯电动车注册份额",
+          "level": "P2",
+          "impact": 1.3,
+          "weight": 0.65,
+          "directness": "A",
+          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
         }
       ],
       "in_final20": false
@@ -1753,6 +1787,26 @@
           "weight": 0.45,
           "directness": "B",
           "rationale": "国际谷物上涨可能推高饲料成本。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "600741",
+      "security_name": "华域汽车",
+      "score": 0.9,
+      "positive": 0.9,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "acea_bev_share",
+          "signal_name": "欧洲纯电动车注册份额",
+          "level": "P2",
+          "impact": 0.9,
+          "weight": 0.45,
+          "directness": "B",
+          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
         }
       ],
       "in_final20": false
@@ -1916,93 +1970,6 @@
         }
       ],
       "in_final20": true
-    },
-    {
-      "security_code": "603997",
-      "security_name": "继峰股份",
-      "score": 0.4,
-      "positive": 1.3,
-      "negative": 0.9,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "eur_cny",
-          "signal_name": "欧元兑人民币",
-          "level": "P2",
-          "impact": -0.9,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "欧元升值可能抬升欧洲收入折算，但当地成本与套保会弱化。"
-        },
-        {
-          "signal_id": "acea_bev_share",
-          "signal_name": "欧洲纯电动车注册份额",
-          "level": "P2",
-          "impact": 1.3,
-          "weight": 0.65,
-          "directness": "A",
-          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "002048",
-      "security_name": "宁波华翔",
-      "score": 0.3999999999999999,
-      "positive": 1.5,
-      "negative": 1.1,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "eur_cny",
-          "signal_name": "欧元兑人民币",
-          "level": "P2",
-          "impact": -1.1,
-          "weight": 0.55,
-          "directness": "B",
-          "rationale": "欧元升值可能抬升欧洲收入折算，但当地成本与套保会弱化。"
-        },
-        {
-          "signal_id": "acea_bev_share",
-          "signal_name": "欧洲纯电动车注册份额",
-          "level": "P2",
-          "impact": 1.5,
-          "weight": 0.75,
-          "directness": "A",
-          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
-      "security_code": "600741",
-      "security_name": "华域汽车",
-      "score": 0.20000000000000007,
-      "positive": 0.9,
-      "negative": 0.7,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "eur_cny",
-          "signal_name": "欧元兑人民币",
-          "level": "P2",
-          "impact": -0.7,
-          "weight": 0.35,
-          "directness": "B",
-          "rationale": "欧元升值可能抬升欧洲收入折算，但当地成本与套保会弱化。"
-        },
-        {
-          "signal_id": "acea_bev_share",
-          "signal_name": "欧洲纯电动车注册份额",
-          "level": "P2",
-          "impact": 0.9,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
-        }
-      ],
-      "in_final20": false
     }
   ],
   "errors": [
@@ -2052,6 +2019,11 @@
       "error": "bai00 absent from Baltic page"
     },
     {
+      "signal_id": "tsmc_revenue_yoy",
+      "provider": "tsmc",
+      "error": "GET failed after 4 attempts: https://investor.tsmc.com/english/monthly-revenue/2026: 403 Client Error: Forbidden for url: https://investor.tsmc.com/english/monthly-revenue/2026"
+    },
+    {
       "signal_id": "sec_abbvie",
       "provider": "sec",
       "error": "GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom"
@@ -2064,7 +2036,7 @@
   ],
   "data_health": {
     "configured": 37,
-    "successful": 26,
-    "failed": 11
+    "successful": 25,
+    "failed": 12
   }
 }

@@ -1,18 +1,18 @@
-# A股海外产业信号雷达｜2026-11-07 04:26（北京时间）
+# A股海外产业信号雷达｜2026-11-07 10:17（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
-- 触发P1：7条；P2：5条；P3：0条。
-- 数据源成功：26条；失败：11条。
+- 触发P1：7条；P2：4条；P3：0条。
+- 数据源成功：25条；失败：12条。
 - 最强信号：费城半导体指数（P1）；台积电月营收同比（P1）；全球半导体销售额同比（P1）；布伦特原油现货（P1）；美国电池与电动车贸易政策（P1）。
 
 ## 触发信号
 
 |级别|信号|最新值/事件|单周期|五周期|方向|来源|
 |---|---|---:|---:|---:|---|---|
-|P1|费城半导体指数|9,391.86|4.23%|-12.13%|上行|Yahoo public chart endpoint|
+|P1|费城半导体指数|9,390.25|4.21%|-12.15%|上行|Yahoo public chart endpoint|
 |P1|台积电月营收同比|54.60|2.44%|212.00%|上行|TSMC investor relations|
 |P1|全球半导体销售额同比|146.80|1.73%|1.73%|上行|Semiconductor Industry Association|
 |P1|布伦特原油现货|107.03|-0.34%|-13.05%|下行|FRED|
@@ -22,7 +22,6 @@
 |P2|欧洲纯电动车注册份额|22.70|4.61%|9.66%|上行|ACEA|
 |P2|波罗的海干散货指数 BDI|2,805.00|2.37%|3.35%|上行|BalticDryIndex.com (Baltic Exchange sourced)|
 |P2|CBOT小麦期货|590.50|-1.46%|-2.15%|下行|Yahoo public chart endpoint|
-|P2|欧元兑人民币|7.43|-0.85%|-0.18%|下行|Yahoo public chart endpoint|
 |P2|USDA全球农产品供需报告|6条事件|—|—|待判定|A|
 
 ## A股优先复核
@@ -58,7 +57,7 @@
 |600256|广汇能源|-1.65|0.00|1.65|0.00|布伦特原油现货(P1/B)|否|
 |300014|亿纬锂能|0.00|0.00|0.00|1.65|美国电池与电动车贸易政策(P1/B)|否|
 |600798|宁波海运|1.60|1.60|0.00|0.00|波罗的海干散货指数 BDI(P2/A)|否|
-|002709|天赐材料|0.00|0.00|0.00|1.50|美国电池与电动车贸易政策(P1/B)|否|
+|002048|宁波华翔|1.50|1.50|0.00|0.00|欧洲纯电动车注册份额(P2/A)|是|
 
 ## 最终20只的海外敏感度
 
@@ -129,6 +128,7 @@
 - `blpg`：blpg absent from Baltic page
 - `fbx`：fbx absent from Baltic page
 - `bai00`：bai00 absent from Baltic page
+- `tsmc_revenue_yoy`：GET failed after 4 attempts: https://investor.tsmc.com/english/monthly-revenue/2026: 403 Client Error: Forbidden for url: https://investor.tsmc.com/english/monthly-revenue/2026
 - `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
 - `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
 
