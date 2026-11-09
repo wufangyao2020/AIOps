@@ -1,4 +1,4 @@
-# A股海外产业信号雷达｜2026-11-07 10:17（北京时间）
+# A股海外产业信号雷达｜2026-11-09 09:53（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
@@ -20,9 +20,9 @@
 |P1|荣昌生物海外临床状态|1条事件|—|—|下行|A|
 |P1|美国纸浆模塑/食品包装贸易政策|1条事件|—|—|上行|A|
 |P2|欧洲纯电动车注册份额|22.70|4.61%|9.66%|上行|ACEA|
-|P2|波罗的海干散货指数 BDI|2,805.00|2.37%|3.35%|上行|BalticDryIndex.com (Baltic Exchange sourced)|
-|P2|CBOT小麦期货|590.50|-1.46%|-2.15%|下行|Yahoo public chart endpoint|
-|P2|USDA全球农产品供需报告|6条事件|—|—|待判定|A|
+|P2|欧元兑人民币|7.42|-1.18%|-0.14%|下行|Yahoo public chart endpoint|
+|P2|CBOT小麦期货|589.00|-0.38%|-2.89%|下行|Yahoo public chart endpoint|
+|P2|USDA全球农产品供需报告|3条事件|—|—|待判定|A|
 
 ## A股优先复核
 
@@ -42,9 +42,7 @@
 |600938|中国海油|-3.00|0.00|3.00|0.00|布伦特原油现货(P1/A)|否|
 |688331|荣昌生物|-3.00|0.00|3.00|0.00|荣昌生物海外临床状态(P1/A)|是|
 |603091|众鑫股份|0.00|0.00|0.00|3.00|美国纸浆模塑/食品包装贸易政策(P1/A)|是|
-|603162|海通发展|2.60|2.60|0.00|0.00|波罗的海干散货指数 BDI(P2/A)；布伦特原油现货(P1/C)|是|
 |002311|海大集团|1.50|1.50|0.00|1.10|CBOT小麦期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
-|000520|凤凰航运|2.40|2.40|0.00|0.00|波罗的海干散货指数 BDI(P2/A)；布伦特原油现货(P1/C)|否|
 |300693|盛弘股份|2.34|2.34|0.00|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P1/C)|否|
 |000876|新希望|1.30|1.30|0.00|1.00|CBOT小麦期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
 |601857|中国石油|-2.25|0.00|2.25|0.00|布伦特原油现货(P1/A)|否|
@@ -56,8 +54,10 @@
 |002074|国轩高科|0.00|0.00|0.00|1.80|美国电池与电动车贸易政策(P1/B)|否|
 |600256|广汇能源|-1.65|0.00|1.65|0.00|布伦特原油现货(P1/B)|否|
 |300014|亿纬锂能|0.00|0.00|0.00|1.65|美国电池与电动车贸易政策(P1/B)|否|
-|600798|宁波海运|1.60|1.60|0.00|0.00|波罗的海干散货指数 BDI(P2/A)|否|
-|002048|宁波华翔|1.50|1.50|0.00|0.00|欧洲纯电动车注册份额(P2/A)|是|
+|002709|天赐材料|0.00|0.00|0.00|1.50|美国电池与电动车贸易政策(P1/B)|否|
+|601952|苏垦农发|-0.70|0.00|0.70|0.70|CBOT小麦期货(P2/C)；USDA全球农产品供需报告(P2/B)|否|
+|600699|均胜电子|1.30|1.30|0.00|0.00|欧洲纯电动车注册份额(P2/A)|否|
+|600028|中国石化|-1.05|0.00|1.05|0.00|布伦特原油现货(P1/B)|否|
 
 ## 最终20只的海外敏感度
 
@@ -92,28 +92,19 @@
 - **美国电池与电动车贸易政策｜2026-11-06｜正向**：Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots  
   This final rule with comment period revises the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2027 based on our continuing experience with these systems. We also describe the changes to the amounts and factors used to determine the payment rates for Medicare services paid under the OPPS and those pa  
   来源：https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment
-- **荣昌生物海外临床状态｜2026-11-07｜负向**：NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
+- **荣昌生物海外临床状态｜2026-11-09｜负向**：NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
   持续性负面状态；在状态恢复或替代试验明确前维持风险提示。  
   来源：https://clinicaltrials.gov/study/NCT05306574
 - **美国纸浆模塑/食品包装贸易政策｜2026-11-06｜正向**：Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots  
   This final rule with comment period revises the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2027 based on our continuing experience with these systems. We also describe the changes to the amounts and factors used to determine the payment rates for Medicare services paid under the OPPS and those pa  
   来源：https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment
-- **USDA全球农产品供需报告｜2026-10-30｜待判定**：USDA WASDE页面出现更新  
-  需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
-  来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
-- **USDA全球农产品供需报告｜2026-10-30｜待判定**：USDA WASDE页面出现更新  
-  需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
-  来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
-- **USDA全球农产品供需报告｜2026-10-31｜待判定**：USDA WASDE页面出现更新  
-  需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
-  来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
-- **USDA全球农产品供需报告｜2026-10-31｜待判定**：USDA WASDE页面出现更新  
-  需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
-  来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 - **USDA全球农产品供需报告｜2026-11-03｜待判定**：USDA WASDE页面出现更新  
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 - **USDA全球农产品供需报告｜2026-11-05｜待判定**：USDA WASDE页面出现更新  
+  需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
+  来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
+- **USDA全球农产品供需报告｜2026-11-09｜待判定**：USDA WASDE页面出现更新  
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 

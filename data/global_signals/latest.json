@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T10:17:17.506926+08:00",
+  "generated_at": "2026-11-09T09:53:08.274629+08:00",
   "run_slot": "am",
   "catalog_version": "1.0.0",
   "signal_results": {
@@ -9,23 +9,17 @@
       "group": "shipping",
       "type": "numeric",
       "latest": 2805.0,
-      "latest_date": "2026-11-07",
-      "pct_1": 2.372262773722622,
-      "pct_5": 3.3529845246868195,
-      "abs_1": 65.0,
-      "abs_5": 91.0,
-      "breakout": true,
+      "latest_date": "2026-11-09",
+      "pct_1": 0.0,
+      "pct_5": 5.929003021148027,
+      "abs_1": 0.0,
+      "abs_5": 157.0,
+      "breakout": false,
       "breakdown": false,
-      "level": "P2",
-      "severity": 2,
-      "trend_sign": 1,
-      "hits": [
-        {
-          "metric": "20周期新高",
-          "value": 2805.0,
-          "level": "P2"
-        }
-      ],
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": 0,
+      "hits": [],
       "provider": "BalticDryIndex.com (Baltic Exchange sourced)",
       "source_url": "https://www.balticdryindex.com/",
       "source_tier": "A",
@@ -130,12 +124,12 @@
       "name": "COMEX铜期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 6.260000228881836,
-      "latest_date": "2026-11-06",
-      "pct_1": 0.17603066530649247,
-      "pct_5": -3.0734641538944008,
-      "abs_1": 0.01100015640258789,
-      "abs_5": -0.1984996795654297,
+      "latest": 6.335999965667725,
+      "latest_date": "2026-11-09",
+      "pct_1": 1.897716818080486,
+      "pct_5": -3.1710855447399156,
+      "abs_1": 0.11800003051757812,
+      "abs_5": -0.20749998092651367,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -152,12 +146,12 @@
       "name": "CME铝期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3200.0,
-      "latest_date": "2026-11-06",
-      "pct_1": -0.30376197523172,
-      "pct_5": -3.337864370940946,
-      "abs_1": -9.75,
-      "abs_5": -110.5,
+      "latest": 3198.5,
+      "latest_date": "2026-11-09",
+      "pct_1": -1.1664735419080752,
+      "pct_5": -3.507051813862283,
+      "abs_1": -37.75,
+      "abs_5": -116.25,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -174,17 +168,17 @@
       "name": "COMEX黄金期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 4079.5,
-      "latest_date": "2026-11-06",
-      "pct_1": -0.8265467363559043,
-      "pct_5": 4.6320783343959615,
-      "abs_1": -34.0,
-      "abs_5": 180.60009765625,
+      "latest": 4129.7001953125,
+      "latest_date": "2026-11-09",
+      "pct_1": 1.344825499571911,
+      "pct_5": 4.033154315740184,
+      "abs_1": 54.80029296875,
+      "abs_5": 160.10009765625,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/GC=F",
@@ -196,17 +190,17 @@
       "name": "COMEX白银期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 51.96500015258789,
-      "latest_date": "2026-11-06",
-      "pct_1": -0.5130885601590585,
-      "pct_5": 5.841497491469627,
-      "abs_1": -0.2680015563964844,
-      "abs_5": 2.868000030517578,
+      "latest": 53.290000915527344,
+      "latest_date": "2026-11-09",
+      "pct_1": 2.8704891056938298,
+      "pct_5": 5.067033976677404,
+      "abs_1": 1.48699951171875,
+      "abs_5": 2.5699996948242188,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/SI=F",
@@ -218,11 +212,11 @@
       "name": "CBOT玉米期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 442.25,
-      "latest_date": "2026-11-06",
-      "pct_1": 0.5113636363636376,
-      "pct_5": -1.2283640424343933,
-      "abs_1": 2.25,
+      "latest": 442.75,
+      "latest_date": "2026-11-09",
+      "pct_1": 0.28312570781428015,
+      "pct_5": -1.2269938650306789,
+      "abs_1": 1.25,
       "abs_5": -5.5,
       "breakout": false,
       "breakdown": false,
@@ -240,12 +234,12 @@
       "name": "CBOT大豆期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 1194.5,
-      "latest_date": "2026-11-06",
-      "pct_1": 1.14309906858594,
-      "pct_5": -2.2704029453876062,
-      "abs_1": 13.5,
-      "abs_5": -27.75,
+      "latest": 1201.0,
+      "latest_date": "2026-11-09",
+      "pct_1": 1.0092514718250678,
+      "pct_5": -0.3112678979041328,
+      "abs_1": 12.0,
+      "abs_5": -3.75,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -262,12 +256,12 @@
       "name": "CBOT小麦期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 590.5,
-      "latest_date": "2026-11-06",
-      "pct_1": -1.4601585314977017,
-      "pct_5": -2.154101077050541,
-      "abs_1": -8.75,
-      "abs_5": -13.0,
+      "latest": 589.0,
+      "latest_date": "2026-11-09",
+      "pct_1": -0.38054968287526414,
+      "pct_5": -2.885408079142626,
+      "abs_1": -2.25,
+      "abs_5": -17.5,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -276,7 +270,7 @@
       "hits": [
         {
           "metric": "60周期新低",
-          "value": 590.5,
+          "value": 589.0,
           "level": "P2"
         }
       ],
@@ -290,12 +284,12 @@
       "name": "ICE原糖期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 18.25,
+      "latest": 18.239999771118164,
       "latest_date": "2026-11-06",
-      "pct_1": -1.6702557912850802,
-      "pct_5": -5.733474046266607,
-      "abs_1": -0.3099994659423828,
-      "abs_5": -1.1100006103515625,
+      "pct_1": -1.7241363363798556,
+      "pct_5": -5.785128119441008,
+      "abs_1": -0.31999969482421875,
+      "abs_5": -1.1200008392333984,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -312,17 +306,17 @@
       "name": "ICE棉花期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 78.54000091552734,
+      "latest": 79.11000061035156,
       "latest_date": "2026-11-06",
-      "pct_1": -0.21598039756406395,
-      "pct_5": 0.9122434379660538,
-      "abs_1": -0.1699981689453125,
-      "abs_5": 0.7099990844726562,
+      "pct_1": 0.5081965830664226,
+      "pct_5": 1.6446084404255323,
+      "abs_1": 0.40000152587890625,
+      "abs_5": 1.279998779296875,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/CT=F",
@@ -334,17 +328,17 @@
       "name": "美元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 6.688000202178955,
-      "latest_date": "2026-11-06",
-      "pct_1": 0.2232876403988504,
-      "pct_5": 0.4053509707011793,
-      "abs_1": 0.01490020751953125,
-      "abs_5": 0.02700042724609375,
+      "latest": 6.67549991607666,
+      "latest_date": "2026-11-09",
+      "pct_1": -0.1869061860707233,
+      "pct_5": 0.21768715859091792,
+      "abs_1": -0.012500286102294922,
+      "abs_5": 0.014500141143798828,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/CNY=X",
@@ -356,18 +350,24 @@
       "name": "欧元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 7.5095438957214355,
-      "latest_date": "2026-11-06",
-      "pct_1": 0.15014265459971643,
-      "pct_5": 0.8202217440481441,
-      "abs_1": 0.011258125305175781,
-      "abs_5": 0.061093807220458984,
+      "latest": 7.4207000732421875,
+      "latest_date": "2026-11-09",
+      "pct_1": -1.1830788089522537,
+      "pct_5": -0.14418529533282154,
+      "abs_1": -0.08884382247924805,
+      "abs_5": -0.010715007781982422,
       "breakout": false,
       "breakdown": false,
-      "level": "NONE",
-      "severity": 0,
-      "trend_sign": 1,
-      "hits": [],
+      "level": "P2",
+      "severity": 2,
+      "trend_sign": -1,
+      "hits": [
+        {
+          "metric": "单周期涨跌",
+          "value": -1.1830788089522537,
+          "level": "P2"
+        }
+      ],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/EURCNY=X",
       "source_tier": "B",
@@ -502,7 +502,7 @@
       "group": "biotech",
       "type": "event",
       "latest": null,
-      "latest_date": "2026-11-07",
+      "latest_date": "2026-11-09",
       "level": "P1",
       "severity": 3,
       "trend_sign": -1,
@@ -512,13 +512,13 @@
           "event_key": "ctg_rongchang:NCT05306574:standing-negative",
           "signal_id": "ctg_rongchang",
           "signal_name": "荣昌生物海外临床状态",
-          "date": "2026-11-07",
+          "date": "2026-11-09",
           "title": "NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)",
           "summary": "持续性负面状态；在状态恢复或替代试验明确前维持风险提示。",
           "source_url": "https://clinicaltrials.gov/study/NCT05306574",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-11-07T10:17:17.506926+08:00"
+          "fetched_at": "2026-11-09T09:53:08.274629+08:00"
         }
       ],
       "source_url": "https://clinicaltrials.gov/data-api/api",
@@ -595,7 +595,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
           "polarity": 1,
           "level": "P1",
-          "fetched_at": "2026-11-07T10:17:17.506926+08:00"
+          "fetched_at": "2026-11-09T09:53:08.274629+08:00"
         }
       ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
@@ -624,7 +624,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/11/05/2026-22629/initiation-of-antidumping-and-countervailing-duty-administrative-reviews",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-11-07T10:17:17.506926+08:00"
+          "fetched_at": "2026-11-09T09:53:08.274629+08:00"
         },
         {
           "event_key": "fr_battery:2026-22739",
@@ -636,7 +636,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
           "polarity": 1,
           "level": "P1",
-          "fetched_at": "2026-11-07T10:17:17.506926+08:00"
+          "fetched_at": "2026-11-09T09:53:08.274629+08:00"
         }
       ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
@@ -665,60 +665,12 @@
       "group": "agriculture",
       "type": "event",
       "latest": null,
-      "latest_date": "2026-11-05",
+      "latest_date": "2026-11-09",
       "level": "P2",
       "severity": 2,
       "trend_sign": 0,
-      "event_count": 6,
+      "event_count": 3,
       "events": [
-        {
-          "event_key": "usda_wasde:d70a20d7248f59f5",
-          "signal_id": "usda_wasde",
-          "signal_name": "USDA全球农产品供需报告",
-          "date": "2026-10-30",
-          "title": "USDA WASDE页面出现更新",
-          "summary": "需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。",
-          "source_url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
-          "polarity": 0,
-          "level": "P2",
-          "fetched_at": "2026-10-30T03:37:38.238118+08:00"
-        },
-        {
-          "event_key": "usda_wasde:fc9f79d3e4e47878",
-          "signal_id": "usda_wasde",
-          "signal_name": "USDA全球农产品供需报告",
-          "date": "2026-10-30",
-          "title": "USDA WASDE页面出现更新",
-          "summary": "需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。",
-          "source_url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
-          "polarity": 0,
-          "level": "P2",
-          "fetched_at": "2026-10-30T10:06:39.402577+08:00"
-        },
-        {
-          "event_key": "usda_wasde:82ddb09a927333e8",
-          "signal_id": "usda_wasde",
-          "signal_name": "USDA全球农产品供需报告",
-          "date": "2026-10-31",
-          "title": "USDA WASDE页面出现更新",
-          "summary": "需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。",
-          "source_url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
-          "polarity": 0,
-          "level": "P2",
-          "fetched_at": "2026-10-31T03:20:57.622382+08:00"
-        },
-        {
-          "event_key": "usda_wasde:b92ac80df755f90c",
-          "signal_id": "usda_wasde",
-          "signal_name": "USDA全球农产品供需报告",
-          "date": "2026-10-31",
-          "title": "USDA WASDE页面出现更新",
-          "summary": "需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。",
-          "source_url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
-          "polarity": 0,
-          "level": "P2",
-          "fetched_at": "2026-10-31T09:45:10.779105+08:00"
-        },
         {
           "event_key": "usda_wasde:76acfd66f4687680",
           "signal_id": "usda_wasde",
@@ -742,6 +694,18 @@
           "polarity": 0,
           "level": "P2",
           "fetched_at": "2026-11-05T04:49:40.356099+08:00"
+        },
+        {
+          "event_key": "usda_wasde:965bc597e24467dc",
+          "signal_id": "usda_wasde",
+          "signal_name": "USDA全球农产品供需报告",
+          "date": "2026-11-09",
+          "title": "USDA WASDE页面出现更新",
+          "summary": "需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。",
+          "source_url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
+          "polarity": 0,
+          "level": "P2",
+          "fetched_at": "2026-11-09T09:53:08.274629+08:00"
         }
       ],
       "source_url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
@@ -1229,35 +1193,6 @@
       "in_final20": true
     },
     {
-      "security_code": "603162",
-      "security_name": "海通发展",
-      "score": 2.6,
-      "positive": 2.6,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "bdi",
-          "signal_name": "波罗的海干散货指数 BDI",
-          "level": "P2",
-          "impact": 2.0,
-          "weight": 1.0,
-          "directness": "A",
-          "rationale": "干散货运价上行通常提高船东TCE；港口仅为贸易景气间接映射。"
-        },
-        {
-          "signal_id": "brent",
-          "signal_name": "布伦特原油现货",
-          "level": "P1",
-          "impact": 0.6,
-          "weight": 0.2,
-          "directness": "C",
-          "rationale": "燃油成本上升压缩航空或航运利润，转嫁能力决定影响。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
       "security_code": "002311",
       "security_name": "海大集团",
       "score": 1.5,
@@ -1282,35 +1217,6 @@
           "weight": 0.55,
           "directness": "B",
           "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "000520",
-      "security_name": "凤凰航运",
-      "score": 2.4000000000000004,
-      "positive": 2.4000000000000004,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "bdi",
-          "signal_name": "波罗的海干散货指数 BDI",
-          "level": "P2",
-          "impact": 1.8,
-          "weight": 0.9,
-          "directness": "A",
-          "rationale": "干散货运价上行通常提高船东TCE；港口仅为贸易景气间接映射。"
-        },
-        {
-          "signal_id": "brent",
-          "signal_name": "布伦特原油现货",
-          "level": "P1",
-          "impact": 0.6,
-          "weight": 0.2,
-          "directness": "C",
-          "rationale": "燃油成本上升压缩航空或航运利润，转嫁能力决定影响。"
         }
       ],
       "in_final20": false
@@ -1563,46 +1469,6 @@
       "in_final20": false
     },
     {
-      "security_code": "600798",
-      "security_name": "宁波海运",
-      "score": 1.6,
-      "positive": 1.6,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "bdi",
-          "signal_name": "波罗的海干散货指数 BDI",
-          "level": "P2",
-          "impact": 1.6,
-          "weight": 0.8,
-          "directness": "A",
-          "rationale": "干散货运价上行通常提高船东TCE；港口仅为贸易景气间接映射。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "002048",
-      "security_name": "宁波华翔",
-      "score": 1.5,
-      "positive": 1.5,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "acea_bev_share",
-          "signal_name": "欧洲纯电动车注册份额",
-          "level": "P2",
-          "impact": 1.5,
-          "weight": 0.75,
-          "directness": "A",
-          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
       "security_code": "002709",
       "security_name": "天赐材料",
       "score": 0.0,
@@ -1647,26 +1513,6 @@
           "weight": 0.35,
           "directness": "B",
           "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "603997",
-      "security_name": "继峰股份",
-      "score": 1.3,
-      "positive": 1.3,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "acea_bev_share",
-          "signal_name": "欧洲纯电动车注册份额",
-          "level": "P2",
-          "impact": 1.3,
-          "weight": 0.65,
-          "directness": "A",
-          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
         }
       ],
       "in_final20": false
@@ -1732,26 +1578,6 @@
       "in_final20": false
     },
     {
-      "security_code": "601872",
-      "security_name": "招商轮船",
-      "score": 0.9,
-      "positive": 0.9,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "bdi",
-          "signal_name": "波罗的海干散货指数 BDI",
-          "level": "P2",
-          "impact": 0.9,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "干散货运价上行通常提高船东TCE；港口仅为贸易景气间接映射。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "002714",
       "security_name": "牧原股份",
       "score": 0.9,
@@ -1787,26 +1613,6 @@
           "weight": 0.45,
           "directness": "B",
           "rationale": "国际谷物上涨可能推高饲料成本。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600741",
-      "security_name": "华域汽车",
-      "score": 0.9,
-      "positive": 0.9,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "acea_bev_share",
-          "signal_name": "欧洲纯电动车注册份额",
-          "level": "P2",
-          "impact": 0.9,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
         }
       ],
       "in_final20": false
@@ -1852,26 +1658,6 @@
       "in_final20": false
     },
     {
-      "security_code": "600428",
-      "security_name": "中远海特",
-      "score": 0.7,
-      "positive": 0.7,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "bdi",
-          "signal_name": "波罗的海干散货指数 BDI",
-          "level": "P2",
-          "impact": 0.7,
-          "weight": 0.35,
-          "directness": "C",
-          "rationale": "干散货运价上行通常提高船东TCE；港口仅为贸易景气间接映射。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "600737",
       "security_name": "中粮糖业",
       "score": 0.0,
@@ -1907,6 +1693,46 @@
           "weight": 0.35,
           "directness": "B",
           "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "603162",
+      "security_name": "海通发展",
+      "score": 0.6000000000000001,
+      "positive": 0.6000000000000001,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "brent",
+          "signal_name": "布伦特原油现货",
+          "level": "P1",
+          "impact": 0.6,
+          "weight": 0.2,
+          "directness": "C",
+          "rationale": "燃油成本上升压缩航空或航运利润，转嫁能力决定影响。"
+        }
+      ],
+      "in_final20": true
+    },
+    {
+      "security_code": "000520",
+      "security_name": "凤凰航运",
+      "score": 0.6000000000000001,
+      "positive": 0.6000000000000001,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "brent",
+          "signal_name": "布伦特原油现货",
+          "level": "P1",
+          "impact": 0.6,
+          "weight": 0.2,
+          "directness": "C",
+          "rationale": "燃油成本上升压缩航空或航运利润，转嫁能力决定影响。"
         }
       ],
       "in_final20": false
@@ -1952,24 +1778,91 @@
       "in_final20": true
     },
     {
-      "security_code": "600717",
-      "security_name": "天津港",
+      "security_code": "603997",
+      "security_name": "继峰股份",
       "score": 0.4,
-      "positive": 0.4,
-      "negative": 0.0,
+      "positive": 1.3,
+      "negative": 0.9,
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "bdi",
-          "signal_name": "波罗的海干散货指数 BDI",
+          "signal_id": "eur_cny",
+          "signal_name": "欧元兑人民币",
           "level": "P2",
-          "impact": 0.4,
-          "weight": 0.2,
-          "directness": "C",
-          "rationale": "干散货运价上行通常提高船东TCE；港口仅为贸易景气间接映射。"
+          "impact": -0.9,
+          "weight": 0.45,
+          "directness": "B",
+          "rationale": "欧元升值可能抬升欧洲收入折算，但当地成本与套保会弱化。"
+        },
+        {
+          "signal_id": "acea_bev_share",
+          "signal_name": "欧洲纯电动车注册份额",
+          "level": "P2",
+          "impact": 1.3,
+          "weight": 0.65,
+          "directness": "A",
+          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "002048",
+      "security_name": "宁波华翔",
+      "score": 0.3999999999999999,
+      "positive": 1.5,
+      "negative": 1.1,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "eur_cny",
+          "signal_name": "欧元兑人民币",
+          "level": "P2",
+          "impact": -1.1,
+          "weight": 0.55,
+          "directness": "B",
+          "rationale": "欧元升值可能抬升欧洲收入折算，但当地成本与套保会弱化。"
+        },
+        {
+          "signal_id": "acea_bev_share",
+          "signal_name": "欧洲纯电动车注册份额",
+          "level": "P2",
+          "impact": 1.5,
+          "weight": 0.75,
+          "directness": "A",
+          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
         }
       ],
       "in_final20": true
+    },
+    {
+      "security_code": "600741",
+      "security_name": "华域汽车",
+      "score": 0.20000000000000007,
+      "positive": 0.9,
+      "negative": 0.7,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "eur_cny",
+          "signal_name": "欧元兑人民币",
+          "level": "P2",
+          "impact": -0.7,
+          "weight": 0.35,
+          "directness": "B",
+          "rationale": "欧元升值可能抬升欧洲收入折算，但当地成本与套保会弱化。"
+        },
+        {
+          "signal_id": "acea_bev_share",
+          "signal_name": "欧洲纯电动车注册份额",
+          "level": "P2",
+          "impact": 0.9,
+          "weight": 0.45,
+          "directness": "B",
+          "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
+        }
+      ],
+      "in_final20": false
     }
   ],
   "errors": [
