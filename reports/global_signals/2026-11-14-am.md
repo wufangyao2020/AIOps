@@ -1,10 +1,10 @@
-# A股海外产业信号雷达｜2026-11-14 04:53（北京时间）
+# A股海外产业信号雷达｜2026-11-14 10:38（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
-- 触发P1：5条；P2：8条；P3：0条。
+- 触发P1：5条；P2：7条；P3：0条。
 - 数据源成功：25条；失败：12条。
 - 最强信号：台积电月营收同比（P1）；全球半导体销售额同比（P1）；荣昌生物海外临床状态（P1）；美国纸浆模塑/食品包装贸易政策（P1）；美国电池与电动车贸易政策（P1）。
 
@@ -18,11 +18,10 @@
 |P1|美国纸浆模塑/食品包装贸易政策|1条事件|—|—|上行|A|
 |P1|美国电池与电动车贸易政策|1条事件|—|—|上行|A|
 |P2|欧洲纯电动车注册份额|22.70|4.61%|9.66%|上行|ACEA|
-|P2|费城半导体指数|10,172.31|-3.18%|8.33%|下行|Yahoo public chart endpoint|
-|P2|COMEX白银期货|48.70|-2.55%|-5.99%|下行|Yahoo public chart endpoint|
-|P2|COMEX铜期货|6.07|-1.80%|-2.36%|下行|Yahoo public chart endpoint|
-|P2|欧元兑人民币|7.35|-0.67%|-2.11%|下行|Yahoo public chart endpoint|
-|P2|COMEX黄金期货|3,876.80|-0.22%|-4.86%|下行|Yahoo public chart endpoint|
+|P2|费城半导体指数|10,146.32|-3.43%|8.05%|下行|Yahoo public chart endpoint|
+|P2|COMEX白银期货|48.65|-2.65%|-6.09%|下行|Yahoo public chart endpoint|
+|P2|COMEX铜期货|6.06|-1.92%|-2.48%|下行|Yahoo public chart endpoint|
+|P2|欧元兑人民币|7.37|-0.40%|-1.85%|下行|Yahoo public chart endpoint|
 |P2|USDA全球农产品供需报告|2条事件|—|—|待判定|A|
 |P2|Henry Hub天然气现货|3.00|0.00%|14.07%|待判定|FRED|
 
@@ -41,25 +40,25 @@
 |301308|江波龙|3.12|3.90|0.78|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P2/C)|否|
 |688331|荣昌生物|-3.00|0.00|3.00|0.00|荣昌生物海外临床状态(P1/A)|是|
 |603091|众鑫股份|0.00|0.00|0.00|3.00|美国纸浆模塑/食品包装贸易政策(P1/A)|是|
-|601899|紫金矿业|-2.80|0.00|2.80|0.00|COMEX铜期货(P2/A)；COMEX黄金期货(P2/A)|否|
 |688012|中微公司|2.64|3.30|0.66|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P2/C)|否|
 |002371|北方华创|2.64|3.30|0.66|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P2/C)|否|
 |002805|丰元股份|0.00|0.00|0.00|2.25|美国电池与电动车贸易政策(P1/B)|是|
 |603993|洛阳钼业|-2.00|0.00|2.00|0.00|COMEX铜期货(P2/A)|否|
-|600547|山东黄金|-2.00|0.00|2.00|0.00|COMEX黄金期货(P2/A)|否|
 |000603|盛达资源|-2.00|0.00|2.00|0.00|COMEX白银期货(P2/A)|否|
 |300750|宁德时代|0.00|0.00|0.00|1.95|美国电池与电动车贸易政策(P1/B)|否|
 |000426|兴业银锡|-1.90|0.00|1.90|0.00|COMEX白银期货(P2/A)|否|
 |000737|北方铜业|-1.80|0.00|1.80|0.00|COMEX铜期货(P2/A)|是|
-|600489|中金黄金|-1.80|0.00|1.80|0.00|COMEX黄金期货(P2/A)|否|
-|600988|赤峰黄金|-1.80|0.00|1.80|0.00|COMEX黄金期货(P2/A)|否|
 |002074|国轩高科|0.00|0.00|0.00|1.80|美国电池与电动车贸易政策(P1/B)|否|
+|601899|紫金矿业|-1.70|0.00|1.70|0.00|COMEX铜期货(P2/A)|否|
 |600362|江西铜业|-1.70|0.00|1.70|0.00|COMEX铜期货(P2/A)|否|
 |300014|亿纬锂能|0.00|0.00|0.00|1.65|美国电池与电动车贸易政策(P1/B)|否|
 |000630|铜陵有色|-1.50|0.00|1.50|0.00|COMEX铜期货(P2/A)|否|
 |000878|云南铜业|-1.50|0.00|1.50|0.00|COMEX铜期货(P2/A)|否|
 |002709|天赐材料|0.00|0.00|0.00|1.50|美国电池与电动车贸易政策(P1/B)|否|
 |300693|盛弘股份|1.44|1.80|0.36|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P2/C)|否|
+|600256|广汇能源|0.00|0.00|0.00|1.40|Henry Hub天然气现货(P2/A)|否|
+|600531|豫光金铅|-1.30|0.00|1.30|0.00|COMEX白银期货(P2/A)|否|
+|600699|均胜电子|1.30|1.30|0.00|0.00|欧洲纯电动车注册份额(P2/A)|否|
 
 ## 最终20只的海外敏感度
 
@@ -115,7 +114,7 @@
 - `blpg`：blpg absent from Baltic page
 - `fbx`：fbx absent from Baltic page
 - `bai00`：bai00 absent from Baltic page
-- `tsmc_revenue_yoy`：GET failed after 4 attempts: https://investor.tsmc.com/english/monthly-revenue/2026: 403 Client Error: Forbidden for url: https://investor.tsmc.com/english/monthly-revenue/2026
+- `acea_bev_share`：ACEA official pages did not expose a parseable passenger-registration release
 - `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
 - `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
 

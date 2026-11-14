@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T04:53:55.481034+08:00",
+  "generated_at": "2026-11-14T10:38:30.128818+08:00",
   "run_slot": "am",
   "catalog_version": "1.0.0",
   "signal_results": {
@@ -102,12 +102,12 @@
       "name": "美国10年期国债收益率",
       "group": "rates",
       "type": "numeric",
-      "latest": 4.98,
-      "latest_date": "2026-11-10",
-      "pct_1": 2.0491803278688714,
-      "pct_5": 0.60606060606061,
-      "abs_1": 0.10000000000000053,
-      "abs_5": 0.03000000000000025,
+      "latest": 5.1,
+      "latest_date": "2026-11-12",
+      "pct_1": 2.409638554216853,
+      "pct_5": 4.081632653061207,
+      "abs_1": 0.11999999999999922,
+      "abs_5": 0.1999999999999993,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -124,12 +124,12 @@
       "name": "COMEX铜期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 6.071000099182129,
+      "latest": 6.063499927520752,
       "latest_date": "2026-11-13",
-      "pct_1": -1.8034741357196182,
-      "pct_5": -2.3641016002112214,
-      "abs_1": -0.11149978637695312,
-      "abs_5": -0.14699983596801758,
+      "pct_1": -1.924787064150002,
+      "pct_5": -2.4847219241031393,
+      "abs_1": -0.11899995803833008,
+      "abs_5": -0.15450000762939453,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -138,7 +138,7 @@
       "hits": [
         {
           "metric": "60周期新低",
-          "value": 6.071000099182129,
+          "value": 6.063499927520752,
           "level": "P2"
         }
       ],
@@ -152,12 +152,12 @@
       "name": "CME铝期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3127.5,
+      "latest": 3110.25,
       "latest_date": "2026-11-13",
-      "pct_1": -1.0363104184795469,
-      "pct_5": -3.360370799536505,
-      "abs_1": -32.75,
-      "abs_5": -108.75,
+      "pct_1": -1.5821533106557983,
+      "pct_5": -3.8933951332560834,
+      "abs_1": -50.0,
+      "abs_5": -126.0,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -174,29 +174,18 @@
       "name": "COMEX黄金期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3876.800048828125,
+      "latest": 3887.60009765625,
       "latest_date": "2026-11-13",
-      "pct_1": -0.21877332234775393,
-      "pct_5": -4.861465514813856,
-      "abs_1": -8.5,
-      "abs_5": -198.099853515625,
+      "pct_1": 0.05919874396365099,
+      "pct_5": -4.596427131370051,
+      "abs_1": 2.300048828125,
+      "abs_5": -187.2998046875,
       "breakout": false,
-      "breakdown": true,
-      "level": "P2",
-      "severity": 2,
-      "trend_sign": -1,
-      "hits": [
-        {
-          "metric": "五周期涨跌",
-          "value": -4.861465514813856,
-          "level": "P2"
-        },
-        {
-          "metric": "60周期新低",
-          "value": 3876.800048828125,
-          "level": "P2"
-        }
-      ],
+      "breakdown": false,
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": 1,
+      "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/GC=F",
       "source_tier": "B",
@@ -207,12 +196,12 @@
       "name": "COMEX白银期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 48.70000076293945,
+      "latest": 48.650001525878906,
       "latest_date": "2026-11-13",
-      "pct_1": -2.5454241495710628,
-      "pct_5": -5.990001653921551,
-      "abs_1": -1.2719993591308594,
-      "abs_5": -3.1030006408691406,
+      "pct_1": -2.6454786539703457,
+      "pct_5": -6.0865196851275005,
+      "abs_1": -1.3219985961914062,
+      "abs_5": -3.1529998779296875,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -221,7 +210,7 @@
       "hits": [
         {
           "metric": "60周期新低",
-          "value": 48.70000076293945,
+          "value": 48.650001525878906,
           "level": "P2"
         }
       ],
@@ -345,12 +334,12 @@
       "name": "美元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 6.670499801635742,
+      "latest": 6.670400142669678,
       "latest_date": "2026-11-13",
-      "pct_1": 0.002995289103657761,
-      "pct_5": -0.2616686604990148,
-      "abs_1": 0.00019979476928710938,
-      "abs_5": -0.01750040054321289,
+      "pct_1": 0.00150121888249366,
+      "pct_5": -0.26315877657334674,
+      "abs_1": 0.00010013580322265625,
+      "abs_5": -0.017600059509277344,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -367,12 +356,12 @@
       "name": "欧元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 7.351200103759766,
+      "latest": 7.3707709312438965,
       "latest_date": "2026-11-13",
-      "pct_1": -0.665175326153955,
-      "pct_5": -2.108567366546543,
-      "abs_1": -0.049225807189941406,
-      "abs_5": -0.15834379196166992,
+      "pct_1": -0.4007199053494004,
+      "pct_5": -1.8479546348561193,
+      "abs_1": -0.029654979705810547,
+      "abs_5": -0.13877296447753906,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -380,13 +369,8 @@
       "trend_sign": -1,
       "hits": [
         {
-          "metric": "五周期涨跌",
-          "value": -2.108567366546543,
-          "level": "P2"
-        },
-        {
           "metric": "60周期新低",
-          "value": 7.351200103759766,
+          "value": 7.3707709312438965,
           "level": "P2"
         }
       ],
@@ -400,12 +384,12 @@
       "name": "费城半导体指数",
       "group": "semiconductor",
       "type": "numeric",
-      "latest": 10172.30859375,
+      "latest": 10146.3232421875,
       "latest_date": "2026-11-13",
-      "pct_1": -3.1823720609025385,
-      "pct_5": 8.328410785122875,
-      "abs_1": -334.361328125,
-      "abs_5": 782.05859375,
+      "pct_1": -3.4296944928026596,
+      "pct_5": 8.051683844279967,
+      "abs_1": -360.3466796875,
+      "abs_5": 756.0732421875,
       "breakout": false,
       "breakdown": false,
       "level": "P2",
@@ -414,12 +398,12 @@
       "hits": [
         {
           "metric": "单周期涨跌",
-          "value": -3.1823720609025385,
+          "value": -3.4296944928026596,
           "level": "P2"
         },
         {
           "metric": "五周期涨跌",
-          "value": 8.328410785122875,
+          "value": 8.051683844279967,
           "level": "P2"
         }
       ],
@@ -540,7 +524,7 @@
           "source_url": "https://clinicaltrials.gov/study/NCT05306574",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-11-14T04:53:55.481034+08:00"
+          "fetched_at": "2026-11-14T10:38:30.128818+08:00"
         }
       ],
       "source_url": "https://clinicaltrials.gov/data-api/api",
@@ -617,7 +601,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
           "polarity": 1,
           "level": "P1",
-          "fetched_at": "2026-11-14T04:53:55.481034+08:00"
+          "fetched_at": "2026-11-14T10:38:30.128818+08:00"
         }
       ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
@@ -646,7 +630,7 @@
           "source_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
           "polarity": 1,
           "level": "P1",
-          "fetched_at": "2026-11-14T04:53:55.481034+08:00"
+          "fetched_at": "2026-11-14T10:38:30.128818+08:00"
         }
       ],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
@@ -1095,35 +1079,6 @@
       "in_final20": true
     },
     {
-      "security_code": "601899",
-      "security_name": "紫金矿业",
-      "score": -2.8,
-      "positive": 0.0,
-      "negative": 2.8,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "copper",
-          "signal_name": "COMEX铜期货",
-          "level": "P2",
-          "impact": -1.7,
-          "weight": 0.85,
-          "directness": "A",
-          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
-        },
-        {
-          "signal_id": "gold",
-          "signal_name": "COMEX黄金期货",
-          "level": "P2",
-          "impact": -1.1,
-          "weight": 0.55,
-          "directness": "A",
-          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "688012",
       "security_name": "中微公司",
       "score": 2.64,
@@ -1240,26 +1195,6 @@
       "in_final20": false
     },
     {
-      "security_code": "600547",
-      "security_name": "山东黄金",
-      "score": -2.0,
-      "positive": 0.0,
-      "negative": 2.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "gold",
-          "signal_name": "COMEX黄金期货",
-          "level": "P2",
-          "impact": -2.0,
-          "weight": 1.0,
-          "directness": "A",
-          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "000603",
       "security_name": "盛达资源",
       "score": -2.0,
@@ -1340,46 +1275,6 @@
       "in_final20": true
     },
     {
-      "security_code": "600489",
-      "security_name": "中金黄金",
-      "score": -1.8,
-      "positive": 0.0,
-      "negative": 1.8,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "gold",
-          "signal_name": "COMEX黄金期货",
-          "level": "P2",
-          "impact": -1.8,
-          "weight": 0.9,
-          "directness": "A",
-          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600988",
-      "security_name": "赤峰黄金",
-      "score": -1.8,
-      "positive": 0.0,
-      "negative": 1.8,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "gold",
-          "signal_name": "COMEX黄金期货",
-          "level": "P2",
-          "impact": -1.8,
-          "weight": 0.9,
-          "directness": "A",
-          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "002074",
       "security_name": "国轩高科",
       "score": 0.0,
@@ -1395,6 +1290,26 @@
           "weight": 0.6,
           "directness": "B",
           "rationale": "补贴/本地化规则与关税限制方向相反，按事件文本判定。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "601899",
+      "security_name": "紫金矿业",
+      "score": -1.7,
+      "positive": 0.0,
+      "negative": 1.7,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "copper",
+          "signal_name": "COMEX铜期货",
+          "level": "P2",
+          "impact": -1.7,
+          "weight": 0.85,
+          "directness": "A",
+          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
         }
       ],
       "in_final20": false
@@ -1553,26 +1468,6 @@
           "weight": 0.7,
           "directness": "A",
           "rationale": "天然气涨价利好资源端；对煤头化工是海外气头成本上升的相对利好。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "002155",
-      "security_name": "湖南黄金",
-      "score": -1.3,
-      "positive": 0.0,
-      "negative": 1.3,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "gold",
-          "signal_name": "COMEX黄金期货",
-          "level": "P2",
-          "impact": -1.3,
-          "weight": 0.65,
-          "directness": "A",
-          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
         }
       ],
       "in_final20": false
@@ -1992,9 +1887,9 @@
       "error": "bai00 absent from Baltic page"
     },
     {
-      "signal_id": "tsmc_revenue_yoy",
-      "provider": "tsmc",
-      "error": "GET failed after 4 attempts: https://investor.tsmc.com/english/monthly-revenue/2026: 403 Client Error: Forbidden for url: https://investor.tsmc.com/english/monthly-revenue/2026"
+      "signal_id": "acea_bev_share",
+      "provider": "acea",
+      "error": "ACEA official pages did not expose a parseable passenger-registration release"
     },
     {
       "signal_id": "sec_abbvie",
