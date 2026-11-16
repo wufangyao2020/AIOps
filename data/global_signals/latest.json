@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T10:38:30.128818+08:00",
+  "generated_at": "2026-11-16T10:20:34.682296+08:00",
   "run_slot": "am",
   "catalog_version": "1.0.0",
   "signal_results": {
@@ -9,16 +9,16 @@
       "group": "shipping",
       "type": "numeric",
       "latest": 2980.0,
-      "latest_date": "2026-11-14",
-      "pct_1": -1.3245033112582738,
-      "pct_5": 6.238859180035661,
-      "abs_1": -40.0,
-      "abs_5": 175.0,
+      "latest_date": "2026-11-16",
+      "pct_1": 0.0,
+      "pct_5": 4.414856341976181,
+      "abs_1": 0.0,
+      "abs_5": 126.0,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 0,
       "hits": [],
       "provider": "BalticDryIndex.com (Baltic Exchange sourced)",
       "source_url": "https://www.balticdryindex.com/",
@@ -124,12 +124,12 @@
       "name": "COMEX铜期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 6.063499927520752,
-      "latest_date": "2026-11-13",
-      "pct_1": -1.924787064150002,
-      "pct_5": -2.4847219241031393,
-      "abs_1": -0.11899995803833008,
-      "abs_5": -0.15450000762939453,
+      "latest": 6.041500091552734,
+      "latest_date": "2026-11-16",
+      "pct_1": -0.6250531387719582,
+      "pct_5": -4.535035344797322,
+      "abs_1": -0.03800010681152344,
+      "abs_5": -0.2869997024536133,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -138,7 +138,7 @@
       "hits": [
         {
           "metric": "60周期新低",
-          "value": 6.063499927520752,
+          "value": 6.041500091552734,
           "level": "P2"
         }
       ],
@@ -152,12 +152,12 @@
       "name": "CME铝期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3110.25,
-      "latest_date": "2026-11-13",
-      "pct_1": -1.5821533106557983,
-      "pct_5": -3.8933951332560834,
-      "abs_1": -50.0,
-      "abs_5": -126.0,
+      "latest": 3111.75,
+      "latest_date": "2026-11-16",
+      "pct_1": -0.686188462459103,
+      "pct_5": -3.668446714650564,
+      "abs_1": -21.5,
+      "abs_5": -118.5,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -174,18 +174,24 @@
       "name": "COMEX黄金期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3887.60009765625,
-      "latest_date": "2026-11-13",
-      "pct_1": 0.05919874396365099,
-      "pct_5": -4.596427131370051,
-      "abs_1": 2.300048828125,
-      "abs_5": -187.2998046875,
+      "latest": 3886.5,
+      "latest_date": "2026-11-16",
+      "pct_1": 0.005145026615616111,
+      "pct_5": -5.541378053226397,
+      "abs_1": 0.199951171875,
+      "abs_5": -228.0,
       "breakout": false,
       "breakdown": false,
-      "level": "NONE",
-      "severity": 0,
+      "level": "P2",
+      "severity": 2,
       "trend_sign": 1,
-      "hits": [],
+      "hits": [
+        {
+          "metric": "五周期涨跌",
+          "value": -5.541378053226397,
+          "level": "P2"
+        }
+      ],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/GC=F",
       "source_tier": "B",
@@ -196,12 +202,12 @@
       "name": "COMEX白银期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 48.650001525878906,
-      "latest_date": "2026-11-13",
-      "pct_1": -2.6454786539703457,
-      "pct_5": -6.0865196851275005,
-      "abs_1": -1.3219985961914062,
-      "abs_5": -3.1529998779296875,
+      "latest": 47.779998779296875,
+      "latest_date": "2026-11-16",
+      "pct_1": -2.551446015469161,
+      "pct_5": -9.101286948711685,
+      "abs_1": -1.2509994506835938,
+      "abs_5": -4.784000396728516,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -209,8 +215,13 @@
       "trend_sign": -1,
       "hits": [
         {
+          "metric": "五周期涨跌",
+          "value": -9.101286948711685,
+          "level": "P2"
+        },
+        {
           "metric": "60周期新低",
-          "value": 48.650001525878906,
+          "value": 47.779998779296875,
           "level": "P2"
         }
       ],
@@ -224,17 +235,17 @@
       "name": "CBOT玉米期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 446.0,
-      "latest_date": "2026-11-13",
-      "pct_1": 0.7909604519773961,
-      "pct_5": 1.0192525481313774,
-      "abs_1": 3.5,
-      "abs_5": 4.5,
+      "latest": 445.0,
+      "latest_date": "2026-11-16",
+      "pct_1": -0.11223344556677839,
+      "pct_5": 1.3090495162208393,
+      "abs_1": -0.5,
+      "abs_5": 5.75,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZC=F",
@@ -246,17 +257,17 @@
       "name": "CBOT大豆期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 1232.75,
-      "latest_date": "2026-11-13",
-      "pct_1": 0.4686226568867191,
-      "pct_5": 3.6795626576955343,
-      "abs_1": 5.75,
-      "abs_5": 43.75,
+      "latest": 1228.5,
+      "latest_date": "2026-11-16",
+      "pct_1": -1.1665325824617878,
+      "pct_5": 3.9120321421019177,
+      "abs_1": -14.5,
+      "abs_5": 46.25,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZS=F",
@@ -268,17 +279,17 @@
       "name": "CBOT小麦期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 593.5,
-      "latest_date": "2026-11-13",
-      "pct_1": 1.5832263585793704,
-      "pct_5": 0.38054968287526414,
-      "abs_1": 9.25,
-      "abs_5": 2.25,
+      "latest": 588.75,
+      "latest_date": "2026-11-16",
+      "pct_1": -0.7585335018963302,
+      "pct_5": 0.12755102040815647,
+      "abs_1": -4.5,
+      "abs_5": 0.75,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZW=F",
@@ -290,12 +301,12 @@
       "name": "ICE原糖期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 18.399999618530273,
+      "latest": 18.40999984741211,
       "latest_date": "2026-11-13",
-      "pct_1": 0.9879270689316044,
-      "pct_5": 0.8771921569070251,
-      "abs_1": 0.18000030517578125,
-      "abs_5": 0.15999984741210938,
+      "pct_1": 1.0428130692538229,
+      "pct_5": 0.9320179738331325,
+      "abs_1": 0.1900005340576172,
+      "abs_5": 0.1700000762939453,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -312,12 +323,12 @@
       "name": "ICE棉花期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 79.0199966430664,
+      "latest": 78.77999877929688,
       "latest_date": "2026-11-13",
-      "pct_1": 0.4448944734553928,
-      "pct_5": -0.11377065679528675,
-      "abs_1": 0.34999847412109375,
-      "abs_5": -0.09000396728515625,
+      "pct_1": 0.13982536279628643,
+      "pct_5": -0.4171430015278088,
+      "abs_1": 0.1100006103515625,
+      "abs_5": -0.3300018310546875,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -334,17 +345,17 @@
       "name": "美元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 6.670400142669678,
-      "latest_date": "2026-11-13",
-      "pct_1": 0.00150121888249366,
-      "pct_5": -0.26315877657334674,
-      "abs_1": 0.00010013580322265625,
-      "abs_5": -0.017600059509277344,
+      "latest": 6.65910005569458,
+      "latest_date": "2026-11-16",
+      "pct_1": -0.16940643339838912,
+      "pct_5": -0.2531465287848311,
+      "abs_1": -0.011300086975097656,
+      "abs_5": -0.016900062561035156,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/CNY=X",
@@ -356,12 +367,12 @@
       "name": "欧元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 7.3707709312438965,
-      "latest_date": "2026-11-13",
-      "pct_1": -0.4007199053494004,
-      "pct_5": -1.8479546348561193,
-      "abs_1": -0.029654979705810547,
-      "abs_5": -0.13877296447753906,
+      "latest": 7.328700065612793,
+      "latest_date": "2026-11-16",
+      "pct_1": -0.5707797192932684,
+      "pct_5": -1.5192263529238081,
+      "abs_1": -0.042070865631103516,
+      "abs_5": -0.11305713653564453,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -370,7 +381,7 @@
       "hits": [
         {
           "metric": "60周期新低",
-          "value": 7.3707709312438965,
+          "value": 7.328700065612793,
           "level": "P2"
         }
       ],
@@ -384,12 +395,12 @@
       "name": "费城半导体指数",
       "group": "semiconductor",
       "type": "numeric",
-      "latest": 10146.3232421875,
+      "latest": 10146.3203125,
       "latest_date": "2026-11-13",
-      "pct_1": -3.4296944928026596,
-      "pct_5": 8.051683844279967,
-      "abs_1": -360.3466796875,
-      "abs_5": 756.0732421875,
+      "pct_1": -3.4297223768755547,
+      "pct_5": 8.05165264503076,
+      "abs_1": -360.349609375,
+      "abs_5": 756.0703125,
       "breakout": false,
       "breakdown": false,
       "level": "P2",
@@ -398,12 +409,12 @@
       "hits": [
         {
           "metric": "单周期涨跌",
-          "value": -3.4296944928026596,
+          "value": -3.4297223768755547,
           "level": "P2"
         },
         {
           "metric": "五周期涨跌",
-          "value": 8.051683844279967,
+          "value": 8.05165264503076,
           "level": "P2"
         }
       ],
@@ -508,7 +519,7 @@
       "group": "biotech",
       "type": "event",
       "latest": null,
-      "latest_date": "2026-11-14",
+      "latest_date": "2026-11-16",
       "level": "P1",
       "severity": 3,
       "trend_sign": -1,
@@ -518,13 +529,13 @@
           "event_key": "ctg_rongchang:NCT05306574:standing-negative",
           "signal_id": "ctg_rongchang",
           "signal_name": "荣昌生物海外临床状态",
-          "date": "2026-11-14",
+          "date": "2026-11-16",
           "title": "NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)",
           "summary": "持续性负面状态；在状态恢复或替代试验明确前维持风险提示。",
           "source_url": "https://clinicaltrials.gov/study/NCT05306574",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-11-14T10:38:30.128818+08:00"
+          "fetched_at": "2026-11-16T10:20:34.682296+08:00"
         }
       ],
       "source_url": "https://clinicaltrials.gov/data-api/api",
@@ -585,25 +596,12 @@
       "group": "policy",
       "type": "event",
       "latest": null,
-      "latest_date": "2026-11-06",
-      "level": "P1",
-      "severity": 3,
-      "trend_sign": 1,
-      "event_count": 1,
-      "events": [
-        {
-          "event_key": "fr_packaging:2026-22739",
-          "signal_id": "fr_packaging",
-          "signal_name": "美国纸浆模塑/食品包装贸易政策",
-          "date": "2026-11-06",
-          "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots",
-          "summary": "This final rule with comment period revises the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2027 based on our continuing experience with these systems. We also describe the changes to the amounts and factors used to determine the payment rates for Medicare services paid under the OPPS and those paid under the ASC payment systems. In addition, this final rule with comment period updates and refines the requirements for the Hospital Outpatient Quality Reporting Program and the Ambulatory Surgical Center Quality Reporting Program. There are no changes to the Rural Emergency Hospital Quality Reporting Program. We finalized the expansion of the prior authorization requirement to include additional Botulinum Toxin Injection services. We also finalized implementation of certain provisions of the Consolidated Appropriations Act, 2026, for off-campus outpatient departments of a provider. In addition, this final rule with comment period announces notices of closure of teaching hospitals and opportunities to apply for available slots. Additionally, we finalized the policy that hospital accred",
-          "source_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
-          "polarity": 1,
-          "level": "P1",
-          "fetched_at": "2026-11-14T10:38:30.128818+08:00"
-        }
-      ],
+      "latest_date": "",
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": 0,
+      "event_count": 0,
+      "events": [],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
       "source_tier": "A",
       "frequency": "daily"
@@ -614,25 +612,12 @@
       "group": "policy",
       "type": "event",
       "latest": null,
-      "latest_date": "2026-11-06",
-      "level": "P1",
-      "severity": 3,
-      "trend_sign": 1,
-      "event_count": 1,
-      "events": [
-        {
-          "event_key": "fr_battery:2026-22739",
-          "signal_id": "fr_battery",
-          "signal_name": "美国电池与电动车贸易政策",
-          "date": "2026-11-06",
-          "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots",
-          "summary": "This final rule with comment period revises the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2027 based on our continuing experience with these systems. We also describe the changes to the amounts and factors used to determine the payment rates for Medicare services paid under the OPPS and those paid under the ASC payment systems. In addition, this final rule with comment period updates and refines the requirements for the Hospital Outpatient Quality Reporting Program and the Ambulatory Surgical Center Quality Reporting Program. There are no changes to the Rural Emergency Hospital Quality Reporting Program. We finalized the expansion of the prior authorization requirement to include additional Botulinum Toxin Injection services. We also finalized implementation of certain provisions of the Consolidated Appropriations Act, 2026, for off-campus outpatient departments of a provider. In addition, this final rule with comment period announces notices of closure of teaching hospitals and opportunities to apply for available slots. Additionally, we finalized the policy that hospital accred",
-          "source_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
-          "polarity": 1,
-          "level": "P1",
-          "fetched_at": "2026-11-14T10:38:30.128818+08:00"
-        }
-      ],
+      "latest_date": "",
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": 0,
+      "event_count": 0,
+      "events": [],
       "source_url": "https://www.federalregister.gov/developers/documentation/api/v1/",
       "source_tier": "A",
       "frequency": "daily"
@@ -659,11 +644,11 @@
       "group": "agriculture",
       "type": "event",
       "latest": null,
-      "latest_date": "2026-11-12",
+      "latest_date": "2026-11-16",
       "level": "P2",
       "severity": 2,
       "trend_sign": 0,
-      "event_count": 2,
+      "event_count": 3,
       "events": [
         {
           "event_key": "usda_wasde:965bc597e24467dc",
@@ -688,6 +673,18 @@
           "polarity": 0,
           "level": "P2",
           "fetched_at": "2026-11-12T05:24:43.576219+08:00"
+        },
+        {
+          "event_key": "usda_wasde:60c4210f26c45a4b",
+          "signal_id": "usda_wasde",
+          "signal_name": "USDA全球农产品供需报告",
+          "date": "2026-11-16",
+          "title": "USDA WASDE页面出现更新",
+          "summary": "需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。",
+          "source_url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
+          "polarity": 0,
+          "level": "P2",
+          "fetched_at": "2026-11-16T10:20:34.682296+08:00"
         }
       ],
       "source_url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
@@ -1059,26 +1056,6 @@
       "in_final20": true
     },
     {
-      "security_code": "603091",
-      "security_name": "众鑫股份",
-      "score": 0.0,
-      "positive": 0.0,
-      "negative": 0.0,
-      "mixed": 3.0,
-      "signals": [
-        {
-          "signal_id": "fr_packaging",
-          "signal_name": "美国纸浆模塑/食品包装贸易政策",
-          "level": "P1",
-          "impact": 0.0,
-          "weight": 1.0,
-          "directness": "A",
-          "rationale": "塑料限制利好替代，但反倾销/关税利空出口，按文本判定。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
       "security_code": "688012",
       "security_name": "中微公司",
       "score": 2.64,
@@ -1155,26 +1132,6 @@
       "in_final20": false
     },
     {
-      "security_code": "002805",
-      "security_name": "丰元股份",
-      "score": 0.0,
-      "positive": 0.0,
-      "negative": 0.0,
-      "mixed": 2.25,
-      "signals": [
-        {
-          "signal_id": "fr_battery",
-          "signal_name": "美国电池与电动车贸易政策",
-          "level": "P1",
-          "impact": 0.0,
-          "weight": 0.75,
-          "directness": "B",
-          "rationale": "补贴/本地化规则与关税限制方向相反，按事件文本判定。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
       "security_code": "603993",
       "security_name": "洛阳钼业",
       "score": -2.0,
@@ -1195,6 +1152,26 @@
       "in_final20": false
     },
     {
+      "security_code": "600547",
+      "security_name": "山东黄金",
+      "score": 2.0,
+      "positive": 2.0,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "gold",
+          "signal_name": "COMEX黄金期货",
+          "level": "P2",
+          "impact": 2.0,
+          "weight": 1.0,
+          "directness": "A",
+          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "000603",
       "security_name": "盛达资源",
       "score": -2.0,
@@ -1210,26 +1187,6 @@
           "weight": 1.0,
           "directness": "A",
           "rationale": "白银价格影响银资源或副产品价值。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "300750",
-      "security_name": "宁德时代",
-      "score": 0.0,
-      "positive": 0.0,
-      "negative": 0.0,
-      "mixed": 1.9500000000000002,
-      "signals": [
-        {
-          "signal_id": "fr_battery",
-          "signal_name": "美国电池与电动车贸易政策",
-          "level": "P1",
-          "impact": 0.0,
-          "weight": 0.65,
-          "directness": "B",
-          "rationale": "补贴/本地化规则与关税限制方向相反，按事件文本判定。"
         }
       ],
       "in_final20": false
@@ -1275,41 +1232,41 @@
       "in_final20": true
     },
     {
-      "security_code": "002074",
-      "security_name": "国轩高科",
-      "score": 0.0,
-      "positive": 0.0,
+      "security_code": "600489",
+      "security_name": "中金黄金",
+      "score": 1.8,
+      "positive": 1.8,
       "negative": 0.0,
-      "mixed": 1.7999999999999998,
+      "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "fr_battery",
-          "signal_name": "美国电池与电动车贸易政策",
-          "level": "P1",
-          "impact": 0.0,
-          "weight": 0.6,
-          "directness": "B",
-          "rationale": "补贴/本地化规则与关税限制方向相反，按事件文本判定。"
+          "signal_id": "gold",
+          "signal_name": "COMEX黄金期货",
+          "level": "P2",
+          "impact": 1.8,
+          "weight": 0.9,
+          "directness": "A",
+          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
         }
       ],
       "in_final20": false
     },
     {
-      "security_code": "601899",
-      "security_name": "紫金矿业",
-      "score": -1.7,
-      "positive": 0.0,
-      "negative": 1.7,
+      "security_code": "600988",
+      "security_name": "赤峰黄金",
+      "score": 1.8,
+      "positive": 1.8,
+      "negative": 0.0,
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "copper",
-          "signal_name": "COMEX铜期货",
+          "signal_id": "gold",
+          "signal_name": "COMEX黄金期货",
           "level": "P2",
-          "impact": -1.7,
-          "weight": 0.85,
+          "impact": 1.8,
+          "weight": 0.9,
           "directness": "A",
-          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
+          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
         }
       ],
       "in_final20": false
@@ -1330,26 +1287,6 @@
           "weight": 0.85,
           "directness": "A",
           "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "300014",
-      "security_name": "亿纬锂能",
-      "score": 0.0,
-      "positive": 0.0,
-      "negative": 0.0,
-      "mixed": 1.6500000000000001,
-      "signals": [
-        {
-          "signal_id": "fr_battery",
-          "signal_name": "美国电池与电动车贸易政策",
-          "level": "P1",
-          "impact": 0.0,
-          "weight": 0.55,
-          "directness": "B",
-          "rationale": "补贴/本地化规则与关税限制方向相反，按事件文本判定。"
         }
       ],
       "in_final20": false
@@ -1390,26 +1327,6 @@
           "weight": 0.75,
           "directness": "A",
           "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "002709",
-      "security_name": "天赐材料",
-      "score": 0.0,
-      "positive": 0.0,
-      "negative": 0.0,
-      "mixed": 1.5,
-      "signals": [
-        {
-          "signal_id": "fr_battery",
-          "signal_name": "美国电池与电动车贸易政策",
-          "level": "P1",
-          "impact": 0.0,
-          "weight": 0.5,
-          "directness": "B",
-          "rationale": "补贴/本地化规则与关税限制方向相反，按事件文本判定。"
         }
       ],
       "in_final20": false
@@ -1473,6 +1390,26 @@
       "in_final20": false
     },
     {
+      "security_code": "002155",
+      "security_name": "湖南黄金",
+      "score": 1.3,
+      "positive": 1.3,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "gold",
+          "signal_name": "COMEX黄金期货",
+          "level": "P2",
+          "impact": 1.3,
+          "weight": 0.65,
+          "directness": "A",
+          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "600531",
       "security_name": "豫光金铅",
       "score": -1.3,
@@ -1528,26 +1465,6 @@
           "weight": 0.55,
           "directness": "B",
           "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "002831",
-      "security_name": "裕同科技",
-      "score": 0.0,
-      "positive": 0.0,
-      "negative": 0.0,
-      "mixed": 1.0499999999999998,
-      "signals": [
-        {
-          "signal_id": "fr_packaging",
-          "signal_name": "美国纸浆模塑/食品包装贸易政策",
-          "level": "P1",
-          "impact": 0.0,
-          "weight": 0.35,
-          "directness": "C",
-          "rationale": "塑料限制利好替代，但反倾销/关税利空出口，按文本判定。"
         }
       ],
       "in_final20": false
@@ -1733,6 +1650,35 @@
       "in_final20": false
     },
     {
+      "security_code": "601899",
+      "security_name": "紫金矿业",
+      "score": -0.5999999999999999,
+      "positive": 1.1,
+      "negative": 1.7,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "copper",
+          "signal_name": "COMEX铜期货",
+          "level": "P2",
+          "impact": -1.7,
+          "weight": 0.85,
+          "directness": "A",
+          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
+        },
+        {
+          "signal_id": "gold",
+          "signal_name": "COMEX黄金期货",
+          "level": "P2",
+          "impact": 1.1,
+          "weight": 0.55,
+          "directness": "A",
+          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "601002",
       "security_name": "晋亿实业",
       "score": 0.5,
@@ -1887,11 +1833,6 @@
       "error": "bai00 absent from Baltic page"
     },
     {
-      "signal_id": "acea_bev_share",
-      "provider": "acea",
-      "error": "ACEA official pages did not expose a parseable passenger-registration release"
-    },
-    {
       "signal_id": "sec_abbvie",
       "provider": "sec",
       "error": "GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom"
@@ -1904,7 +1845,7 @@
   ],
   "data_health": {
     "configured": 37,
-    "successful": 25,
-    "failed": 12
+    "successful": 26,
+    "failed": 11
   }
 }
