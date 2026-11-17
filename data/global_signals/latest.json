@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T12:43:26.621496+08:00",
-  "run_slot": "pm",
+  "generated_at": "2026-11-18T06:21:59.902402+08:00",
+  "run_slot": "am",
   "catalog_version": "1.0.0",
   "signal_results": {
     "bdi": {
@@ -8,12 +8,12 @@
       "name": "波罗的海干散货指数 BDI",
       "group": "shipping",
       "type": "numeric",
-      "latest": 2921.0,
-      "latest_date": "2026-11-17",
-      "pct_1": -1.9798657718120838,
-      "pct_5": 2.0614954577218736,
-      "abs_1": -59.0,
-      "abs_5": 59.0,
+      "latest": 2893.0,
+      "latest_date": "2026-11-18",
+      "pct_1": -0.9585758301951408,
+      "pct_5": -2.2304832713754608,
+      "abs_1": -28.0,
+      "abs_5": -66.0,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -102,24 +102,18 @@
       "name": "美国10年期国债收益率",
       "group": "rates",
       "type": "numeric",
-      "latest": 5.15,
-      "latest_date": "2026-11-13",
-      "pct_1": 0.9803921568627638,
-      "pct_5": 6.404958677685957,
-      "abs_1": 0.05000000000000071,
-      "abs_5": 0.3100000000000005,
+      "latest": 5.12,
+      "latest_date": "2026-11-16",
+      "pct_1": -0.5825242718446644,
+      "pct_5": 5.349794238683114,
+      "abs_1": -0.03000000000000025,
+      "abs_5": 0.2599999999999998,
       "breakout": false,
       "breakdown": false,
-      "level": "P2",
-      "severity": 2,
-      "trend_sign": 1,
-      "hits": [
-        {
-          "metric": "五周期绝对变化",
-          "value": 0.3100000000000005,
-          "level": "P2"
-        }
-      ],
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": -1,
+      "hits": [],
       "provider": "FRED",
       "source_url": "https://fred.stlouisfed.org/series/DGS10",
       "source_tier": "A",
@@ -130,12 +124,12 @@
       "name": "COMEX铜期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 5.9730000495910645,
+      "latest": 5.994999885559082,
       "latest_date": "2026-11-17",
-      "pct_1": -0.40850176610626177,
-      "pct_5": -3.9633413086030744,
-      "abs_1": -0.024499893188476562,
-      "abs_5": -0.24650001525878906,
+      "pct_1": -0.04168498948413646,
+      "pct_5": -3.609617765896611,
+      "abs_1": -0.0025000572204589844,
+      "abs_5": -0.22450017929077148,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -144,7 +138,7 @@
       "hits": [
         {
           "metric": "60周期新低",
-          "value": 5.9730000495910645,
+          "value": 5.994999885559082,
           "level": "P2"
         }
       ],
@@ -158,12 +152,12 @@
       "name": "CME铝期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3055.5,
+      "latest": 3004.75,
       "latest_date": "2026-11-17",
-      "pct_1": -2.2083533365338415,
-      "pct_5": -3.7713565860955867,
-      "abs_1": -69.0,
-      "abs_5": -119.75,
+      "pct_1": -3.8326132181148997,
+      "pct_5": -5.3696559326037345,
+      "abs_1": -119.75,
+      "abs_5": -170.5,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -171,8 +165,13 @@
       "trend_sign": -1,
       "hits": [
         {
+          "metric": "单周期涨跌",
+          "value": -3.8326132181148997,
+          "level": "P2"
+        },
+        {
           "metric": "60周期新低",
-          "value": 3055.5,
+          "value": 3004.75,
           "level": "P2"
         }
       ],
@@ -186,18 +185,24 @@
       "name": "COMEX黄金期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3868.89990234375,
+      "latest": 3851.89990234375,
       "latest_date": "2026-11-17",
-      "pct_1": 0.41266292093822265,
-      "pct_5": -4.0022840251691,
-      "abs_1": 15.89990234375,
-      "abs_5": -161.300048828125,
+      "pct_1": -0.028551717006231048,
+      "pct_5": -4.4240993248059635,
+      "abs_1": -1.10009765625,
+      "abs_5": -178.300048828125,
       "breakout": false,
-      "breakdown": false,
-      "level": "NONE",
-      "severity": 0,
-      "trend_sign": 1,
-      "hits": [],
+      "breakdown": true,
+      "level": "P2",
+      "severity": 2,
+      "trend_sign": -1,
+      "hits": [
+        {
+          "metric": "60周期新低",
+          "value": 3851.89990234375,
+          "level": "P2"
+        }
+      ],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/GC=F",
       "source_tier": "B",
@@ -208,12 +213,12 @@
       "name": "COMEX白银期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 47.28499984741211,
+      "latest": 47.290000915527344,
       "latest_date": "2026-11-17",
-      "pct_1": 1.06871860987654,
-      "pct_5": -7.467567683981446,
-      "abs_1": 0.5,
-      "abs_5": -3.8160018920898438,
+      "pct_1": 1.0794080790045513,
+      "pct_5": -7.457781049776646,
+      "abs_1": 0.5050010681152344,
+      "abs_5": -3.8110008239746094,
       "breakout": false,
       "breakdown": false,
       "level": "P2",
@@ -222,7 +227,7 @@
       "hits": [
         {
           "metric": "五周期涨跌",
-          "value": -7.467567683981446,
+          "value": -7.457781049776646,
           "level": "P2"
         }
       ],
@@ -236,17 +241,17 @@
       "name": "CBOT玉米期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 449.0,
+      "latest": 446.75,
       "latest_date": "2026-11-17",
-      "pct_1": 0.055710306406675514,
-      "pct_5": 0.0,
-      "abs_1": 0.25,
-      "abs_5": 0.0,
+      "pct_1": -0.4456824512534818,
+      "pct_5": -0.5011135857461047,
+      "abs_1": -2.0,
+      "abs_5": -2.25,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZC=F",
@@ -258,12 +263,12 @@
       "name": "CBOT大豆期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 1227.75,
+      "latest": 1225.5,
       "latest_date": "2026-11-17",
-      "pct_1": -0.10170870626525774,
-      "pct_5": 0.2654144548795534,
-      "abs_1": -1.25,
-      "abs_5": 3.25,
+      "pct_1": -0.2847843775427128,
+      "pct_5": 0.08166598611678566,
+      "abs_1": -3.5,
+      "abs_5": 1.0,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -280,18 +285,24 @@
       "name": "CBOT小麦期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 599.5,
+      "latest": 610.25,
       "latest_date": "2026-11-17",
-      "pct_1": 2.1294718909710353,
-      "pct_5": 1.1387600168705214,
-      "abs_1": 12.5,
-      "abs_5": 6.75,
+      "pct_1": 3.960817717206133,
+      "pct_5": 2.952340784479124,
+      "abs_1": 23.25,
+      "abs_5": 17.5,
       "breakout": false,
       "breakdown": false,
-      "level": "NONE",
-      "severity": 0,
+      "level": "P2",
+      "severity": 2,
       "trend_sign": 1,
-      "hits": [],
+      "hits": [
+        {
+          "metric": "单周期涨跌",
+          "value": 3.960817717206133,
+          "level": "P2"
+        }
+      ],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZW=F",
       "source_tier": "B",
@@ -302,17 +313,17 @@
       "name": "ICE原糖期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 18.100000381469727,
-      "latest_date": "2026-11-16",
-      "pct_1": -1.6838645763810778,
-      "pct_5": -0.6040566091885413,
-      "abs_1": -0.3099994659423828,
-      "abs_5": -0.10999870300292969,
+      "latest": 18.170000076293945,
+      "latest_date": "2026-11-17",
+      "pct_1": 0.3867386372868875,
+      "pct_5": 0.44223285257745104,
+      "abs_1": 0.06999969482421875,
+      "abs_5": 0.07999992370605469,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/SB=F",
@@ -324,22 +335,22 @@
       "name": "ICE棉花期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 81.30999755859375,
-      "latest_date": "2026-11-16",
-      "pct_1": 3.2114734939063583,
-      "pct_5": 3.2114734939063583,
-      "abs_1": 2.529998779296875,
-      "abs_5": 2.529998779296875,
+      "latest": 81.30000305175781,
+      "latest_date": "2026-11-17",
+      "pct_1": 5.584419547737429,
+      "pct_5": 3.316813482494174,
+      "abs_1": 4.3000030517578125,
+      "abs_5": 2.6100006103515625,
       "breakout": false,
       "breakdown": false,
-      "level": "P2",
-      "severity": 2,
+      "level": "P1",
+      "severity": 3,
       "trend_sign": 1,
       "hits": [
         {
           "metric": "单周期涨跌",
-          "value": 3.2114734939063583,
-          "level": "P2"
+          "value": 5.584419547737429,
+          "level": "P1"
         }
       ],
       "provider": "Yahoo public chart endpoint",
@@ -352,12 +363,12 @@
       "name": "美元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 6.6645002365112305,
+      "latest": 6.655300140380859,
       "latest_date": "2026-11-17",
-      "pct_1": -0.0974331779305948,
-      "pct_5": -0.12288416773703625,
-      "abs_1": -0.006499767303466797,
-      "abs_5": -0.008199691772460938,
+      "pct_1": -0.2353449771377636,
+      "pct_5": -0.26076083279392703,
+      "abs_1": -0.01569986343383789,
+      "abs_5": -0.01739978790283203,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -374,12 +385,12 @@
       "name": "欧元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 7.333600044250488,
+      "latest": 7.334700107574463,
       "latest_date": "2026-11-17",
-      "pct_1": -0.29448111123832055,
-      "pct_5": -2.064072086446267,
-      "abs_1": -0.02165985107421875,
-      "abs_5": -0.15456104278564453,
+      "pct_1": -0.27952496638918856,
+      "pct_5": -2.049381385869875,
+      "abs_1": -0.02055978775024414,
+      "abs_5": -0.15346097946166992,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -388,12 +399,12 @@
       "hits": [
         {
           "metric": "五周期涨跌",
-          "value": -2.064072086446267,
+          "value": -2.049381385869875,
           "level": "P2"
         },
         {
           "metric": "60周期新低",
-          "value": 7.333600044250488,
+          "value": 7.334700107574463,
           "level": "P2"
         }
       ],
@@ -407,24 +418,18 @@
       "name": "费城半导体指数",
       "group": "semiconductor",
       "type": "numeric",
-      "latest": 9610.65234375,
-      "latest_date": "2026-11-16",
-      "pct_1": -5.279430889739123,
-      "pct_5": -4.218460333415608,
-      "abs_1": -535.66796875,
-      "abs_5": -423.27734375,
+      "latest": 9642.8779296875,
+      "latest_date": "2026-11-17",
+      "pct_1": 0.33533150986262417,
+      "pct_5": -3.5551151608325227,
+      "abs_1": 32.2275390625,
+      "abs_5": -355.4521484375,
       "breakout": false,
       "breakdown": false,
-      "level": "P1",
-      "severity": 3,
-      "trend_sign": -1,
-      "hits": [
-        {
-          "metric": "单周期涨跌",
-          "value": -5.279430889739123,
-          "level": "P1"
-        }
-      ],
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": 1,
+      "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/^SOX",
       "source_tier": "B",
@@ -526,7 +531,7 @@
       "group": "biotech",
       "type": "event",
       "latest": null,
-      "latest_date": "2026-11-17",
+      "latest_date": "2026-11-18",
       "level": "P1",
       "severity": 3,
       "trend_sign": -1,
@@ -536,13 +541,13 @@
           "event_key": "ctg_rongchang:NCT05306574:standing-negative",
           "signal_id": "ctg_rongchang",
           "signal_name": "荣昌生物海外临床状态",
-          "date": "2026-11-17",
+          "date": "2026-11-18",
           "title": "NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)",
           "summary": "持续性负面状态；在状态恢复或替代试验明确前维持风险提示。",
           "source_url": "https://clinicaltrials.gov/study/NCT05306574",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-11-17T12:43:26.621496+08:00"
+          "fetched_at": "2026-11-18T06:21:59.902402+08:00"
         }
       ],
       "source_url": "https://clinicaltrials.gov/data-api/api",
@@ -655,20 +660,8 @@
       "level": "P2",
       "severity": 2,
       "trend_sign": 0,
-      "event_count": 4,
+      "event_count": 3,
       "events": [
-        {
-          "event_key": "usda_wasde:965bc597e24467dc",
-          "signal_id": "usda_wasde",
-          "signal_name": "USDA全球农产品供需报告",
-          "date": "2026-11-09",
-          "title": "USDA WASDE页面出现更新",
-          "summary": "需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。",
-          "source_url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
-          "polarity": 0,
-          "level": "P2",
-          "fetched_at": "2026-11-09T09:53:08.274629+08:00"
-        },
         {
           "event_key": "usda_wasde:d6f9230a45a2e342",
           "signal_id": "usda_wasde",
@@ -715,9 +708,9 @@
     {
       "security_code": "300308",
       "security_name": "中际旭创",
-      "score": 4.2,
+      "score": 6.0,
       "positive": 6.0,
-      "negative": 1.7999999999999998,
+      "negative": 0.0,
       "mixed": 0.0,
       "signals": [
         {
@@ -737,15 +730,6 @@
           "weight": 1.0,
           "directness": "A",
           "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        },
-        {
-          "signal_id": "sox",
-          "signal_name": "费城半导体指数",
-          "level": "P1",
-          "impact": -1.8,
-          "weight": 0.6,
-          "directness": "C",
-          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
         }
       ],
       "in_final20": false
@@ -753,9 +737,9 @@
     {
       "security_code": "300502",
       "security_name": "新易盛",
-      "score": 4.2,
+      "score": 6.0,
       "positive": 6.0,
-      "negative": 1.7999999999999998,
+      "negative": 0.0,
       "mixed": 0.0,
       "signals": [
         {
@@ -775,15 +759,6 @@
           "weight": 1.0,
           "directness": "A",
           "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        },
-        {
-          "signal_id": "sox",
-          "signal_name": "费城半导体指数",
-          "level": "P1",
-          "impact": -1.8,
-          "weight": 0.6,
-          "directness": "C",
-          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
         }
       ],
       "in_final20": false
@@ -791,9 +766,9 @@
     {
       "security_code": "300476",
       "security_name": "胜宏科技",
-      "score": 3.7800000000000002,
+      "score": 5.4,
       "positive": 5.4,
-      "negative": 1.62,
+      "negative": 0.0,
       "mixed": 0.0,
       "signals": [
         {
@@ -813,15 +788,6 @@
           "weight": 0.9,
           "directness": "A",
           "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        },
-        {
-          "signal_id": "sox",
-          "signal_name": "费城半导体指数",
-          "level": "P1",
-          "impact": -1.62,
-          "weight": 0.54,
-          "directness": "C",
-          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
         }
       ],
       "in_final20": false
@@ -829,9 +795,9 @@
     {
       "security_code": "002463",
       "security_name": "沪电股份",
-      "score": 3.7800000000000002,
+      "score": 5.4,
       "positive": 5.4,
-      "negative": 1.62,
+      "negative": 0.0,
       "mixed": 0.0,
       "signals": [
         {
@@ -851,15 +817,6 @@
           "weight": 0.9,
           "directness": "A",
           "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        },
-        {
-          "signal_id": "sox",
-          "signal_name": "费城半导体指数",
-          "level": "P1",
-          "impact": -1.62,
-          "weight": 0.54,
-          "directness": "C",
-          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
         }
       ],
       "in_final20": false
@@ -867,9 +824,9 @@
     {
       "security_code": "601138",
       "security_name": "工业富联",
-      "score": 3.3600000000000008,
+      "score": 4.800000000000001,
       "positive": 4.800000000000001,
-      "negative": 1.44,
+      "negative": 0.0,
       "mixed": 0.0,
       "signals": [
         {
@@ -889,15 +846,6 @@
           "weight": 0.8,
           "directness": "A",
           "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        },
-        {
-          "signal_id": "sox",
-          "signal_name": "费城半导体指数",
-          "level": "P1",
-          "impact": -1.44,
-          "weight": 0.48,
-          "directness": "C",
-          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
         }
       ],
       "in_final20": false
@@ -905,9 +853,9 @@
     {
       "security_code": "688008",
       "security_name": "澜起科技",
-      "score": 3.1500000000000004,
+      "score": 4.5,
       "positive": 4.5,
-      "negative": 1.3499999999999999,
+      "negative": 0.0,
       "mixed": 0.0,
       "signals": [
         {
@@ -927,15 +875,6 @@
           "weight": 0.75,
           "directness": "B",
           "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        },
-        {
-          "signal_id": "sox",
-          "signal_name": "费城半导体指数",
-          "level": "P1",
-          "impact": -1.35,
-          "weight": 0.44999999999999996,
-          "directness": "C",
-          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
         }
       ],
       "in_final20": false
@@ -943,9 +882,9 @@
     {
       "security_code": "002916",
       "security_name": "深南电路",
-      "score": 3.1500000000000004,
+      "score": 4.5,
       "positive": 4.5,
-      "negative": 1.3499999999999999,
+      "negative": 0.0,
       "mixed": 0.0,
       "signals": [
         {
@@ -965,15 +904,122 @@
           "weight": 0.75,
           "directness": "B",
           "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "603986",
+      "security_name": "兆易创新",
+      "score": 3.9000000000000004,
+      "positive": 3.9000000000000004,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "tsmc_revenue_yoy",
+          "signal_name": "台积电月营收同比",
+          "level": "P1",
+          "impact": 1.95,
+          "weight": 0.65,
+          "directness": "B",
+          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
         },
         {
-          "signal_id": "sox",
-          "signal_name": "费城半导体指数",
+          "signal_id": "sia_sales_yoy",
+          "signal_name": "全球半导体销售额同比",
           "level": "P1",
-          "impact": -1.35,
-          "weight": 0.44999999999999996,
-          "directness": "C",
-          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
+          "impact": 1.95,
+          "weight": 0.65,
+          "directness": "B",
+          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "301308",
+      "security_name": "江波龙",
+      "score": 3.9000000000000004,
+      "positive": 3.9000000000000004,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "tsmc_revenue_yoy",
+          "signal_name": "台积电月营收同比",
+          "level": "P1",
+          "impact": 1.95,
+          "weight": 0.65,
+          "directness": "B",
+          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        },
+        {
+          "signal_id": "sia_sales_yoy",
+          "signal_name": "全球半导体销售额同比",
+          "level": "P1",
+          "impact": 1.95,
+          "weight": 0.65,
+          "directness": "B",
+          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "688012",
+      "security_name": "中微公司",
+      "score": 3.3000000000000003,
+      "positive": 3.3000000000000003,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "tsmc_revenue_yoy",
+          "signal_name": "台积电月营收同比",
+          "level": "P1",
+          "impact": 1.65,
+          "weight": 0.55,
+          "directness": "B",
+          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        },
+        {
+          "signal_id": "sia_sales_yoy",
+          "signal_name": "全球半导体销售额同比",
+          "level": "P1",
+          "impact": 1.65,
+          "weight": 0.55,
+          "directness": "B",
+          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "002371",
+      "security_name": "北方华创",
+      "score": 3.3000000000000003,
+      "positive": 3.3000000000000003,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "tsmc_revenue_yoy",
+          "signal_name": "台积电月营收同比",
+          "level": "P1",
+          "impact": 1.65,
+          "weight": 0.55,
+          "directness": "B",
+          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        },
+        {
+          "signal_id": "sia_sales_yoy",
+          "signal_name": "全球半导体销售额同比",
+          "level": "P1",
+          "impact": 1.65,
+          "weight": 0.55,
+          "directness": "B",
+          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
         }
       ],
       "in_final20": false
@@ -999,153 +1045,128 @@
       "in_final20": true
     },
     {
-      "security_code": "603986",
-      "security_name": "兆易创新",
-      "score": 2.7300000000000004,
-      "positive": 3.9000000000000004,
-      "negative": 1.17,
+      "security_code": "601899",
+      "security_name": "紫金矿业",
+      "score": -2.8,
+      "positive": 0.0,
+      "negative": 2.8,
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "tsmc_revenue_yoy",
-          "signal_name": "台积电月营收同比",
-          "level": "P1",
-          "impact": 1.95,
-          "weight": 0.65,
-          "directness": "B",
-          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+          "signal_id": "copper",
+          "signal_name": "COMEX铜期货",
+          "level": "P2",
+          "impact": -1.7,
+          "weight": 0.85,
+          "directness": "A",
+          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
         },
         {
-          "signal_id": "sia_sales_yoy",
-          "signal_name": "全球半导体销售额同比",
-          "level": "P1",
-          "impact": 1.95,
-          "weight": 0.65,
-          "directness": "B",
-          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        },
-        {
-          "signal_id": "sox",
-          "signal_name": "费城半导体指数",
-          "level": "P1",
-          "impact": -1.17,
-          "weight": 0.39,
-          "directness": "C",
-          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
+          "signal_id": "gold",
+          "signal_name": "COMEX黄金期货",
+          "level": "P2",
+          "impact": -1.1,
+          "weight": 0.55,
+          "directness": "A",
+          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
         }
       ],
       "in_final20": false
     },
     {
-      "security_code": "301308",
-      "security_name": "江波龙",
-      "score": 2.7300000000000004,
-      "positive": 3.9000000000000004,
-      "negative": 1.17,
-      "mixed": 0.0,
+      "security_code": "002311",
+      "security_name": "海大集团",
+      "score": -1.5,
+      "positive": 0.0,
+      "negative": 1.5,
+      "mixed": 1.1,
       "signals": [
         {
-          "signal_id": "tsmc_revenue_yoy",
-          "signal_name": "台积电月营收同比",
-          "level": "P1",
-          "impact": 1.95,
-          "weight": 0.65,
-          "directness": "B",
-          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+          "signal_id": "wheat",
+          "signal_name": "CBOT小麦期货",
+          "level": "P2",
+          "impact": -1.5,
+          "weight": 0.75,
+          "directness": "A",
+          "rationale": "国际谷物上涨可能推高饲料成本。"
         },
         {
-          "signal_id": "sia_sales_yoy",
-          "signal_name": "全球半导体销售额同比",
-          "level": "P1",
-          "impact": 1.95,
-          "weight": 0.65,
+          "signal_id": "usda_wasde",
+          "signal_name": "USDA全球农产品供需报告",
+          "level": "P2",
+          "impact": 0.0,
+          "weight": 0.55,
           "directness": "B",
-          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        },
-        {
-          "signal_id": "sox",
-          "signal_name": "费城半导体指数",
-          "level": "P1",
-          "impact": -1.17,
-          "weight": 0.39,
-          "directness": "C",
-          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
+          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
         }
       ],
       "in_final20": false
     },
     {
-      "security_code": "688012",
-      "security_name": "中微公司",
-      "score": 2.3100000000000005,
-      "positive": 3.3000000000000003,
-      "negative": 0.99,
-      "mixed": 0.0,
+      "security_code": "000876",
+      "security_name": "新希望",
+      "score": -1.3,
+      "positive": 0.0,
+      "negative": 1.3,
+      "mixed": 1.0,
       "signals": [
         {
-          "signal_id": "tsmc_revenue_yoy",
-          "signal_name": "台积电月营收同比",
-          "level": "P1",
-          "impact": 1.65,
-          "weight": 0.55,
-          "directness": "B",
-          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+          "signal_id": "wheat",
+          "signal_name": "CBOT小麦期货",
+          "level": "P2",
+          "impact": -1.3,
+          "weight": 0.65,
+          "directness": "A",
+          "rationale": "国际谷物上涨可能推高饲料成本。"
         },
         {
-          "signal_id": "sia_sales_yoy",
-          "signal_name": "全球半导体销售额同比",
-          "level": "P1",
-          "impact": 1.65,
-          "weight": 0.55,
+          "signal_id": "usda_wasde",
+          "signal_name": "USDA全球农产品供需报告",
+          "level": "P2",
+          "impact": 0.0,
+          "weight": 0.5,
           "directness": "B",
-          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        },
-        {
-          "signal_id": "sox",
-          "signal_name": "费城半导体指数",
-          "level": "P1",
-          "impact": -0.99,
-          "weight": 0.33,
-          "directness": "C",
-          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
+          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
         }
       ],
       "in_final20": false
     },
     {
-      "security_code": "002371",
-      "security_name": "北方华创",
-      "score": 2.3100000000000005,
-      "positive": 3.3000000000000003,
-      "negative": 0.99,
+      "security_code": "600359",
+      "security_name": "新农开发",
+      "score": 2.25,
+      "positive": 2.25,
+      "negative": 0.0,
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "tsmc_revenue_yoy",
-          "signal_name": "台积电月营收同比",
+          "signal_id": "cotton",
+          "signal_name": "ICE棉花期货",
           "level": "P1",
-          "impact": 1.65,
-          "weight": 0.55,
+          "impact": 2.25,
+          "weight": 0.75,
           "directness": "B",
-          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        },
+          "rationale": "国际棉价对棉花种植和加工形成景气映射。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "600540",
+      "security_name": "新赛股份",
+      "score": 2.25,
+      "positive": 2.25,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
         {
-          "signal_id": "sia_sales_yoy",
-          "signal_name": "全球半导体销售额同比",
+          "signal_id": "cotton",
+          "signal_name": "ICE棉花期货",
           "level": "P1",
-          "impact": 1.65,
-          "weight": 0.55,
+          "impact": 2.25,
+          "weight": 0.75,
           "directness": "B",
-          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        },
-        {
-          "signal_id": "sox",
-          "signal_name": "费城半导体指数",
-          "level": "P1",
-          "impact": -0.99,
-          "weight": 0.33,
-          "directness": "C",
-          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
+          "rationale": "国际棉价对棉花种植和加工形成景气映射。"
         }
       ],
       "in_final20": false
@@ -1189,6 +1210,26 @@
         }
       ],
       "in_final20": true
+    },
+    {
+      "security_code": "600547",
+      "security_name": "山东黄金",
+      "score": -2.0,
+      "positive": 0.0,
+      "negative": 2.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "gold",
+          "signal_name": "COMEX黄金期货",
+          "level": "P2",
+          "impact": -2.0,
+          "weight": 1.0,
+          "directness": "A",
+          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
+        }
+      ],
+      "in_final20": false
     },
     {
       "security_code": "000603",
@@ -1291,21 +1332,110 @@
       "in_final20": false
     },
     {
-      "security_code": "601899",
-      "security_name": "紫金矿业",
-      "score": -1.7,
+      "security_code": "600489",
+      "security_name": "中金黄金",
+      "score": -1.8,
       "positive": 0.0,
-      "negative": 1.7,
+      "negative": 1.8,
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "copper",
-          "signal_name": "COMEX铜期货",
+          "signal_id": "gold",
+          "signal_name": "COMEX黄金期货",
           "level": "P2",
-          "impact": -1.7,
-          "weight": 0.85,
+          "impact": -1.8,
+          "weight": 0.9,
           "directness": "A",
-          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
+          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "600988",
+      "security_name": "赤峰黄金",
+      "score": -1.8,
+      "positive": 0.0,
+      "negative": 1.8,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "gold",
+          "signal_name": "COMEX黄金期货",
+          "level": "P2",
+          "impact": -1.8,
+          "weight": 0.9,
+          "directness": "A",
+          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "601339",
+      "security_name": "百隆东方",
+      "score": -1.7999999999999998,
+      "positive": 0.0,
+      "negative": 1.7999999999999998,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "cotton",
+          "signal_name": "ICE棉花期货",
+          "level": "P1",
+          "impact": -1.8,
+          "weight": 0.6,
+          "directness": "B",
+          "rationale": "棉价上涨推高纺织原料成本，库存收益和提价能力可能抵消。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "002042",
+      "security_name": "华孚时尚",
+      "score": -1.7999999999999998,
+      "positive": 0.0,
+      "negative": 1.7999999999999998,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "cotton",
+          "signal_name": "ICE棉花期货",
+          "level": "P1",
+          "impact": -1.8,
+          "weight": 0.6,
+          "directness": "B",
+          "rationale": "棉价上涨推高纺织原料成本，库存收益和提价能力可能抵消。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "300693",
+      "security_name": "盛弘股份",
+      "score": 1.7999999999999998,
+      "positive": 1.7999999999999998,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "tsmc_revenue_yoy",
+          "signal_name": "台积电月营收同比",
+          "level": "P1",
+          "impact": 0.9,
+          "weight": 0.3,
+          "directness": "B",
+          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
+        },
+        {
+          "signal_id": "sia_sales_yoy",
+          "signal_name": "全球半导体销售额同比",
+          "level": "P1",
+          "impact": 0.9,
+          "weight": 0.3,
+          "directness": "B",
+          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
         }
       ],
       "in_final20": false
@@ -1391,41 +1521,21 @@
       "in_final20": false
     },
     {
-      "security_code": "600359",
-      "security_name": "新农开发",
-      "score": 1.5,
-      "positive": 1.5,
-      "negative": 0.0,
+      "security_code": "000726",
+      "security_name": "鲁泰A",
+      "score": -1.5,
+      "positive": 0.0,
+      "negative": 1.5,
       "mixed": 0.0,
       "signals": [
         {
           "signal_id": "cotton",
           "signal_name": "ICE棉花期货",
-          "level": "P2",
-          "impact": 1.5,
-          "weight": 0.75,
+          "level": "P1",
+          "impact": -1.5,
+          "weight": 0.5,
           "directness": "B",
-          "rationale": "国际棉价对棉花种植和加工形成景气映射。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600540",
-      "security_name": "新赛股份",
-      "score": 1.5,
-      "positive": 1.5,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "cotton",
-          "signal_name": "ICE棉花期货",
-          "level": "P2",
-          "impact": 1.5,
-          "weight": 0.75,
-          "directness": "B",
-          "rationale": "国际棉价对棉花种植和加工形成景气映射。"
+          "rationale": "棉价上涨推高纺织原料成本，库存收益和提价能力可能抵消。"
         }
       ],
       "in_final20": false
@@ -1446,6 +1556,75 @@
           "weight": 0.7,
           "directness": "A",
           "rationale": "天然气涨价利好资源端；对煤头化工是海外气头成本上升的相对利好。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "601952",
+      "security_name": "苏垦农发",
+      "score": 0.7,
+      "positive": 0.7,
+      "negative": 0.0,
+      "mixed": 0.7,
+      "signals": [
+        {
+          "signal_id": "wheat",
+          "signal_name": "CBOT小麦期货",
+          "level": "P2",
+          "impact": 0.7,
+          "weight": 0.35,
+          "directness": "C",
+          "rationale": "国际粮价上行是景气映射，但国内定价和政策削弱相关性。"
+        },
+        {
+          "signal_id": "usda_wasde",
+          "signal_name": "USDA全球农产品供需报告",
+          "level": "P2",
+          "impact": 0.0,
+          "weight": 0.35,
+          "directness": "B",
+          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "600251",
+      "security_name": "冠农股份",
+      "score": 1.35,
+      "positive": 1.35,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "cotton",
+          "signal_name": "ICE棉花期货",
+          "level": "P1",
+          "impact": 1.35,
+          "weight": 0.45,
+          "directness": "B",
+          "rationale": "国际棉价对棉花种植和加工形成景气映射。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "002155",
+      "security_name": "湖南黄金",
+      "score": -1.3,
+      "positive": 0.0,
+      "negative": 1.3,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "gold",
+          "signal_name": "COMEX黄金期货",
+          "level": "P2",
+          "impact": -1.3,
+          "weight": 0.65,
+          "directness": "A",
+          "rationale": "黄金价格直接影响黄金矿山收入和资源估值。"
         }
       ],
       "in_final20": false
@@ -1491,84 +1670,6 @@
       "in_final20": false
     },
     {
-      "security_code": "300693",
-      "security_name": "盛弘股份",
-      "score": 1.2599999999999998,
-      "positive": 1.7999999999999998,
-      "negative": 0.54,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "tsmc_revenue_yoy",
-          "signal_name": "台积电月营收同比",
-          "level": "P1",
-          "impact": 0.9,
-          "weight": 0.3,
-          "directness": "B",
-          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        },
-        {
-          "signal_id": "sia_sales_yoy",
-          "signal_name": "全球半导体销售额同比",
-          "level": "P1",
-          "impact": 0.9,
-          "weight": 0.3,
-          "directness": "B",
-          "rationale": "全球芯片/HPC需求先行指标，仍需结合具体产品结构。"
-        },
-        {
-          "signal_id": "sox",
-          "signal_name": "费城半导体指数",
-          "level": "P1",
-          "impact": -0.54,
-          "weight": 0.18,
-          "directness": "C",
-          "rationale": "费城半导体指数只作海外风险偏好与价格确认。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "601339",
-      "security_name": "百隆东方",
-      "score": -1.2,
-      "positive": 0.0,
-      "negative": 1.2,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "cotton",
-          "signal_name": "ICE棉花期货",
-          "level": "P2",
-          "impact": -1.2,
-          "weight": 0.6,
-          "directness": "B",
-          "rationale": "棉价上涨推高纺织原料成本，库存收益和提价能力可能抵消。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "002042",
-      "security_name": "华孚时尚",
-      "score": -1.2,
-      "positive": 0.0,
-      "negative": 1.2,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "cotton",
-          "signal_name": "ICE棉花期货",
-          "level": "P2",
-          "impact": -1.2,
-          "weight": 0.6,
-          "directness": "B",
-          "rationale": "棉价上涨推高纺织原料成本，库存收益和提价能力可能抵消。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "600219",
       "security_name": "南山铝业",
       "score": -1.1,
@@ -1584,66 +1685,6 @@
           "weight": 0.55,
           "directness": "B",
           "rationale": "铝价利好电解铝，但要同时看氧化铝和电力成本。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "002311",
-      "security_name": "海大集团",
-      "score": 0.0,
-      "positive": 0.0,
-      "negative": 0.0,
-      "mixed": 1.1,
-      "signals": [
-        {
-          "signal_id": "usda_wasde",
-          "signal_name": "USDA全球农产品供需报告",
-          "level": "P2",
-          "impact": 0.0,
-          "weight": 0.55,
-          "directness": "B",
-          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "000726",
-      "security_name": "鲁泰A",
-      "score": -1.0,
-      "positive": 0.0,
-      "negative": 1.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "cotton",
-          "signal_name": "ICE棉花期货",
-          "level": "P2",
-          "impact": -1.0,
-          "weight": 0.5,
-          "directness": "B",
-          "rationale": "棉价上涨推高纺织原料成本，库存收益和提价能力可能抵消。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "000876",
-      "security_name": "新希望",
-      "score": 0.0,
-      "positive": 0.0,
-      "negative": 0.0,
-      "mixed": 1.0,
-      "signals": [
-        {
-          "signal_id": "usda_wasde",
-          "signal_name": "USDA全球农产品供需报告",
-          "level": "P2",
-          "impact": 0.0,
-          "weight": 0.5,
-          "directness": "B",
-          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
         }
       ],
       "in_final20": false
@@ -1689,21 +1730,41 @@
       "in_final20": true
     },
     {
-      "security_code": "600251",
-      "security_name": "冠农股份",
-      "score": 0.9,
-      "positive": 0.9,
-      "negative": 0.0,
+      "security_code": "002714",
+      "security_name": "牧原股份",
+      "score": -0.9,
+      "positive": 0.0,
+      "negative": 0.9,
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "cotton",
-          "signal_name": "ICE棉花期货",
+          "signal_id": "wheat",
+          "signal_name": "CBOT小麦期货",
           "level": "P2",
-          "impact": 0.9,
+          "impact": -0.9,
           "weight": 0.45,
           "directness": "B",
-          "rationale": "国际棉价对棉花种植和加工形成景气映射。"
+          "rationale": "国际谷物上涨可能推高饲料成本。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "300498",
+      "security_name": "温氏股份",
+      "score": -0.9,
+      "positive": 0.0,
+      "negative": 0.9,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "wheat",
+          "signal_name": "CBOT小麦期货",
+          "level": "P2",
+          "impact": -0.9,
+          "weight": 0.45,
+          "directness": "B",
+          "rationale": "国际谷物上涨可能推高饲料成本。"
         }
       ],
       "in_final20": false
@@ -1769,26 +1830,6 @@
       "in_final20": false
     },
     {
-      "security_code": "601952",
-      "security_name": "苏垦农发",
-      "score": 0.0,
-      "positive": 0.0,
-      "negative": 0.0,
-      "mixed": 0.7,
-      "signals": [
-        {
-          "signal_id": "usda_wasde",
-          "signal_name": "USDA全球农产品供需报告",
-          "level": "P2",
-          "impact": 0.0,
-          "weight": 0.35,
-          "directness": "B",
-          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "600737",
       "security_name": "中粮糖业",
       "score": 0.0,
@@ -1829,6 +1870,26 @@
       "in_final20": false
     },
     {
+      "security_code": "600598",
+      "security_name": "北大荒",
+      "score": 0.6,
+      "positive": 0.6,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "wheat",
+          "signal_name": "CBOT小麦期货",
+          "level": "P2",
+          "impact": 0.6,
+          "weight": 0.3,
+          "directness": "C",
+          "rationale": "国际粮价上行是景气映射，但国内定价和政策削弱相关性。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "601002",
       "security_name": "晋亿实业",
       "score": 0.5,
@@ -1844,26 +1905,6 @@
           "weight": 0.25,
           "directness": "C",
           "rationale": "海外汽车景气对汽车紧固件需求有间接影响。"
-        }
-      ],
-      "in_final20": true
-    },
-    {
-      "security_code": "600663",
-      "security_name": "陆家嘴",
-      "score": -0.5,
-      "positive": 0.0,
-      "negative": 0.5,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "us10y",
-          "signal_name": "美国10年期国债收益率",
-          "level": "P2",
-          "impact": -0.5,
-          "weight": 0.25,
-          "directness": "C",
-          "rationale": "海外长端利率通过全球估值和汇率间接影响。"
         }
       ],
       "in_final20": true
@@ -1893,26 +1934,6 @@
           "weight": 0.65,
           "directness": "A",
           "rationale": "欧洲汽车及纯电注册变化影响海外配套需求。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "601318",
-      "security_name": "中国平安",
-      "score": -0.4,
-      "positive": 0.0,
-      "negative": 0.4,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "us10y",
-          "signal_name": "美国10年期国债收益率",
-          "level": "P2",
-          "impact": -0.4,
-          "weight": 0.2,
-          "directness": "C",
-          "rationale": "海外长端利率通过全球估值和汇率间接影响。"
         }
       ],
       "in_final20": false
@@ -1974,26 +1995,6 @@
         }
       ],
       "in_final20": false
-    },
-    {
-      "security_code": "603605",
-      "security_name": "珀莱雅",
-      "score": -0.2,
-      "positive": 0.0,
-      "negative": 0.2,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "us10y",
-          "signal_name": "美国10年期国债收益率",
-          "level": "P2",
-          "impact": -0.2,
-          "weight": 0.1,
-          "directness": "C",
-          "rationale": "海外长端利率通过全球估值和汇率间接影响。"
-        }
-      ],
-      "in_final20": true
     }
   ],
   "errors": [
@@ -2043,6 +2044,11 @@
       "error": "bai00 absent from Baltic page"
     },
     {
+      "signal_id": "tsmc_revenue_yoy",
+      "provider": "tsmc",
+      "error": "GET failed after 4 attempts: https://investor.tsmc.com/english/monthly-revenue/2026: 403 Client Error: Forbidden for url: https://investor.tsmc.com/english/monthly-revenue/2026"
+    },
+    {
       "signal_id": "sec_abbvie",
       "provider": "sec",
       "error": "GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom"
@@ -2055,7 +2061,7 @@
   ],
   "data_health": {
     "configured": 37,
-    "successful": 26,
-    "failed": 11
+    "successful": 25,
+    "failed": 12
   }
 }
