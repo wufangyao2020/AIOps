@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T06:21:59.902402+08:00",
+  "generated_at": "2026-11-18T11:49:00.806060+08:00",
   "run_slot": "am",
   "catalog_version": "1.0.0",
   "signal_results": {
@@ -124,12 +124,12 @@
       "name": "COMEX铜期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 5.994999885559082,
-      "latest_date": "2026-11-17",
-      "pct_1": -0.04168498948413646,
-      "pct_5": -3.609617765896611,
-      "abs_1": -0.0025000572204589844,
-      "abs_5": -0.22450017929077148,
+      "latest": 5.901000022888184,
+      "latest_date": "2026-11-18",
+      "pct_1": -1.2550169238895736,
+      "pct_5": -5.952663585280482,
+      "abs_1": -0.07499980926513672,
+      "abs_5": -0.37349987030029297,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -138,7 +138,7 @@
       "hits": [
         {
           "metric": "60周期新低",
-          "value": 5.994999885559082,
+          "value": 5.901000022888184,
           "level": "P2"
         }
       ],
@@ -152,12 +152,12 @@
       "name": "CME铝期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3004.75,
-      "latest_date": "2026-11-17",
-      "pct_1": -3.8326132181148997,
-      "pct_5": -5.3696559326037345,
-      "abs_1": -119.75,
-      "abs_5": -170.5,
+      "latest": 2974.75,
+      "latest_date": "2026-11-18",
+      "pct_1": -2.1705171421524283,
+      "pct_5": -7.845415117719945,
+      "abs_1": -66.0,
+      "abs_5": -253.25,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -165,13 +165,13 @@
       "trend_sign": -1,
       "hits": [
         {
-          "metric": "单周期涨跌",
-          "value": -3.8326132181148997,
+          "metric": "五周期涨跌",
+          "value": -7.845415117719945,
           "level": "P2"
         },
         {
           "metric": "60周期新低",
-          "value": 3004.75,
+          "value": 2974.75,
           "level": "P2"
         }
       ],
@@ -185,12 +185,12 @@
       "name": "COMEX黄金期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3851.89990234375,
-      "latest_date": "2026-11-17",
-      "pct_1": -0.028551717006231048,
-      "pct_5": -4.4240993248059635,
-      "abs_1": -1.10009765625,
-      "abs_5": -178.300048828125,
+      "latest": 3797.89990234375,
+      "latest_date": "2026-11-18",
+      "pct_1": -1.7157509876790544,
+      "pct_5": -5.064369395231849,
+      "abs_1": -66.300048828125,
+      "abs_5": -202.60009765625,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -198,8 +198,13 @@
       "trend_sign": -1,
       "hits": [
         {
+          "metric": "五周期涨跌",
+          "value": -5.064369395231849,
+          "level": "P2"
+        },
+        {
           "metric": "60周期新低",
-          "value": 3851.89990234375,
+          "value": 3797.89990234375,
           "level": "P2"
         }
       ],
@@ -213,21 +218,26 @@
       "name": "COMEX白银期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 47.290000915527344,
-      "latest_date": "2026-11-17",
-      "pct_1": 1.0794080790045513,
-      "pct_5": -7.457781049776646,
-      "abs_1": 0.5050010681152344,
-      "abs_5": -3.8110008239746094,
+      "latest": 46.05500030517578,
+      "latest_date": "2026-11-18",
+      "pct_1": -2.607422477657584,
+      "pct_5": -11.22954483407086,
+      "abs_1": -1.2329978942871094,
+      "abs_5": -5.826000213623047,
       "breakout": false,
-      "breakdown": false,
+      "breakdown": true,
       "level": "P2",
       "severity": 2,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [
         {
           "metric": "五周期涨跌",
-          "value": -7.457781049776646,
+          "value": -11.22954483407086,
+          "level": "P2"
+        },
+        {
+          "metric": "60周期新低",
+          "value": 46.05500030517578,
           "level": "P2"
         }
       ],
@@ -241,12 +251,12 @@
       "name": "CBOT玉米期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 446.75,
-      "latest_date": "2026-11-17",
-      "pct_1": -0.4456824512534818,
-      "pct_5": -0.5011135857461047,
-      "abs_1": -2.0,
-      "abs_5": -2.25,
+      "latest": 445.0,
+      "latest_date": "2026-11-18",
+      "pct_1": -0.3917179630665957,
+      "pct_5": -0.6696428571428603,
+      "abs_1": -1.75,
+      "abs_5": -3.0,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -263,17 +273,17 @@
       "name": "CBOT大豆期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 1225.5,
-      "latest_date": "2026-11-17",
-      "pct_1": -0.2847843775427128,
-      "pct_5": 0.08166598611678566,
-      "abs_1": -3.5,
-      "abs_5": 1.0,
+      "latest": 1225.75,
+      "latest_date": "2026-11-18",
+      "pct_1": 0.0203998368013103,
+      "pct_5": -0.26444263628966347,
+      "abs_1": 0.25,
+      "abs_5": -3.25,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZS=F",
@@ -285,24 +295,18 @@
       "name": "CBOT小麦期货",
       "group": "agriculture",
       "type": "numeric",
-      "latest": 610.25,
-      "latest_date": "2026-11-17",
-      "pct_1": 3.960817717206133,
-      "pct_5": 2.952340784479124,
-      "abs_1": 23.25,
-      "abs_5": 17.5,
+      "latest": 606.25,
+      "latest_date": "2026-11-18",
+      "pct_1": 1.8479630407391756,
+      "pct_5": 1.125938281901595,
+      "abs_1": 11.0,
+      "abs_5": 6.75,
       "breakout": false,
       "breakdown": false,
-      "level": "P2",
-      "severity": 2,
+      "level": "NONE",
+      "severity": 0,
       "trend_sign": 1,
-      "hits": [
-        {
-          "metric": "单周期涨跌",
-          "value": 3.960817717206133,
-          "level": "P2"
-        }
-      ],
+      "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ZW=F",
       "source_tier": "B",
@@ -363,17 +367,17 @@
       "name": "美元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 6.655300140380859,
-      "latest_date": "2026-11-17",
-      "pct_1": -0.2353449771377636,
-      "pct_5": -0.26076083279392703,
-      "abs_1": -0.01569986343383789,
-      "abs_5": -0.01739978790283203,
+      "latest": 6.6656999588012695,
+      "latest_date": "2026-11-18",
+      "pct_1": 0.02251027487436552,
+      "pct_5": -0.06896313599763504,
+      "abs_1": 0.0015001296997070312,
+      "abs_5": -0.004600048065185547,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": -1,
+      "trend_sign": 1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/CNY=X",
@@ -385,12 +389,12 @@
       "name": "欧元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 7.334700107574463,
-      "latest_date": "2026-11-17",
-      "pct_1": -0.27952496638918856,
-      "pct_5": -2.049381385869875,
-      "abs_1": -0.02055978775024414,
-      "abs_5": -0.15346097946166992,
+      "latest": 7.302800178527832,
+      "latest_date": "2026-11-18",
+      "pct_1": -0.37082800603639443,
+      "pct_5": -1.9727972928635151,
+      "abs_1": -0.027181625366210938,
+      "abs_5": -0.14696884155273438,
       "breakout": false,
       "breakdown": true,
       "level": "P2",
@@ -399,12 +403,12 @@
       "hits": [
         {
           "metric": "五周期涨跌",
-          "value": -2.049381385869875,
+          "value": -1.9727972928635151,
           "level": "P2"
         },
         {
           "metric": "60周期新低",
-          "value": 7.334700107574463,
+          "value": 7.302800178527832,
           "level": "P2"
         }
       ],
@@ -547,7 +551,7 @@
           "source_url": "https://clinicaltrials.gov/study/NCT05306574",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-11-18T06:21:59.902402+08:00"
+          "fetched_at": "2026-11-18T11:49:00.806060+08:00"
         }
       ],
       "source_url": "https://clinicaltrials.gov/data-api/api",
@@ -1074,64 +1078,6 @@
       "in_final20": false
     },
     {
-      "security_code": "002311",
-      "security_name": "海大集团",
-      "score": -1.5,
-      "positive": 0.0,
-      "negative": 1.5,
-      "mixed": 1.1,
-      "signals": [
-        {
-          "signal_id": "wheat",
-          "signal_name": "CBOT小麦期货",
-          "level": "P2",
-          "impact": -1.5,
-          "weight": 0.75,
-          "directness": "A",
-          "rationale": "国际谷物上涨可能推高饲料成本。"
-        },
-        {
-          "signal_id": "usda_wasde",
-          "signal_name": "USDA全球农产品供需报告",
-          "level": "P2",
-          "impact": 0.0,
-          "weight": 0.55,
-          "directness": "B",
-          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "000876",
-      "security_name": "新希望",
-      "score": -1.3,
-      "positive": 0.0,
-      "negative": 1.3,
-      "mixed": 1.0,
-      "signals": [
-        {
-          "signal_id": "wheat",
-          "signal_name": "CBOT小麦期货",
-          "level": "P2",
-          "impact": -1.3,
-          "weight": 0.65,
-          "directness": "A",
-          "rationale": "国际谷物上涨可能推高饲料成本。"
-        },
-        {
-          "signal_id": "usda_wasde",
-          "signal_name": "USDA全球农产品供需报告",
-          "level": "P2",
-          "impact": 0.0,
-          "weight": 0.5,
-          "directness": "B",
-          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "600359",
       "security_name": "新农开发",
       "score": 2.25,
@@ -1234,16 +1180,16 @@
     {
       "security_code": "000603",
       "security_name": "盛达资源",
-      "score": 2.0,
-      "positive": 2.0,
-      "negative": 0.0,
+      "score": -2.0,
+      "positive": 0.0,
+      "negative": 2.0,
       "mixed": 0.0,
       "signals": [
         {
           "signal_id": "silver",
           "signal_name": "COMEX白银期货",
           "level": "P2",
-          "impact": 2.0,
+          "impact": -2.0,
           "weight": 1.0,
           "directness": "A",
           "rationale": "白银价格影响银资源或副产品价值。"
@@ -1254,16 +1200,16 @@
     {
       "security_code": "000426",
       "security_name": "兴业银锡",
-      "score": 1.9,
-      "positive": 1.9,
-      "negative": 0.0,
+      "score": -1.9,
+      "positive": 0.0,
+      "negative": 1.9,
       "mixed": 0.0,
       "signals": [
         {
           "signal_id": "silver",
           "signal_name": "COMEX白银期货",
           "level": "P2",
-          "impact": 1.9,
+          "impact": -1.9,
           "weight": 0.95,
           "directness": "A",
           "rationale": "白银价格影响银资源或副产品价值。"
@@ -1561,35 +1507,6 @@
       "in_final20": false
     },
     {
-      "security_code": "601952",
-      "security_name": "苏垦农发",
-      "score": 0.7,
-      "positive": 0.7,
-      "negative": 0.0,
-      "mixed": 0.7,
-      "signals": [
-        {
-          "signal_id": "wheat",
-          "signal_name": "CBOT小麦期货",
-          "level": "P2",
-          "impact": 0.7,
-          "weight": 0.35,
-          "directness": "C",
-          "rationale": "国际粮价上行是景气映射，但国内定价和政策削弱相关性。"
-        },
-        {
-          "signal_id": "usda_wasde",
-          "signal_name": "USDA全球农产品供需报告",
-          "level": "P2",
-          "impact": 0.0,
-          "weight": 0.35,
-          "directness": "B",
-          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
       "security_code": "600251",
       "security_name": "冠农股份",
       "score": 1.35,
@@ -1632,16 +1549,16 @@
     {
       "security_code": "600531",
       "security_name": "豫光金铅",
-      "score": 1.3,
-      "positive": 1.3,
-      "negative": 0.0,
+      "score": -1.3,
+      "positive": 0.0,
+      "negative": 1.3,
       "mixed": 0.0,
       "signals": [
         {
           "signal_id": "silver",
           "signal_name": "COMEX白银期货",
           "level": "P2",
-          "impact": 1.3,
+          "impact": -1.3,
           "weight": 0.65,
           "directness": "A",
           "rationale": "白银价格影响银资源或副产品价值。"
@@ -1690,6 +1607,46 @@
       "in_final20": false
     },
     {
+      "security_code": "002311",
+      "security_name": "海大集团",
+      "score": 0.0,
+      "positive": 0.0,
+      "negative": 0.0,
+      "mixed": 1.1,
+      "signals": [
+        {
+          "signal_id": "usda_wasde",
+          "signal_name": "USDA全球农产品供需报告",
+          "level": "P2",
+          "impact": 0.0,
+          "weight": 0.55,
+          "directness": "B",
+          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "000876",
+      "security_name": "新希望",
+      "score": 0.0,
+      "positive": 0.0,
+      "negative": 0.0,
+      "mixed": 1.0,
+      "signals": [
+        {
+          "signal_id": "usda_wasde",
+          "signal_name": "USDA全球农产品供需报告",
+          "level": "P2",
+          "impact": 0.0,
+          "weight": 0.5,
+          "directness": "B",
+          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "002274",
       "security_name": "华昌化工",
       "score": 0.0,
@@ -1712,62 +1669,22 @@
     {
       "security_code": "000833",
       "security_name": "粤桂股份",
-      "score": 0.9,
-      "positive": 0.9,
-      "negative": 0.0,
+      "score": -0.9,
+      "positive": 0.0,
+      "negative": 0.9,
       "mixed": 0.0,
       "signals": [
         {
           "signal_id": "silver",
           "signal_name": "COMEX白银期货",
           "level": "P2",
-          "impact": 0.9,
+          "impact": -0.9,
           "weight": 0.45,
           "directness": "B",
           "rationale": "白银价格影响银资源或副产品价值。"
         }
       ],
       "in_final20": true
-    },
-    {
-      "security_code": "002714",
-      "security_name": "牧原股份",
-      "score": -0.9,
-      "positive": 0.0,
-      "negative": 0.9,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "wheat",
-          "signal_name": "CBOT小麦期货",
-          "level": "P2",
-          "impact": -0.9,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "国际谷物上涨可能推高饲料成本。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "300498",
-      "security_name": "温氏股份",
-      "score": -0.9,
-      "positive": 0.0,
-      "negative": 0.9,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "wheat",
-          "signal_name": "CBOT小麦期货",
-          "level": "P2",
-          "impact": -0.9,
-          "weight": 0.45,
-          "directness": "B",
-          "rationale": "国际谷物上涨可能推高饲料成本。"
-        }
-      ],
-      "in_final20": false
     },
     {
       "security_code": "601689",
@@ -1830,6 +1747,26 @@
       "in_final20": false
     },
     {
+      "security_code": "601952",
+      "security_name": "苏垦农发",
+      "score": 0.0,
+      "positive": 0.0,
+      "negative": 0.0,
+      "mixed": 0.7,
+      "signals": [
+        {
+          "signal_id": "usda_wasde",
+          "signal_name": "USDA全球农产品供需报告",
+          "level": "P2",
+          "impact": 0.0,
+          "weight": 0.35,
+          "directness": "B",
+          "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "600737",
       "security_name": "中粮糖业",
       "score": 0.0,
@@ -1865,26 +1802,6 @@
           "weight": 0.35,
           "directness": "B",
           "rationale": "WASDE月度重估全球粮食、油籽、糖和棉花供需。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600598",
-      "security_name": "北大荒",
-      "score": 0.6,
-      "positive": 0.6,
-      "negative": 0.0,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "wheat",
-          "signal_name": "CBOT小麦期货",
-          "level": "P2",
-          "impact": 0.6,
-          "weight": 0.3,
-          "directness": "C",
-          "rationale": "国际粮价上行是景气映射，但国内定价和政策削弱相关性。"
         }
       ],
       "in_final20": false
@@ -2044,9 +1961,9 @@
       "error": "bai00 absent from Baltic page"
     },
     {
-      "signal_id": "tsmc_revenue_yoy",
-      "provider": "tsmc",
-      "error": "GET failed after 4 attempts: https://investor.tsmc.com/english/monthly-revenue/2026: 403 Client Error: Forbidden for url: https://investor.tsmc.com/english/monthly-revenue/2026"
+      "signal_id": "acea_bev_share",
+      "provider": "acea",
+      "error": "ACEA official pages did not expose a parseable passenger-registration release"
     },
     {
       "signal_id": "sec_abbvie",

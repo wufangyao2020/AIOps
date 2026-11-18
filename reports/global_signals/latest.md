@@ -1,10 +1,10 @@
-# A股海外产业信号雷达｜2026-11-18 06:21（北京时间）
+# A股海外产业信号雷达｜2026-11-18 11:49（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
-- 触发P1：4条；P2：9条；P3：0条。
+- 触发P1：4条；P2：8条；P3：0条。
 - 数据源成功：25条；失败：12条。
 - 最强信号：台积电月营收同比（P1）；ICE棉花期货（P1）；全球半导体销售额同比（P1）；荣昌生物海外临床状态（P1）；欧洲纯电动车注册份额（P2）。
 
@@ -17,12 +17,11 @@
 |P1|全球半导体销售额同比|146.80|1.73%|1.73%|上行|Semiconductor Industry Association|
 |P1|荣昌生物海外临床状态|1条事件|—|—|下行|A|
 |P2|欧洲纯电动车注册份额|22.70|4.61%|9.66%|上行|ACEA|
-|P2|CBOT小麦期货|610.25|3.96%|2.95%|上行|Yahoo public chart endpoint|
-|P2|CME铝期货|3,004.75|-3.83%|-5.37%|下行|Yahoo public chart endpoint|
-|P2|COMEX白银期货|47.29|1.08%|-7.46%|上行|Yahoo public chart endpoint|
-|P2|欧元兑人民币|7.33|-0.28%|-2.05%|下行|Yahoo public chart endpoint|
-|P2|COMEX铜期货|5.99|-0.04%|-3.61%|下行|Yahoo public chart endpoint|
-|P2|COMEX黄金期货|3,851.90|-0.03%|-4.42%|下行|Yahoo public chart endpoint|
+|P2|COMEX白银期货|46.06|-2.61%|-11.23%|下行|Yahoo public chart endpoint|
+|P2|CME铝期货|2,974.75|-2.17%|-7.85%|下行|Yahoo public chart endpoint|
+|P2|COMEX黄金期货|3,797.90|-1.72%|-5.06%|下行|Yahoo public chart endpoint|
+|P2|COMEX铜期货|5.90|-1.26%|-5.95%|下行|Yahoo public chart endpoint|
+|P2|欧元兑人民币|7.30|-0.37%|-1.97%|下行|Yahoo public chart endpoint|
 |P2|USDA全球农产品供需报告|3条事件|—|—|待判定|A|
 |P2|Henry Hub天然气现货|3.00|0.00%|14.07%|待判定|FRED|
 
@@ -43,15 +42,13 @@
 |002371|北方华创|3.30|3.30|0.00|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)|否|
 |688331|荣昌生物|-3.00|0.00|3.00|0.00|荣昌生物海外临床状态(P1/A)|是|
 |601899|紫金矿业|-2.80|0.00|2.80|0.00|COMEX铜期货(P2/A)；COMEX黄金期货(P2/A)|否|
-|002311|海大集团|-1.50|0.00|1.50|1.10|CBOT小麦期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
-|000876|新希望|-1.30|0.00|1.30|1.00|CBOT小麦期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
 |600359|新农开发|2.25|2.25|0.00|0.00|ICE棉花期货(P1/B)|否|
 |600540|新赛股份|2.25|2.25|0.00|0.00|ICE棉花期货(P1/B)|否|
 |603993|洛阳钼业|-2.00|0.00|2.00|0.00|COMEX铜期货(P2/A)|否|
 |000612|焦作万方|-2.00|0.00|2.00|0.00|CME铝期货(P2/A)|是|
 |600547|山东黄金|-2.00|0.00|2.00|0.00|COMEX黄金期货(P2/A)|否|
-|000603|盛达资源|2.00|2.00|0.00|0.00|COMEX白银期货(P2/A)|否|
-|000426|兴业银锡|1.90|1.90|0.00|0.00|COMEX白银期货(P2/A)|否|
+|000603|盛达资源|-2.00|0.00|2.00|0.00|COMEX白银期货(P2/A)|否|
+|000426|兴业银锡|-1.90|0.00|1.90|0.00|COMEX白银期货(P2/A)|否|
 |000737|北方铜业|-1.80|0.00|1.80|0.00|COMEX铜期货(P2/A)|是|
 |000807|云铝股份|-1.80|0.00|1.80|0.00|CME铝期货(P2/A)|否|
 |000933|神火股份|-1.80|0.00|1.80|0.00|CME铝期货(P2/A)|否|
@@ -60,6 +57,8 @@
 |601339|百隆东方|-1.80|0.00|1.80|0.00|ICE棉花期货(P1/B)|否|
 |002042|华孚时尚|-1.80|0.00|1.80|0.00|ICE棉花期货(P1/B)|否|
 |300693|盛弘股份|1.80|1.80|0.00|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)|否|
+|600362|江西铜业|-1.70|0.00|1.70|0.00|COMEX铜期货(P2/A)|否|
+|601600|中国铝业|-1.60|0.00|1.60|0.00|CME铝期货(P2/A)|否|
 
 ## 最终20只的海外敏感度
 
@@ -112,7 +111,7 @@
 - `blpg`：blpg absent from Baltic page
 - `fbx`：fbx absent from Baltic page
 - `bai00`：bai00 absent from Baltic page
-- `tsmc_revenue_yoy`：GET failed after 4 attempts: https://investor.tsmc.com/english/monthly-revenue/2026: 403 Client Error: Forbidden for url: https://investor.tsmc.com/english/monthly-revenue/2026
+- `acea_bev_share`：ACEA official pages did not expose a parseable passenger-registration release
 - `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
 - `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
 
