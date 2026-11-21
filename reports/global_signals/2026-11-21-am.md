@@ -1,11 +1,11 @@
-# A股海外产业信号雷达｜2026-11-21 05:48（北京时间）
+# A股海外产业信号雷达｜2026-11-21 11:24（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
-- 触发P1：8条；P2：4条；P3：0条。
-- 数据源成功：24条；失败：13条。
+- 触发P1：8条；P2：5条；P3：0条。
+- 数据源成功：25条；失败：12条。
 - 最强信号：费城半导体指数（P1）；台积电月营收同比（P1）；COMEX白银期货（P1）；COMEX黄金期货（P1）；COMEX铜期货（P1）。
 
 ## 触发信号
@@ -14,15 +14,16 @@
 |---|---|---:|---:|---:|---|---|
 |P1|费城半导体指数|8,408.59|-10.73%|-17.13%|下行|Yahoo public chart endpoint|
 |P1|台积电月营收同比|59.70|9.34%|98.34%|上行|TSMC investor relations|
-|P1|COMEX白银期货|40.93|-7.64%|-16.52%|下行|Yahoo public chart endpoint|
-|P1|COMEX黄金期货|3,526.30|-4.32%|-9.26%|下行|Yahoo public chart endpoint|
-|P1|COMEX铜期货|5.46|-2.85%|-10.12%|下行|Yahoo public chart endpoint|
-|P1|CME铝期货|2,772.50|-2.36%|-11.51%|下行|Yahoo public chart endpoint|
+|P1|COMEX白银期货|41.08|-7.31%|-16.22%|下行|Yahoo public chart endpoint|
+|P1|COMEX黄金期货|3,539.00|-3.98%|-8.94%|下行|Yahoo public chart endpoint|
+|P1|COMEX铜期货|5.47|-2.84%|-10.11%|下行|Yahoo public chart endpoint|
 |P1|全球半导体销售额同比|146.80|1.73%|1.73%|上行|Semiconductor Industry Association|
+|P1|CME铝期货|2,796.25|-1.52%|-10.76%|下行|Yahoo public chart endpoint|
 |P1|荣昌生物海外临床状态|1条事件|—|—|下行|A|
 |P2|欧洲纯电动车注册份额|22.70|4.61%|9.66%|上行|ACEA|
 |P2|ICE棉花期货|79.30|4.41%|0.66%|上行|Yahoo public chart endpoint|
 |P2|ICE原糖期货|17.07|-0.52%|-7.28%|下行|Yahoo public chart endpoint|
+|P2|欧元兑人民币|7.29|-0.26%|-0.85%|下行|Yahoo public chart endpoint|
 |P2|USDA全球农产品供需报告|3条事件|—|—|待判定|A|
 
 ## A股优先复核
@@ -111,7 +112,6 @@
 - `blpg`：blpg absent from Baltic page
 - `fbx`：fbx absent from Baltic page
 - `bai00`：bai00 absent from Baltic page
-- `tsmc_revenue_yoy`：GET failed after 4 attempts: https://investor.tsmc.com/english/monthly-revenue/2026: 403 Client Error: Forbidden for url: https://investor.tsmc.com/english/monthly-revenue/2026
 - `acea_bev_share`：ACEA official pages did not expose a parseable passenger-registration release
 - `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
 - `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
