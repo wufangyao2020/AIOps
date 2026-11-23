@@ -1,12 +1,12 @@
-# A股海外产业信号雷达｜2026-11-21 11:24（北京时间）
+# A股海外产业信号雷达｜2026-11-23 11:01（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
-- 触发P1：8条；P2：5条；P3：0条。
-- 数据源成功：25条；失败：12条。
-- 最强信号：费城半导体指数（P1）；台积电月营收同比（P1）；COMEX白银期货（P1）；COMEX黄金期货（P1）；COMEX铜期货（P1）。
+- 触发P1：5条；P2：7条；P3：0条。
+- 数据源成功：24条；失败：13条。
+- 最强信号：费城半导体指数（P1）；台积电月营收同比（P1）；CME铝期货（P1）；全球半导体销售额同比（P1）；荣昌生物海外临床状态（P1）。
 
 ## 触发信号
 
@@ -14,23 +14,21 @@
 |---|---|---:|---:|---:|---|---|
 |P1|费城半导体指数|8,408.59|-10.73%|-17.13%|下行|Yahoo public chart endpoint|
 |P1|台积电月营收同比|59.70|9.34%|98.34%|上行|TSMC investor relations|
-|P1|COMEX白银期货|41.08|-7.31%|-16.22%|下行|Yahoo public chart endpoint|
-|P1|COMEX黄金期货|3,539.00|-3.98%|-8.94%|下行|Yahoo public chart endpoint|
-|P1|COMEX铜期货|5.47|-2.84%|-10.11%|下行|Yahoo public chart endpoint|
+|P1|CME铝期货|2,789.00|-2.48%|-10.74%|下行|Yahoo public chart endpoint|
 |P1|全球半导体销售额同比|146.80|1.73%|1.73%|上行|Semiconductor Industry Association|
-|P1|CME铝期货|2,796.25|-1.52%|-10.76%|下行|Yahoo public chart endpoint|
 |P1|荣昌生物海外临床状态|1条事件|—|—|下行|A|
 |P2|欧洲纯电动车注册份额|22.70|4.61%|9.66%|上行|ACEA|
-|P2|ICE棉花期货|79.30|4.41%|0.66%|上行|Yahoo public chart endpoint|
+|P2|CBOT玉米期货|450.50|3.68%|0.39%|上行|Yahoo public chart endpoint|
+|P2|COMEX黄金期货|3,584.80|1.97%|-6.96%|上行|Yahoo public chart endpoint|
+|P2|COMEX白银期货|41.47|1.07%|-11.35%|上行|Yahoo public chart endpoint|
+|P2|COMEX铜期货|5.44|-0.68%|-9.30%|下行|Yahoo public chart endpoint|
 |P2|ICE原糖期货|17.07|-0.52%|-7.28%|下行|Yahoo public chart endpoint|
-|P2|欧元兑人民币|7.29|-0.26%|-0.85%|下行|Yahoo public chart endpoint|
-|P2|USDA全球农产品供需报告|3条事件|—|—|待判定|A|
+|P2|USDA全球农产品供需报告|4条事件|—|—|待判定|A|
 
 ## A股优先复核
 
 |代码|公司|方向分|正向|负向|待判定|主要触发|最终20|
 |---|---|---:|---:|---:|---:|---|---|
-|601899|紫金矿业|-4.20|0.00|4.20|0.00|COMEX铜期货(P1/A)；COMEX黄金期货(P1/A)|否|
 |300308|中际旭创|4.20|6.00|1.80|0.00|台积电月营收同比(P1/A)；全球半导体销售额同比(P1/A)；费城半导体指数(P1/C)|否|
 |300502|新易盛|4.20|6.00|1.80|0.00|台积电月营收同比(P1/A)；全球半导体销售额同比(P1/A)；费城半导体指数(P1/C)|否|
 |300476|胜宏科技|3.78|5.40|1.62|0.00|台积电月营收同比(P1/A)；全球半导体销售额同比(P1/A)；费城半导体指数(P1/C)|否|
@@ -38,28 +36,29 @@
 |601138|工业富联|3.36|4.80|1.44|0.00|台积电月营收同比(P1/A)；全球半导体销售额同比(P1/A)；费城半导体指数(P1/C)|否|
 |688008|澜起科技|3.15|4.50|1.35|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P1/C)|否|
 |002916|深南电路|3.15|4.50|1.35|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P1/C)|否|
-|603993|洛阳钼业|-3.00|0.00|3.00|0.00|COMEX铜期货(P1/A)|否|
 |000612|焦作万方|-3.00|0.00|3.00|0.00|CME铝期货(P1/A)|是|
-|600547|山东黄金|-3.00|0.00|3.00|0.00|COMEX黄金期货(P1/A)|否|
-|000603|盛达资源|-3.00|0.00|3.00|0.00|COMEX白银期货(P1/A)|否|
 |688331|荣昌生物|-3.00|0.00|3.00|0.00|荣昌生物海外临床状态(P1/A)|是|
-|000426|兴业银锡|-2.85|0.00|2.85|0.00|COMEX白银期货(P1/A)|否|
 |603986|兆易创新|2.73|3.90|1.17|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P1/C)|否|
 |301308|江波龙|2.73|3.90|1.17|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P1/C)|否|
-|000737|北方铜业|-2.70|0.00|2.70|0.00|COMEX铜期货(P1/A)|是|
 |000807|云铝股份|-2.70|0.00|2.70|0.00|CME铝期货(P1/A)|否|
 |000933|神火股份|-2.70|0.00|2.70|0.00|CME铝期货(P1/A)|否|
-|600489|中金黄金|-2.70|0.00|2.70|0.00|COMEX黄金期货(P1/A)|否|
-|600988|赤峰黄金|-2.70|0.00|2.70|0.00|COMEX黄金期货(P1/A)|否|
 |000911|广农糖业|-2.00|0.00|2.00|0.70|ICE原糖期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
-|600362|江西铜业|-2.55|0.00|2.55|0.00|COMEX铜期货(P1/A)|否|
+|002311|海大集团|-1.50|0.00|1.50|1.10|CBOT玉米期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
 |600737|中粮糖业|-1.80|0.00|1.80|0.70|ICE原糖期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
 |601600|中国铝业|-2.40|0.00|2.40|0.00|CME铝期货(P1/A)|否|
 |688012|中微公司|2.31|3.30|0.99|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P1/C)|否|
 |002371|北方华创|2.31|3.30|0.99|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P1/C)|否|
-|000630|铜陵有色|-2.25|0.00|2.25|0.00|COMEX铜期货(P1/A)|否|
-|000878|云南铜业|-2.25|0.00|2.25|0.00|COMEX铜期货(P1/A)|否|
-|000833|粤桂股份|-2.25|0.00|2.25|0.00|COMEX白银期货(P1/B)；ICE原糖期货(P2/B)|是|
+|000876|新希望|-1.30|0.00|1.30|1.00|CBOT玉米期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
+|603993|洛阳钼业|-2.00|0.00|2.00|0.00|COMEX铜期货(P2/A)|否|
+|600547|山东黄金|2.00|2.00|0.00|0.00|COMEX黄金期货(P2/A)|否|
+|000603|盛达资源|2.00|2.00|0.00|0.00|COMEX白银期货(P2/A)|否|
+|000426|兴业银锡|1.90|1.90|0.00|0.00|COMEX白银期货(P2/A)|否|
+|000737|北方铜业|-1.80|0.00|1.80|0.00|COMEX铜期货(P2/A)|是|
+|600489|中金黄金|1.80|1.80|0.00|0.00|COMEX黄金期货(P2/A)|否|
+|600988|赤峰黄金|1.80|1.80|0.00|0.00|COMEX黄金期货(P2/A)|否|
+|600362|江西铜业|-1.70|0.00|1.70|0.00|COMEX铜期货(P2/A)|否|
+|600219|南山铝业|-1.65|0.00|1.65|0.00|CME铝期货(P1/B)|否|
+|000630|铜陵有色|-1.50|0.00|1.50|0.00|COMEX铜期货(P2/A)|否|
 
 ## 最终20只的海外敏感度
 
@@ -88,7 +87,7 @@
 
 ## 新事件
 
-- **荣昌生物海外临床状态｜2026-11-21｜负向**：NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
+- **荣昌生物海外临床状态｜2026-11-23｜负向**：NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
   持续性负面状态；在状态恢复或替代试验明确前维持风险提示。  
   来源：https://clinicaltrials.gov/study/NCT05306574
 - **USDA全球农产品供需报告｜2026-11-16｜待判定**：USDA WASDE页面出现更新  
@@ -98,6 +97,9 @@
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 - **USDA全球农产品供需报告｜2026-11-20｜待判定**：USDA WASDE页面出现更新  
+  需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
+  来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
+- **USDA全球农产品供需报告｜2026-11-23｜待判定**：USDA WASDE页面出现更新  
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 
@@ -112,6 +114,7 @@
 - `blpg`：blpg absent from Baltic page
 - `fbx`：fbx absent from Baltic page
 - `bai00`：bai00 absent from Baltic page
+- `tsmc_revenue_yoy`：GET failed after 4 attempts: https://investor.tsmc.com/english/monthly-revenue/2026: 403 Client Error: Forbidden for url: https://investor.tsmc.com/english/monthly-revenue/2026
 - `acea_bev_share`：ACEA official pages did not expose a parseable passenger-registration release
 - `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
 - `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
