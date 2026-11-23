@@ -23,6 +23,8 @@ from typing import Any
 from urllib.parse import quote
 from zoneinfo import ZoneInfo
 
+from global_signal_alert_policy import snapshot
+
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
@@ -491,7 +493,7 @@ def evaluate_events(signal: dict[str, Any], events: list[dict[str, Any]]) -> dic
         "latest": None, "latest_date": max((str(e.get("date", "")) for e in recent), default=""),
         "level": level, "severity": LEVEL_NUM.get(level, 0),
         "trend_sign": 1 if polarity > 0 else -1 if polarity < 0 else 0,
-        "event_count": len(recent), "events": recent[:20], "source_url": signal.get("source_url", ""),
+        "event_count": len(recent), "events": recent, "source_url": signal.get("source_url", ""),
         "source_tier": signal.get("source_tier", ""), "frequency": signal.get("frequency", ""),
     }
 
@@ -600,7 +602,7 @@ def build_alert(results: dict[str, dict[str, Any]], stocks: list[dict[str, Any]]
         body.append(f"- {stock['security_code']} {stock['security_name']}：方向分{stock['score']:.2f}；" + "、".join(s["signal_name"] for s in stock["signals"][:3]))
     body += ["", "完整报告：`reports/global_signals/latest.md`", "", f"<!-- global-signal-fingerprint:{fp} -->"]
     return {
-        "generated_at": NOW.isoformat(), "issue_required": bool(active) or len(errors) >= 10,
+        "generated_at": NOW.isoformat(), "issue_required": bool(active),
         "max_level": highest, "title": f"[海外产业信号][{highest}] {NOW:%Y-%m-%d} {names}"[:180],
         "body": "\n".join(body), "fingerprint": fp, "active_signal_count": len(active),
     }
@@ -681,8 +683,12 @@ def main() -> int:
         "signal_results": results, "stock_results": stocks, "errors": errors,
         "data_health": {"configured": len(catalog["signals"]), "successful": len(results), "failed": len(errors)},
     }
+    previous_alert = json.loads(ALERT_FILE.read_text("utf-8")) if ALERT_FILE.exists() else {}
+    previous = previous_alert.get("notification_snapshot")
     write_json(LATEST_FILE, latest)
     alert = build_alert(results, stocks, errors)
+    alert["notification_snapshot"] = snapshot(latest, previous)
+    alert["previous_observation"] = previous
     write_json(ALERT_FILE, alert)
     write_json(STATE_FILE, {"updated_at": NOW.isoformat(), "event_state": new_event_state, "page_state": new_page_state})
     log(json.dumps({"configured": len(catalog["signals"]), "successful": len(results), "failed": len(errors),
