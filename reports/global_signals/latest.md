@@ -1,12 +1,12 @@
-# A股海外产业信号雷达｜2026-11-24 09:40（北京时间）
+# A股海外产业信号雷达｜2026-11-24 14:18（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
-- 触发P1：6条；P2：8条；P3：0条。
-- 数据源成功：24条；失败：13条。
-- 最强信号：费城半导体指数（P1）；台积电月营收同比（P1）；ICE棉花期货（P1）；全球半导体销售额同比（P1）；CME铝期货（P1）。
+- 触发P1：4条；P2：11条；P3：0条。
+- 数据源成功：25条；失败：12条。
+- 最强信号：费城半导体指数（P1）；台积电月营收同比（P1）；全球半导体销售额同比（P1）；荣昌生物海外临床状态（P1）；波罗的海干散货指数 BDI（P2）。
 
 ## 触发信号
 
@@ -14,17 +14,18 @@
 |---|---|---:|---:|---:|---|---|
 |P1|费城半导体指数|9,588.05|14.03%|-0.24%|上行|Yahoo public chart endpoint|
 |P1|台积电月营收同比|59.70|9.34%|98.34%|上行|TSMC investor relations|
-|P1|ICE棉花期货|81.21|7.61%|5.47%|上行|Yahoo public chart endpoint|
 |P1|全球半导体销售额同比|146.80|1.73%|1.73%|上行|Semiconductor Industry Association|
-|P1|CME铝期货|2,813.00|-1.64%|-9.97%|下行|Yahoo public chart endpoint|
 |P1|荣昌生物海外临床状态|1条事件|—|—|下行|A|
-|P2|COMEX白银期货|43.46|4.77%|-8.11%|上行|Yahoo public chart endpoint|
-|P2|欧洲纯电动车注册份额|22.70|4.61%|9.66%|上行|ACEA|
 |P2|波罗的海干散货指数 BDI|3,000.00|3.52%|3.70%|上行|BalticDryIndex.com (Baltic Exchange sourced)|
-|P2|ICE原糖期货|17.58|3.23%|-2.87%|上行|Yahoo public chart endpoint|
-|P2|COMEX铜期货|5.59|2.81%|-6.41%|上行|Yahoo public chart endpoint|
-|P2|COMEX黄金期货|3,667.60|2.31%|-5.09%|上行|Yahoo public chart endpoint|
-|P2|欧元兑人民币|7.25|-1.06%|-1.09%|下行|Yahoo public chart endpoint|
+|P2|ICE原糖期货|17.61|3.41%|-2.71%|上行|Yahoo public chart endpoint|
+|P2|CBOT玉米期货|449.00|3.40%|0.50%|上行|Yahoo public chart endpoint|
+|P2|欧洲纯电动车注册份额|23.40|3.08%|13.04%|上行|ACEA|
+|P2|ICE棉花期货|77.53|2.73%|0.69%|上行|Yahoo public chart endpoint|
+|P2|COMEX白银期货|42.03|-2.59%|-11.12%|下行|Yahoo public chart endpoint|
+|P2|COMEX铜期货|5.49|-2.43%|-8.13%|下行|Yahoo public chart endpoint|
+|P2|CME铝期货|2,897.50|1.31%|-7.27%|上行|Yahoo public chart endpoint|
+|P2|欧元兑人民币|7.24|-1.13%|-1.16%|下行|Yahoo public chart endpoint|
+|P2|COMEX黄金期货|3,622.30|-0.80%|-6.26%|下行|Yahoo public chart endpoint|
 |P2|USDA全球农产品供需报告|4条事件|—|—|待判定|A|
 
 ## A股优先复核
@@ -42,25 +43,25 @@
 |301308|江波龙|5.07|5.07|0.00|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P1/C)|否|
 |688012|中微公司|4.29|4.29|0.00|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P1/C)|否|
 |002371|北方华创|4.29|4.29|0.00|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P1/C)|否|
-|000612|焦作万方|-3.00|0.00|3.00|0.00|CME铝期货(P1/A)|是|
 |688331|荣昌生物|-3.00|0.00|3.00|0.00|荣昌生物海外临床状态(P1/A)|是|
-|601899|紫金矿业|2.80|2.80|0.00|0.00|COMEX铜期货(P2/A)；COMEX黄金期货(P2/A)|否|
-|000807|云铝股份|-2.70|0.00|2.70|0.00|CME铝期货(P1/A)|否|
-|000933|神火股份|-2.70|0.00|2.70|0.00|CME铝期货(P1/A)|否|
+|601899|紫金矿业|-2.80|0.00|2.80|0.00|COMEX铜期货(P2/A)；COMEX黄金期货(P2/A)|否|
 |000911|广农糖业|2.00|2.00|0.00|0.70|ICE原糖期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
+|002311|海大集团|-1.50|0.00|1.50|1.10|CBOT玉米期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
 |600737|中粮糖业|1.80|1.80|0.00|0.70|ICE原糖期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
-|601600|中国铝业|-2.40|0.00|2.40|0.00|CME铝期货(P1/A)|否|
 |300693|盛弘股份|2.34|2.34|0.00|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P1/C)|否|
-|600359|新农开发|2.25|2.25|0.00|0.00|ICE棉花期货(P1/B)|否|
-|600540|新赛股份|2.25|2.25|0.00|0.00|ICE棉花期货(P1/B)|否|
+|000876|新希望|-1.30|0.00|1.30|1.00|CBOT玉米期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
 |603162|海通发展|2.00|2.00|0.00|0.00|波罗的海干散货指数 BDI(P2/A)|是|
-|603993|洛阳钼业|2.00|2.00|0.00|0.00|COMEX铜期货(P2/A)|否|
-|600547|山东黄金|2.00|2.00|0.00|0.00|COMEX黄金期货(P2/A)|否|
-|000603|盛达资源|2.00|2.00|0.00|0.00|COMEX白银期货(P2/A)|否|
-|000426|兴业银锡|1.90|1.90|0.00|0.00|COMEX白银期货(P2/A)|否|
+|603993|洛阳钼业|-2.00|0.00|2.00|0.00|COMEX铜期货(P2/A)|否|
+|000612|焦作万方|2.00|2.00|0.00|0.00|CME铝期货(P2/A)|是|
+|600547|山东黄金|-2.00|0.00|2.00|0.00|COMEX黄金期货(P2/A)|否|
+|000603|盛达资源|-2.00|0.00|2.00|0.00|COMEX白银期货(P2/A)|否|
+|000426|兴业银锡|-1.90|0.00|1.90|0.00|COMEX白银期货(P2/A)|否|
 |000520|凤凰航运|1.80|1.80|0.00|0.00|波罗的海干散货指数 BDI(P2/A)|否|
-|000737|北方铜业|1.80|1.80|0.00|0.00|COMEX铜期货(P2/A)|是|
-|600489|中金黄金|1.80|1.80|0.00|0.00|COMEX黄金期货(P2/A)|否|
+|000737|北方铜业|-1.80|0.00|1.80|0.00|COMEX铜期货(P2/A)|是|
+|000807|云铝股份|1.80|1.80|0.00|0.00|CME铝期货(P2/A)|否|
+|000933|神火股份|1.80|1.80|0.00|0.00|CME铝期货(P2/A)|否|
+|600489|中金黄金|-1.80|0.00|1.80|0.00|COMEX黄金期货(P2/A)|否|
+|600988|赤峰黄金|-1.80|0.00|1.80|0.00|COMEX黄金期货(P2/A)|否|
 
 ## 最终20只的海外敏感度
 
@@ -117,7 +118,6 @@
 - `fbx`：fbx absent from Baltic page
 - `bai00`：bai00 absent from Baltic page
 - `tsmc_revenue_yoy`：GET failed after 4 attempts: https://investor.tsmc.com/english/monthly-revenue/2026: 403 Client Error: Forbidden for url: https://investor.tsmc.com/english/monthly-revenue/2026
-- `acea_bev_share`：ACEA official pages did not expose a parseable passenger-registration release
 - `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
 - `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
 
