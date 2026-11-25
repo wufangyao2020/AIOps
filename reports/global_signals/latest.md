@@ -1,64 +1,65 @@
-# A股海外产业信号雷达｜2026-11-25 12:59（北京时间）
+# A股海外产业信号雷达｜2026-11-26 07:05（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
-- 触发P1：6条；P2：6条；P3：0条。
-- 数据源成功：24条；失败：13条。
-- 最强信号：台积电月营收同比（P1）；费城半导体指数（P1）；ICE棉花期货（P1）；CME铝期货（P1）；全球半导体销售额同比（P1）。
+- 触发P1：4条；P2：9条；P3：0条。
+- 数据源成功：25条；失败：12条。
+- 最强信号：台积电月营收同比（P1）；CBOT玉米期货（P1）；全球半导体销售额同比（P1）；荣昌生物海外临床状态（P1）；ICE原糖期货（P2）。
 
 ## 触发信号
 
 |级别|信号|最新值/事件|单周期|五周期|方向|来源|
 |---|---|---:|---:|---:|---|---|
 |P1|台积电月营收同比|59.70|9.34%|98.34%|上行|TSMC investor relations|
-|P1|费城半导体指数|8,832.50|-7.88%|-8.40%|下行|Yahoo public chart endpoint|
-|P1|ICE棉花期货|82.34|6.20%|6.49%|上行|Yahoo public chart endpoint|
-|P1|CME铝期货|2,748.50|-4.32%|-5.84%|下行|Yahoo public chart endpoint|
+|P1|CBOT玉米期货|456.25|5.13%|4.76%|上行|Yahoo public chart endpoint|
 |P1|全球半导体销售额同比|146.80|1.73%|1.73%|上行|Semiconductor Industry Association|
 |P1|荣昌生物海外临床状态|1条事件|—|—|下行|A|
-|P2|CBOT玉米期货|449.50|3.57%|3.21%|上行|Yahoo public chart endpoint|
+|P2|ICE原糖期货|18.42|4.30%|2.11%|上行|Yahoo public chart endpoint|
+|P2|ICE棉花期货|81.97|3.60%|9.34%|上行|Yahoo public chart endpoint|
 |P2|欧洲纯电动车注册份额|23.40|3.08%|13.04%|上行|ACEA|
-|P2|波罗的海干散货指数 BDI|3,068.00|2.27%|5.28%|上行|BalticDryIndex.com (Baltic Exchange sourced)|
-|P2|COMEX白银期货|40.56|-0.50%|-9.88%|下行|Yahoo public chart endpoint|
-|P2|COMEX黄金期货|3,547.80|-0.40%|-5.19%|下行|Yahoo public chart endpoint|
-|P2|USDA全球农产品供需报告|3条事件|—|—|待判定|A|
+|P2|CME铝期货|2,787.00|-2.98%|-4.52%|下行|Yahoo public chart endpoint|
+|P2|COMEX白银期货|41.67|2.23%|-7.40%|上行|Yahoo public chart endpoint|
+|P2|波罗的海干散货指数 BDI|3,107.00|1.27%|7.10%|上行|BalticDryIndex.com (Baltic Exchange sourced)|
+|P2|WTI原油现货|82.24|1.01%|-8.14%|上行|FRED|
+|P2|费城半导体指数|8,774.86|-0.65%|-9.10%|下行|Yahoo public chart endpoint|
+|P2|USDA全球农产品供需报告|2条事件|—|—|待判定|A|
 
 ## A股优先复核
 
 |代码|公司|方向分|正向|负向|待判定|主要触发|最终20|
 |---|---|---:|---:|---:|---:|---|---|
-|300308|中际旭创|4.20|6.00|1.80|0.00|台积电月营收同比(P1/A)；全球半导体销售额同比(P1/A)；费城半导体指数(P1/C)|否|
-|300502|新易盛|4.20|6.00|1.80|0.00|台积电月营收同比(P1/A)；全球半导体销售额同比(P1/A)；费城半导体指数(P1/C)|否|
-|300476|胜宏科技|3.78|5.40|1.62|0.00|台积电月营收同比(P1/A)；全球半导体销售额同比(P1/A)；费城半导体指数(P1/C)|否|
-|002463|沪电股份|3.78|5.40|1.62|0.00|台积电月营收同比(P1/A)；全球半导体销售额同比(P1/A)；费城半导体指数(P1/C)|否|
-|601138|工业富联|3.36|4.80|1.44|0.00|台积电月营收同比(P1/A)；全球半导体销售额同比(P1/A)；费城半导体指数(P1/C)|否|
-|688008|澜起科技|3.15|4.50|1.35|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P1/C)|否|
-|002916|深南电路|3.15|4.50|1.35|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P1/C)|否|
-|000612|焦作万方|-3.00|0.00|3.00|0.00|CME铝期货(P1/A)|是|
+|300308|中际旭创|4.80|6.00|1.20|0.00|台积电月营收同比(P1/A)；全球半导体销售额同比(P1/A)；费城半导体指数(P2/C)|否|
+|300502|新易盛|4.80|6.00|1.20|0.00|台积电月营收同比(P1/A)；全球半导体销售额同比(P1/A)；费城半导体指数(P2/C)|否|
+|300476|胜宏科技|4.32|5.40|1.08|0.00|台积电月营收同比(P1/A)；全球半导体销售额同比(P1/A)；费城半导体指数(P2/C)|否|
+|002463|沪电股份|4.32|5.40|1.08|0.00|台积电月营收同比(P1/A)；全球半导体销售额同比(P1/A)；费城半导体指数(P2/C)|否|
+|601138|工业富联|3.84|4.80|0.96|0.00|台积电月营收同比(P1/A)；全球半导体销售额同比(P1/A)；费城半导体指数(P2/C)|否|
+|688008|澜起科技|3.60|4.50|0.90|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P2/C)|否|
+|002916|深南电路|3.60|4.50|0.90|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P2/C)|否|
+|002311|海大集团|-2.25|0.00|2.25|1.10|CBOT玉米期货(P1/A)；USDA全球农产品供需报告(P2/B)|否|
+|603986|兆易创新|3.12|3.90|0.78|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P2/C)|否|
+|301308|江波龙|3.12|3.90|0.78|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P2/C)|否|
 |688331|荣昌生物|-3.00|0.00|3.00|0.00|荣昌生物海外临床状态(P1/A)|是|
-|603986|兆易创新|2.73|3.90|1.17|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P1/C)|否|
-|301308|江波龙|2.73|3.90|1.17|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P1/C)|否|
-|000807|云铝股份|-2.70|0.00|2.70|0.00|CME铝期货(P1/A)|否|
-|000933|神火股份|-2.70|0.00|2.70|0.00|CME铝期货(P1/A)|否|
-|002311|海大集团|-1.50|0.00|1.50|1.10|CBOT玉米期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
-|601600|中国铝业|-2.40|0.00|2.40|0.00|CME铝期货(P1/A)|否|
-|688012|中微公司|2.31|3.30|0.99|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P1/C)|否|
-|002371|北方华创|2.31|3.30|0.99|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P1/C)|否|
-|000876|新希望|-1.30|0.00|1.30|1.00|CBOT玉米期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
-|600359|新农开发|2.25|2.25|0.00|0.00|ICE棉花期货(P1/B)|否|
-|600540|新赛股份|2.25|2.25|0.00|0.00|ICE棉花期货(P1/B)|否|
+|000876|新希望|-1.95|0.00|1.95|1.00|CBOT玉米期货(P1/A)；USDA全球农产品供需报告(P2/B)|否|
+|000911|广农糖业|2.00|2.00|0.00|0.70|ICE原糖期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
+|688012|中微公司|2.64|3.30|0.66|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P2/C)|否|
+|002371|北方华创|2.64|3.30|0.66|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P2/C)|否|
+|600737|中粮糖业|1.80|1.80|0.00|0.70|ICE原糖期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
 |603162|海通发展|2.00|2.00|0.00|0.00|波罗的海干散货指数 BDI(P2/A)|是|
-|600547|山东黄金|-2.00|0.00|2.00|0.00|COMEX黄金期货(P2/A)|否|
-|000603|盛达资源|-2.00|0.00|2.00|0.00|COMEX白银期货(P2/A)|否|
-|000426|兴业银锡|-1.90|0.00|1.90|0.00|COMEX白银期货(P2/A)|否|
+|000612|焦作万方|-2.00|0.00|2.00|0.00|CME铝期货(P2/A)|是|
+|000603|盛达资源|2.00|2.00|0.00|0.00|COMEX白银期货(P2/A)|否|
+|000426|兴业银锡|1.90|1.90|0.00|0.00|COMEX白银期货(P2/A)|否|
 |000520|凤凰航运|1.80|1.80|0.00|0.00|波罗的海干散货指数 BDI(P2/A)|否|
-|600489|中金黄金|-1.80|0.00|1.80|0.00|COMEX黄金期货(P2/A)|否|
-|600988|赤峰黄金|-1.80|0.00|1.80|0.00|COMEX黄金期货(P2/A)|否|
-|601339|百隆东方|-1.80|0.00|1.80|0.00|ICE棉花期货(P1/B)|否|
-|002042|华孚时尚|-1.80|0.00|1.80|0.00|ICE棉花期货(P1/B)|否|
-|600219|南山铝业|-1.65|0.00|1.65|0.00|CME铝期货(P1/B)|否|
+|000807|云铝股份|-1.80|0.00|1.80|0.00|CME铝期货(P2/A)|否|
+|000933|神火股份|-1.80|0.00|1.80|0.00|CME铝期货(P2/A)|否|
+|000833|粤桂股份|1.80|1.80|0.00|0.00|COMEX白银期货(P2/B)；ICE原糖期货(P2/B)|是|
+|601952|苏垦农发|1.05|1.05|0.00|0.70|CBOT玉米期货(P1/C)；USDA全球农产品供需报告(P2/B)|否|
+|600798|宁波海运|1.60|1.60|0.00|0.00|波罗的海干散货指数 BDI(P2/A)|否|
+|600938|中国海油|1.60|1.60|0.00|0.00|WTI原油现货(P2/B)|否|
+|601600|中国铝业|-1.60|0.00|1.60|0.00|CME铝期货(P2/A)|否|
+|600359|新农开发|1.50|1.50|0.00|0.00|ICE棉花期货(P2/B)|否|
+|600540|新赛股份|1.50|1.50|0.00|0.00|ICE棉花期货(P2/B)|否|
 
 ## 最终20只的海外敏感度
 
@@ -87,12 +88,9 @@
 
 ## 新事件
 
-- **荣昌生物海外临床状态｜2026-11-25｜负向**：NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
+- **荣昌生物海外临床状态｜2026-11-26｜负向**：NCT05306574状态为TERMINATED：A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)  
   持续性负面状态；在状态恢复或替代试验明确前维持风险提示。  
   来源：https://clinicaltrials.gov/study/NCT05306574
-- **USDA全球农产品供需报告｜2026-11-17｜待判定**：USDA WASDE页面出现更新  
-  需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
-  来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 - **USDA全球农产品供需报告｜2026-11-20｜待判定**：USDA WASDE页面出现更新  
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
@@ -111,7 +109,6 @@
 - `blpg`：blpg absent from Baltic page
 - `fbx`：fbx absent from Baltic page
 - `bai00`：bai00 absent from Baltic page
-- `tsmc_revenue_yoy`：GET failed after 4 attempts: https://investor.tsmc.com/english/monthly-revenue/2026: 403 Client Error: Forbidden for url: https://investor.tsmc.com/english/monthly-revenue/2026
 - `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
 - `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
 - `usda_wasde`：GET failed after 4 attempts: https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report: 403 Client Error: Forbidden for url: https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
