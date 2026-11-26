@@ -1,12 +1,12 @@
-# A股海外产业信号雷达｜2026-11-26 07:05（北京时间）
+# A股海外产业信号雷达｜2026-11-26 12:18（北京时间）
 
 > 海外信号只负责提前发现变化，不直接生成买卖指令。必须再用公司公告、季度扣非利润、经营现金流或相对强弱交叉验证。
 
 ## 今日摘要
 
-- 触发P1：4条；P2：9条；P3：0条。
+- 触发P1：4条；P2：10条；P3：0条。
 - 数据源成功：25条；失败：12条。
-- 最强信号：台积电月营收同比（P1）；CBOT玉米期货（P1）；全球半导体销售额同比（P1）；荣昌生物海外临床状态（P1）；ICE原糖期货（P2）。
+- 最强信号：台积电月营收同比（P1）；CBOT玉米期货（P1）；全球半导体销售额同比（P1）；荣昌生物海外临床状态（P1）；COMEX白银期货（P2）。
 
 ## 触发信号
 
@@ -16,15 +16,16 @@
 |P1|CBOT玉米期货|456.25|5.13%|4.76%|上行|Yahoo public chart endpoint|
 |P1|全球半导体销售额同比|146.80|1.73%|1.73%|上行|Semiconductor Industry Association|
 |P1|荣昌生物海外临床状态|1条事件|—|—|下行|A|
+|P2|COMEX白银期货|41.97|4.79%|-5.30%|上行|Yahoo public chart endpoint|
 |P2|ICE原糖期货|18.42|4.30%|2.11%|上行|Yahoo public chart endpoint|
 |P2|ICE棉花期货|81.97|3.60%|9.34%|上行|Yahoo public chart endpoint|
 |P2|欧洲纯电动车注册份额|23.40|3.08%|13.04%|上行|ACEA|
+|P2|COMEX铜期货|5.50|3.07%|-2.29%|上行|Yahoo public chart endpoint|
 |P2|CME铝期货|2,787.00|-2.98%|-4.52%|下行|Yahoo public chart endpoint|
-|P2|COMEX白银期货|41.67|2.23%|-7.40%|上行|Yahoo public chart endpoint|
 |P2|波罗的海干散货指数 BDI|3,107.00|1.27%|7.10%|上行|BalticDryIndex.com (Baltic Exchange sourced)|
 |P2|WTI原油现货|82.24|1.01%|-8.14%|上行|FRED|
 |P2|费城半导体指数|8,774.86|-0.65%|-9.10%|下行|Yahoo public chart endpoint|
-|P2|USDA全球农产品供需报告|2条事件|—|—|待判定|A|
+|P2|USDA全球农产品供需报告|3条事件|—|—|待判定|A|
 
 ## A股优先复核
 
@@ -47,19 +48,19 @@
 |002371|北方华创|2.64|3.30|0.66|0.00|台积电月营收同比(P1/B)；全球半导体销售额同比(P1/B)；费城半导体指数(P2/C)|否|
 |600737|中粮糖业|1.80|1.80|0.00|0.70|ICE原糖期货(P2/A)；USDA全球农产品供需报告(P2/B)|否|
 |603162|海通发展|2.00|2.00|0.00|0.00|波罗的海干散货指数 BDI(P2/A)|是|
+|603993|洛阳钼业|2.00|2.00|0.00|0.00|COMEX铜期货(P2/A)|否|
 |000612|焦作万方|-2.00|0.00|2.00|0.00|CME铝期货(P2/A)|是|
 |000603|盛达资源|2.00|2.00|0.00|0.00|COMEX白银期货(P2/A)|否|
 |000426|兴业银锡|1.90|1.90|0.00|0.00|COMEX白银期货(P2/A)|否|
 |000520|凤凰航运|1.80|1.80|0.00|0.00|波罗的海干散货指数 BDI(P2/A)|否|
+|000737|北方铜业|1.80|1.80|0.00|0.00|COMEX铜期货(P2/A)|是|
 |000807|云铝股份|-1.80|0.00|1.80|0.00|CME铝期货(P2/A)|否|
 |000933|神火股份|-1.80|0.00|1.80|0.00|CME铝期货(P2/A)|否|
 |000833|粤桂股份|1.80|1.80|0.00|0.00|COMEX白银期货(P2/B)；ICE原糖期货(P2/B)|是|
 |601952|苏垦农发|1.05|1.05|0.00|0.70|CBOT玉米期货(P1/C)；USDA全球农产品供需报告(P2/B)|否|
+|601899|紫金矿业|1.70|1.70|0.00|0.00|COMEX铜期货(P2/A)|否|
+|600362|江西铜业|1.70|1.70|0.00|0.00|COMEX铜期货(P2/A)|否|
 |600798|宁波海运|1.60|1.60|0.00|0.00|波罗的海干散货指数 BDI(P2/A)|否|
-|600938|中国海油|1.60|1.60|0.00|0.00|WTI原油现货(P2/B)|否|
-|601600|中国铝业|-1.60|0.00|1.60|0.00|CME铝期货(P2/A)|否|
-|600359|新农开发|1.50|1.50|0.00|0.00|ICE棉花期货(P2/B)|否|
-|600540|新赛股份|1.50|1.50|0.00|0.00|ICE棉花期货(P2/B)|否|
 
 ## 最终20只的海外敏感度
 
@@ -97,6 +98,9 @@
 - **USDA全球农产品供需报告｜2026-11-23｜待判定**：USDA WASDE页面出现更新  
   需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
   来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
+- **USDA全球农产品供需报告｜2026-11-26｜待判定**：USDA WASDE页面出现更新  
+  需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。  
+  来源：https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 
 ## 数据健康
 
@@ -109,9 +113,9 @@
 - `blpg`：blpg absent from Baltic page
 - `fbx`：fbx absent from Baltic page
 - `bai00`：bai00 absent from Baltic page
+- `tsmc_revenue_yoy`：GET failed after 4 attempts: https://investor.tsmc.com/english/monthly-revenue/2026: 403 Client Error: Forbidden for url: https://investor.tsmc.com/english/monthly-revenue/2026
 - `sec_abbvie`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom
 - `sec_hyperscalers`：GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom
-- `usda_wasde`：GET failed after 4 attempts: https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report: 403 Client Error: Forbidden for url: https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report
 
 ## 执行纪律
 

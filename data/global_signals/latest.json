@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T07:05:24.595106+08:00",
-  "run_slot": "am",
+  "generated_at": "2026-11-26T12:18:08.455450+08:00",
+  "run_slot": "pm",
   "catalog_version": "1.0.0",
   "signal_results": {
     "bdi": {
@@ -130,18 +130,24 @@
       "name": "COMEX铜期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 5.481500148773193,
-      "latest_date": "2026-11-25",
-      "pct_1": 2.2191133576821898,
-      "pct_5": -3.1451536259001767,
-      "abs_1": 0.11899995803833008,
-      "abs_5": -0.17799997329711914,
+      "latest": 5.495999813079834,
+      "latest_date": "2026-11-26",
+      "pct_1": 3.066100942112193,
+      "pct_5": -2.2933366563585023,
+      "abs_1": 0.1634998321533203,
+      "abs_5": -0.12900018692016602,
       "breakout": false,
       "breakdown": false,
-      "level": "NONE",
-      "severity": 0,
+      "level": "P2",
+      "severity": 2,
       "trend_sign": 1,
-      "hits": [],
+      "hits": [
+        {
+          "metric": "单周期涨跌",
+          "value": 3.066100942112193,
+          "level": "P2"
+        }
+      ],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/HG=F",
       "source_tier": "B",
@@ -185,12 +191,12 @@
       "name": "COMEX黄金期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3617.800048828125,
-      "latest_date": "2026-11-25",
-      "pct_1": 1.5693912804116916,
-      "pct_5": -3.3164931386297836,
-      "abs_1": 55.900146484375,
-      "abs_5": -124.099853515625,
+      "latest": 3605.60009765625,
+      "latest_date": "2026-11-26",
+      "pct_1": 1.9740949110303552,
+      "pct_5": -2.167952851546606,
+      "abs_1": 69.800048828125,
+      "abs_5": -79.89990234375,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -207,12 +213,12 @@
       "name": "COMEX白银期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 41.66999816894531,
-      "latest_date": "2026-11-25",
-      "pct_1": 2.232580679306273,
-      "pct_5": -7.397947376014924,
-      "abs_1": 0.9099998474121094,
-      "abs_5": -3.3290023803710938,
+      "latest": 41.970001220703125,
+      "latest_date": "2026-11-26",
+      "pct_1": 4.788782511290424,
+      "pct_5": -5.298071958833839,
+      "abs_1": 1.9180030822753906,
+      "abs_5": -2.3479995727539062,
       "breakout": false,
       "breakdown": false,
       "level": "P2",
@@ -220,8 +226,8 @@
       "trend_sign": 1,
       "hits": [
         {
-          "metric": "五周期涨跌",
-          "value": -7.397947376014924,
+          "metric": "单周期涨跌",
+          "value": 4.788782511290424,
           "level": "P2"
         }
       ],
@@ -368,12 +374,12 @@
       "name": "美元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 6.659299850463867,
-      "latest_date": "2026-11-25",
-      "pct_1": -0.07502835207372494,
-      "pct_5": -0.12448713510169185,
-      "abs_1": -0.005000114440917969,
-      "abs_5": -0.008300304412841797,
+      "latest": 6.662700176239014,
+      "latest_date": "2026-11-26",
+      "pct_1": -0.019505673567898896,
+      "pct_5": -0.057000153926878294,
+      "abs_1": -0.0012998580932617188,
+      "abs_5": -0.003799915313720703,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -390,17 +396,17 @@
       "name": "欧元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 7.298299789428711,
-      "latest_date": "2026-11-25",
-      "pct_1": 0.3909144961857347,
-      "pct_5": -0.2356243497744992,
-      "abs_1": 0.028419017791748047,
-      "abs_5": -0.017237186431884766,
+      "latest": 7.302800178527832,
+      "latest_date": "2026-11-26",
+      "pct_1": -0.03579502219435149,
+      "pct_5": -0.12149048589737976,
+      "abs_1": -0.0026149749755859375,
+      "abs_5": -0.008882999420166016,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
       "severity": 0,
-      "trend_sign": 1,
+      "trend_sign": -1,
       "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/EURCNY=X",
@@ -547,7 +553,7 @@
           "source_url": "https://clinicaltrials.gov/study/NCT05306574",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-11-26T07:05:24.595106+08:00"
+          "fetched_at": "2026-11-26T12:18:08.455450+08:00"
         }
       ],
       "source_url": "https://clinicaltrials.gov/data-api/api",
@@ -656,11 +662,11 @@
       "group": "agriculture",
       "type": "event",
       "latest": null,
-      "latest_date": "2026-11-23",
+      "latest_date": "2026-11-26",
       "level": "P2",
       "severity": 2,
       "trend_sign": 0,
-      "event_count": 2,
+      "event_count": 3,
       "events": [
         {
           "event_key": "usda_wasde:523851b8e49b4dc1",
@@ -685,6 +691,18 @@
           "polarity": 0,
           "level": "P2",
           "fetched_at": "2026-11-23T11:01:18.131314+08:00"
+        },
+        {
+          "event_key": "usda_wasde:a9f1858ae47c27a2",
+          "signal_id": "usda_wasde",
+          "signal_name": "USDA全球农产品供需报告",
+          "date": "2026-11-26",
+          "title": "USDA WASDE页面出现更新",
+          "summary": "需比较小麦、粗粮、油籽、糖和棉花的产量及库存消费比修正。",
+          "source_url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
+          "polarity": 0,
+          "level": "P2",
+          "fetched_at": "2026-11-26T12:18:08.455450+08:00"
         }
       ],
       "source_url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
@@ -1268,6 +1286,26 @@
       "in_final20": true
     },
     {
+      "security_code": "603993",
+      "security_name": "洛阳钼业",
+      "score": 2.0,
+      "positive": 2.0,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "copper",
+          "signal_name": "COMEX铜期货",
+          "level": "P2",
+          "impact": 2.0,
+          "weight": 1.0,
+          "directness": "A",
+          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "000612",
       "security_name": "焦作万方",
       "score": -2.0,
@@ -1346,6 +1384,26 @@
         }
       ],
       "in_final20": false
+    },
+    {
+      "security_code": "000737",
+      "security_name": "北方铜业",
+      "score": 1.8,
+      "positive": 1.8,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "copper",
+          "signal_name": "COMEX铜期货",
+          "level": "P2",
+          "impact": 1.8,
+          "weight": 0.9,
+          "directness": "A",
+          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
+        }
+      ],
+      "in_final20": true
     },
     {
       "security_code": "000807",
@@ -1446,6 +1504,46 @@
       "in_final20": false
     },
     {
+      "security_code": "601899",
+      "security_name": "紫金矿业",
+      "score": 1.7,
+      "positive": 1.7,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "copper",
+          "signal_name": "COMEX铜期货",
+          "level": "P2",
+          "impact": 1.7,
+          "weight": 0.85,
+          "directness": "A",
+          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "600362",
+      "security_name": "江西铜业",
+      "score": 1.7,
+      "positive": 1.7,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "copper",
+          "signal_name": "COMEX铜期货",
+          "level": "P2",
+          "impact": 1.7,
+          "weight": 0.85,
+          "directness": "A",
+          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
       "security_code": "600798",
       "security_name": "宁波海运",
       "score": 1.6,
@@ -1501,6 +1599,46 @@
           "weight": 0.8,
           "directness": "A",
           "rationale": "铝价利好电解铝，但要同时看氧化铝和电力成本。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "000630",
+      "security_name": "铜陵有色",
+      "score": 1.5,
+      "positive": 1.5,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "copper",
+          "signal_name": "COMEX铜期货",
+          "level": "P2",
+          "impact": 1.5,
+          "weight": 0.75,
+          "directness": "A",
+          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "000878",
+      "security_name": "云南铜业",
+      "score": 1.5,
+      "positive": 1.5,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "copper",
+          "signal_name": "COMEX铜期货",
+          "level": "P2",
+          "impact": 1.5,
+          "weight": 0.75,
+          "directness": "A",
+          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
         }
       ],
       "in_final20": false
@@ -2051,6 +2189,11 @@
       "error": "bai00 absent from Baltic page"
     },
     {
+      "signal_id": "tsmc_revenue_yoy",
+      "provider": "tsmc",
+      "error": "GET failed after 4 attempts: https://investor.tsmc.com/english/monthly-revenue/2026: 403 Client Error: Forbidden for url: https://investor.tsmc.com/english/monthly-revenue/2026"
+    },
+    {
       "signal_id": "sec_abbvie",
       "provider": "sec",
       "error": "GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551152&type=&owner=exclude&count=40&output=atom"
@@ -2059,11 +2202,6 @@
       "signal_id": "sec_hyperscalers",
       "provider": "sec",
       "error": "GET failed after 2 attempts: https://www.sec.gov/cgi-bin/browse-edgar: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=&owner=exclude&count=40&output=atom"
-    },
-    {
-      "signal_id": "usda_wasde",
-      "provider": "usda",
-      "error": "GET failed after 4 attempts: https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report: 403 Client Error: Forbidden for url: https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report"
     }
   ],
   "data_health": {

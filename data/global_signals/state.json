@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T07:05:24.595106+08:00",
+  "updated_at": "2026-11-26T12:18:08.455450+08:00",
   "event_state": {
     "ctg_rongchang": {
       "NCT07462143": {
@@ -45,6 +45,6 @@
     }
   },
   "page_state": {
-    "usda_wasde": "95ce4d3efb230de460ff04a57bbd1a0ed60f9fae9f466764c2208ab44b3248a3"
+    "usda_wasde": "a9f1858ae47c27a2be3f8bc89872506f0845a75ee621de15a1208a507d9705e2"
   }
 }
