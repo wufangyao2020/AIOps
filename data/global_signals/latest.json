@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T06:59:07.927869+08:00",
-  "run_slot": "am",
+  "generated_at": "2026-11-27T12:27:36.047984+08:00",
+  "run_slot": "pm",
   "catalog_version": "1.0.0",
   "signal_results": {
     "bdi": {
@@ -135,18 +135,24 @@
       "name": "COMEX铜期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 5.433499813079834,
-      "latest_date": "2026-11-26",
-      "pct_1": 1.894042803836471,
-      "pct_5": -3.4044477674696205,
-      "abs_1": 0.10099983215332031,
-      "abs_5": -0.19150018692016602,
+      "latest": 5.644499778747559,
+      "latest_date": "2026-11-27",
+      "pct_1": 3.883315964413825,
+      "pct_5": 3.058235074005089,
+      "abs_1": 0.2109999656677246,
+      "abs_5": 0.16749954223632812,
       "breakout": false,
       "breakdown": false,
-      "level": "NONE",
-      "severity": 0,
+      "level": "P2",
+      "severity": 2,
       "trend_sign": 1,
-      "hits": [],
+      "hits": [
+        {
+          "metric": "单周期涨跌",
+          "value": 3.883315964413825,
+          "level": "P2"
+        }
+      ],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/HG=F",
       "source_tier": "B",
@@ -157,24 +163,18 @@
       "name": "CME铝期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 2774.5,
-      "latest_date": "2026-11-26",
-      "pct_1": -1.7093260118678621,
-      "pct_5": -2.289135411163934,
-      "abs_1": -48.25,
-      "abs_5": -65.0,
+      "latest": 2813.0,
+      "latest_date": "2026-11-27",
+      "pct_1": 1.3876374121463364,
+      "pct_5": -1.6433566433566416,
+      "abs_1": 38.5,
+      "abs_5": -47.0,
       "breakout": false,
-      "breakdown": true,
-      "level": "P2",
-      "severity": 2,
-      "trend_sign": -1,
-      "hits": [
-        {
-          "metric": "60周期新低",
-          "value": 2774.5,
-          "level": "P2"
-        }
-      ],
+      "breakdown": false,
+      "level": "NONE",
+      "severity": 0,
+      "trend_sign": 1,
+      "hits": [],
       "provider": "Yahoo public chart endpoint",
       "source_url": "https://finance.yahoo.com/quote/ALI=F",
       "source_tier": "B",
@@ -185,12 +185,12 @@
       "name": "COMEX黄金期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 3593.39990234375,
-      "latest_date": "2026-11-26",
-      "pct_1": 1.6290472515468002,
-      "pct_5": -2.4989851487247305,
-      "abs_1": 57.599853515625,
-      "abs_5": -92.10009765625,
+      "latest": 3661.10009765625,
+      "latest_date": "2026-11-27",
+      "pct_1": 1.8840150596192595,
+      "pct_5": 4.14462648233449,
+      "abs_1": 67.7001953125,
+      "abs_5": 145.7001953125,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -207,12 +207,12 @@
       "name": "COMEX白银期货",
       "group": "metals",
       "type": "numeric",
-      "latest": 41.75,
-      "latest_date": "2026-11-26",
-      "pct_1": 4.239493509671188,
-      "pct_5": -5.794486997338022,
-      "abs_1": 1.6980018615722656,
-      "abs_5": -2.5680007934570312,
+      "latest": 43.79499816894531,
+      "latest_date": "2026-11-27",
+      "pct_1": 4.898199207054632,
+      "pct_5": 6.725961573769235,
+      "abs_1": 2.0449981689453125,
+      "abs_5": 2.759998321533203,
       "breakout": false,
       "breakdown": false,
       "level": "P2",
@@ -221,7 +221,7 @@
       "hits": [
         {
           "metric": "单周期涨跌",
-          "value": 4.239493509671188,
+          "value": 4.898199207054632,
           "level": "P2"
         }
       ],
@@ -363,12 +363,12 @@
       "name": "美元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 6.659200191497803,
-      "latest_date": "2026-11-26",
-      "pct_1": -0.0720264527272585,
-      "pct_5": -0.10950123685112834,
-      "abs_1": -0.004799842834472656,
-      "abs_5": -0.007299900054931641,
+      "latest": 6.662300109863281,
+      "latest_date": "2026-11-27",
+      "pct_1": -0.025509070531759548,
+      "pct_5": 0.0,
+      "abs_1": -0.0016999244689941406,
+      "abs_5": 0.0,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -385,12 +385,12 @@
       "name": "欧元兑人民币",
       "group": "fx",
       "type": "numeric",
-      "latest": 7.30709981918335,
-      "latest_date": "2026-11-26",
-      "pct_1": 0.0230605057280453,
-      "pct_5": -0.06268541255277649,
-      "abs_1": 0.0016846656799316406,
-      "abs_5": -0.0045833587646484375,
+      "latest": 7.311999797821045,
+      "latest_date": "2026-11-27",
+      "pct_1": 0.022105557985629964,
+      "pct_5": 0.26051797603456883,
+      "abs_1": 0.0016160011291503906,
+      "abs_5": 0.018999576568603516,
       "breakout": false,
       "breakdown": false,
       "level": "NONE",
@@ -542,7 +542,7 @@
           "source_url": "https://clinicaltrials.gov/study/NCT05306574",
           "polarity": -1,
           "level": "P1",
-          "fetched_at": "2026-11-27T06:59:07.927869+08:00"
+          "fetched_at": "2026-11-27T12:27:36.047984+08:00"
         }
       ],
       "source_url": "https://clinicaltrials.gov/data-api/api",
@@ -1275,24 +1275,24 @@
       "in_final20": true
     },
     {
-      "security_code": "000612",
-      "security_name": "焦作万方",
-      "score": -2.0,
-      "positive": 0.0,
-      "negative": 2.0,
+      "security_code": "603993",
+      "security_name": "洛阳钼业",
+      "score": 2.0,
+      "positive": 2.0,
+      "negative": 0.0,
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "aluminum",
-          "signal_name": "CME铝期货",
+          "signal_id": "copper",
+          "signal_name": "COMEX铜期货",
           "level": "P2",
-          "impact": -2.0,
+          "impact": 2.0,
           "weight": 1.0,
           "directness": "A",
-          "rationale": "铝价利好电解铝，但要同时看氧化铝和电力成本。"
+          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
         }
       ],
-      "in_final20": true
+      "in_final20": false
     },
     {
       "security_code": "000603",
@@ -1355,44 +1355,24 @@
       "in_final20": false
     },
     {
-      "security_code": "000807",
-      "security_name": "云铝股份",
-      "score": -1.8,
-      "positive": 0.0,
-      "negative": 1.8,
+      "security_code": "000737",
+      "security_name": "北方铜业",
+      "score": 1.8,
+      "positive": 1.8,
+      "negative": 0.0,
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "aluminum",
-          "signal_name": "CME铝期货",
+          "signal_id": "copper",
+          "signal_name": "COMEX铜期货",
           "level": "P2",
-          "impact": -1.8,
+          "impact": 1.8,
           "weight": 0.9,
           "directness": "A",
-          "rationale": "铝价利好电解铝，但要同时看氧化铝和电力成本。"
+          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
         }
       ],
-      "in_final20": false
-    },
-    {
-      "security_code": "000933",
-      "security_name": "神火股份",
-      "score": -1.8,
-      "positive": 0.0,
-      "negative": 1.8,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "aluminum",
-          "signal_name": "CME铝期货",
-          "level": "P2",
-          "impact": -1.8,
-          "weight": 0.9,
-          "directness": "A",
-          "rationale": "铝价利好电解铝，但要同时看氧化铝和电力成本。"
-        }
-      ],
-      "in_final20": false
+      "in_final20": true
     },
     {
       "security_code": "000833",
@@ -1422,6 +1402,46 @@
         }
       ],
       "in_final20": true
+    },
+    {
+      "security_code": "601899",
+      "security_name": "紫金矿业",
+      "score": 1.7,
+      "positive": 1.7,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "copper",
+          "signal_name": "COMEX铜期货",
+          "level": "P2",
+          "impact": 1.7,
+          "weight": 0.85,
+          "directness": "A",
+          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "600362",
+      "security_name": "江西铜业",
+      "score": 1.7,
+      "positive": 1.7,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "copper",
+          "signal_name": "COMEX铜期货",
+          "level": "P2",
+          "impact": 1.7,
+          "weight": 0.85,
+          "directness": "A",
+          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
+        }
+      ],
+      "in_final20": false
     },
     {
       "security_code": "600798",
@@ -1464,21 +1484,41 @@
       "in_final20": false
     },
     {
-      "security_code": "601600",
-      "security_name": "中国铝业",
-      "score": -1.6,
-      "positive": 0.0,
-      "negative": 1.6,
+      "security_code": "000630",
+      "security_name": "铜陵有色",
+      "score": 1.5,
+      "positive": 1.5,
+      "negative": 0.0,
       "mixed": 0.0,
       "signals": [
         {
-          "signal_id": "aluminum",
-          "signal_name": "CME铝期货",
+          "signal_id": "copper",
+          "signal_name": "COMEX铜期货",
           "level": "P2",
-          "impact": -1.6,
-          "weight": 0.8,
+          "impact": 1.5,
+          "weight": 0.75,
           "directness": "A",
-          "rationale": "铝价利好电解铝，但要同时看氧化铝和电力成本。"
+          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
+        }
+      ],
+      "in_final20": false
+    },
+    {
+      "security_code": "000878",
+      "security_name": "云南铜业",
+      "score": 1.5,
+      "positive": 1.5,
+      "negative": 0.0,
+      "mixed": 0.0,
+      "signals": [
+        {
+          "signal_id": "copper",
+          "signal_name": "COMEX铜期货",
+          "level": "P2",
+          "impact": 1.5,
+          "weight": 0.75,
+          "directness": "A",
+          "rationale": "铜价影响矿山/冶炼收入，仍需看自产矿比例、TC/RC和套保。"
         }
       ],
       "in_final20": false
@@ -1746,26 +1786,6 @@
           "weight": 0.6,
           "directness": "B",
           "rationale": "棉价上涨推高纺织原料成本，库存收益和提价能力可能抵消。"
-        }
-      ],
-      "in_final20": false
-    },
-    {
-      "security_code": "600219",
-      "security_name": "南山铝业",
-      "score": -1.1,
-      "positive": 0.0,
-      "negative": 1.1,
-      "mixed": 0.0,
-      "signals": [
-        {
-          "signal_id": "aluminum",
-          "signal_name": "CME铝期货",
-          "level": "P2",
-          "impact": -1.1,
-          "weight": 0.55,
-          "directness": "B",
-          "rationale": "铝价利好电解铝，但要同时看氧化铝和电力成本。"
         }
       ],
       "in_final20": false
